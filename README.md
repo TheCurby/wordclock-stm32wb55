@@ -1,5 +1,5 @@
 # Introduction
-This wordclock is based on a STM32WB55CEU6 microcontroller placed on a custom printed circuit coard.
+This wordclock is based on a STM32WB55CEU6 microcontroller placed on a custom printed circuit board.
 It is designed using the STM32CubeIDE without LL or HAL Driver, just CMSIS.
 It is strongly encapsulated in classes and written in C++.
 This project only provide a pcb and the software. An eclosure has to be designed by yourself.
