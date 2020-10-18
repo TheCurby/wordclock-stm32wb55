@@ -1,10 +1,3 @@
-/*
- * rtc.c
- *
- *  Created on: Nov 14, 2019
- *      Author: Nils
- */
-
 #include "driver/rtclock.hpp"
 
 void RTClock::disableWP() {
@@ -59,9 +52,6 @@ s_RTC RTClock::get() {
 	return oRTC;
 }
 
-/*
- * Konvertiert eine BCD Zahl zu einer uint8_t
- */
 uint8_t RTClock::bcd2val(const uint8_t ucVal) {
 	uint8_t hvar;
 
@@ -71,9 +61,6 @@ uint8_t RTClock::bcd2val(const uint8_t ucVal) {
 	return hvar;
 }
 
-/*
- * Konvertiert eine uint8_t Zahl zu einer BCD
- */
 uint8_t RTClock::val2bcd(const uint8_t ucVal) {
 	uint8_t hvar;
 

@@ -194,7 +194,7 @@ uint16_t Animation::run() {
 		case AnimationType::Matrix: {
 			oContainerMatrix.moveY(1);
 
-			if (s16AnimationStep != 0b11111111111 && rand() % 2 == 0) {    //Neues Matrix Element erstellen
+			if (s16AnimationStep != 0b11111111111 && rand() % 2 == 0) {
 				Container::s_Point oPoint;
 				oPoint.u8Y = 0;
 				oPoint.u8X = rand() % WIDTH;

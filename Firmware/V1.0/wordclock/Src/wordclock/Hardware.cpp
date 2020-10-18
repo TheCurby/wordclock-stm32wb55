@@ -1,28 +1,21 @@
-/*
- * Hardware.cpp
- *
- *  Created on: 12.01.2020
- *      Author: Nils
- */
-
 #include "wordclock/Wordclock.hpp"
 
 Hardware::Hardware() {
 	/*##### RCC #####*/
-	FLASH->ACR = 1;    //1 Waitstates
-	RCC->CR |= RCC_CR_HSEON;    //Extenen Quarz an
-	while (!(RCC->CR & RCC_CR_HSERDY));    //Auf Quarz warten*
-	RCC->CFGR |= 0b10;    //HSE asuwählen
-	while ((RCC->CFGR & (0b1000)) != 0b1000);    //Auf HSE warten
-	RCC->CR &= ~(RCC_CR_HSION);    //HSI aus
+	FLASH->ACR = 1;
+	RCC->CR |= RCC_CR_HSEON;
+	while (!(RCC->CR & RCC_CR_HSERDY));
+	RCC->CFGR |= 0b10;
+	while ((RCC->CFGR & (0b1000)) != 0b1000);
+	RCC->CR &= ~(RCC_CR_HSION);
 
-	PWR->CR1 |= PWR_CR1_DBP;    //Zugriff auf BDCR aktivieren
-	PWR->CR1 |= 0b01ul << 9;    //Voltage scaling range selection
-	if (!(RCC->BDCR & RCC_BDCR_LSERDY)) {    //LSE nicht aktiviert
+	PWR->CR1 |= PWR_CR1_DBP;
+	PWR->CR1 |= 0b01ul << 9;
+	if (!(RCC->BDCR & RCC_BDCR_LSERDY)) {
 		RCC->BDCR |= RCC_BDCR_LSEON;
 		while (!(RCC->BDCR & RCC_BDCR_LSERDY));
 	}
-	RCC->BDCR |= 0b01ul << 8;    //LSE als Quelle für RTC
+	RCC->BDCR |= 0b01ul << 8;
 	RCC->CCIPR |= 0x03ul << 28;
 	PWR->CR4 |= PWR_CR4_C2BOOT;
 
@@ -67,11 +60,11 @@ Hardware::Hardware() {
 
 	/* Timer für Interrupt */
 	RCC->APB1ENR1 |= RCC_APB1ENR1_TIM2EN;
-	TIM2->ARR = 0xffffffff;    //Timer für SOftwaretimer
+	TIM2->ARR = 0xffffffff;
 	TIM2->CNT = 0xffffffff;
 	TIM2->DIER = TIM_DIER_UIE;
 	TIM2->PSC = (CLK_TIMER / 1000000ul) - 1;
-	TIM2->CR1 = TIM_CR1_CEN;    //Timer aktivieren
+	TIM2->CR1 = TIM_CR1_CEN;
 	STM32::setInterrupt(TIM2_IRQn, 1);
 
 	/* Timer für SK6812 */
@@ -81,12 +74,12 @@ Hardware::Hardware() {
 	DMAMUX1_Channel0->CCR = 25;
 	DMA1_Channel1->CCR =
 	DMA_CCR_MINC | (0b00 << 10) | (0b01 << 8) | DMA_CCR_DIR;
-	TIM1->CR1 = 0;    //Timer deaktivieren
-	TIM1->DIER = TIM_DIER_UDE;    //DMA bei Overflow enable
-	TIM1->CCMR2 = (0b110UL << 12) | TIM_CCMR2_OC4PE;    //PWM; Gepuffert
-	TIM1->CCER = TIM_CCER_CC4E;    //Capture Compare enable
-	TIM1->ARR = (CLK_TIMER / CLK_SK6812) - 1;    //800kHz
-	TIM1->CCR4 = 0;    //PWM am Anfang aus
+	TIM1->CR1 = 0;
+	TIM1->DIER = TIM_DIER_UDE;
+	TIM1->CCMR2 = (0b110UL << 12) | TIM_CCMR2_OC4PE;
+	TIM1->CCER = TIM_CCER_CC4E;
+	TIM1->ARR = (CLK_TIMER / CLK_SK6812) - 1;
+	TIM1->CCR4 = 0;
 	TIM1->BDTR = TIM_BDTR_MOE;
 	TIM1->CR1 = TIM_CR1_CEN;
 
@@ -101,8 +94,8 @@ Hardware::Hardware() {
 	while (!t.Ready());
 	ADC1->CR |= ADC_CR_ADCAL;
 	while (ADC1->CR & ADC_CR_ADCAL);
-	ADC1->SMPR1 = (0b111ul << 21);    //640,5 ADC Clocks Channel 7
-	ADC1->SQR1 = 7 << 6;    //Nur eine Conversion: Channel 7
+	ADC1->SMPR1 = (0b111ul << 21);
+	ADC1->SQR1 = 7 << 6;
 	ADC1->CR |= ADC_CR_ADEN;
 	while (!(ADC1->ISR & ADC_ISR_ADRDY));
 	ADC1->CFGR &= ~ADC_CFGR_JQDIS;

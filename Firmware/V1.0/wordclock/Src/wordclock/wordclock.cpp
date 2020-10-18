@@ -31,24 +31,20 @@ void Wordclock::loop() {
 		ADC1->CR |= ADC_CR_ADSTART;
 	}
 
-	/* Uhrzeit empfangen */
 	bool bPin = STM32::getPin(GPIOA, 3);
 	if (oDCF77.receive(bPin) && oSettings.isDcf77()) {
 		RTClock::set(oDCF77.getRTC());
 	}
 	STM32::setPin(GPIOB, 8, bPin);
 
-	/* Temperatur aulesen */
 	if (tTemp.Ready() && (!AnimationMenu.running() || CurrentMenu == Menu::Temp)) {
 		oDS18X20.readTemp();
 		tTemp.StartMs(500);
 	}
 
-	/* Bildschirmanzeigen */
 	redraw();
 
 	getKeys();
-	/* Bildschirmausgabe */
 	if (oKeyTest.getLastStatus()) {
 		setMenu(Menu::Test1);
 	}
@@ -65,20 +61,17 @@ void Wordclock::loop() {
 		plusminus(false);
 	}
 
-	/* Menu Timeout */
 	if (tTimeout.Ready() && CurrentMenu >= Menu::DCF77) {
 		oSettings.writeChanges();
 		setMenu(Menu::Uhr);
 	}
 
-	/* modbus */
 	executeModbus();
 }
 
 void Wordclock::executeModbus() {
 	s_RTC oRTCTemp;
 
-	/* output */
 	oModbus.setInput(0, oSettings.isDcf77());
 	oModbus.setInput(1, oSettings.isNight());
 	oModbus.setInput(2, bOn);
@@ -104,7 +97,6 @@ void Wordclock::executeModbus() {
 	oModbus.setRegister(18, oRTCTemp.u8Hours);
 	oModbus.setRegister(19, oRTCTemp.u8Minutes);
 
-	/* Action */
 	if (oModbus.getCoil(0)) {    //Set Color
 		oModbus.setCoil(0, false);
 
@@ -208,7 +200,7 @@ void Wordclock::transmit(bool bVal) {
 
 	if (bVal) {
 		DMA1_Channel1->CCR |= DMA_CCR_EN;
-		TIM1->CR1 = TIM_CR1_CEN;    //Timer aktivieren
+		TIM1->CR1 = TIM_CR1_CEN;
 	}
 
 	//while (!((DMA1->ISR & DMA_ISR_TCIF1) && (DMA1_Channel1->CCR & DMA_CCR_EN)));

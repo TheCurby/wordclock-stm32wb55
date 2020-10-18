@@ -1,10 +1,3 @@
-/*
- * 1wire.c
- *
- *  Created on: 14.11.2019
- *      Author: Nils
- */
-
 #include "driver/oneWire.hpp"
 
 OneWire::OneWire(USART& oUSART_l) : oUSART(oUSART_l) {

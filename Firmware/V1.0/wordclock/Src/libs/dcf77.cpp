@@ -1,10 +1,3 @@
-/*
- * dcf77.c
- *
- *  Created on: Nov 14, 2019
- *      Author: Nils
- */
-
 #include "libs/dcf77.hpp"
 
 DCF77::DCF77() {
@@ -30,9 +23,6 @@ DCF77::DCF77() {
 bool DCF77::receive(bool bVal) {
 	bool bResult = false;
 
-	/*
-	 * Signalauswertung
-	 * */
 	if (!bVal && !bSense) {
 		bSense = true;
 

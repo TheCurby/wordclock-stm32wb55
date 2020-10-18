@@ -9,7 +9,7 @@
 class Settings {
 	private:
 		struct s_Data {
-				bool bDCF77;    //DCF77 wird ausgewertet
+				bool bDCF77;
 				bool bNight;
 				bool bRandomColor;
 				uint8_t u8BrightnessMin;

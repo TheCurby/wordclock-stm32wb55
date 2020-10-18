@@ -1,10 +1,3 @@
-/*
- * settings.cpp
- *
- *  Created on: 22.11.2019
- *      Author: Nils
- */
-
 #include "wordclock/settings.hpp"
 
 Settings::Settings(M95M01& oM95M01_l) : oM95M01(oM95M01_l) {

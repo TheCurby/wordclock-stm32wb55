@@ -1,10 +1,3 @@
-/*
- * ds18s20.c
- *
- *  Created on: 14.11.2019
- *      Author: Nils
- */
-
 #include "libs/ds18x20.hpp"
 
 DS18X20::DS18X20(OneWire& oOneWire_l) : oOneWire(oOneWire_l) {

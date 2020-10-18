@@ -5,20 +5,12 @@ M95M01::M95M01(SPI& oSPI_l, GPIO_TypeDef* oGPIO_l, uint16_t u16Pin_l) : oSPI(oSP
 	u16Pin = u16Pin_l;
 }
 
-/*
- * Schreibschutz des EEPROMs �ndern
- * */
 void M95M01::Wren(bool bVal) {
 	setCS(false);
 	oSPI.send(bVal ? 0x06 : 0x04);
 	setCS(true);
 }
 
-/*
- * Aus dem EEPROM wird ab einer bestimmten Adresse,
- * eine bestimmte Anzahl an Bytes gelesen,
- * und an eine Speicheradresse kopiert.
- * */
 void M95M01::Read(uint32_t usAddr, uint8_t* pucDest, uint16_t usSize) {
 	if (!WaitForEEPROM()) {
 		return;
@@ -35,11 +27,6 @@ void M95M01::Read(uint32_t usAddr, uint8_t* pucDest, uint16_t usSize) {
 	setCS(true);
 }
 
-/*
- * In das EEPROM wird an eine bestimmten Adresse,
- * eine bestimmte Anzahl an Bytes geschrieben,
- * die aus einer Speicheradresse kopiert werden.
- * */
 void M95M01::Write(uint32_t usAddr, uint8_t* pucSrc, uint16_t usSize) {
 	if (!WaitForEEPROM()) {
 		return;
@@ -55,11 +42,6 @@ void M95M01::Write(uint32_t usAddr, uint8_t* pucSrc, uint16_t usSize) {
 	while (usSize-- > 0) {
 		oSPI.send(*pucSrc++);
 
-		/*
-		 * Das Ende Page ist erreicht.
-		 * Bisher gesendete Bytes abspeichern.
-		 * ANschlie�end �bertragung neu initialisieren
-		 * */
 		if (++usAddr % u16PageSize == 0) {
 			setCS(true);
 			if (!WaitForEEPROM()) {
@@ -76,9 +58,6 @@ void M95M01::Write(uint32_t usAddr, uint8_t* pucSrc, uint16_t usSize) {
 	setCS(true);
 }
 
-/*
- * Abfragen, ob das EEPROM bereit ist
- * */
 bool M95M01::Busy() {
 	uint8_t ucStatus;
 
@@ -94,10 +73,6 @@ bool M95M01::Busy() {
 	return false;
 }
 
-/*
- * Auf einen Schreibvorgang des EEPROMs warten
- * Warteschleife enth�lt Timeout um Deadlock zu verhindern.
- * */
 bool M95M01::WaitForEEPROM() {
 	Timer tTimeout;
 

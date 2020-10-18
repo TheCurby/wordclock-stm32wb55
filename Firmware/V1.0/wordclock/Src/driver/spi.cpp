@@ -1,10 +1,3 @@
-/*
- * spi.c
- *
- * Created: 20.12.2016 08:47:03
- *  Author: Nils
- */
-
 #include "driver/spi.hpp"
 
 SPI::SPI(SPI_TypeDef* oSPI_l, uint8_t ucPrescaler) {

@@ -163,155 +163,155 @@ void Wordclock::drawMinutes(const s_RTC& oRTC, Colors& oColors, bool bRandomColo
 		default:
 		case Language::English:
 			if (u8Minutes < 5) {
-				//Nothing
+
 			}
 			else if (u8Minutes < 10) {
-				oContainerTmp.setWord(6, 2, 4, oColors, bRandomColor);    //fünf
-				oContainerTmp.setWord(0, 4, 4, oColors, bRandomColor);    //nach
+				oContainerTmp.setWord(6, 2, 4, oColors, bRandomColor);
+				oContainerTmp.setWord(0, 4, 4, oColors, bRandomColor);
 			}
 			else if (u8Minutes < 15) {
-				oContainerTmp.setWord(5, 3, 3, oColors, bRandomColor);    //Zehn
-				oContainerTmp.setWord(0, 4, 4, oColors, bRandomColor);    //nach
+				oContainerTmp.setWord(5, 3, 3, oColors, bRandomColor);
+				oContainerTmp.setWord(0, 4, 4, oColors, bRandomColor);
 			}
 			else if (u8Minutes < 20) {
-				oContainerTmp.setWord(2, 1, 7, oColors, bRandomColor);    //viertel
-				oContainerTmp.setWord(0, 4, 4, oColors, bRandomColor);    //nach
+				oContainerTmp.setWord(2, 1, 7, oColors, bRandomColor);
+				oContainerTmp.setWord(0, 4, 4, oColors, bRandomColor);
 			}
 			else if (u8Minutes < 25) {
-				oContainerTmp.setWord(0, 2, 6, oColors, bRandomColor);    //zwanzig
-				oContainerTmp.setWord(0, 4, 4, oColors, bRandomColor);    //nach
+				oContainerTmp.setWord(0, 2, 6, oColors, bRandomColor);
+				oContainerTmp.setWord(0, 4, 4, oColors, bRandomColor);
 			}
 			else if (u8Minutes < 30) {
-				oContainerTmp.setWord(0, 2, 10, oColors, bRandomColor);    //fünf
-				oContainerTmp.setWord(0, 4, 4, oColors, bRandomColor);    //nach
+				oContainerTmp.setWord(0, 2, 10, oColors, bRandomColor);
+				oContainerTmp.setWord(0, 4, 4, oColors, bRandomColor);
 			}
 			else if (u8Minutes < 35) {
-				oContainerTmp.setWord(0, 3, 4, oColors, bRandomColor);    //halb
-				oContainerTmp.setWord(0, 4, 4, oColors, bRandomColor);    //nach
+				oContainerTmp.setWord(0, 3, 4, oColors, bRandomColor);
+				oContainerTmp.setWord(0, 4, 4, oColors, bRandomColor);
 			}
 			else if (u8Minutes < 40) {
-				oContainerTmp.setWord(0, 2, 10, oColors, bRandomColor);    //fünf
-				oContainerTmp.setWord(9, 3, 2, oColors, bRandomColor);    //to
+				oContainerTmp.setWord(0, 2, 10, oColors, bRandomColor);
+				oContainerTmp.setWord(9, 3, 2, oColors, bRandomColor);
 			}
 			else if (u8Minutes < 45) {
-				oContainerTmp.setWord(0, 2, 6, oColors, bRandomColor);    //zwanzig
-				oContainerTmp.setWord(9, 3, 2, oColors, bRandomColor);    //to
+				oContainerTmp.setWord(0, 2, 6, oColors, bRandomColor);
+				oContainerTmp.setWord(9, 3, 2, oColors, bRandomColor);
 			}
 			else if (u8Minutes < 50) {
-				oContainerTmp.setWord(2, 1, 7, oColors, bRandomColor);    //viertel
-				oContainerTmp.setWord(9, 3, 2, oColors, bRandomColor);    //to
+				oContainerTmp.setWord(2, 1, 7, oColors, bRandomColor);
+				oContainerTmp.setWord(9, 3, 2, oColors, bRandomColor);
 			}
 			else if (u8Minutes < 55) {
-				oContainerTmp.setWord(5, 3, 3, oColors, bRandomColor);    //Zehn
-				oContainerTmp.setWord(9, 3, 2, oColors, bRandomColor);    //to
+				oContainerTmp.setWord(5, 3, 3, oColors, bRandomColor);
+				oContainerTmp.setWord(9, 3, 2, oColors, bRandomColor);
 			}
 			else if (u8Minutes < 60) {
-				oContainerTmp.setWord(6, 2, 4, oColors, bRandomColor);    //fünf
-				oContainerTmp.setWord(9, 3, 2, oColors, bRandomColor);    //to
+				oContainerTmp.setWord(6, 2, 4, oColors, bRandomColor);
+				oContainerTmp.setWord(9, 3, 2, oColors, bRandomColor);
 			}
 		break;
 
 		case Language::Deutsch:
 			if (u8Minutes < 5) {
-				//Nothing
+
 			}
 			else if (u8Minutes < 10) {
-				oContainerTmp.setWord(0, 2, 4, oColors, bRandomColor);    //fünf
-				oContainerTmp.setWord(2, 3, 4, oColors, bRandomColor);    //nach
+				oContainerTmp.setWord(0, 2, 4, oColors, bRandomColor);
+				oContainerTmp.setWord(2, 3, 4, oColors, bRandomColor);
 			}
 			else if (u8Minutes < 15) {
-				oContainerTmp.setWord(0, 1, 4, oColors, bRandomColor);    //Zehn
-				oContainerTmp.setWord(2, 3, 4, oColors, bRandomColor);    //nach
+				oContainerTmp.setWord(0, 1, 4, oColors, bRandomColor);
+				oContainerTmp.setWord(2, 3, 4, oColors, bRandomColor);
 			}
 			else if (u8Minutes < 20) {
-				oContainerTmp.setWord(4, 2, 7, oColors, bRandomColor);    //viertel
-				oContainerTmp.setWord(2, 3, 4, oColors, bRandomColor);    //nach
+				oContainerTmp.setWord(4, 2, 7, oColors, bRandomColor);
+				oContainerTmp.setWord(2, 3, 4, oColors, bRandomColor);
 			}
 			else if (u8Minutes < 25) {
-				oContainerTmp.setWord(4, 1, 7, oColors, bRandomColor);    //zwanzig
-				oContainerTmp.setWord(2, 3, 4, oColors, bRandomColor);    //nach
+				oContainerTmp.setWord(4, 1, 7, oColors, bRandomColor);
+				oContainerTmp.setWord(2, 3, 4, oColors, bRandomColor);
 			}
 			else if (u8Minutes < 30) {
-				oContainerTmp.setWord(0, 2, 4, oColors, bRandomColor);    //fünf
-				oContainerTmp.setWord(6, 3, 3, oColors, bRandomColor);    //vor
-				oContainerTmp.setWord(0, 4, 4, oColors, bRandomColor);    //halb
+				oContainerTmp.setWord(0, 2, 4, oColors, bRandomColor);
+				oContainerTmp.setWord(6, 3, 3, oColors, bRandomColor);
+				oContainerTmp.setWord(0, 4, 4, oColors, bRandomColor);
 			}
 			else if (u8Minutes < 35) {
-				oContainerTmp.setWord(0, 4, 4, oColors, bRandomColor);    //halb
+				oContainerTmp.setWord(0, 4, 4, oColors, bRandomColor);
 			}
 			else if (u8Minutes < 40) {
-				oContainerTmp.setWord(0, 2, 4, oColors, bRandomColor);    //fünf
-				oContainerTmp.setWord(2, 3, 4, oColors, bRandomColor);    //nach
-				oContainerTmp.setWord(0, 4, 4, oColors, bRandomColor);    //halb
+				oContainerTmp.setWord(0, 2, 4, oColors, bRandomColor);
+				oContainerTmp.setWord(2, 3, 4, oColors, bRandomColor);
+				oContainerTmp.setWord(0, 4, 4, oColors, bRandomColor);
 			}
 			else if (u8Minutes < 45) {
-				oContainerTmp.setWord(4, 1, 7, oColors, bRandomColor);    //zwanzig
-				oContainerTmp.setWord(6, 3, 3, oColors, bRandomColor);    //vor
+				oContainerTmp.setWord(4, 1, 7, oColors, bRandomColor);
+				oContainerTmp.setWord(6, 3, 3, oColors, bRandomColor);
 			}
 			else if (u8Minutes < 50) {
-				oContainerTmp.setWord(4, 2, 7, oColors, bRandomColor);    //viertel
-				oContainerTmp.setWord(6, 3, 3, oColors, bRandomColor);    //vor
+				oContainerTmp.setWord(4, 2, 7, oColors, bRandomColor);
+				oContainerTmp.setWord(6, 3, 3, oColors, bRandomColor);
 			}
 			else if (u8Minutes < 55) {
-				oContainerTmp.setWord(0, 1, 4, oColors, bRandomColor);    //Zehn
-				oContainerTmp.setWord(6, 3, 3, oColors, bRandomColor);    //vor
+				oContainerTmp.setWord(0, 1, 4, oColors, bRandomColor);
+				oContainerTmp.setWord(6, 3, 3, oColors, bRandomColor);
 			}
 			else if (u8Minutes < 60) {
-				oContainerTmp.setWord(0, 2, 4, oColors, bRandomColor);    //fünf
-				oContainerTmp.setWord(6, 3, 3, oColors, bRandomColor);    //vor
+				oContainerTmp.setWord(0, 2, 4, oColors, bRandomColor);
+				oContainerTmp.setWord(6, 3, 3, oColors, bRandomColor);
 			}
 		break;
 
 		case Language::Nederlands:
 			if (u8Minutes < 5) {
-				//Nothing
+
 			}
 			else if (u8Minutes < 10) {
-				oContainerTmp.setWord(7, 0, 4, oColors, bRandomColor);    //fijf
-				oContainerTmp.setWord(0, 2, 4, oColors, bRandomColor);    //over
+				oContainerTmp.setWord(7, 0, 4, oColors, bRandomColor);
+				oContainerTmp.setWord(0, 2, 4, oColors, bRandomColor);
 			}
 			else if (u8Minutes < 15) {
-				oContainerTmp.setWord(0, 1, 4, oColors, bRandomColor);    //tien
-				oContainerTmp.setWord(0, 2, 4, oColors, bRandomColor);    //over
+				oContainerTmp.setWord(0, 1, 4, oColors, bRandomColor);
+				oContainerTmp.setWord(0, 2, 4, oColors, bRandomColor);
 			}
 			else if (u8Minutes < 20) {
-				oContainerTmp.setWord(6, 2, 5, oColors, bRandomColor);    //kwaart
-				oContainerTmp.setWord(7, 3, 4, oColors, bRandomColor);    //over2
+				oContainerTmp.setWord(6, 2, 5, oColors, bRandomColor);
+				oContainerTmp.setWord(7, 3, 4, oColors, bRandomColor);
 			}
 			else if (u8Minutes < 25) {
-				oContainerTmp.setWord(0, 1, 4, oColors, bRandomColor);    //tien
-				oContainerTmp.setWord(0, 3, 4, oColors, bRandomColor);    //voor
-				oContainerTmp.setWord(0, 4, 4, oColors, bRandomColor);    //half
+				oContainerTmp.setWord(0, 1, 4, oColors, bRandomColor);
+				oContainerTmp.setWord(0, 3, 4, oColors, bRandomColor);
+				oContainerTmp.setWord(0, 4, 4, oColors, bRandomColor);
 			}
 			else if (u8Minutes < 30) {
-				oContainerTmp.setWord(7, 0, 4, oColors, bRandomColor);    //fijf
-				oContainerTmp.setWord(0, 3, 4, oColors, bRandomColor);    //voor
-				oContainerTmp.setWord(0, 4, 4, oColors, bRandomColor);    //half
+				oContainerTmp.setWord(7, 0, 4, oColors, bRandomColor);
+				oContainerTmp.setWord(0, 3, 4, oColors, bRandomColor);
+				oContainerTmp.setWord(0, 4, 4, oColors, bRandomColor);
 			}
 			else if (u8Minutes < 35) {
-				oContainerTmp.setWord(0, 4, 4, oColors, bRandomColor);    //half
+				oContainerTmp.setWord(0, 4, 4, oColors, bRandomColor);
 			}
 			else if (u8Minutes < 40) {
-				oContainerTmp.setWord(7, 0, 4, oColors, bRandomColor);    //fijf
-				oContainerTmp.setWord(0, 2, 4, oColors, bRandomColor);    //over
-				oContainerTmp.setWord(0, 4, 4, oColors, bRandomColor);    //half
+				oContainerTmp.setWord(7, 0, 4, oColors, bRandomColor);
+				oContainerTmp.setWord(0, 2, 4, oColors, bRandomColor);
+				oContainerTmp.setWord(0, 4, 4, oColors, bRandomColor);
 			}
 			else if (u8Minutes < 45) {
-				oContainerTmp.setWord(0, 1, 4, oColors, bRandomColor);    //tien
-				oContainerTmp.setWord(0, 2, 4, oColors, bRandomColor);    //over
-				oContainerTmp.setWord(0, 4, 4, oColors, bRandomColor);    //half
+				oContainerTmp.setWord(0, 1, 4, oColors, bRandomColor);
+				oContainerTmp.setWord(0, 2, 4, oColors, bRandomColor);
+				oContainerTmp.setWord(0, 4, 4, oColors, bRandomColor);
 			}
 			else if (u8Minutes < 50) {
-				oContainerTmp.setWord(6, 2, 5, oColors, bRandomColor);    //kwaart
-				oContainerTmp.setWord(0, 3, 4, oColors, bRandomColor);    //voor
+				oContainerTmp.setWord(6, 2, 5, oColors, bRandomColor);
+				oContainerTmp.setWord(0, 3, 4, oColors, bRandomColor);
 			}
 			else if (u8Minutes < 55) {
-				oContainerTmp.setWord(0, 1, 4, oColors, bRandomColor);    //tien
-				oContainerTmp.setWord(0, 3, 4, oColors, bRandomColor);    //voor
+				oContainerTmp.setWord(0, 1, 4, oColors, bRandomColor);
+				oContainerTmp.setWord(0, 3, 4, oColors, bRandomColor);
 			}
 			else if (u8Minutes < 60) {
-				oContainerTmp.setWord(7, 0, 4, oColors, bRandomColor);    //fijf
-				oContainerTmp.setWord(0, 3, 4, oColors, bRandomColor);    //voor
+				oContainerTmp.setWord(7, 0, 4, oColors, bRandomColor);
+				oContainerTmp.setWord(0, 3, 4, oColors, bRandomColor);
 			}
 		break;
 	}
@@ -326,34 +326,34 @@ void Wordclock::drawText(uint8_t u8Minutes, Colors& oColors, bool bRandomColor, 
 		default:
 		case Language::English:
 			if (bItIs) {
-				oContainerTmp.setWord(0, 2, oColors, bRandomColor);    //ES
-				oContainerTmp.setWord(3, 2, oColors, bRandomColor);    //IST
+				oContainerTmp.setWord(0, 2, oColors, bRandomColor);
+				oContainerTmp.setWord(3, 2, oColors, bRandomColor);
 			}
 
 			if (u8Minutes < 5 && CurrentMenu != Menu::Temp) {
-				oContainerTmp.setWord(5, 9, 6, oColors, bRandomColor);    //UHR
+				oContainerTmp.setWord(5, 9, 6, oColors, bRandomColor);
 			}
 		break;
 
 		case Language::Deutsch:
 			if (bItIs) {
-				oContainerTmp.setWord(0, 2, oColors, bRandomColor);    //ES
-				oContainerTmp.setWord(3, 3, oColors, bRandomColor);    //IST
+				oContainerTmp.setWord(0, 2, oColors, bRandomColor);
+				oContainerTmp.setWord(3, 3, oColors, bRandomColor);
 			}
 
 			if (u8Minutes < 5 && CurrentMenu != Menu::Temp) {
-				oContainerTmp.setWord(107, 3, oColors, bRandomColor);    //UHR
+				oContainerTmp.setWord(107, 3, oColors, bRandomColor);
 			}
 		break;
 
 		case Language::Nederlands:
 			if (bItIs) {
-				oContainerTmp.setWord(0, 3, oColors, bRandomColor);    //ES
-				oContainerTmp.setWord(4, 2, oColors, bRandomColor);    //IST
+				oContainerTmp.setWord(0, 3, oColors, bRandomColor);
+				oContainerTmp.setWord(4, 2, oColors, bRandomColor);
 			}
 
 			if (u8Minutes < 5 && CurrentMenu != Menu::Temp) {
-				oContainerTmp.setWord(107, 3, oColors, bRandomColor);    //UHR
+				oContainerTmp.setWord(107, 3, oColors, bRandomColor);
 			}
 		break;
 	}
@@ -365,19 +365,19 @@ void Wordclock::drawAMPM(uint8_t u8Hours, Colors& oColors, bool bRandomColor) {
 		case Language::English:
 		case Language::Deutsch:
 			if (u8Hours < 12) {
-				oContainerTmp.setWord(7, 2, oColors, bRandomColor);    //AM
+				oContainerTmp.setWord(7, 2, oColors, bRandomColor);
 			}
 			else {
-				oContainerTmp.setWord(9, 2, oColors, bRandomColor);    //PM
+				oContainerTmp.setWord(9, 2, oColors, bRandomColor);
 			}
 		break;
 
 		case Language::Nederlands:
 			if (u8Hours < 12) {
-				oContainerTmp.setWord(7, 1, 2, oColors, bRandomColor);    //AM
+				oContainerTmp.setWord(7, 1, 2, oColors, bRandomColor);
 			}
 			else {
-				oContainerTmp.setWord(9, 1, 2, oColors, bRandomColor);    //PM
+				oContainerTmp.setWord(9, 1, 2, oColors, bRandomColor);
 			}
 		break;
 	}

@@ -4,9 +4,6 @@
 #include "util/clock.hpp"
 
 class DCF77 {
-	protected:
-		static constexpr uint8_t u8BufferSize = 64;
-
 	public:
 		DCF77();
 		bool receive(bool bVal);
@@ -17,7 +14,6 @@ class DCF77 {
 		bool bSense;
 		uint8_t u8Pos;
 		uint8_t au8Data[8];
-		uint8_t au8Input[u8BufferSize];
 		Timer t;
 		Timer tDelay;
 		s_RTC oRTC;

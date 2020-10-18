@@ -11,7 +11,7 @@ class OneWire {
 				uint8_t u8CRC;
 		} s_ROMCode;
 
-		OneWire(USART& oUSART_l);
+		OneWire(USART& oUSART_l);								//Initialize the OneWire. It needs an already initialized USART object.
 		bool reset();
 		void setBool(const bool bVal);
 		bool getBool();

@@ -7,11 +7,11 @@
 
 class RTClock {
 	public:
-		static void set(const s_RTC oRTC);    //Zeit/Datum auf RTC schreiben
-		static s_RTC get();    //Zeit/Datum von RTC lesen
-		static void disableWP();    //Schreibschutz der RTC disablen
+		static void set(const s_RTC oRTC);    			//Sets the RTC of the STM32
+		static s_RTC get();								//Reads the RTC of the STM32
 
 	private:
+		static void disableWP();   						//Disables write protexction fpr the RTC
 		static uint8_t bcd2val(const uint8_t ucVal);
 		static uint8_t val2bcd(const uint8_t ucVal);
 };

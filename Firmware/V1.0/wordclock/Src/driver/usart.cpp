@@ -1,10 +1,3 @@
-/*
- * uart.c
- *
- *  Created on: 14.11.2019
- *      Author: Nils
- */
-
 #include "driver/usart.hpp"
 #include "system/clocks.hpp"
 

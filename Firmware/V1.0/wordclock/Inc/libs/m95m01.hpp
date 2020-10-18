@@ -12,14 +12,14 @@ class M95M01 {
 		static constexpr uint16_t u16PageSize = 256;
 
 		M95M01(SPI& oSPI_l, GPIO_TypeDef* oGPIO_l, uint16_t u16Pin_l);
-		void Read(uint32_t usAddr, uint8_t* pucDest, uint16_t usSize);    //Daten vom EEprom lesen
-		void Write(uint32_t usAddr, uint8_t* pucSrc, uint16_t usSize);    //Daten vom EEPROM speichern
+		void Read(uint32_t usAddr, uint8_t* pucDest, uint16_t usSize);
+		void Write(uint32_t usAddr, uint8_t* pucSrc, uint16_t usSize);
 
 	protected:
 		void setCS(bool bVal);
-		void Wren(bool bVal);    //Funktion erlaubt/verbietet Schreibzugriffe aufs EEPROM
-		bool Busy();    //Pr�ft, ob das EEPROM besch�ftigt ist
-		bool WaitForEEPROM();    //Die Funktion wartet darauf, dass das EEPROM nicht mehr busy ist
+		void Wren(bool bVal);
+		bool Busy();
+		bool WaitForEEPROM();
 
 		SPI& oSPI;
 		GPIO_TypeDef* oGPIO;
