@@ -19,8 +19,6 @@ USART1, 9600), oOneWire(oUSART), oDS18X20(oOneWire), oModbus(1, 9600) {
 }
 
 void Wordclock::loop() {
-	static Timer tTemp;
-
 	WWDG->CR |= 0x7f;
 
 	/* LDR */

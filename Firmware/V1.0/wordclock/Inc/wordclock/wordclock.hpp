@@ -85,6 +85,7 @@ class Wordclock : public Hardware {
 		Timer tTimeout;
 		Timer tDisplay;
 		Timer tBlink;
+		Timer tTemp;
 		Key oKeyLeft;
 		Key oKeyMiddle;
 		Key oKeyRight;

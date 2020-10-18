@@ -36,6 +36,7 @@ Of course you can use any DCF77 modul you want. But the PCB is designed to use t
 * Supported languages: German, Nederlands, English
 
 # ⌛ In progress
+* workout description
 * placing three mechanical switches on the back as an alternative for touch sensors
 * commentating whole sourcecode
 * implementing BLE support and app connectivity (firmware)
