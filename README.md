@@ -1,16 +1,16 @@
 # Introduction
-This wordclock is based on a STM32WB55CEU6 mikrocontroller placed on a custom printed ciruit coard.
-It is designed using the STM32CubeIDE without LL oder HAL Driver, just CMSIS.
+This wordclock is based on a STM32WB55CEU6 microcontroller placed on a custom printed circuit coard.
+It is designed using the STM32CubeIDE without LL or HAL Driver, just CMSIS.
 It is strongly encapsulated in classes and written in C++.
-This project only provide a pcb and the software. An encloser has to be designed by yourself.
-You have to solder the LEDs directly on the pcb and no strips are needed. You can use SK6812 (**strongly** recommended since WS2812 are not testet and debugged **yet**) or WS2812.
+This project only provide a pcb and the software. An eclosure has to be designed by yourself.
+You have to solder the LEDs directly on the pcb and no strips are needed. You can use SK6812 (**strongly** recommended since WS2812 are not tested and debugged **yet**) or WS2812.
 
-On the PCB are three capacitive touch sensores. The mikrocontroller provides the possibillity to use internal touch sensores but I choosed to use MTCH105 instead. The sensores are placed directly in cupper.
+On the PCB are three capacitive touch sensors. The mikrocontroller provides the possibility to use internal touch sensors but I decided to use MTCH105 instead. The sensors are placed directly in copper.
 
 The STM32WB55CEU6 provides the possibility of BLE connectivity on chip. The antenna is implemented on the PCB but **not tested** yet. There is also no app programmed yet and no support implemented in the firmware yet. Feel free to contribute this. 
 The wordclock is designed to work without external tools like apps or remote control. The goal is that every functionality can be configured using the cap keys of the clock and an app should only be optional and should not deliver additional possibilities.
 
-Of course you can use any DCF77 modul you want. But the PCB is designed to use the following module: https://de.elv.com/dcf-empfangsmodul-dcf-2-091610
+Of course you can use any DCF77 module you want. But the PCB is designed to use the following module: https://de.elv.com/dcf-empfangsmodul-dcf-2-091610
 
 ![Front](/images/IMG1.JPG)
 
@@ -28,23 +28,23 @@ Of course you can use any DCF77 modul you want. But the PCB is designed to use t
   * No Animation
   * Random Animation
   * Moving with random direction
-  * Plogging randomly in/out
-  * Falling out
+  * Plopping randomly in/out
+  * Falling down
   * Green Matrix
   * Teletype
 * Enable / Disable night mode
-* Supported languages: German, Nederlands, English
+* Supported languages: German, Dutch, English
 
 # ⌛ In progress
 * workout description
 * placing three mechanical switches on the back as an alternative for touch sensors
-* commentating whole sourcecode
-* implementing BLE support and app connectivity (firmware)
+* commentating whole source code
+* implementing BLE support and app connectivity (firmware, pcb already finished but not tested)
 * new PCB design with
-  * ambilight on board spotlightning directly on the wall
+  * ambilight on board spotlighting directly on the wall
   * switching off power from LEDs in night mode
-  * maybe: __replacing STM32WB55 with different generic mikrocontroller and addid wifi with external component__
-  * maybe: WIFI support
+  * maybe: __replacing STM32WB55 with different generic microcontroller and addid wifi with external component__
+  * maybe: wifi support
 
 # ⚠️ Issues
 Implemented but not tested yet:
@@ -100,8 +100,8 @@ TWAALF°C-UUR\
 TODO
 
 # PCB
-The pcb is designed in KiCad. All librarys for symbols and footprints are dilivered with the project and there are no libs used diretly from the KiCad installation.
-Each LED has a 100nF capacitor but since there is a very big GND and +5V plane I never used or needed them. Nonetheless it is **recommended** to equip them.
+The pcb is designed in KiCad. All libraries for symbols and footprints are delivered  with the project and there are no libs used directly from the KiCad installation.
+Each LED has a 100nF capacitor but since there is a very big GND and +5V plane I never used or needed them. Nonetheless, it is **recommended** to equip them.
 
 The board size is 370x370mm. The distances of the LEDs are:
 * LED -> PCB edge: 50mm
