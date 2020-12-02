@@ -1,0 +1,414 @@
+93833772136927
+Wordclock_V1
+490107670612
+<b>WR-WST REDFIT IDC SKEDD<br><br></b>For permanent application up to 10g vibration stable
+
+0
+6
+6
+Wordclock_V1
+744779747
+
+
+0
+2
+2
+Wordclock_V1
+Antenna_BLE
+
+
+0
+10
+2
+Wordclock_V1
+BatteryHolder_Keystone_1060_1x2032
+http://www.keyelco.com/product-pdf.cfm?p=726
+CR2032 BR2032 BatteryHolder Battery
+0
+2
+2
+Wordclock_V1
+CP_Elec_5x5.3
+SMD capacitor, aluminum electrolytic, Nichicon, 5.0x5.3mm
+capacitor electrolytic
+0
+2
+2
+Wordclock_V1
+C_0603_1608Metric
+Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+Wordclock_V1
+C_0805_2012Metric
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+Wordclock_V1
+C_1210_3225Metric
+Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+Wordclock_V1
+Crystal_Epson_FC135
+
+
+0
+2
+2
+Wordclock_V1
+Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm
+Abracon Miniature Ceramic Smd Crystal ABM8G http://www.abracon.com/Resonators/ABM8G.pdf, 3.2x2.5mm^2 package
+SMD SMT crystal
+0
+4
+4
+Wordclock_V1
+DCF77_ELV
+
+
+0
+3
+3
+Wordclock_V1
+DCF77_Pollin
+
+
+0
+4
+4
+Wordclock_V1
+DSK-3R3H224U-HL
+
+
+0
+2
+2
+Wordclock_V1
+D_PowerDI-123
+http://www.diodes.com/_files/datasheets/ds30497.pdf
+PowerDI diode vishay
+0
+2
+2
+Wordclock_V1
+D_SOD-123
+SOD-123
+SOD-123
+0
+2
+2
+Wordclock_V1
+IFA
+
+
+0
+2
+2
+Wordclock_V1
+IFA_cypress
+
+
+0
+2
+2
+Wordclock_V1
+LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+LED handsolder
+0
+2
+2
+Wordclock_V1
+LED_D5.0mm-4_RGB
+LED, diameter 5.0mm, 2 pins, diameter 5.0mm, 3 pins, diameter 5.0mm, 4 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-154A4SUREQBFZGEW(Ver.9A).pdf
+LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins diameter 5.0mm 4 pins RGB RGBLED
+0
+4
+4
+Wordclock_V1
+LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm
+https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf
+LED RGB NeoPixel
+0
+4
+4
+Wordclock_V1
+LQFP-48_7x7mm_P0.5mm
+LQFP, 48 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ltc2358-16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+LQFP QFP
+0
+48
+48
+Wordclock_V1
+L_0603_1608Metric
+Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+inductor
+0
+2
+2
+Wordclock_V1
+L_0805_2012Metric
+Inductor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+inductor
+0
+2
+2
+Wordclock_V1
+MIFA
+
+
+0
+2
+2
+Wordclock_V1
+MLPF-WB55-01E3
+
+
+0
+6
+6
+Wordclock_V1
+MountingHole_2mm
+Mounting Hole 2mm, no annular
+mounting hole 2mm no annular
+0
+0
+0
+Wordclock_V1
+MountingHole_3mm
+Mounting Hole 3mm, no annular
+mounting hole 3mm no annular
+0
+0
+0
+Wordclock_V1
+MountingHole_5mm
+Mounting Hole 5mm, no annular
+mounting hole 5mm no annular
+0
+0
+0
+Wordclock_V1
+MountingHole_6mm
+Mounting Hole 6mm, no annular
+mounting hole 6mm no annular
+0
+0
+0
+Wordclock_V1
+PinSocket_2x03_P2.54mm_Vertical
+Through hole straight socket strip, 2x03, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated
+Through hole socket strip THT 2x03 2.54mm double row
+0
+6
+6
+Wordclock_V1
+Potentiometer_Bourns_TC33X_Vertical
+Potentiometer, Bourns, TC33X, Vertical, https://www.bourns.com/pdfs/TC33.pdf
+Potentiometer Bourns TC33X Vertical
+0
+3
+3
+Wordclock_V1
+RFBPF1608070A0T
+
+
+0
+4
+4
+Wordclock_V1
+R_0603_1608Metric
+Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+Wordclock_V1
+R_0805_2012Metric
+Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+Wordclock_V1
+R_LDR_4.9x4.2mm_P2.54mm_Vertical
+Resistor, LDR 4.9x4.2mm
+Resistor LDR4.9x4.2
+0
+2
+2
+Wordclock_V1
+SMA_Amphenol_132289_EdgeMount
+http://www.amphenolrf.com/132289.html
+SMA
+0
+5
+2
+Wordclock_V1
+SO-8_3.9x4.9mm_P1.27mm
+SO, 8 Pin (https://www.nxp.com/docs/en/data-sheet/PCF8523.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SO SO
+0
+8
+8
+Wordclock_V1
+SOT-23
+SOT-23, Standard
+SOT-23
+0
+3
+3
+Wordclock_V1
+SOT-89-3
+SOT-89-3
+SOT-89-3
+0
+6
+3
+Wordclock_V1
+SOT-563
+
+
+0
+6
+6
+Wordclock_V1
+SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm
+SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open
+solder jumper open
+0
+2
+2
+Wordclock_V1
+TSOP-6_1.65x3.05mm_P0.95mm
+TSOP-6 package (comparable to TSOT-23), https://www.vishay.com/docs/71200/71200.pdf
+Jedec MO-193C TSOP-6L
+0
+6
+6
+Wordclock_V1
+TSOT-26
+
+
+0
+6
+6
+Wordclock_V1
+TSSOP-14_4.4x5mm_P0.65mm
+14-Lead Plastic Thin Shrink Small Outline (ST)-4.4 mm Body [TSSOP] (see Microchip Packaging Specification 00000049BS.pdf)
+SSOP 0.65
+0
+14
+14
+Wordclock_V1
+TerminalBlock_Phoenix_PTSM-0,5-2-2,5-V-SMD_1x02-1MP_P2.50mm_Vertical
+PhoenixContact PTSM0,5 2 2,5mm vertical SMD spring clamp terminal block connector http://www.phoenixcontact.com/us/products/1814702/pdf
+PhoenixContact PTSM0.5 2 2.5mm vertical SMD spring clamp terminal block connector 
+0
+4
+3
+Wordclock_V1
+TerminalBlock_Phoenix_PTSM-0,5-2-2.5-V-THR_1x02_P2.50mm_Vertical
+Terminal Block Phoenix PTSM-0,5-2-2.5-V-THR, vertical (cable from top), 2 pins, pitch 2.5mm, size 5.5x5mm^2, drill diamater 1.2mm, pad diameter 2mm, see http://www.produktinfo.conrad.com/datenblaetter/550000-574999/556444-da-01-de-LEITERPLATTENKL__PTSM_0_5__4_2_5_V_THR.pdf, script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix
+THT Terminal Block Phoenix PTSM-0,5-2-2.5-V-THR vertical pitch 2.5mm size 5.5x5mm^2 drill 1.2mm pad 2mm
+0
+4
+2
+Wordclock_V1
+TerminalBlock_Phoenix_PTSM-0,5-3-2.5-H-THR_1x03_P2.50mm_Horizontal
+Terminal Block Phoenix PTSM-0,5-3-2.5-H-THR, 3 pins, pitch 2.5mm, size 9.7x10mm^2, drill diamater 1.2mm, pad diameter 3mm, see http://www.produktinfo.conrad.com/datenblaetter/550000-574999/556441-da-01-de-LEITERPLATTENKL__PTSM_0_5__8_2_5_H_THR.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix
+THT Terminal Block Phoenix PTSM-0,5-3-2.5-H-THR pitch 2.5mm size 9.7x10mm^2 drill 1.2mm pad 3mm
+0
+6
+3
+Wordclock_V1
+TerminalBlock_Phoenix_PTSM-0,5-4-2,5-V-SMD_1x04-1MP_P2.50mm_Vertical
+PhoenixContact PTSM0,5 4 2,5mm vertical SMD spring clamp terminal block connector http://www.phoenixcontact.com/us/products/1814728/pdf
+PhoenixContact PTSM0.5 4 2.5mm vertical SMD spring clamp terminal block connector 
+0
+6
+5
+Wordclock_V1
+TerminalBlock_Phoenix_PTSM-0,5-5-2,5-V-SMD_1x05-1MP_P2.50mm_Vertical
+PhoenixContact PTSM0,5 5 2,5mm vertical SMD spring clamp terminal block connector http://www.phoenixcontact.com/us/products/1814731/pdf
+PhoenixContact PTSM0.5 5 2.5mm vertical SMD spring clamp terminal block connector 
+0
+7
+6
+Wordclock_V1
+TerminalBlock_Phoenix_PTSM-0,5-5-HH-2,5-SMD_R32
+PhoenixContact PTSM0,5 5 2,5mm vertical SMD spring clamp terminal block connector http://www.phoenixcontact.com/us/products/1814731/pdf
+PhoenixContact PTSM0.5 5 2.5mm vertical SMD spring clamp terminal block connector 
+0
+7
+6
+Wordclock_V1
+Texas_SWRA117D_2.4GHz_Left
+http://www.ti.com/lit/an/swra117d/swra117d.pdf
+PCB antenna
+0
+2
+2
+Wordclock_V1
+U.FL_Molex_MCRF_73412-0110_Vertical
+Molex Microcoaxial RF Connectors (MCRF), mates Hirose U.FL, (http://www.molex.com/pdm_docs/sd/734120110_sd.pdf)
+mcrf hirose ufl u.fl microcoaxial
+0
+4
+2
+Wordclock_V1
+VQFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm_ThermalVias
+VQFN, 32 Pin (http://ww1.microchip.com/downloads/en/devicedoc/atmel-9520-at42-qtouch-bsw-at42qt1110_datasheet.pdf#page=42), generated with kicad-footprint-generator ipc_noLead_generator.py
+VQFN NoLead
+0
+47
+33
+Wordclock_V1
+VQFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm_ThermalVias
+VQFN, 48 Pin (http://www.ti.com/lit/ds/symlink/cc1312r.pdf#page=48), generated with kicad-footprint-generator ipc_noLead_generator.py
+VQFN NoLead
+0
+78
+49
+Wordclock_V1
+Wuerth_36103205_20x20mm
+WE-SHC Shielding Cabinet SMD 20x20mm
+Shielding Cabinet
+0
+20
+1
+Wordclock_V1
+invertedf
+
+
+0
+15
+2
+Wordclock_V1
+invertedf_Kopie
+
+
+0
+15
+2
+Wordclock_V1
+pad
+
+
+0
+1
+1
+Wordclock_V1
+pad_0603
+
+
+0
+1
+1

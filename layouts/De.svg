@@ -1,0 +1,1481 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="440mm"
+   height="440mm"
+   viewBox="0 0 440 440"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="De.svg"
+   inkscape:export-filename="E:\Projekte\wordclock\Folie\folie.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="830.06527"
+     inkscape:cy="783.13824"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer5"
+     showgrid="false"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     showguides="true" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="chars"
+     style="display:inline"
+     transform="translate(0,152.34)">
+    <g
+       style="display:inline;fill:none;fill-opacity:1;stroke:none;stroke-width:0.20499283;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="g1640"
+       transform="matrix(1.9108128,0,0,1.9108128,-274.33939,333.1256)"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1638"
+         d="m 270.65969,-71.116119 a 0.52333778,0.52333778 0 0 1 -0.52334,0.523337 0.52333778,0.52333778 0 0 1 -0.52334,-0.523337 0.52333778,0.52333778 0 0 1 0.52334,-0.523338 0.52333778,0.52333778 0 0 1 0.52334,0.523338 z"
+         style="fill:none;fill-opacity:1;stroke:none;stroke-width:0.20499283;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       aria-label="S"
+       transform="translate(-2.5,-89.839999)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.17404175px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.47935101"
+       id="text1309">
+      <path
+         d="m 114.65149,28.867711 c 2.91446,0 4.64012,-1.687315 4.64012,-3.719764 0,-1.821534 -1.13127,-2.761062 -2.72271,-3.393805 l -1.64897,-0.70944 c -1.13127,-0.441003 -2.14749,-0.805309 -2.14749,-1.764012 0,-0.939528 0.80531,-1.476401 1.9941,-1.476401 1.26548,0 2.14749,0.402655 2.99115,1.073747 l 1.15044,-1.41888 c -1.0354,-0.977876 -2.49263,-1.591445 -4.02655,-1.591445 -2.55015,0 -4.35251,1.533923 -4.35251,3.528024 0,1.840708 1.36136,2.818584 2.68437,3.336283 l 1.70649,0.747788 c 1.24631,0.517699 2.10914,0.824483 2.10914,1.936578 0,0.882006 -0.78613,1.514749 -2.24336,1.514749 -1.32301,0 -2.56932,-0.575221 -3.50885,-1.418879 l -1.30383,1.514749 c 1.24631,1.169617 2.91445,1.840708 4.67846,1.840708 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.47935101"
+         id="path2327"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="E"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1313">
+      <path
+         d="m 83.36856,28.867712 h 8.527523 V 26.9197 H 85.67437 v -3.836392 h 5.108563 V 21.135296 H 85.67437 v -3.319572 h 6.022936 V 15.867712 H 83.36856 Z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2324"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="K"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1327">
+      <path
+         d="m 136.6132,28.867712 h 2.34557 v -3.836391 l 1.84862,-2.345566 3.27982,6.181957 h 2.56422 l -4.43273,-7.95107 4.0153,-5.04893 h -2.5841 l -4.6315,5.90367 h -0.0596 v -5.90367 h -2.34557 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2321"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="I"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1331">
+      <path
+         d="m 164.33875,28.867712 h 8.58715 V 26.9197 h -3.14067 v -9.103976 h 3.14067 v -1.948012 h -8.58715 v 1.948012 h 3.14067 V 26.9197 h -3.14067 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2318"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="S"
+       transform="translate(-2.5,-89.839999)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.17404175px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.47935101"
+       id="text1335">
+      <path
+         d="m 195.65148,28.867711 c 2.91445,0 4.64011,-1.687315 4.64011,-3.719764 0,-1.821534 -1.13126,-2.761062 -2.72271,-3.393805 l -1.64897,-0.70944 c -1.13127,-0.441003 -2.14749,-0.805309 -2.14749,-1.764012 0,-0.939528 0.80531,-1.476401 1.9941,-1.476401 1.26549,0 2.14749,0.402655 2.99115,1.073747 l 1.15044,-1.41888 c -1.03539,-0.977876 -2.49262,-1.591445 -4.02654,-1.591445 -2.55015,0 -4.35251,1.533923 -4.35251,3.528024 0,1.840708 1.36135,2.818584 2.68436,3.336283 l 1.70649,0.747788 c 1.24632,0.517699 2.10915,0.824483 2.10915,1.936578 0,0.882006 -0.78614,1.514749 -2.24336,1.514749 -1.32301,0 -2.56933,-0.575221 -3.50885,-1.418879 l -1.30384,1.514749 c 1.24631,1.169617 2.91445,1.840708 4.67847,1.840708 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.47935101"
+         id="path2315"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="T"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1339">
+      <path
+         d="m 221.4794,28.867712 h 2.30581 V 17.815724 h 4.09481 V 15.867712 H 217.3846 v 1.948012 h 4.0948 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2312"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="L"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1343">
+      <path
+         d="m 245.43812,28.867712 h 8.38838 V 26.9197 h -6.10245 V 15.867712 h -2.28593 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2309"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="A"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1347">
+      <path
+         d="m 275.39989,21.950281 c 0.39756,-1.37156 0.79511,-2.842508 1.15291,-4.293578 h 0.0795 c 0.3578,1.45107 0.77523,2.922018 1.1529,4.293578 l 0.45719,1.590214 h -3.29969 z m -4.33333,6.917431 h 2.34557 l 1.01376,-3.518349 h 4.33333 l 0.99388,3.518349 h 2.44496 l -4.21407,-13 h -2.70336 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2306"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="M"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1351">
+      <path
+         d="m 298.96106,28.867712 h 1.98776 v -5.247706 c 0,-1.37156 -0.19877,-4.055046 -0.33792,-5.327218 h 0.0596 l 0.85474,3.021407 1.41131,4.114679 h 1.31193 l 1.43119,-4.114679 0.87462,-3.021407 h 0.0596 c -0.11927,1.272172 -0.33792,3.955658 -0.33792,5.327218 v 5.247706 h 2.02752 v -13 h -2.54434 l -1.57034,5.068807 -0.51682,1.948013 h -0.0795 l -0.53669,-1.948013 -1.55046,-5.068807 H 298.961 Z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2303"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="P"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1355">
+      <path
+         d="m 326.02069,28.867712 h 2.30581 V 24.09707 h 1.96789 c 2.80275,0 4.94954,-1.331805 4.94954,-4.214068 0,-3.021406 -2.10703,-4.01529 -4.94954,-4.01529 h -4.2737 z m 2.30581,-6.619266 v -4.53211 h 1.78899 c 1.88838,0 2.86239,0.536697 2.86239,2.166666 0,1.590215 -0.93425,2.365444 -2.86239,2.365444 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2300"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="M"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1359">
+      <path
+         d="m 352.96106,28.867712 h 1.98776 v -5.247706 c 0,-1.37156 -0.19877,-4.055046 -0.33792,-5.327218 h 0.0596 l 0.85474,3.021407 1.41131,4.114679 h 1.31193 l 1.43119,-4.114679 0.87462,-3.021407 h 0.0596 c -0.11927,1.272172 -0.33792,3.955658 -0.33792,5.327218 v 5.247706 h 2.02752 v -13 h -2.54434 l -1.57034,5.068807 -0.51682,1.948013 h -0.0795 l -0.53669,-1.948013 -1.55046,-5.068807 H 352.961 Z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2297"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="E"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1363">
+      <path
+         d="m 110.36856,58.867741 h 8.52752 v -1.948013 h -6.22171 v -3.836391 h 5.10856 v -1.948012 h -5.10856 v -3.319572 h 6.02294 v -1.948012 h -8.32875 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2294"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="A"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1367">
+      <path
+         d="m 248.39989,51.950309 c 0.39756,-1.371559 0.79511,-2.842507 1.15291,-4.293578 h 0.0795 c 0.3578,1.451071 0.77523,2.922019 1.1529,4.293578 l 0.45719,1.590214 h -3.29969 z m -4.33333,6.917432 h 2.34557 l 1.01376,-3.518349 h 4.33333 l 0.99388,3.518349 h 2.44496 l -4.21407,-13 h -2.70336 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2291"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="E"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1371">
+      <path
+         d="m 326.36854,88.867706 h 8.52752 v -1.948012 h -6.22171 v -3.836391 h 5.10856 V 81.13529 h -5.10856 v -3.319572 h 6.02293 v -1.948012 h -8.32874 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2288"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="T"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1375">
+      <path
+         d="m 302.4794,88.867706 h 2.30581 V 77.815718 h 4.09481 V 75.867706 H 298.3846 v 1.948012 h 4.0948 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2285"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="E"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1379">
+      <path
+         d="m 245.36855,88.867706 h 8.52753 v -1.948012 h -6.22172 v -3.836391 h 5.10857 V 81.13529 h -5.10857 v -3.319572 h 6.02294 v -1.948012 h -8.32875 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2282"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="I"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1383">
+      <path
+         d="m 218.33873,88.867706 h 8.58716 v -1.948012 h -3.14068 v -9.103976 h 3.14068 v -1.948012 h -8.58716 v 1.948012 h 3.14067 v 9.103976 h -3.14067 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2279"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="T"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1387">
+      <path
+         d="m 86.479419,118.86773 h 2.305811 v -11.05199 h 4.094801 v -1.94801 H 82.384618 v 1.94801 h 4.094801 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2276"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="A"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1391">
+      <path
+         d="m 167.39991,111.9503 c 0.39755,-1.37156 0.79511,-2.84251 1.1529,-4.29358 h 0.0795 c 0.3578,1.45107 0.77523,2.92202 1.15291,4.29358 l 0.45719,1.59021 h -3.2997 z m -4.33333,6.91743 h 2.34556 l 1.01376,-3.51835 h 4.33334 l 0.99388,3.51835 h 2.44495 l -4.21406,-13 h -2.70337 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2273"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="M"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1395">
+      <path
+         d="m 352.96106,118.86773 h 1.98776 v -5.24771 c 0,-1.37156 -0.19877,-4.05504 -0.33792,-5.32721 h 0.0596 l 0.85474,3.0214 1.41131,4.11468 h 1.31193 l 1.43119,-4.11468 0.87462,-3.0214 h 0.0596 c -0.11927,1.27217 -0.33792,3.95565 -0.33792,5.32721 v 5.24771 h 2.02752 v -13 h -2.54434 l -1.57034,5.06881 -0.51682,1.94801 h -0.0795 l -0.53669,-1.94801 -1.55046,-5.06881 H 352.961 Z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2270"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="L"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1399">
+      <path
+         d="m 299.43812,148.86771 h 8.38838 v -1.94802 h -6.10245 v -11.05198 h -2.28593 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2267"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="L"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1403">
+      <path
+         d="m 137.43813,148.86771 h 8.38838 v -1.94802 h -6.10245 v -11.05198 h -2.28593 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2264"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="A"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1407">
+      <path
+         d="m 113.39989,141.95028 c 0.39756,-1.37156 0.79511,-2.84251 1.15291,-4.29358 h 0.0795 c 0.3578,1.45107 0.77523,2.92202 1.1529,4.29358 l 0.45719,1.59021 h -3.29969 z m -4.33333,6.91743 h 2.34557 l 1.01376,-3.51835 h 4.33333 l 0.99388,3.51835 h 2.44496 l -4.21407,-13 h -2.70336 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2261"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="L"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1411">
+      <path
+         d="m 353.43812,88.867706 h 8.38838 v -1.948012 h -6.10245 V 75.867706 h -2.28593 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2258"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="I"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1415">
+      <path
+         d="m 326.33873,58.867741 h 8.58716 v -1.948013 h -3.14068 v -9.103975 h 3.14068 v -1.948012 h -8.58716 v 1.948012 h 3.14067 v 9.103975 h -3.14067 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2255"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="F"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1419">
+      <path
+         d="m 83.477885,88.867706 h 2.305811 v -5.426605 h 5.108563 v -1.948013 h -5.108563 v -3.67737 h 6.003058 v -1.948012 h -8.308869 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2252"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="F"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1427">
+      <path
+         d="m 164.47789,88.867706 h 2.30581 v -5.426605 h 5.10856 v -1.948013 h -5.10856 v -3.67737 h 6.00305 v -1.948012 h -8.30886 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2249"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="Z"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1431">
+      <path
+         d="m 82.841803,58.867741 h 9.58104 v -1.948013 h -6.75841 l 6.678899,-9.66055 v -1.391437 h -8.905199 v 1.928134 h 6.062692 l -6.659022,9.680428 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2246"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="H"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1435">
+      <path
+         d="m 137.10021,58.867741 h 2.30581 v -5.764526 h 4.4526 v 5.764526 h 2.30581 v -13 h -2.30581 v 5.227828 h -4.4526 v -5.227828 h -2.30581 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2243"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="H"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1443">
+      <path
+         d="m 218.1002,118.86773 h 2.30581 v -5.76453 h 4.4526 v 5.76453 h 2.30581 v -13 h -2.30581 v 5.22783 h -4.4526 v -5.22783 h -2.30581 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2240"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="Z"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1447">
+      <path
+         d="m 190.8418,58.867741 h 9.58104 v -1.948013 h -6.75841 l 6.67889,-9.66055 v -1.391437 h -8.90519 v 1.928134 h 6.06269 l -6.65902,9.680428 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2237"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="N"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1451">
+      <path
+         d="m 164.13997,58.867741 h 2.20642 v -5.685016 c 0,-1.45107 -0.21865,-3.001529 -0.31804,-4.392966 h 0.0596 l 1.17278,2.762997 3.43884,7.314985 h 2.42508 v -13 h -2.20642 v 5.64526 c 0,1.45107 0.21865,3.100917 0.31804,4.432721 h -0.0596 l -1.17279,-2.782874 -3.43883,-7.295107 h -2.42508 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2234"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="N"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1455">
+      <path
+         d="m 272.13995,58.867741 h 2.20643 v -5.685016 c 0,-1.45107 -0.21866,-3.001529 -0.31805,-4.392966 h 0.0596 l 1.17278,2.762997 3.43884,7.314985 h 2.42507 v -13 h -2.20642 v 5.64526 c 0,1.45107 0.21866,3.100917 0.31804,4.432721 h -0.0596 l -1.17278,-2.782874 -3.43884,-7.295107 h -2.42508 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2231"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="N"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1459">
+      <path
+         d="m 137.13997,88.867706 h 2.20642 v -5.685015 c 0,-1.45107 -0.21865,-3.001529 -0.31804,-4.392966 h 0.0596 l 1.17278,2.762997 3.43884,7.314984 h 2.42508 v -13 h -2.20642 v 5.64526 c 0,1.451071 0.21865,3.100918 0.31804,4.432722 h -0.0596 l -1.17279,-2.782875 -3.43883,-7.295107 h -2.42508 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2228"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="Z"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1463">
+      <path
+         d="m 298.84178,58.867741 h 9.58104 v -1.948013 h -6.75841 l 6.6789,-9.66055 v -1.391437 h -8.9052 v 1.928134 h 6.06269 l -6.65902,9.680428 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2225"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="N"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1467">
+      <path
+         d="m 137.13997,118.86773 h 2.20642 v -5.68502 c 0,-1.45107 -0.21865,-3.00153 -0.31804,-4.39296 h 0.0596 l 1.17278,2.76299 3.43884,7.31499 h 2.42508 v -13 h -2.20642 v 5.64526 c 0,1.45107 0.21865,3.10092 0.31804,4.43272 h -0.0596 l -1.17279,-2.78287 -3.43883,-7.29511 h -2.42508 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2222"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="W"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1471">
+      <path
+         d="m 218.65677,58.867741 h 2.56422 l 0.99389,-4.611621 c 0.1789,-0.814985 0.27829,-1.62997 0.39755,-2.425077 h 0.0596 c 0.0795,0.795107 0.23854,1.610092 0.41744,2.425077 l 1.01376,4.611621 h 2.60397 l 1.74924,-13 h -2.32569 l -0.63609,7.533639 c -0.0795,1.073394 -0.0994,1.888379 -0.15902,3.120795 h -0.0795 c -0.19877,-1.232416 -0.37767,-2.047401 -0.63608,-3.120795 l -1.01376,-4.214068 h -1.72936 l -1.0734,4.214068 c -0.23853,1.093272 -0.41743,1.908257 -0.63608,3.120795 h -0.0596 c -0.0397,-1.212538 -0.0994,-2.027523 -0.17889,-3.120795 L 219.273,45.867741 h -2.46483 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2219"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="G"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.17404175px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.47935098"
+       id="text1475">
+      <path
+         d="m 358.51432,58.867742 c 1.61062,0 3.0295,-0.690266 3.83481,-1.495575 v -5.522124 h -4.17994 v 1.821534 h 2.16667 v 2.703539 c -0.36431,0.364307 -1.01623,0.556048 -1.68732,0.556048 -2.22419,0 -3.43215,-1.725664 -3.43215,-4.582596 0,-2.818584 1.3997,-4.544248 3.3938,-4.544248 1.09292,0 1.74484,0.421829 2.32006,1.016224 l 1.22714,-1.380531 c -0.74779,-0.786136 -1.87906,-1.572271 -3.5472,-1.572271 -3.25958,0 -5.69469,2.415929 -5.69469,6.538348 0,4.160767 2.41593,6.461652 5.59882,6.461652 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.47935098"
+         id="path2216"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="U"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.51951981px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.48798797"
+       id="text1479">
+      <path
+         d="m 114.65184,88.86771 c 2.81081,0 4.43093,-1.62012 4.43093,-5.114114 V 75.86771 h -2.16666 v 8.061562 c 0,2.088589 -0.87838,2.966967 -2.26427,2.966967 -1.36636,0 -2.2057,-0.878378 -2.2057,-2.966967 V 75.86771 h -2.26427 v 7.885886 c 0,3.493994 1.67868,5.114114 4.46997,5.114114 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.48798797"
+         id="path2213"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="V"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1483">
+      <path
+         d="m 194.28063,88.867706 h 2.72324 l 4.03517,-13 h -2.36545 l -1.80886,6.539756 c -0.39756,1.470948 -0.69572,2.743119 -1.13303,4.233945 h -0.0795 c -0.43731,-1.490826 -0.73548,-2.762997 -1.15291,-4.233945 l -1.82874,-6.539756 h -2.44496 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2210"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="G"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.17404175px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.47935098"
+       id="text1487">
+      <path
+         d="m 115.51434,118.86773 c 1.61062,0 3.0295,-0.69027 3.83481,-1.49557 v -5.52213 h -4.17995 v 1.82154 h 2.16667 v 2.70353 c -0.36431,0.36431 -1.01622,0.55605 -1.68731,0.55605 -2.22419,0 -3.43216,-1.72566 -3.43216,-4.58259 0,-2.81859 1.39971,-4.54425 3.39381,-4.54425 1.09292,0 1.74484,0.42183 2.32006,1.01622 l 1.22714,-1.38053 c -0.74779,-0.78613 -1.87906,-1.57227 -3.5472,-1.57227 -3.25959,0 -5.69469,2.41593 -5.69469,6.53835 0,4.16077 2.41593,6.46165 5.59882,6.46165 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.47935098"
+         id="path2207"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="H"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1491">
+      <path
+         d="m 83.100214,148.86771 h 2.305811 v -5.76453 h 4.452599 v 5.76453 h 2.305811 v -13 h -2.305811 v 5.22782 h -4.452599 v -5.22782 h -2.305811 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2204"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="C"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.17404175px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.47935098"
+       id="text1495">
+      <path
+         d="m 196.4568,118.86773 c 1.66814,0 2.99115,-0.65192 3.9882,-1.82153 l -1.22714,-1.36136 c -0.70944,0.78614 -1.53392,1.24631 -2.55015,1.24631 -2.14749,0 -3.56637,-1.72566 -3.56637,-4.58259 0,-2.81859 1.41888,-4.54425 3.50885,-4.54425 0.97788,0 1.72567,0.40265 2.35841,1.01622 l 1.22714,-1.38053 c -0.78614,-0.82448 -2.03245,-1.57227 -3.58555,-1.57227 -3.31711,0 -5.79056,2.4351 -5.79056,6.53835 0,4.16077 2.53098,6.46165 5.63717,6.46165 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.47935098"
+         id="path2201"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="V"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1503">
+      <path
+         d="m 248.28063,118.86773 h 2.72324 l 4.03517,-13 h -2.36545 l -1.80886,6.53975 c -0.39756,1.47095 -0.69572,2.74312 -1.13303,4.23395 h -0.0795 c -0.43731,-1.49083 -0.73548,-2.763 -1.15291,-4.23395 l -1.82874,-6.53975 h -2.44496 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2198"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="R"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1507">
+      <path
+         d="m 271.81197,88.867706 h 2.30581 v -5.088685 h 1.94801 l 2.78287,5.088685 h 2.60398 l -3.10092,-5.426605 c 1.55046,-0.536698 2.5841,-1.749236 2.5841,-3.717126 0,-2.90214 -2.08716,-3.856269 -4.79052,-3.856269 h -4.33333 z m 2.30581,-6.917431 V 77.71633 h 1.78899 c 1.78899,0 2.763,0.51682 2.763,2.007645 0,1.470948 -0.97401,2.2263 -2.763,2.2263 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2195"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="R"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1511">
+      <path
+         d="m 298.81197,118.86773 h 2.30581 v -5.08869 h 1.94801 l 2.78287,5.08869 h 2.60398 l -3.10092,-5.42661 c 1.55046,-0.53669 2.5841,-1.74923 2.5841,-3.71712 0,-2.90214 -2.08716,-3.85627 -4.79052,-3.85627 h -4.33333 z m 2.30581,-6.91743 v -4.23395 h 1.78899 c 1.78899,0 2.763,0.51682 2.763,2.00765 0,1.47095 -0.97401,2.2263 -2.763,2.2263 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2192"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="O"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.17404175px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.47935098"
+       id="text1515">
+      <path
+         d="m 276.63231,118.86773 c 2.91445,0 4.92773,-2.35841 4.92773,-6.55752 0,-4.12242 -2.01328,-6.44248 -4.92773,-6.44248 -2.91446,0 -4.92773,2.32006 -4.92773,6.44248 0,4.19911 2.01327,6.55752 4.92773,6.55752 z m 0,-1.93658 c -1.61062,0 -2.64602,-1.66814 -2.64602,-4.62094 0,-2.87611 1.0354,-4.5059 2.64602,-4.5059 1.61062,0 2.64602,1.62979 2.64602,4.5059 0,2.9528 -1.0354,4.62094 -2.64602,4.62094 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.47935098"
+         id="path2189"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="J"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.51951981px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.48798797"
+       id="text1519">
+      <path
+         d="m 330.3688,118.86773 c 3.35735,0 4.509,-2.01051 4.509,-4.45045 v -8.54955 h -7.43693 v 1.8934 h 5.17267 v 6.46096 c 0,1.93243 -0.74174,2.67417 -2.3033,2.67417 -0.91742,0 -1.85436,-0.50751 -2.5961,-1.54204 l -1.32733,1.40541 c 0.9955,1.503 2.57658,2.1081 3.98199,2.1081 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.48798797"
+         id="path2186"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="B"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1523">
+      <path
+         d="m 163.971,148.86771 h 4.37309 c 2.86238,0 4.94954,-1.21254 4.94954,-3.81652 0,-1.76911 -1.05352,-2.76299 -2.92202,-3.08104 v -0.0795 c 1.53058,-0.39755 2.24618,-1.59021 2.24618,-2.82263 0,-2.38532 -1.92813,-3.2003 -4.61162,-3.2003 H 163.971 Z m 2.30581,-7.65291 v -3.49847 h 1.57034 c 1.6896,0 2.50458,0.43731 2.50458,1.62997 0,1.21254 -0.73547,1.8685 -2.54434,1.8685 z m 0,5.80428 v -4.05504 h 1.82875 c 1.94801,0 2.92202,0.55657 2.92202,1.92813 0,1.47095 -1.01377,2.12691 -2.92202,2.12691 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2183"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="D"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1527">
+      <path
+         d="m 190.86166,148.86771 h 3.53823 c 3.71712,0 6.00306,-2.24618 6.00306,-6.55964 0,-4.29357 -2.28594,-6.44036 -6.12233,-6.44036 h -3.41896 z m 2.30581,-1.86851 v -9.26299 h 0.97401 c 2.48471,0 3.89602,1.39144 3.89602,4.57186 0,3.20031 -1.41131,4.69113 -3.89602,4.69113 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2180"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="Z"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1531">
+      <path
+         d="m 217.8418,148.86771 h 9.58104 v -1.94802 h -6.75841 l 6.67889,-9.66055 v -1.39143 h -8.90519 v 1.92813 h 6.06269 l -6.65902,9.68043 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2177"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="W"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1535">
+      <path
+         d="m 245.65677,148.86771 h 2.56422 l 0.99389,-4.61162 c 0.1789,-0.81499 0.27829,-1.62997 0.39755,-2.42508 h 0.0596 c 0.0795,0.79511 0.23854,1.61009 0.41744,2.42508 l 1.01376,4.61162 h 2.60397 l 1.74924,-13 h -2.32569 l -0.63609,7.53364 c -0.0795,1.07339 -0.0994,1.88837 -0.15902,3.12079 h -0.0795 c -0.19877,-1.23242 -0.37767,-2.0474 -0.63608,-3.12079 l -1.01376,-4.21407 h -1.72936 l -1.0734,4.21407 c -0.23853,1.09327 -0.41743,1.90825 -0.63608,3.12079 h -0.0596 c -0.0397,-1.21254 -0.0994,-2.02752 -0.17889,-3.12079 l -0.65597,-7.53364 h -2.46483 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2174"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="O"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.17404175px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.47935098"
+       id="text1539">
+      <path
+         d="m 276.63231,148.86771 c 2.91445,0 4.92773,-2.35841 4.92773,-6.55752 0,-4.12242 -2.01328,-6.44248 -4.92773,-6.44248 -2.91446,0 -4.92773,2.32006 -4.92773,6.44248 0,4.19911 2.01327,6.55752 4.92773,6.55752 z m 0,-1.93658 c -1.61062,0 -2.64602,-1.66814 -2.64602,-4.62094 0,-2.87611 1.0354,-4.5059 2.64602,-4.5059 1.61062,0 2.64602,1.62979 2.64602,4.5059 0,2.9528 -1.0354,4.62094 -2.64602,4.62094 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.47935098"
+         id="path2171"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="F"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1543">
+      <path
+         d="m 326.47787,148.86771 h 2.30581 v -5.42661 h 5.10856 v -1.94801 h -5.10856 v -3.67737 h 6.00306 v -1.94801 h -8.30887 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2168"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="P"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1547">
+      <path
+         d="m 353.02069,148.86771 h 2.30581 v -4.77065 h 1.96789 c 2.80275,0 4.94954,-1.3318 4.94954,-4.21406 0,-3.02141 -2.10703,-4.01529 -4.94954,-4.01529 h -4.2737 z m 2.30581,-6.61927 v -4.53211 h 1.78899 c 1.88838,0 2.86239,0.5367 2.86239,2.16667 0,1.59021 -0.93425,2.36544 -2.86239,2.36544 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2165"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="N"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1551">
+      <path
+         d="m 353.13995,178.86771 h 2.20643 v -5.68502 c 0,-1.45107 -0.21866,-3.00153 -0.31805,-4.39297 h 0.0596 l 1.17278,2.763 3.43884,7.31499 h 2.42507 v -13 h -2.20642 v 5.64526 c 0,1.45107 0.21866,3.10091 0.31804,4.43272 h -0.0596 l -1.17278,-2.78288 -3.43884,-7.2951 h -2.42508 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2162"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="E"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1555">
+      <path
+         d="m 326.36854,178.86771 h 8.52752 v -1.94802 h -6.22171 v -3.83639 h 5.10856 v -1.94801 h -5.10856 v -3.31957 h 6.02293 v -1.94801 h -8.32874 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2159"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="B"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1559">
+      <path
+         d="m 298.97099,178.86771 h 4.37308 c 2.86239,0 4.94955,-1.21254 4.94955,-3.81652 0,-1.76911 -1.05352,-2.76299 -2.92202,-3.08104 v -0.0795 c 1.53058,-0.39755 2.24617,-1.59021 2.24617,-2.82263 0,-2.38532 -1.92813,-3.2003 -4.61162,-3.2003 h -4.03516 z m 2.30581,-7.65291 v -3.49847 h 1.57033 c 1.6896,0 2.50459,0.43731 2.50459,1.62997 0,1.21254 -0.73547,1.8685 -2.54434,1.8685 z m 0,5.80428 v -4.05504 h 1.82874 c 1.94801,0 2.92202,0.55657 2.92202,1.92813 0,1.47095 -1.01376,2.12691 -2.92202,2.12691 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2156"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="E"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1563">
+      <path
+         d="m 272.36854,178.86771 h 8.52752 v -1.94802 h -6.22171 v -3.83639 h 5.10856 v -1.94801 h -5.10856 v -3.31957 h 6.02293 v -1.94801 h -8.32874 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2153"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="I"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1567">
+      <path
+         d="m 245.33873,178.86771 h 8.58716 v -1.94802 h -3.14068 v -9.10397 h 3.14068 v -1.94801 h -8.58716 v 1.94801 h 3.14067 v 9.10397 h -3.14067 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2150"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="S"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.17404175px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.47935101"
+       id="text1571">
+      <path
+         d="m 222.65148,178.86771 c 2.91445,0 4.64011,-1.68732 4.64011,-3.71977 0,-1.82153 -1.13126,-2.76106 -2.72271,-3.3938 l -1.64897,-0.70944 c -1.13127,-0.441 -2.14749,-0.80531 -2.14749,-1.76401 0,-0.93953 0.80531,-1.4764 1.9941,-1.4764 1.26549,0 2.14749,0.40265 2.99115,1.07374 l 1.15044,-1.41888 c -1.03539,-0.97787 -2.49262,-1.59144 -4.02654,-1.59144 -2.55015,0 -4.35251,1.53392 -4.35251,3.52802 0,1.84071 1.36135,2.81859 2.68436,3.33628 l 1.70649,0.74779 c 1.24632,0.5177 2.10915,0.82449 2.10915,1.93658 0,0.88201 -0.78614,1.51475 -2.24336,1.51475 -1.32301,0 -2.56933,-0.57522 -3.50885,-1.41888 l -1.30384,1.51475 c 1.24631,1.16962 2.91445,1.84071 4.67847,1.84071 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.47935101"
+         id="path2147"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="N"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1575">
+      <path
+         d="m 191.13995,178.86771 h 2.20643 v -5.68502 c 0,-1.45107 -0.21866,-3.00153 -0.31805,-4.39297 h 0.0596 l 1.17278,2.763 3.43884,7.31499 h 2.42507 v -13 h -2.20642 v 5.64526 c 0,1.45107 0.21866,3.10091 0.31804,4.43272 h -0.0596 l -1.17278,-2.78288 -3.43884,-7.2951 h -2.42508 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2144"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="I"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1579">
+      <path
+         d="m 164.33875,178.86771 h 8.58715 v -1.94802 h -3.14067 v -9.10397 h 3.14067 v -1.94801 h -8.58715 v 1.94801 h 3.14067 v 9.10397 h -3.14067 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2141"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="E"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1583">
+      <path
+         d="m 137.36855,178.86771 h 8.52753 v -1.94802 h -6.22172 v -3.83639 h 5.10857 v -1.94801 h -5.10857 v -3.31957 h 6.02294 v -1.94801 h -8.32875 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2138"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="W"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1587">
+      <path
+         d="m 110.65677,178.86771 h 2.56422 l 0.99389,-4.61162 c 0.1789,-0.81499 0.27829,-1.62997 0.39755,-2.42508 h 0.0596 c 0.0795,0.79511 0.23854,1.61009 0.41744,2.42508 l 1.01376,4.61162 h 2.60397 l 1.74924,-13 h -2.32569 l -0.63609,7.53364 c -0.0795,1.07339 -0.0994,1.88837 -0.15902,3.12079 h -0.0795 c -0.19877,-1.23242 -0.37767,-2.0474 -0.63608,-3.12079 l -1.01376,-4.21407 h -1.72936 l -1.0734,4.21407 c -0.23853,1.09327 -0.41743,1.90825 -0.63608,3.12079 h -0.0596 c -0.0397,-1.21254 -0.0994,-2.02752 -0.17889,-3.12079 l -0.65597,-7.53364 h -2.46483 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2135"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="Z"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1591">
+      <path
+         d="m 82.841803,178.86771 h 9.58104 v -1.94802 h -6.75841 l 6.678899,-9.66055 v -1.39143 h -8.905199 v 1.92813 h 6.062692 l -6.659022,9.68043 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2132"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="K"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1595">
+      <path
+         d="m 82.613208,208.86772 h 2.345565 v -3.83639 l 1.848624,-2.34557 3.279817,6.18196 h 2.56422 l -4.432722,-7.95107 4.015291,-5.04893 h -2.584098 l -4.631499,5.90367 h -0.05963 v -5.90367 h -2.345565 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2129"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="D"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1599">
+      <path
+         d="m 109.86168,208.86772 h 3.53822 c 3.71713,0 6.00306,-2.24618 6.00306,-6.55963 0,-4.29358 -2.28593,-6.44037 -6.12232,-6.44037 h -3.41896 z m 2.30581,-1.8685 v -9.263 h 0.974 c 2.48471,0 3.89603,1.39144 3.89603,4.57187 0,3.2003 -1.41132,4.69113 -3.89603,4.69113 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2126"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="R"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1603">
+      <path
+         d="m 136.81198,208.86772 h 2.30581 v -5.08868 h 1.94802 l 2.78287,5.08868 h 2.60398 l -3.10092,-5.4266 c 1.55046,-0.5367 2.5841,-1.74924 2.5841,-3.71713 0,-2.90214 -2.08716,-3.85627 -4.79052,-3.85627 h -4.33334 z m 2.30581,-6.91743 v -4.23394 h 1.78899 c 1.78899,0 2.763,0.51681 2.763,2.00764 0,1.47095 -0.97401,2.2263 -2.763,2.2263 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2123"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="E"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1607">
+      <path
+         d="m 164.36855,208.86772 h 8.52753 v -1.94801 h -6.22172 v -3.83639 h 5.10857 v -1.94801 h -5.10857 v -3.31958 h 6.02294 v -1.94801 h -8.32875 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2120"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="I"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1611">
+      <path
+         d="m 191.33873,208.86772 h 8.58716 v -1.94801 h -3.14068 v -9.10398 h 3.14068 v -1.94801 h -8.58716 v 1.94801 h 3.14067 v 9.10398 h -3.14067 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2117"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="J"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.51951981px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.48798797"
+       id="text1615">
+      <path
+         d="m 222.3688,208.86772 c 3.35735,0 4.509,-2.01051 4.509,-4.45045 v -8.54955 h -7.43693 v 1.89339 h 5.17267 v 6.46096 c 0,1.93243 -0.74174,2.67418 -2.3033,2.67418 -0.91742,0 -1.85436,-0.50751 -2.5961,-1.54205 l -1.32733,1.40541 c 0.9955,1.503 2.57658,2.10811 3.98199,2.10811 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.48798797"
+         id="path2114"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="L"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1619">
+      <path
+         d="m 245.43812,208.86772 h 8.38838 v -1.94801 h -6.10245 v -11.05199 h -2.28593 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2111"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="F"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1623">
+      <path
+         d="m 272.47787,208.86772 h 2.30581 v -5.4266 h 5.10856 v -1.94802 h -5.10856 v -3.67737 h 6.00306 v -1.94801 h -8.30887 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2108"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="U"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.51951981px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.48798797"
+       id="text1627">
+      <path
+         d="m 303.65183,208.86772 c 2.81082,0 4.43094,-1.62012 4.43094,-5.11412 v -7.88588 h -2.16667 v 8.06156 c 0,2.08859 -0.87838,2.96697 -2.26427,2.96697 -1.36636,0 -2.2057,-0.87838 -2.2057,-2.96697 v -8.06156 h -2.26427 v 7.88588 c 0,3.494 1.67868,5.11412 4.46997,5.11412 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.48798797"
+         id="path2105"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="N"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1631">
+      <path
+         d="m 326.13995,208.86772 h 2.20643 v -5.68501 c 0,-1.45107 -0.21866,-3.00153 -0.31805,-4.39297 h 0.0596 l 1.17278,2.763 3.43884,7.31498 h 2.42507 v -13 h -2.20642 v 5.64526 c 0,1.45107 0.21866,3.10092 0.31804,4.43272 h -0.0596 l -1.17278,-2.78287 -3.43884,-7.29511 h -2.42508 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2102"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="F"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1635">
+      <path
+         d="m 353.4779,208.86772 h 2.30581 v -5.4266 h 5.10856 v -1.94802 h -5.10856 v -3.67737 h 6.00306 v -1.94801 h -8.30887 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2099"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="R"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1639">
+      <path
+         d="m 352.812,238.86771 h 2.30581 v -5.08869 h 1.94801 l 2.78288,5.08869 h 2.60397 l -3.10092,-5.42661 c 1.55046,-0.5367 2.5841,-1.74923 2.5841,-3.71712 0,-2.90215 -2.08715,-3.85627 -4.79052,-3.85627 H 352.812 Z m 2.30581,-6.91743 v -4.23395 h 1.78899 c 1.78899,0 2.763,0.51682 2.763,2.00765 0,1.47094 -0.97401,2.2263 -2.763,2.2263 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2096"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="E"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1643">
+      <path
+         d="m 326.36854,238.86771 h 8.52752 v -1.94802 h -6.22171 v -3.83639 h 5.10856 v -1.94801 h -5.10856 v -3.31957 h 6.02293 v -1.94801 h -8.32874 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2093"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="I"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1647">
+      <path
+         d="m 299.33873,238.86771 h 8.58716 v -1.94802 h -3.14068 v -9.10397 h 3.14068 v -1.94801 h -8.58716 v 1.94801 h 3.14067 v 9.10397 h -3.14067 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2090"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="V"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1651">
+      <path
+         d="m 275.28063,238.86771 h 2.72324 l 4.03517,-13 h -2.36545 l -1.80886,6.53975 c -0.39756,1.47095 -0.69572,2.74312 -1.13303,4.23395 h -0.0795 c -0.43731,-1.49083 -0.73548,-2.763 -1.15291,-4.23395 l -1.82874,-6.53975 h -2.44496 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2087"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="N"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1655">
+      <path
+         d="m 245.13995,238.86771 h 2.20643 v -5.68502 c 0,-1.45107 -0.21866,-3.00153 -0.31805,-4.39297 h 0.0596 l 1.17278,2.763 3.43884,7.31499 h 2.42507 v -13 h -2.20642 v 5.64526 c 0,1.45107 0.21866,3.10091 0.31804,4.43272 h -0.0596 l -1.17278,-2.78288 -3.43884,-7.2951 h -2.42508 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2084"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="U"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.51951981px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.48798797"
+       id="text1659">
+      <path
+         d="m 222.65183,238.8677 c 2.81082,0 4.43094,-1.62012 4.43094,-5.11411 v -7.88589 h -2.16667 v 8.06156 c 0,2.08859 -0.87838,2.96697 -2.26427,2.96697 -1.36636,0 -2.2057,-0.87838 -2.2057,-2.96697 v -8.06156 h -2.26427 v 7.88589 c 0,3.49399 1.67868,5.11411 4.46997,5.11411 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.48798797"
+         id="path2081"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="E"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1663">
+      <path
+         d="m 191.36855,238.86771 h 8.52753 v -1.94802 h -6.22172 v -3.83639 h 5.10857 v -1.94801 h -5.10857 v -3.31957 h 6.02294 v -1.94801 h -8.32875 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2078"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="N"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1667">
+      <path
+         d="m 164.13997,238.86771 h 2.20642 v -5.68502 c 0,-1.45107 -0.21865,-3.00153 -0.31804,-4.39297 h 0.0596 l 1.17278,2.763 3.43884,7.31499 h 2.42508 v -13 h -2.20642 v 5.64526 c 0,1.45107 0.21865,3.10091 0.31804,4.43272 h -0.0596 l -1.17279,-2.78288 -3.43883,-7.2951 h -2.42508 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2075"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="F"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1671">
+      <path
+         d="m 137.47789,238.86771 h 2.30581 v -5.42661 h 5.10856 v -1.94801 h -5.10856 v -3.67737 h 6.00305 v -1.94801 h -8.30886 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2072"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="L"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1675">
+      <path
+         d="m 110.43813,238.86771 h 8.38838 v -1.94802 h -6.10245 v -11.05198 h -2.28593 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2069"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="E"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1679">
+      <path
+         d="m 83.36856,238.86771 h 8.527523 v -1.94802 H 85.67437 v -3.83639 h 5.108563 v -1.94801 H 85.67437 v -3.31957 h 6.022936 v -1.94801 H 83.36856 Z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2066"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="W"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1683">
+      <path
+         d="m 83.656789,268.86771 h 2.56422 l 0.993884,-4.61162 c 0.178899,-0.81499 0.278288,-1.62997 0.397554,-2.42508 h 0.05963 c 0.07951,0.79511 0.238532,1.61009 0.417431,2.42508 l 1.013761,4.61162 h 2.603976 l 1.749235,-13 h -2.325688 l -0.636085,7.53364 c -0.07951,1.07339 -0.09939,1.88837 -0.159022,3.12079 h -0.07951 c -0.198777,-1.23242 -0.377676,-2.0474 -0.636086,-3.12079 l -1.013761,-4.21407 H 86.87697 l -1.073395,4.21407 c -0.238532,1.09327 -0.417431,1.90825 -0.636085,3.12079 h -0.05963 c -0.03976,-1.21254 -0.09939,-2.02752 -0.1789,-3.12079 l -0.655963,-7.53364 h -2.464832 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2063"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="A"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1687">
+      <path
+         d="m 113.39989,261.95028 c 0.39756,-1.37156 0.79511,-2.84251 1.15291,-4.29358 h 0.0795 c 0.3578,1.45107 0.77523,2.92202 1.1529,4.29358 l 0.45719,1.59021 h -3.29969 z m -4.33333,6.91743 h 2.34557 l 1.01376,-3.51835 h 4.33333 l 0.99388,3.51835 h 2.44496 l -4.21407,-13 h -2.70336 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2060"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="C"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.17404175px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.47935098"
+       id="text1691">
+      <path
+         d="m 142.4568,268.86772 c 1.66814,0 2.99115,-0.65191 3.9882,-1.82153 l -1.22714,-1.36136 c -0.70944,0.78614 -1.53392,1.24631 -2.55015,1.24631 -2.14749,0 -3.56637,-1.72566 -3.56637,-4.58259 0,-2.81859 1.41888,-4.54425 3.50885,-4.54425 0.97788,0 1.72567,0.40266 2.35841,1.01622 l 1.22714,-1.38053 c -0.78614,-0.82448 -2.03245,-1.57227 -3.58555,-1.57227 -3.31711,0 -5.79056,2.43511 -5.79056,6.53835 0,4.16077 2.53098,6.46165 5.63717,6.46165 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.47935098"
+         id="path2057"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="H"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1695">
+      <path
+         d="m 164.10021,268.86771 h 2.30581 v -5.76453 h 4.4526 v 5.76453 h 2.30581 v -13 h -2.30581 v 5.22782 h -4.4526 v -5.22782 h -2.30581 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2054"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="T"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1699">
+      <path
+         d="m 194.4794,268.86771 h 2.30581 v -11.05199 h 4.09481 v -1.94801 H 190.3846 v 1.94801 h 4.0948 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2051"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="Z"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1703">
+      <path
+         d="m 217.8418,268.86771 h 9.58104 v -1.94802 h -6.75841 l 6.67889,-9.66055 v -1.39143 h -8.90519 v 1.92813 h 6.06269 l -6.65902,9.68043 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2048"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="E"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1707">
+      <path
+         d="m 245.36855,268.86771 h 8.52753 v -1.94802 h -6.22172 v -3.83639 h 5.10857 v -1.94801 h -5.10857 v -3.31957 h 6.02294 v -1.94801 h -8.32875 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2045"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="H"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1711">
+      <path
+         d="m 272.1002,268.86771 h 2.30581 v -5.76453 h 4.4526 v 5.76453 h 2.30581 v -13 h -2.30581 v 5.22782 h -4.4526 v -5.22782 h -2.30581 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2042"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="N"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1715">
+      <path
+         d="m 299.13995,268.86771 h 2.20643 v -5.68502 c 0,-1.45107 -0.21866,-3.00153 -0.31805,-4.39297 h 0.0596 l 1.17278,2.763 3.43884,7.31499 h 2.42507 v -13 h -2.20642 v 5.64526 c 0,1.45107 0.21866,3.10091 0.31804,4.43272 h -0.0596 l -1.17278,-2.78288 -3.43884,-7.2951 h -2.42508 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2039"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="R"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1719">
+      <path
+         d="m 325.81197,268.86771 h 2.30581 v -5.08869 h 1.94801 l 2.78287,5.08869 h 2.60398 l -3.10092,-5.42661 c 1.55046,-0.5367 2.5841,-1.74923 2.5841,-3.71712 0,-2.90215 -2.08716,-3.85627 -4.79052,-3.85627 h -4.33333 z m 2.30581,-6.91743 v -4.23395 h 1.78899 c 1.78899,0 2.763,0.51682 2.763,2.00765 0,1.47094 -0.97401,2.2263 -2.763,2.2263 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2036"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="S"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.17404175px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.47935101"
+       id="text1723">
+      <path
+         d="m 357.65149,268.86772 c 2.91446,0 4.64012,-1.68731 4.64012,-3.71976 0,-1.82154 -1.13127,-2.76106 -2.72271,-3.39381 l -1.64897,-0.70944 c -1.13127,-0.441 -2.14749,-0.80531 -2.14749,-1.76401 0,-0.93953 0.80531,-1.4764 1.9941,-1.4764 1.26548,0 2.14749,0.40266 2.99115,1.07375 l 1.15044,-1.41888 c -1.0354,-0.97788 -2.49263,-1.59145 -4.02655,-1.59145 -2.55015,0 -4.35251,1.53393 -4.35251,3.52803 0,1.8407 1.36136,2.81858 2.68437,3.33628 l 1.70649,0.74779 c 1.24631,0.5177 2.10914,0.82448 2.10914,1.93658 0,0.882 -0.78613,1.51474 -2.24336,1.51474 -1.32301,0 -2.56932,-0.57522 -3.50885,-1.41887 l -1.30383,1.51474 c 1.24631,1.16962 2.91445,1.84071 4.67846,1.84071 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.47935101"
+         id="path2033"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="R"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1727">
+      <path
+         d="m 352.812,298.86771 h 2.30581 v -5.08869 h 1.94801 l 2.78288,5.08869 h 2.60397 l -3.10092,-5.42661 c 1.55046,-0.5367 2.5841,-1.74923 2.5841,-3.71712 0,-2.90215 -2.08715,-3.85627 -4.79052,-3.85627 H 352.812 Z m 2.30581,-6.91743 v -4.23395 h 1.78899 c 1.78899,0 2.763,0.51682 2.763,2.00765 0,1.47094 -0.97401,2.2263 -2.763,2.2263 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2030"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="H"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1731">
+      <path
+         d="m 326.1002,298.86771 h 2.30581 v -5.76453 h 4.4526 v 5.76453 h 2.30581 v -13 h -2.30581 v 5.22782 h -4.4526 v -5.22782 h -2.30581 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2027"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="U"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.51951981px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.48798797"
+       id="text1735">
+      <path
+         d="m 303.65183,298.86772 c 2.81082,0 4.43094,-1.62012 4.43094,-5.11412 v -7.88588 h -2.16667 v 8.06156 c 0,2.08859 -0.87838,2.96697 -2.26427,2.96697 -1.36636,0 -2.2057,-0.87838 -2.2057,-2.96697 v -8.06156 h -2.26427 v 7.88588 c 0,3.494 1.67868,5.11412 4.46997,5.11412 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.48798797"
+         id="path2024"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="M"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1739">
+      <path
+         d="m 271.96106,298.86771 h 1.98776 V 293.62 c 0,-1.37156 -0.19877,-4.05505 -0.33792,-5.32722 h 0.0596 l 0.85474,3.02141 1.41131,4.11468 h 1.31193 l 1.43119,-4.11468 0.87462,-3.02141 h 0.0596 c -0.11927,1.27217 -0.33792,3.95566 -0.33792,5.32722 v 5.24771 h 2.02752 v -13 h -2.54434 l -1.57034,5.0688 -0.51682,1.94802 h -0.0795 l -0.53669,-1.94802 -1.55046,-5.0688 H 271.961 Z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2021"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="C"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.17404175px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.47935098"
+       id="text1743">
+      <path
+         d="m 250.4568,298.86772 c 1.66814,0 2.99115,-0.65191 3.9882,-1.82153 l -1.22714,-1.36136 c -0.70944,0.78614 -1.53392,1.24631 -2.55015,1.24631 -2.14749,0 -3.56637,-1.72566 -3.56637,-4.58259 0,-2.81859 1.41888,-4.54425 3.50885,-4.54425 0.97788,0 1.72567,0.40266 2.35841,1.01622 l 1.22714,-1.38053 c -0.78614,-0.82448 -2.03245,-1.57227 -3.58555,-1.57227 -3.31711,0 -5.79056,2.43511 -5.79056,6.53835 0,4.16077 2.53098,6.46165 5.63717,6.46165 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.47935098"
+         id="path2018"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="S"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.17404175px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.47935101"
+       id="text1747">
+      <path
+         d="m 222.65148,298.86772 c 2.91445,0 4.64011,-1.68731 4.64011,-3.71976 0,-1.82154 -1.13126,-2.76106 -2.72271,-3.39381 l -1.64897,-0.70944 c -1.13127,-0.441 -2.14749,-0.80531 -2.14749,-1.76401 0,-0.93953 0.80531,-1.4764 1.9941,-1.4764 1.26549,0 2.14749,0.40266 2.99115,1.07375 l 1.15044,-1.41888 c -1.03539,-0.97788 -2.49262,-1.59145 -4.02654,-1.59145 -2.55015,0 -4.35251,1.53393 -4.35251,3.52803 0,1.8407 1.36135,2.81858 2.68436,3.33628 l 1.70649,0.74779 c 1.24632,0.5177 2.10915,0.82448 2.10915,1.93658 0,0.882 -0.78614,1.51474 -2.24336,1.51474 -1.32301,0 -2.56933,-0.57522 -3.50885,-1.41887 l -1.30384,1.51474 c 1.24631,1.16962 2.91445,1.84071 4.67847,1.84071 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.47935101"
+         id="path2015"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="H"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1751">
+      <path
+         d="m 191.1002,298.86771 h 2.30581 v -5.76453 h 4.4526 v 5.76453 h 2.30581 v -13 h -2.30581 v 5.22782 h -4.4526 v -5.22782 h -2.30581 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2012"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="C"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.17404175px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.47935098"
+       id="text1755">
+      <path
+         d="m 169.4568,298.86772 c 1.66814,0 2.99115,-0.65191 3.9882,-1.82153 l -1.22714,-1.36136 c -0.70944,0.78614 -1.53392,1.24631 -2.55015,1.24631 -2.14749,0 -3.56637,-1.72566 -3.56637,-4.58259 0,-2.81859 1.41888,-4.54425 3.50885,-4.54425 0.97788,0 1.72567,0.40266 2.35841,1.01622 l 1.22714,-1.38053 c -0.78614,-0.82448 -2.03245,-1.57227 -3.58555,-1.57227 -3.31711,0 -5.79056,2.43511 -5.79056,6.53835 0,4.16077 2.53098,6.46165 5.63717,6.46165 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.47935098"
+         id="path2009"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="E"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1759">
+      <path
+         d="m 137.36855,298.86771 h 8.52753 v -1.94802 h -6.22172 v -3.83639 h 5.10857 v -1.94801 h -5.10857 v -3.31957 h 6.02294 v -1.94801 h -8.32875 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2006"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="S"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.17404175px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.47935101"
+       id="text1763">
+      <path
+         d="m 114.65149,298.86772 c 2.91446,0 4.64012,-1.68731 4.64012,-3.71976 0,-1.82154 -1.13127,-2.76106 -2.72271,-3.39381 l -1.64897,-0.70944 c -1.13127,-0.441 -2.14749,-0.80531 -2.14749,-1.76401 0,-0.93953 0.80531,-1.4764 1.9941,-1.4764 1.26548,0 2.14749,0.40266 2.99115,1.07375 l 1.15044,-1.41888 c -1.0354,-0.97788 -2.49263,-1.59145 -4.02655,-1.59145 -2.55015,0 -4.35251,1.53393 -4.35251,3.52803 0,1.8407 1.36136,2.81858 2.68437,3.33628 l 1.70649,0.74779 c 1.24631,0.5177 2.10914,0.82448 2.10914,1.93658 0,0.882 -0.78613,1.51474 -2.24336,1.51474 -1.32301,0 -2.56932,-0.57522 -3.50885,-1.41887 l -1.30383,1.51474 c 1.24631,1.16962 2.91445,1.84071 4.67846,1.84071 z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.47935101"
+         id="path2003"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="N"
+       transform="translate(-2.5,-89.84)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.87767601px;line-height:1.25;font-family:'Nirmala UI';-inkscape-font-specification:'Nirmala UI';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49694186"
+       id="text1767">
+      <path
+         d="m 83.13997,298.86771 h 2.206422 v -5.68502 c 0,-1.45107 -0.218655,-3.00153 -0.318043,-4.39297 h 0.05963 l 1.172783,2.763 3.438838,7.31499 h 2.425076 v -13 h -2.206422 v 5.64526 c 0,1.45107 0.218655,3.10091 0.318043,4.43272 h -0.05963 l -1.172783,-2.78288 -3.438838,-7.2951 H 83.13997 Z"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Semi-Bold';stroke-width:0.49694186"
+         id="path2000"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       style="display:inline"
+       id="g1078"
+       transform="translate(9.7490825,-10.278182)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1626"
+         d="m 103.63419,-5.6607757 a 0.99999957,0.99999957 0 0 1 0.99998,-1 0.99999957,0.99999957 0 0 1 1,1 0.99999957,0.99999957 0 0 1 -1,1 0.99999957,0.99999957 0 0 1 -0.99998,-1 z"
+         style="fill:none;fill-opacity:1;stroke:none;stroke-width:0.57324332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path1628"
+         d="m 99.132305,-5.6607757 a 0.99999959,0.99999959 0 0 1 1.000005,-1 0.99999959,0.99999959 0 0 1 1.00001,1 0.99999959,0.99999959 0 0 1 -1.00001,1 0.99999959,0.99999959 0 0 1 -1.000005,-1 z"
+         style="display:inline;fill:none;fill-opacity:1;stroke:none;stroke-width:0.57324332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       style="display:inline"
+       id="g1078-5"
+       transform="translate(171.74907,49.721814)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1626-0"
+         d="m 103.63419,-5.6607757 a 0.99999957,0.99999957 0 0 1 0.99998,-1 0.99999957,0.99999957 0 0 1 1,1 0.99999957,0.99999957 0 0 1 -1,1 0.99999957,0.99999957 0 0 1 -0.99998,-1 z"
+         style="fill:none;fill-opacity:1;stroke:none;stroke-width:0.57324332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path1628-1"
+         d="m 99.132305,-5.6607757 a 0.99999959,0.99999959 0 0 1 1.000005,-1 0.99999959,0.99999959 0 0 1 1.00001,1 0.99999959,0.99999959 0 0 1 -1.00001,1 0.99999959,0.99999959 0 0 1 -1.000005,-1 z"
+         style="display:inline;fill:none;fill-opacity:1;stroke:none;stroke-width:0.57324332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       style="display:inline"
+       id="g1078-0"
+       transform="translate(198.74907,109.72178)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1626-4"
+         d="m 103.63419,-5.6607757 a 0.99999957,0.99999957 0 0 1 0.99998,-1 0.99999957,0.99999957 0 0 1 1,1 0.99999957,0.99999957 0 0 1 -1,1 0.99999957,0.99999957 0 0 1 -0.99998,-1 z"
+         style="fill:none;fill-opacity:1;stroke:none;stroke-width:0.57324332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path1628-5"
+         d="m 99.132305,-5.6607757 a 0.99999959,0.99999959 0 0 1 1.000005,-1 0.99999959,0.99999959 0 0 1 1.00001,1 0.99999959,0.99999959 0 0 1 -1.00001,1 0.99999959,0.99999959 0 0 1 -1.000005,-1 z"
+         style="display:inline;fill:none;fill-opacity:1;stroke:none;stroke-width:0.57324332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="border"
+     style="display:inline"
+     transform="translate(0,60)">
+    <path
+       style="fill:none;fill-opacity:1;stroke:none;stroke-width:0.99991983;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 5,-55 H 435 V 375 H 5 Z"
+       id="rect9190"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="orientation"
+     style="display:none"
+     transform="translate(0,10)"
+     sodipodi:insensitive="true">
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 27.434131,84.867712 H 367.40096"
+       id="path1543"
+       inkscape:connector-curvature="0" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 23.330601,114.86774 H 363.29743"
+       id="path1543-3"
+       inkscape:connector-curvature="0" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 26.003301,144.86771 H 365.97013"
+       id="path1543-2"
+       inkscape:connector-curvature="0" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 26.537841,174.86773 H 366.50467"
+       id="path1543-28"
+       inkscape:connector-curvature="0" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 25.468761,204.86771 H 365.43559"
+       id="path1543-4"
+       inkscape:connector-curvature="0" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 25.468761,234.8677 H 365.43559"
+       id="path1543-285"
+       inkscape:connector-curvature="0" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 28.675991,264.86772 H 368.64282"
+       id="path1543-5"
+       inkscape:connector-curvature="0" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 27.072381,294.86771 H 367.03921"
+       id="path1543-6"
+       inkscape:connector-curvature="0" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 25.468761,324.86771 H 365.43559"
+       id="path1543-31"
+       inkscape:connector-curvature="0" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 26.003301,354.86771 H 365.97013"
+       id="path1543-1"
+       inkscape:connector-curvature="0" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 75.132321,69.375286 V 400.7895"
+       id="path1561"
+       inkscape:connector-curvature="0" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 102.13232,66.702584 V 398.11681"
+       id="path1561-7"
+       inkscape:connector-curvature="0" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 129.13232,68.84074 V 400.25497"
+       id="path1561-1"
+       inkscape:connector-curvature="0" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 156.13232,69.909818 V 401.32405"
+       id="path1561-0"
+       inkscape:connector-curvature="0" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 183.13231,68.306201 V 399.72043"
+       id="path1561-12"
+       inkscape:connector-curvature="0" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 210.13231,67.771662 V 399.18589"
+       id="path1561-2"
+       inkscape:connector-curvature="0" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 237.13231,68.84074 V 400.25497"
+       id="path1561-3"
+       inkscape:connector-curvature="0" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 264.13231,70.978897 V 402.39313"
+       id="path1561-5"
+       inkscape:connector-curvature="0" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 291.13231,72.582514 V 403.99674"
+       id="path1561-03"
+       inkscape:connector-curvature="0" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 318.13231,70.978897 V 402.39313"
+       id="path1561-4"
+       inkscape:connector-curvature="0" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 345.13232,69.909819 V 401.32405"
+       id="path1561-8"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer7"
+     inkscape:label="dots outline"
+     style="display:inline"
+     transform="translate(0,-5)">
+    <path
+       style="display:inline;fill:none;fill-opacity:1;stroke:none;stroke-width:0.18000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 43.5,403 A 1.5,1.5 0 0 1 42,404.5 1.5,1.5 0 0 1 40.5,403 1.5,1.5 0 0 1 42,401.5 1.5,1.5 0 0 1 43.5,403 Z"
+       id="path9151"
+       inkscape:connector-curvature="0" />
+    <path
+       style="display:inline;fill:none;fill-opacity:1;stroke:none;stroke-width:0.18000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 399.5,403 a 1.5,1.5 0 0 1 -1.5,1.5 1.5,1.5 0 0 1 -1.5,-1.5 1.5,1.5 0 0 1 1.5,-1.5 1.5,1.5 0 0 1 1.5,1.5 z"
+       id="path9151-9"
+       inkscape:connector-curvature="0" />
+    <path
+       style="display:inline;fill:none;fill-opacity:1;stroke:none;stroke-width:0.18000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 399.5,47 A 1.5,1.5 0 0 1 398,48.5 1.5,1.5 0 0 1 396.5,47 1.5,1.5 0 0 1 398,45.5 1.5,1.5 0 0 1 399.5,47 Z"
+       id="path9151-8"
+       inkscape:connector-curvature="0" />
+    <path
+       style="display:inline;fill:none;fill-opacity:1;stroke:none;stroke-width:0.18000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 43.5,47 A 1.5,1.5 0 0 1 42,48.5 1.5,1.5 0 0 1 40.5,47 1.5,1.5 0 0 1 42,45.5 1.5,1.5 0 0 1 43.5,47 Z"
+       id="path9151-4"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

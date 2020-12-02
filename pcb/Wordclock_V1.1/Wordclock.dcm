@@ -1,0 +1,61 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +12V
+D Power symbol creates a global label with name "+12V"
+K power-flag
+$ENDCMP
+#
+$CMP +4.3V
+D Power symbol creates a global label with name "+4.3V"
+K power-flag
+$ENDCMP
+#
+$CMP Conn_01x01
+D Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_01x03
+D Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_Coaxial
+D coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)
+K BNC SMA SMB SMC coaxial connector CINCH RCA
+F  ~
+$ENDCMP
+#
+$CMP Crystal_GND24
+D Four pin crystal, GND on pins 2 and 4
+K quartz ceramic resonator oscillator
+F ~
+$ENDCMP
+#
+$CMP LED
+D Light emitting diode
+K LED diode
+F ~
+$ENDCMP
+#
+$CMP SK6812
+D RGB LED with integrated controller
+K RGB LED NeoPixel addressable
+F https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf
+$ENDCMP
+#
+$CMP STM32F302CBTx
+D ARM Cortex-M4 MCU, 128KB flash, 32KB RAM, 72MHz, 2-3.6V, 37 GPIO, LQFP-48
+K ARM Cortex-M4 STM32F3 STM32F302
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00094064.pdf
+$ENDCMP
+#
+$CMP STM32F302CCTx
+D ARM Cortex-M4 MCU, 256KB flash, 40KB RAM, 72MHz, 2-3.6V, 37 GPIO, LQFP-48
+K ARM Cortex-M4 STM32F3 STM32F302
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00094064.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,8771 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 18898 21260
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB05F3
+P 3500 1600
+AR Path="/60EB05F3" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB05F3" Ref="D1"  Part="1" 
+F 0 "D1" H 3844 1646 50  0000 L CNN
+F 1 "SK6812" H 3844 1555 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 3550 1300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 3600 1225 50  0001 L TNN
+	1    3500 1600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB05F9
+P 3800 1150
+AR Path="/60EB05F9" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB05F9" Ref="C1"  Part="1" 
+F 0 "C1" V 3548 1150 50  0000 C CNN
+F 1 "C" V 3639 1150 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 3838 1000 50  0001 C CNN
+F 3 "~" H 3800 1150 50  0001 C CNN
+	1    3800 1150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3650 1150 3500 1150
+Wire Wire Line
+	3500 1150 3500 1300
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0607
+P 4100 1150
+AR Path="/60EB0607" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0607" Ref="#PWR015"  Part="1" 
+F 0 "#PWR015" H 4100 900 50  0001 C CNN
+F 1 "GND" V 4105 1022 50  0000 R CNN
+F 2 "" H 4100 1150 50  0001 C CNN
+F 3 "" H 4100 1150 50  0001 C CNN
+	1    4100 1150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4100 1150 3950 1150
+Wire Wire Line
+	3500 950  3500 1150
+Connection ~ 3500 1150
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0610
+P 3500 2000
+AR Path="/60EB0610" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0610" Ref="#PWR028"  Part="1" 
+F 0 "#PWR028" H 3500 1750 50  0001 C CNN
+F 1 "GND" H 3505 1827 50  0000 C CNN
+F 2 "" H 3500 2000 50  0001 C CNN
+F 3 "" H 3500 2000 50  0001 C CNN
+	1    3500 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 1900 3500 2000
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB0617
+P 4650 1600
+AR Path="/60EB0617" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB0617" Ref="D2"  Part="1" 
+F 0 "D2" H 4994 1646 50  0000 L CNN
+F 1 "SK6812" H 4994 1555 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 4700 1300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 4750 1225 50  0001 L TNN
+	1    4650 1600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB061D
+P 4950 1150
+AR Path="/60EB061D" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB061D" Ref="C2"  Part="1" 
+F 0 "C2" V 4698 1150 50  0000 C CNN
+F 1 "C" V 4789 1150 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 4988 1000 50  0001 C CNN
+F 3 "~" H 4950 1150 50  0001 C CNN
+	1    4950 1150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4800 1150 4650 1150
+Wire Wire Line
+	4650 1150 4650 1300
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB062B
+P 5250 1150
+AR Path="/60EB062B" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB062B" Ref="#PWR016"  Part="1" 
+F 0 "#PWR016" H 5250 900 50  0001 C CNN
+F 1 "GND" V 5255 1022 50  0000 R CNN
+F 2 "" H 5250 1150 50  0001 C CNN
+F 3 "" H 5250 1150 50  0001 C CNN
+	1    5250 1150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5250 1150 5100 1150
+Wire Wire Line
+	4650 950  4650 1150
+Connection ~ 4650 1150
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0634
+P 4650 2000
+AR Path="/60EB0634" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0634" Ref="#PWR029"  Part="1" 
+F 0 "#PWR029" H 4650 1750 50  0001 C CNN
+F 1 "GND" H 4655 1827 50  0000 C CNN
+F 2 "" H 4650 2000 50  0001 C CNN
+F 3 "" H 4650 2000 50  0001 C CNN
+	1    4650 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 1900 4650 2000
+Wire Wire Line
+	3800 1600 4350 1600
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB063C
+P 5800 1600
+AR Path="/60EB063C" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB063C" Ref="D3"  Part="1" 
+F 0 "D3" H 6144 1646 50  0000 L CNN
+F 1 "SK6812" H 6144 1555 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 5850 1300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 5900 1225 50  0001 L TNN
+	1    5800 1600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0642
+P 6100 1150
+AR Path="/60EB0642" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0642" Ref="C3"  Part="1" 
+F 0 "C3" V 5848 1150 50  0000 C CNN
+F 1 "C" V 5939 1150 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 6138 1000 50  0001 C CNN
+F 3 "~" H 6100 1150 50  0001 C CNN
+	1    6100 1150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5950 1150 5800 1150
+Wire Wire Line
+	5800 1150 5800 1300
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0650
+P 6400 1150
+AR Path="/60EB0650" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0650" Ref="#PWR017"  Part="1" 
+F 0 "#PWR017" H 6400 900 50  0001 C CNN
+F 1 "GND" V 6405 1022 50  0000 R CNN
+F 2 "" H 6400 1150 50  0001 C CNN
+F 3 "" H 6400 1150 50  0001 C CNN
+	1    6400 1150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6400 1150 6250 1150
+Wire Wire Line
+	5800 950  5800 1150
+Connection ~ 5800 1150
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0659
+P 5800 2000
+AR Path="/60EB0659" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0659" Ref="#PWR030"  Part="1" 
+F 0 "#PWR030" H 5800 1750 50  0001 C CNN
+F 1 "GND" H 5805 1827 50  0000 C CNN
+F 2 "" H 5800 2000 50  0001 C CNN
+F 3 "" H 5800 2000 50  0001 C CNN
+	1    5800 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 1900 5800 2000
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB0660
+P 6950 1600
+AR Path="/60EB0660" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB0660" Ref="D4"  Part="1" 
+F 0 "D4" H 7294 1646 50  0000 L CNN
+F 1 "SK6812" H 7294 1555 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 7000 1300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 7050 1225 50  0001 L TNN
+	1    6950 1600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0666
+P 7250 1150
+AR Path="/60EB0666" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0666" Ref="C4"  Part="1" 
+F 0 "C4" V 6998 1150 50  0000 C CNN
+F 1 "C" V 7089 1150 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 7288 1000 50  0001 C CNN
+F 3 "~" H 7250 1150 50  0001 C CNN
+	1    7250 1150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7100 1150 6950 1150
+Wire Wire Line
+	6950 1150 6950 1300
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0674
+P 7550 1150
+AR Path="/60EB0674" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0674" Ref="#PWR018"  Part="1" 
+F 0 "#PWR018" H 7550 900 50  0001 C CNN
+F 1 "GND" V 7555 1022 50  0000 R CNN
+F 2 "" H 7550 1150 50  0001 C CNN
+F 3 "" H 7550 1150 50  0001 C CNN
+	1    7550 1150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7550 1150 7400 1150
+Wire Wire Line
+	6950 950  6950 1150
+Connection ~ 6950 1150
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB067D
+P 6950 2000
+AR Path="/60EB067D" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB067D" Ref="#PWR031"  Part="1" 
+F 0 "#PWR031" H 6950 1750 50  0001 C CNN
+F 1 "GND" H 6955 1827 50  0000 C CNN
+F 2 "" H 6950 2000 50  0001 C CNN
+F 3 "" H 6950 2000 50  0001 C CNN
+	1    6950 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 1900 6950 2000
+Wire Wire Line
+	6100 1600 6650 1600
+Wire Wire Line
+	5500 1600 4950 1600
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB0686
+P 8100 1600
+AR Path="/60EB0686" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB0686" Ref="D5"  Part="1" 
+F 0 "D5" H 8444 1646 50  0000 L CNN
+F 1 "SK6812" H 8444 1555 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 8150 1300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 8200 1225 50  0001 L TNN
+	1    8100 1600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB068C
+P 8400 1150
+AR Path="/60EB068C" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB068C" Ref="C5"  Part="1" 
+F 0 "C5" V 8148 1150 50  0000 C CNN
+F 1 "C" V 8239 1150 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 8438 1000 50  0001 C CNN
+F 3 "~" H 8400 1150 50  0001 C CNN
+	1    8400 1150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8250 1150 8100 1150
+Wire Wire Line
+	8100 1150 8100 1300
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB069A
+P 8700 1150
+AR Path="/60EB069A" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB069A" Ref="#PWR019"  Part="1" 
+F 0 "#PWR019" H 8700 900 50  0001 C CNN
+F 1 "GND" V 8705 1022 50  0000 R CNN
+F 2 "" H 8700 1150 50  0001 C CNN
+F 3 "" H 8700 1150 50  0001 C CNN
+	1    8700 1150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8700 1150 8550 1150
+Wire Wire Line
+	8100 950  8100 1150
+Connection ~ 8100 1150
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB06A3
+P 8100 2000
+AR Path="/60EB06A3" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB06A3" Ref="#PWR032"  Part="1" 
+F 0 "#PWR032" H 8100 1750 50  0001 C CNN
+F 1 "GND" H 8105 1827 50  0000 C CNN
+F 2 "" H 8100 2000 50  0001 C CNN
+F 3 "" H 8100 2000 50  0001 C CNN
+	1    8100 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 1900 8100 2000
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB06AA
+P 9250 1600
+AR Path="/60EB06AA" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB06AA" Ref="D6"  Part="1" 
+F 0 "D6" H 9594 1646 50  0000 L CNN
+F 1 "SK6812" H 9594 1555 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 9300 1300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 9350 1225 50  0001 L TNN
+	1    9250 1600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB06B0
+P 9550 1150
+AR Path="/60EB06B0" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB06B0" Ref="C6"  Part="1" 
+F 0 "C6" V 9298 1150 50  0000 C CNN
+F 1 "C" V 9389 1150 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 9588 1000 50  0001 C CNN
+F 3 "~" H 9550 1150 50  0001 C CNN
+	1    9550 1150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9400 1150 9250 1150
+Wire Wire Line
+	9250 1150 9250 1300
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB06BE
+P 9850 1150
+AR Path="/60EB06BE" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB06BE" Ref="#PWR020"  Part="1" 
+F 0 "#PWR020" H 9850 900 50  0001 C CNN
+F 1 "GND" V 9855 1022 50  0000 R CNN
+F 2 "" H 9850 1150 50  0001 C CNN
+F 3 "" H 9850 1150 50  0001 C CNN
+	1    9850 1150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9850 1150 9700 1150
+Wire Wire Line
+	9250 950  9250 1150
+Connection ~ 9250 1150
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB06C7
+P 9250 2000
+AR Path="/60EB06C7" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB06C7" Ref="#PWR033"  Part="1" 
+F 0 "#PWR033" H 9250 1750 50  0001 C CNN
+F 1 "GND" H 9255 1827 50  0000 C CNN
+F 2 "" H 9250 2000 50  0001 C CNN
+F 3 "" H 9250 2000 50  0001 C CNN
+	1    9250 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 1900 9250 2000
+Wire Wire Line
+	8400 1600 8950 1600
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB06CF
+P 10400 1600
+AR Path="/60EB06CF" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB06CF" Ref="D7"  Part="1" 
+F 0 "D7" H 10744 1646 50  0000 L CNN
+F 1 "SK6812" H 10744 1555 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 10450 1300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 10500 1225 50  0001 L TNN
+	1    10400 1600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB06D5
+P 10700 1150
+AR Path="/60EB06D5" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB06D5" Ref="C7"  Part="1" 
+F 0 "C7" V 10448 1150 50  0000 C CNN
+F 1 "C" V 10539 1150 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 10738 1000 50  0001 C CNN
+F 3 "~" H 10700 1150 50  0001 C CNN
+	1    10700 1150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10550 1150 10400 1150
+Wire Wire Line
+	10400 1150 10400 1300
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB06E3
+P 11000 1150
+AR Path="/60EB06E3" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB06E3" Ref="#PWR021"  Part="1" 
+F 0 "#PWR021" H 11000 900 50  0001 C CNN
+F 1 "GND" V 11005 1022 50  0000 R CNN
+F 2 "" H 11000 1150 50  0001 C CNN
+F 3 "" H 11000 1150 50  0001 C CNN
+	1    11000 1150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11000 1150 10850 1150
+Wire Wire Line
+	10400 950  10400 1150
+Connection ~ 10400 1150
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB06EC
+P 10400 2000
+AR Path="/60EB06EC" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB06EC" Ref="#PWR034"  Part="1" 
+F 0 "#PWR034" H 10400 1750 50  0001 C CNN
+F 1 "GND" H 10405 1827 50  0000 C CNN
+F 2 "" H 10400 2000 50  0001 C CNN
+F 3 "" H 10400 2000 50  0001 C CNN
+	1    10400 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10400 1900 10400 2000
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB06F3
+P 11550 1600
+AR Path="/60EB06F3" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB06F3" Ref="D8"  Part="1" 
+F 0 "D8" H 11894 1646 50  0000 L CNN
+F 1 "SK6812" H 11894 1555 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 11600 1300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 11650 1225 50  0001 L TNN
+	1    11550 1600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB06F9
+P 11850 1150
+AR Path="/60EB06F9" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB06F9" Ref="C8"  Part="1" 
+F 0 "C8" V 11598 1150 50  0000 C CNN
+F 1 "C" V 11689 1150 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 11888 1000 50  0001 C CNN
+F 3 "~" H 11850 1150 50  0001 C CNN
+	1    11850 1150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11700 1150 11550 1150
+Wire Wire Line
+	11550 1150 11550 1300
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0707
+P 12150 1150
+AR Path="/60EB0707" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0707" Ref="#PWR022"  Part="1" 
+F 0 "#PWR022" H 12150 900 50  0001 C CNN
+F 1 "GND" V 12155 1022 50  0000 R CNN
+F 2 "" H 12150 1150 50  0001 C CNN
+F 3 "" H 12150 1150 50  0001 C CNN
+	1    12150 1150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12150 1150 12000 1150
+Wire Wire Line
+	11550 950  11550 1150
+Connection ~ 11550 1150
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0710
+P 11550 2000
+AR Path="/60EB0710" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0710" Ref="#PWR035"  Part="1" 
+F 0 "#PWR035" H 11550 1750 50  0001 C CNN
+F 1 "GND" H 11555 1827 50  0000 C CNN
+F 2 "" H 11550 2000 50  0001 C CNN
+F 3 "" H 11550 2000 50  0001 C CNN
+	1    11550 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11550 1900 11550 2000
+Wire Wire Line
+	10700 1600 11250 1600
+Wire Wire Line
+	10100 1600 9550 1600
+Wire Wire Line
+	7800 1600 7250 1600
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB071A
+P 12750 1600
+AR Path="/60EB071A" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB071A" Ref="D9"  Part="1" 
+F 0 "D9" H 13094 1646 50  0000 L CNN
+F 1 "SK6812" H 13094 1555 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 12800 1300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 12850 1225 50  0001 L TNN
+	1    12750 1600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0720
+P 13050 1150
+AR Path="/60EB0720" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0720" Ref="C9"  Part="1" 
+F 0 "C9" V 12798 1150 50  0000 C CNN
+F 1 "C" V 12889 1150 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 13088 1000 50  0001 C CNN
+F 3 "~" H 13050 1150 50  0001 C CNN
+	1    13050 1150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12900 1150 12750 1150
+Wire Wire Line
+	12750 1150 12750 1300
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB072E
+P 13350 1150
+AR Path="/60EB072E" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB072E" Ref="#PWR023"  Part="1" 
+F 0 "#PWR023" H 13350 900 50  0001 C CNN
+F 1 "GND" V 13355 1022 50  0000 R CNN
+F 2 "" H 13350 1150 50  0001 C CNN
+F 3 "" H 13350 1150 50  0001 C CNN
+	1    13350 1150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13350 1150 13200 1150
+Wire Wire Line
+	12750 950  12750 1150
+Connection ~ 12750 1150
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0737
+P 12750 2000
+AR Path="/60EB0737" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0737" Ref="#PWR036"  Part="1" 
+F 0 "#PWR036" H 12750 1750 50  0001 C CNN
+F 1 "GND" H 12755 1827 50  0000 C CNN
+F 2 "" H 12750 2000 50  0001 C CNN
+F 3 "" H 12750 2000 50  0001 C CNN
+	1    12750 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12750 1900 12750 2000
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB073E
+P 13900 1600
+AR Path="/60EB073E" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB073E" Ref="D10"  Part="1" 
+F 0 "D10" H 14244 1646 50  0000 L CNN
+F 1 "SK6812" H 14244 1555 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 13950 1300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 14000 1225 50  0001 L TNN
+	1    13900 1600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0744
+P 14200 1150
+AR Path="/60EB0744" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0744" Ref="C10"  Part="1" 
+F 0 "C10" V 13948 1150 50  0000 C CNN
+F 1 "C" V 14039 1150 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 14238 1000 50  0001 C CNN
+F 3 "~" H 14200 1150 50  0001 C CNN
+	1    14200 1150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14050 1150 13900 1150
+Wire Wire Line
+	13900 1150 13900 1300
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0752
+P 14500 1150
+AR Path="/60EB0752" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0752" Ref="#PWR024"  Part="1" 
+F 0 "#PWR024" H 14500 900 50  0001 C CNN
+F 1 "GND" V 14505 1022 50  0000 R CNN
+F 2 "" H 14500 1150 50  0001 C CNN
+F 3 "" H 14500 1150 50  0001 C CNN
+	1    14500 1150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14500 1150 14350 1150
+Wire Wire Line
+	13900 950  13900 1150
+Connection ~ 13900 1150
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB075B
+P 13900 2000
+AR Path="/60EB075B" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB075B" Ref="#PWR037"  Part="1" 
+F 0 "#PWR037" H 13900 1750 50  0001 C CNN
+F 1 "GND" H 13905 1827 50  0000 C CNN
+F 2 "" H 13900 2000 50  0001 C CNN
+F 3 "" H 13900 2000 50  0001 C CNN
+	1    13900 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13900 1900 13900 2000
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB0762
+P 15050 1600
+AR Path="/60EB0762" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB0762" Ref="D11"  Part="1" 
+F 0 "D11" H 15394 1646 50  0000 L CNN
+F 1 "SK6812" H 15394 1555 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 15100 1300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 15150 1225 50  0001 L TNN
+	1    15050 1600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0768
+P 15350 1150
+AR Path="/60EB0768" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0768" Ref="C11"  Part="1" 
+F 0 "C11" V 15098 1150 50  0000 C CNN
+F 1 "C" V 15189 1150 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 15388 1000 50  0001 C CNN
+F 3 "~" H 15350 1150 50  0001 C CNN
+	1    15350 1150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	15200 1150 15050 1150
+Wire Wire Line
+	15050 1150 15050 1300
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0776
+P 15650 1150
+AR Path="/60EB0776" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0776" Ref="#PWR025"  Part="1" 
+F 0 "#PWR025" H 15650 900 50  0001 C CNN
+F 1 "GND" V 15655 1022 50  0000 R CNN
+F 2 "" H 15650 1150 50  0001 C CNN
+F 3 "" H 15650 1150 50  0001 C CNN
+	1    15650 1150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15650 1150 15500 1150
+Wire Wire Line
+	15050 950  15050 1150
+Connection ~ 15050 1150
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB077F
+P 15050 2000
+AR Path="/60EB077F" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB077F" Ref="#PWR038"  Part="1" 
+F 0 "#PWR038" H 15050 1750 50  0001 C CNN
+F 1 "GND" H 15055 1827 50  0000 C CNN
+F 2 "" H 15050 2000 50  0001 C CNN
+F 3 "" H 15050 2000 50  0001 C CNN
+	1    15050 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15050 1900 15050 2000
+Wire Wire Line
+	14200 1600 14750 1600
+Wire Wire Line
+	13600 1600 13050 1600
+Wire Wire Line
+	12450 1600 11850 1600
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0789
+P 3800 2850
+AR Path="/60EB0789" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0789" Ref="C12"  Part="1" 
+F 0 "C12" V 3548 2850 50  0000 C CNN
+F 1 "C" V 3639 2850 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 3838 2700 50  0001 C CNN
+F 3 "~" H 3800 2850 50  0001 C CNN
+	1    3800 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3650 2850 3500 2850
+Wire Wire Line
+	3500 2850 3500 3000
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0797
+P 4100 2850
+AR Path="/60EB0797" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0797" Ref="#PWR051"  Part="1" 
+F 0 "#PWR051" H 4100 2600 50  0001 C CNN
+F 1 "GND" V 4105 2722 50  0000 R CNN
+F 2 "" H 4100 2850 50  0001 C CNN
+F 3 "" H 4100 2850 50  0001 C CNN
+	1    4100 2850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4100 2850 3950 2850
+Wire Wire Line
+	3500 2650 3500 2850
+Connection ~ 3500 2850
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB07A0
+P 3500 3700
+AR Path="/60EB07A0" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB07A0" Ref="#PWR062"  Part="1" 
+F 0 "#PWR062" H 3500 3450 50  0001 C CNN
+F 1 "GND" H 3505 3527 50  0000 C CNN
+F 2 "" H 3500 3700 50  0001 C CNN
+F 3 "" H 3500 3700 50  0001 C CNN
+	1    3500 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB07A6
+P 4950 2850
+AR Path="/60EB07A6" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB07A6" Ref="C13"  Part="1" 
+F 0 "C13" V 4698 2850 50  0000 C CNN
+F 1 "C" V 4789 2850 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 4988 2700 50  0001 C CNN
+F 3 "~" H 4950 2850 50  0001 C CNN
+	1    4950 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4800 2850 4650 2850
+Wire Wire Line
+	4650 2850 4650 3000
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB07B4
+P 5250 2850
+AR Path="/60EB07B4" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB07B4" Ref="#PWR052"  Part="1" 
+F 0 "#PWR052" H 5250 2600 50  0001 C CNN
+F 1 "GND" V 5255 2722 50  0000 R CNN
+F 2 "" H 5250 2850 50  0001 C CNN
+F 3 "" H 5250 2850 50  0001 C CNN
+	1    5250 2850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5250 2850 5100 2850
+Wire Wire Line
+	4650 2650 4650 2850
+Connection ~ 4650 2850
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB07BD
+P 4650 3700
+AR Path="/60EB07BD" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB07BD" Ref="#PWR063"  Part="1" 
+F 0 "#PWR063" H 4650 3450 50  0001 C CNN
+F 1 "GND" H 4655 3527 50  0000 C CNN
+F 2 "" H 4650 3700 50  0001 C CNN
+F 3 "" H 4650 3700 50  0001 C CNN
+	1    4650 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB07C3
+P 6100 2850
+AR Path="/60EB07C3" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB07C3" Ref="C14"  Part="1" 
+F 0 "C14" V 5848 2850 50  0000 C CNN
+F 1 "C" V 5939 2850 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 6138 2700 50  0001 C CNN
+F 3 "~" H 6100 2850 50  0001 C CNN
+	1    6100 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5950 2850 5800 2850
+Wire Wire Line
+	5800 2850 5800 3000
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB07D1
+P 6400 2850
+AR Path="/60EB07D1" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB07D1" Ref="#PWR053"  Part="1" 
+F 0 "#PWR053" H 6400 2600 50  0001 C CNN
+F 1 "GND" V 6405 2722 50  0000 R CNN
+F 2 "" H 6400 2850 50  0001 C CNN
+F 3 "" H 6400 2850 50  0001 C CNN
+	1    6400 2850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6400 2850 6250 2850
+Wire Wire Line
+	5800 2650 5800 2850
+Connection ~ 5800 2850
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB07DA
+P 5800 3700
+AR Path="/60EB07DA" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB07DA" Ref="#PWR064"  Part="1" 
+F 0 "#PWR064" H 5800 3450 50  0001 C CNN
+F 1 "GND" H 5805 3527 50  0000 C CNN
+F 2 "" H 5800 3700 50  0001 C CNN
+F 3 "" H 5800 3700 50  0001 C CNN
+	1    5800 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB07E0
+P 7250 2850
+AR Path="/60EB07E0" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB07E0" Ref="C15"  Part="1" 
+F 0 "C15" V 6998 2850 50  0000 C CNN
+F 1 "C" V 7089 2850 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 7288 2700 50  0001 C CNN
+F 3 "~" H 7250 2850 50  0001 C CNN
+	1    7250 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7100 2850 6950 2850
+Wire Wire Line
+	6950 2850 6950 3000
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB07EE
+P 7550 2850
+AR Path="/60EB07EE" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB07EE" Ref="#PWR054"  Part="1" 
+F 0 "#PWR054" H 7550 2600 50  0001 C CNN
+F 1 "GND" V 7555 2722 50  0000 R CNN
+F 2 "" H 7550 2850 50  0001 C CNN
+F 3 "" H 7550 2850 50  0001 C CNN
+	1    7550 2850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7550 2850 7400 2850
+Wire Wire Line
+	6950 2650 6950 2850
+Connection ~ 6950 2850
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB07F7
+P 6950 3700
+AR Path="/60EB07F7" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB07F7" Ref="#PWR065"  Part="1" 
+F 0 "#PWR065" H 6950 3450 50  0001 C CNN
+F 1 "GND" H 6955 3527 50  0000 C CNN
+F 2 "" H 6950 3700 50  0001 C CNN
+F 3 "" H 6950 3700 50  0001 C CNN
+	1    6950 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB07FD
+P 8400 2850
+AR Path="/60EB07FD" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB07FD" Ref="C16"  Part="1" 
+F 0 "C16" V 8148 2850 50  0000 C CNN
+F 1 "C" V 8239 2850 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 8438 2700 50  0001 C CNN
+F 3 "~" H 8400 2850 50  0001 C CNN
+	1    8400 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8250 2850 8100 2850
+Wire Wire Line
+	8100 2850 8100 3000
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB080B
+P 8700 2850
+AR Path="/60EB080B" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB080B" Ref="#PWR055"  Part="1" 
+F 0 "#PWR055" H 8700 2600 50  0001 C CNN
+F 1 "GND" V 8705 2722 50  0000 R CNN
+F 2 "" H 8700 2850 50  0001 C CNN
+F 3 "" H 8700 2850 50  0001 C CNN
+	1    8700 2850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8700 2850 8550 2850
+Wire Wire Line
+	8100 2650 8100 2850
+Connection ~ 8100 2850
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0814
+P 8100 3700
+AR Path="/60EB0814" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0814" Ref="#PWR066"  Part="1" 
+F 0 "#PWR066" H 8100 3450 50  0001 C CNN
+F 1 "GND" H 8105 3527 50  0000 C CNN
+F 2 "" H 8100 3700 50  0001 C CNN
+F 3 "" H 8100 3700 50  0001 C CNN
+	1    8100 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB081A
+P 9550 2850
+AR Path="/60EB081A" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB081A" Ref="C17"  Part="1" 
+F 0 "C17" V 9298 2850 50  0000 C CNN
+F 1 "C" V 9389 2850 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 9588 2700 50  0001 C CNN
+F 3 "~" H 9550 2850 50  0001 C CNN
+	1    9550 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9400 2850 9250 2850
+Wire Wire Line
+	9250 2850 9250 3000
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0828
+P 9850 2850
+AR Path="/60EB0828" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0828" Ref="#PWR056"  Part="1" 
+F 0 "#PWR056" H 9850 2600 50  0001 C CNN
+F 1 "GND" V 9855 2722 50  0000 R CNN
+F 2 "" H 9850 2850 50  0001 C CNN
+F 3 "" H 9850 2850 50  0001 C CNN
+	1    9850 2850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9850 2850 9700 2850
+Wire Wire Line
+	9250 2650 9250 2850
+Connection ~ 9250 2850
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0831
+P 9250 3700
+AR Path="/60EB0831" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0831" Ref="#PWR067"  Part="1" 
+F 0 "#PWR067" H 9250 3450 50  0001 C CNN
+F 1 "GND" H 9255 3527 50  0000 C CNN
+F 2 "" H 9250 3700 50  0001 C CNN
+F 3 "" H 9250 3700 50  0001 C CNN
+	1    9250 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0837
+P 10700 2850
+AR Path="/60EB0837" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0837" Ref="C18"  Part="1" 
+F 0 "C18" V 10448 2850 50  0000 C CNN
+F 1 "C" V 10539 2850 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 10738 2700 50  0001 C CNN
+F 3 "~" H 10700 2850 50  0001 C CNN
+	1    10700 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10550 2850 10400 2850
+Wire Wire Line
+	10400 2850 10400 3000
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0845
+P 11000 2850
+AR Path="/60EB0845" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0845" Ref="#PWR057"  Part="1" 
+F 0 "#PWR057" H 11000 2600 50  0001 C CNN
+F 1 "GND" V 11005 2722 50  0000 R CNN
+F 2 "" H 11000 2850 50  0001 C CNN
+F 3 "" H 11000 2850 50  0001 C CNN
+	1    11000 2850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11000 2850 10850 2850
+Wire Wire Line
+	10400 2650 10400 2850
+Connection ~ 10400 2850
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB084E
+P 10400 3700
+AR Path="/60EB084E" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB084E" Ref="#PWR068"  Part="1" 
+F 0 "#PWR068" H 10400 3450 50  0001 C CNN
+F 1 "GND" H 10405 3527 50  0000 C CNN
+F 2 "" H 10400 3700 50  0001 C CNN
+F 3 "" H 10400 3700 50  0001 C CNN
+	1    10400 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0854
+P 11850 2850
+AR Path="/60EB0854" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0854" Ref="C19"  Part="1" 
+F 0 "C19" V 11598 2850 50  0000 C CNN
+F 1 "C" V 11689 2850 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 11888 2700 50  0001 C CNN
+F 3 "~" H 11850 2850 50  0001 C CNN
+	1    11850 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11700 2850 11550 2850
+Wire Wire Line
+	11550 2850 11550 3000
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0862
+P 12150 2850
+AR Path="/60EB0862" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0862" Ref="#PWR058"  Part="1" 
+F 0 "#PWR058" H 12150 2600 50  0001 C CNN
+F 1 "GND" V 12155 2722 50  0000 R CNN
+F 2 "" H 12150 2850 50  0001 C CNN
+F 3 "" H 12150 2850 50  0001 C CNN
+	1    12150 2850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12150 2850 12000 2850
+Wire Wire Line
+	11550 2650 11550 2850
+Connection ~ 11550 2850
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB086B
+P 11550 3700
+AR Path="/60EB086B" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB086B" Ref="#PWR069"  Part="1" 
+F 0 "#PWR069" H 11550 3450 50  0001 C CNN
+F 1 "GND" H 11555 3527 50  0000 C CNN
+F 2 "" H 11550 3700 50  0001 C CNN
+F 3 "" H 11550 3700 50  0001 C CNN
+	1    11550 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0871
+P 13050 2850
+AR Path="/60EB0871" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0871" Ref="C20"  Part="1" 
+F 0 "C20" V 12798 2850 50  0000 C CNN
+F 1 "C" V 12889 2850 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 13088 2700 50  0001 C CNN
+F 3 "~" H 13050 2850 50  0001 C CNN
+	1    13050 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12900 2850 12750 2850
+Wire Wire Line
+	12750 2850 12750 3000
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB087F
+P 13350 2850
+AR Path="/60EB087F" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB087F" Ref="#PWR059"  Part="1" 
+F 0 "#PWR059" H 13350 2600 50  0001 C CNN
+F 1 "GND" V 13355 2722 50  0000 R CNN
+F 2 "" H 13350 2850 50  0001 C CNN
+F 3 "" H 13350 2850 50  0001 C CNN
+	1    13350 2850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13350 2850 13200 2850
+Wire Wire Line
+	12750 2650 12750 2850
+Connection ~ 12750 2850
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0888
+P 12750 3700
+AR Path="/60EB0888" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0888" Ref="#PWR070"  Part="1" 
+F 0 "#PWR070" H 12750 3450 50  0001 C CNN
+F 1 "GND" H 12755 3527 50  0000 C CNN
+F 2 "" H 12750 3700 50  0001 C CNN
+F 3 "" H 12750 3700 50  0001 C CNN
+	1    12750 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB088E
+P 14200 2850
+AR Path="/60EB088E" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB088E" Ref="C21"  Part="1" 
+F 0 "C21" V 13948 2850 50  0000 C CNN
+F 1 "C" V 14039 2850 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 14238 2700 50  0001 C CNN
+F 3 "~" H 14200 2850 50  0001 C CNN
+	1    14200 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14050 2850 13900 2850
+Wire Wire Line
+	13900 2850 13900 3000
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB089C
+P 14500 2850
+AR Path="/60EB089C" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB089C" Ref="#PWR060"  Part="1" 
+F 0 "#PWR060" H 14500 2600 50  0001 C CNN
+F 1 "GND" V 14505 2722 50  0000 R CNN
+F 2 "" H 14500 2850 50  0001 C CNN
+F 3 "" H 14500 2850 50  0001 C CNN
+	1    14500 2850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14500 2850 14350 2850
+Wire Wire Line
+	13900 2650 13900 2850
+Connection ~ 13900 2850
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB08A5
+P 13900 3700
+AR Path="/60EB08A5" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB08A5" Ref="#PWR071"  Part="1" 
+F 0 "#PWR071" H 13900 3450 50  0001 C CNN
+F 1 "GND" H 13905 3527 50  0000 C CNN
+F 2 "" H 13900 3700 50  0001 C CNN
+F 3 "" H 13900 3700 50  0001 C CNN
+	1    13900 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB08AB
+P 15350 2850
+AR Path="/60EB08AB" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB08AB" Ref="C22"  Part="1" 
+F 0 "C22" V 15098 2850 50  0000 C CNN
+F 1 "C" V 15189 2850 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 15388 2700 50  0001 C CNN
+F 3 "~" H 15350 2850 50  0001 C CNN
+	1    15350 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	15200 2850 15050 2850
+Wire Wire Line
+	15050 2850 15050 3000
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB08B9
+P 15650 2850
+AR Path="/60EB08B9" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB08B9" Ref="#PWR061"  Part="1" 
+F 0 "#PWR061" H 15650 2600 50  0001 C CNN
+F 1 "GND" V 15655 2722 50  0000 R CNN
+F 2 "" H 15650 2850 50  0001 C CNN
+F 3 "" H 15650 2850 50  0001 C CNN
+	1    15650 2850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15650 2850 15500 2850
+Wire Wire Line
+	15050 2650 15050 2850
+Connection ~ 15050 2850
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB08C2
+P 15050 3700
+AR Path="/60EB08C2" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB08C2" Ref="#PWR072"  Part="1" 
+F 0 "#PWR072" H 15050 3450 50  0001 C CNN
+F 1 "GND" H 15055 3527 50  0000 C CNN
+F 2 "" H 15050 3700 50  0001 C CNN
+F 3 "" H 15050 3700 50  0001 C CNN
+	1    15050 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15050 3600 15050 3700
+Wire Wire Line
+	14200 3300 14750 3300
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB08CA
+P 3500 4950
+AR Path="/60EB08CA" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB08CA" Ref="D23"  Part="1" 
+F 0 "D23" H 3844 4996 50  0000 L CNN
+F 1 "SK6812" H 3844 4905 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 3550 4650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 3600 4575 50  0001 L TNN
+	1    3500 4950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB08D0
+P 3800 4500
+AR Path="/60EB08D0" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB08D0" Ref="C23"  Part="1" 
+F 0 "C23" V 3548 4500 50  0000 C CNN
+F 1 "C" V 3639 4500 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 3838 4350 50  0001 C CNN
+F 3 "~" H 3800 4500 50  0001 C CNN
+	1    3800 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3650 4500 3500 4500
+Wire Wire Line
+	3500 4500 3500 4650
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB08DE
+P 4100 4500
+AR Path="/60EB08DE" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB08DE" Ref="#PWR084"  Part="1" 
+F 0 "#PWR084" H 4100 4250 50  0001 C CNN
+F 1 "GND" V 4105 4372 50  0000 R CNN
+F 2 "" H 4100 4500 50  0001 C CNN
+F 3 "" H 4100 4500 50  0001 C CNN
+	1    4100 4500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4100 4500 3950 4500
+Wire Wire Line
+	3500 4300 3500 4500
+Connection ~ 3500 4500
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB08E7
+P 3500 5350
+AR Path="/60EB08E7" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB08E7" Ref="#PWR095"  Part="1" 
+F 0 "#PWR095" H 3500 5100 50  0001 C CNN
+F 1 "GND" H 3505 5177 50  0000 C CNN
+F 2 "" H 3500 5350 50  0001 C CNN
+F 3 "" H 3500 5350 50  0001 C CNN
+	1    3500 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 5250 3500 5350
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB08EE
+P 4650 4950
+AR Path="/60EB08EE" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB08EE" Ref="D24"  Part="1" 
+F 0 "D24" H 4994 4996 50  0000 L CNN
+F 1 "SK6812" H 4994 4905 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 4700 4650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 4750 4575 50  0001 L TNN
+	1    4650 4950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB08F4
+P 4950 4500
+AR Path="/60EB08F4" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB08F4" Ref="C24"  Part="1" 
+F 0 "C24" V 4698 4500 50  0000 C CNN
+F 1 "C" V 4789 4500 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 4988 4350 50  0001 C CNN
+F 3 "~" H 4950 4500 50  0001 C CNN
+	1    4950 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4800 4500 4650 4500
+Wire Wire Line
+	4650 4500 4650 4650
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0902
+P 5250 4500
+AR Path="/60EB0902" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0902" Ref="#PWR085"  Part="1" 
+F 0 "#PWR085" H 5250 4250 50  0001 C CNN
+F 1 "GND" V 5255 4372 50  0000 R CNN
+F 2 "" H 5250 4500 50  0001 C CNN
+F 3 "" H 5250 4500 50  0001 C CNN
+	1    5250 4500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5250 4500 5100 4500
+Wire Wire Line
+	4650 4300 4650 4500
+Connection ~ 4650 4500
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB090B
+P 4650 5350
+AR Path="/60EB090B" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB090B" Ref="#PWR096"  Part="1" 
+F 0 "#PWR096" H 4650 5100 50  0001 C CNN
+F 1 "GND" H 4655 5177 50  0000 C CNN
+F 2 "" H 4650 5350 50  0001 C CNN
+F 3 "" H 4650 5350 50  0001 C CNN
+	1    4650 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 5250 4650 5350
+Wire Wire Line
+	3800 4950 4350 4950
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB0913
+P 5800 4950
+AR Path="/60EB0913" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB0913" Ref="D25"  Part="1" 
+F 0 "D25" H 6144 4996 50  0000 L CNN
+F 1 "SK6812" H 6144 4905 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 5850 4650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 5900 4575 50  0001 L TNN
+	1    5800 4950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0919
+P 6100 4500
+AR Path="/60EB0919" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0919" Ref="C25"  Part="1" 
+F 0 "C25" V 5848 4500 50  0000 C CNN
+F 1 "C" V 5939 4500 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 6138 4350 50  0001 C CNN
+F 3 "~" H 6100 4500 50  0001 C CNN
+	1    6100 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5950 4500 5800 4500
+Wire Wire Line
+	5800 4500 5800 4650
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0927
+P 6400 4500
+AR Path="/60EB0927" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0927" Ref="#PWR086"  Part="1" 
+F 0 "#PWR086" H 6400 4250 50  0001 C CNN
+F 1 "GND" V 6405 4372 50  0000 R CNN
+F 2 "" H 6400 4500 50  0001 C CNN
+F 3 "" H 6400 4500 50  0001 C CNN
+	1    6400 4500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6400 4500 6250 4500
+Wire Wire Line
+	5800 4300 5800 4500
+Connection ~ 5800 4500
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0930
+P 5800 5350
+AR Path="/60EB0930" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0930" Ref="#PWR097"  Part="1" 
+F 0 "#PWR097" H 5800 5100 50  0001 C CNN
+F 1 "GND" H 5805 5177 50  0000 C CNN
+F 2 "" H 5800 5350 50  0001 C CNN
+F 3 "" H 5800 5350 50  0001 C CNN
+	1    5800 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 5250 5800 5350
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB0937
+P 6950 4950
+AR Path="/60EB0937" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB0937" Ref="D26"  Part="1" 
+F 0 "D26" H 7294 4996 50  0000 L CNN
+F 1 "SK6812" H 7294 4905 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 7000 4650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 7050 4575 50  0001 L TNN
+	1    6950 4950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB093D
+P 7250 4500
+AR Path="/60EB093D" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB093D" Ref="C26"  Part="1" 
+F 0 "C26" V 6998 4500 50  0000 C CNN
+F 1 "C" V 7089 4500 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 7288 4350 50  0001 C CNN
+F 3 "~" H 7250 4500 50  0001 C CNN
+	1    7250 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7100 4500 6950 4500
+Wire Wire Line
+	6950 4500 6950 4650
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB094B
+P 7550 4500
+AR Path="/60EB094B" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB094B" Ref="#PWR087"  Part="1" 
+F 0 "#PWR087" H 7550 4250 50  0001 C CNN
+F 1 "GND" V 7555 4372 50  0000 R CNN
+F 2 "" H 7550 4500 50  0001 C CNN
+F 3 "" H 7550 4500 50  0001 C CNN
+	1    7550 4500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7550 4500 7400 4500
+Wire Wire Line
+	6950 4300 6950 4500
+Connection ~ 6950 4500
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0954
+P 6950 5350
+AR Path="/60EB0954" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0954" Ref="#PWR098"  Part="1" 
+F 0 "#PWR098" H 6950 5100 50  0001 C CNN
+F 1 "GND" H 6955 5177 50  0000 C CNN
+F 2 "" H 6950 5350 50  0001 C CNN
+F 3 "" H 6950 5350 50  0001 C CNN
+	1    6950 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 5250 6950 5350
+Wire Wire Line
+	6100 4950 6650 4950
+Wire Wire Line
+	5500 4950 4950 4950
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB095D
+P 8100 4950
+AR Path="/60EB095D" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB095D" Ref="D27"  Part="1" 
+F 0 "D27" H 8444 4996 50  0000 L CNN
+F 1 "SK6812" H 8444 4905 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 8150 4650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 8200 4575 50  0001 L TNN
+	1    8100 4950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0963
+P 8400 4500
+AR Path="/60EB0963" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0963" Ref="C27"  Part="1" 
+F 0 "C27" V 8148 4500 50  0000 C CNN
+F 1 "C" V 8239 4500 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 8438 4350 50  0001 C CNN
+F 3 "~" H 8400 4500 50  0001 C CNN
+	1    8400 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8250 4500 8100 4500
+Wire Wire Line
+	8100 4500 8100 4650
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0971
+P 8700 4500
+AR Path="/60EB0971" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0971" Ref="#PWR088"  Part="1" 
+F 0 "#PWR088" H 8700 4250 50  0001 C CNN
+F 1 "GND" V 8705 4372 50  0000 R CNN
+F 2 "" H 8700 4500 50  0001 C CNN
+F 3 "" H 8700 4500 50  0001 C CNN
+	1    8700 4500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8700 4500 8550 4500
+Wire Wire Line
+	8100 4300 8100 4500
+Connection ~ 8100 4500
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB097A
+P 8100 5350
+AR Path="/60EB097A" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB097A" Ref="#PWR099"  Part="1" 
+F 0 "#PWR099" H 8100 5100 50  0001 C CNN
+F 1 "GND" H 8105 5177 50  0000 C CNN
+F 2 "" H 8100 5350 50  0001 C CNN
+F 3 "" H 8100 5350 50  0001 C CNN
+	1    8100 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 5250 8100 5350
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB0981
+P 9250 4950
+AR Path="/60EB0981" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB0981" Ref="D28"  Part="1" 
+F 0 "D28" H 9594 4996 50  0000 L CNN
+F 1 "SK6812" H 9594 4905 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 9300 4650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 9350 4575 50  0001 L TNN
+	1    9250 4950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0987
+P 9550 4500
+AR Path="/60EB0987" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0987" Ref="C28"  Part="1" 
+F 0 "C28" V 9298 4500 50  0000 C CNN
+F 1 "C" V 9389 4500 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 9588 4350 50  0001 C CNN
+F 3 "~" H 9550 4500 50  0001 C CNN
+	1    9550 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9400 4500 9250 4500
+Wire Wire Line
+	9250 4500 9250 4650
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0995
+P 9850 4500
+AR Path="/60EB0995" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0995" Ref="#PWR089"  Part="1" 
+F 0 "#PWR089" H 9850 4250 50  0001 C CNN
+F 1 "GND" V 9855 4372 50  0000 R CNN
+F 2 "" H 9850 4500 50  0001 C CNN
+F 3 "" H 9850 4500 50  0001 C CNN
+	1    9850 4500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9850 4500 9700 4500
+Wire Wire Line
+	9250 4300 9250 4500
+Connection ~ 9250 4500
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB099E
+P 9250 5350
+AR Path="/60EB099E" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB099E" Ref="#PWR0100"  Part="1" 
+F 0 "#PWR0100" H 9250 5100 50  0001 C CNN
+F 1 "GND" H 9255 5177 50  0000 C CNN
+F 2 "" H 9250 5350 50  0001 C CNN
+F 3 "" H 9250 5350 50  0001 C CNN
+	1    9250 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 5250 9250 5350
+Wire Wire Line
+	8400 4950 8950 4950
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB09A6
+P 10400 4950
+AR Path="/60EB09A6" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB09A6" Ref="D29"  Part="1" 
+F 0 "D29" H 10744 4996 50  0000 L CNN
+F 1 "SK6812" H 10744 4905 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 10450 4650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 10500 4575 50  0001 L TNN
+	1    10400 4950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB09AC
+P 10700 4500
+AR Path="/60EB09AC" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB09AC" Ref="C29"  Part="1" 
+F 0 "C29" V 10448 4500 50  0000 C CNN
+F 1 "C" V 10539 4500 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 10738 4350 50  0001 C CNN
+F 3 "~" H 10700 4500 50  0001 C CNN
+	1    10700 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10550 4500 10400 4500
+Wire Wire Line
+	10400 4500 10400 4650
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB09BA
+P 11000 4500
+AR Path="/60EB09BA" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB09BA" Ref="#PWR090"  Part="1" 
+F 0 "#PWR090" H 11000 4250 50  0001 C CNN
+F 1 "GND" V 11005 4372 50  0000 R CNN
+F 2 "" H 11000 4500 50  0001 C CNN
+F 3 "" H 11000 4500 50  0001 C CNN
+	1    11000 4500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11000 4500 10850 4500
+Wire Wire Line
+	10400 4300 10400 4500
+Connection ~ 10400 4500
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB09C3
+P 10400 5350
+AR Path="/60EB09C3" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB09C3" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 10400 5100 50  0001 C CNN
+F 1 "GND" H 10405 5177 50  0000 C CNN
+F 2 "" H 10400 5350 50  0001 C CNN
+F 3 "" H 10400 5350 50  0001 C CNN
+	1    10400 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10400 5250 10400 5350
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB09CA
+P 11550 4950
+AR Path="/60EB09CA" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB09CA" Ref="D30"  Part="1" 
+F 0 "D30" H 11894 4996 50  0000 L CNN
+F 1 "SK6812" H 11894 4905 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 11600 4650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 11650 4575 50  0001 L TNN
+	1    11550 4950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB09D0
+P 11850 4500
+AR Path="/60EB09D0" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB09D0" Ref="C30"  Part="1" 
+F 0 "C30" V 11598 4500 50  0000 C CNN
+F 1 "C" V 11689 4500 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 11888 4350 50  0001 C CNN
+F 3 "~" H 11850 4500 50  0001 C CNN
+	1    11850 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11700 4500 11550 4500
+Wire Wire Line
+	11550 4500 11550 4650
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB09DE
+P 12150 4500
+AR Path="/60EB09DE" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB09DE" Ref="#PWR091"  Part="1" 
+F 0 "#PWR091" H 12150 4250 50  0001 C CNN
+F 1 "GND" V 12155 4372 50  0000 R CNN
+F 2 "" H 12150 4500 50  0001 C CNN
+F 3 "" H 12150 4500 50  0001 C CNN
+	1    12150 4500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12150 4500 12000 4500
+Wire Wire Line
+	11550 4300 11550 4500
+Connection ~ 11550 4500
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB09E7
+P 11550 5350
+AR Path="/60EB09E7" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB09E7" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0102" H 11550 5100 50  0001 C CNN
+F 1 "GND" H 11555 5177 50  0000 C CNN
+F 2 "" H 11550 5350 50  0001 C CNN
+F 3 "" H 11550 5350 50  0001 C CNN
+	1    11550 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11550 5250 11550 5350
+Wire Wire Line
+	10700 4950 11250 4950
+Wire Wire Line
+	10100 4950 9550 4950
+Wire Wire Line
+	7800 4950 7250 4950
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB09F1
+P 12750 4950
+AR Path="/60EB09F1" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB09F1" Ref="D31"  Part="1" 
+F 0 "D31" H 13094 4996 50  0000 L CNN
+F 1 "SK6812" H 13094 4905 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 12800 4650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 12850 4575 50  0001 L TNN
+	1    12750 4950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB09F7
+P 13050 4500
+AR Path="/60EB09F7" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB09F7" Ref="C31"  Part="1" 
+F 0 "C31" V 12798 4500 50  0000 C CNN
+F 1 "C" V 12889 4500 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 13088 4350 50  0001 C CNN
+F 3 "~" H 13050 4500 50  0001 C CNN
+	1    13050 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12900 4500 12750 4500
+Wire Wire Line
+	12750 4500 12750 4650
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0A05
+P 13350 4500
+AR Path="/60EB0A05" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0A05" Ref="#PWR092"  Part="1" 
+F 0 "#PWR092" H 13350 4250 50  0001 C CNN
+F 1 "GND" V 13355 4372 50  0000 R CNN
+F 2 "" H 13350 4500 50  0001 C CNN
+F 3 "" H 13350 4500 50  0001 C CNN
+	1    13350 4500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13350 4500 13200 4500
+Wire Wire Line
+	12750 4300 12750 4500
+Connection ~ 12750 4500
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0A0E
+P 12750 5350
+AR Path="/60EB0A0E" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0A0E" Ref="#PWR0103"  Part="1" 
+F 0 "#PWR0103" H 12750 5100 50  0001 C CNN
+F 1 "GND" H 12755 5177 50  0000 C CNN
+F 2 "" H 12750 5350 50  0001 C CNN
+F 3 "" H 12750 5350 50  0001 C CNN
+	1    12750 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12750 5250 12750 5350
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB0A15
+P 13900 4950
+AR Path="/60EB0A15" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB0A15" Ref="D32"  Part="1" 
+F 0 "D32" H 14244 4996 50  0000 L CNN
+F 1 "SK6812" H 14244 4905 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 13950 4650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 14000 4575 50  0001 L TNN
+	1    13900 4950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0A1B
+P 14200 4500
+AR Path="/60EB0A1B" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0A1B" Ref="C32"  Part="1" 
+F 0 "C32" V 13948 4500 50  0000 C CNN
+F 1 "C" V 14039 4500 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 14238 4350 50  0001 C CNN
+F 3 "~" H 14200 4500 50  0001 C CNN
+	1    14200 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14050 4500 13900 4500
+Wire Wire Line
+	13900 4500 13900 4650
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0A29
+P 14500 4500
+AR Path="/60EB0A29" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0A29" Ref="#PWR093"  Part="1" 
+F 0 "#PWR093" H 14500 4250 50  0001 C CNN
+F 1 "GND" V 14505 4372 50  0000 R CNN
+F 2 "" H 14500 4500 50  0001 C CNN
+F 3 "" H 14500 4500 50  0001 C CNN
+	1    14500 4500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14500 4500 14350 4500
+Wire Wire Line
+	13900 4300 13900 4500
+Connection ~ 13900 4500
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0A32
+P 13900 5350
+AR Path="/60EB0A32" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0A32" Ref="#PWR0104"  Part="1" 
+F 0 "#PWR0104" H 13900 5100 50  0001 C CNN
+F 1 "GND" H 13905 5177 50  0000 C CNN
+F 2 "" H 13900 5350 50  0001 C CNN
+F 3 "" H 13900 5350 50  0001 C CNN
+	1    13900 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13900 5250 13900 5350
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB0A39
+P 15050 4950
+AR Path="/60EB0A39" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB0A39" Ref="D33"  Part="1" 
+F 0 "D33" H 15394 4996 50  0000 L CNN
+F 1 "SK6812" H 15394 4905 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 15100 4650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 15150 4575 50  0001 L TNN
+	1    15050 4950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0A3F
+P 15350 4500
+AR Path="/60EB0A3F" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0A3F" Ref="C33"  Part="1" 
+F 0 "C33" V 15098 4500 50  0000 C CNN
+F 1 "C" V 15189 4500 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 15388 4350 50  0001 C CNN
+F 3 "~" H 15350 4500 50  0001 C CNN
+	1    15350 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	15200 4500 15050 4500
+Wire Wire Line
+	15050 4500 15050 4650
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0A4D
+P 15650 4500
+AR Path="/60EB0A4D" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0A4D" Ref="#PWR094"  Part="1" 
+F 0 "#PWR094" H 15650 4250 50  0001 C CNN
+F 1 "GND" V 15655 4372 50  0000 R CNN
+F 2 "" H 15650 4500 50  0001 C CNN
+F 3 "" H 15650 4500 50  0001 C CNN
+	1    15650 4500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15650 4500 15500 4500
+Wire Wire Line
+	15050 4300 15050 4500
+Connection ~ 15050 4500
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0A56
+P 15050 5350
+AR Path="/60EB0A56" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0A56" Ref="#PWR0105"  Part="1" 
+F 0 "#PWR0105" H 15050 5100 50  0001 C CNN
+F 1 "GND" H 15055 5177 50  0000 C CNN
+F 2 "" H 15050 5350 50  0001 C CNN
+F 3 "" H 15050 5350 50  0001 C CNN
+	1    15050 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15050 5250 15050 5350
+Wire Wire Line
+	14200 4950 14750 4950
+Wire Wire Line
+	13600 4950 13050 4950
+Wire Wire Line
+	12450 4950 11850 4950
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB0A60
+P 3500 6650
+AR Path="/60EB0A60" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB0A60" Ref="D34"  Part="1" 
+F 0 "D34" H 3844 6696 50  0000 L CNN
+F 1 "SK6812" H 3844 6605 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 3550 6350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 3600 6275 50  0001 L TNN
+	1    3500 6650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0A66
+P 3800 6200
+AR Path="/60EB0A66" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0A66" Ref="C34"  Part="1" 
+F 0 "C34" V 3548 6200 50  0000 C CNN
+F 1 "C" V 3639 6200 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 3838 6050 50  0001 C CNN
+F 3 "~" H 3800 6200 50  0001 C CNN
+	1    3800 6200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3650 6200 3500 6200
+Wire Wire Line
+	3500 6200 3500 6350
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0A74
+P 4100 6200
+AR Path="/60EB0A74" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0A74" Ref="#PWR0117"  Part="1" 
+F 0 "#PWR0117" H 4100 5950 50  0001 C CNN
+F 1 "GND" V 4105 6072 50  0000 R CNN
+F 2 "" H 4100 6200 50  0001 C CNN
+F 3 "" H 4100 6200 50  0001 C CNN
+	1    4100 6200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4100 6200 3950 6200
+Wire Wire Line
+	3500 6000 3500 6200
+Connection ~ 3500 6200
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0A7D
+P 3500 7050
+AR Path="/60EB0A7D" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0A7D" Ref="#PWR0128"  Part="1" 
+F 0 "#PWR0128" H 3500 6800 50  0001 C CNN
+F 1 "GND" H 3505 6877 50  0000 C CNN
+F 2 "" H 3500 7050 50  0001 C CNN
+F 3 "" H 3500 7050 50  0001 C CNN
+	1    3500 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 6950 3500 7050
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB0A84
+P 4650 6650
+AR Path="/60EB0A84" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB0A84" Ref="D35"  Part="1" 
+F 0 "D35" H 4994 6696 50  0000 L CNN
+F 1 "SK6812" H 4994 6605 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 4700 6350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 4750 6275 50  0001 L TNN
+	1    4650 6650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0A8A
+P 4950 6200
+AR Path="/60EB0A8A" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0A8A" Ref="C35"  Part="1" 
+F 0 "C35" V 4698 6200 50  0000 C CNN
+F 1 "C" V 4789 6200 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 4988 6050 50  0001 C CNN
+F 3 "~" H 4950 6200 50  0001 C CNN
+	1    4950 6200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4800 6200 4650 6200
+Wire Wire Line
+	4650 6200 4650 6350
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0A98
+P 5250 6200
+AR Path="/60EB0A98" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0A98" Ref="#PWR0118"  Part="1" 
+F 0 "#PWR0118" H 5250 5950 50  0001 C CNN
+F 1 "GND" V 5255 6072 50  0000 R CNN
+F 2 "" H 5250 6200 50  0001 C CNN
+F 3 "" H 5250 6200 50  0001 C CNN
+	1    5250 6200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5250 6200 5100 6200
+Wire Wire Line
+	4650 6000 4650 6200
+Connection ~ 4650 6200
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0AA1
+P 4650 7050
+AR Path="/60EB0AA1" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0AA1" Ref="#PWR0129"  Part="1" 
+F 0 "#PWR0129" H 4650 6800 50  0001 C CNN
+F 1 "GND" H 4655 6877 50  0000 C CNN
+F 2 "" H 4650 7050 50  0001 C CNN
+F 3 "" H 4650 7050 50  0001 C CNN
+	1    4650 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 6950 4650 7050
+Wire Wire Line
+	3800 6650 4350 6650
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB0AA9
+P 5800 6650
+AR Path="/60EB0AA9" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB0AA9" Ref="D36"  Part="1" 
+F 0 "D36" H 6144 6696 50  0000 L CNN
+F 1 "SK6812" H 6144 6605 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 5850 6350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 5900 6275 50  0001 L TNN
+	1    5800 6650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0AAF
+P 6100 6200
+AR Path="/60EB0AAF" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0AAF" Ref="C36"  Part="1" 
+F 0 "C36" V 5848 6200 50  0000 C CNN
+F 1 "C" V 5939 6200 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 6138 6050 50  0001 C CNN
+F 3 "~" H 6100 6200 50  0001 C CNN
+	1    6100 6200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5950 6200 5800 6200
+Wire Wire Line
+	5800 6200 5800 6350
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0ABD
+P 6400 6200
+AR Path="/60EB0ABD" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0ABD" Ref="#PWR0119"  Part="1" 
+F 0 "#PWR0119" H 6400 5950 50  0001 C CNN
+F 1 "GND" V 6405 6072 50  0000 R CNN
+F 2 "" H 6400 6200 50  0001 C CNN
+F 3 "" H 6400 6200 50  0001 C CNN
+	1    6400 6200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6400 6200 6250 6200
+Wire Wire Line
+	5800 6000 5800 6200
+Connection ~ 5800 6200
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0AC6
+P 5800 7050
+AR Path="/60EB0AC6" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0AC6" Ref="#PWR0130"  Part="1" 
+F 0 "#PWR0130" H 5800 6800 50  0001 C CNN
+F 1 "GND" H 5805 6877 50  0000 C CNN
+F 2 "" H 5800 7050 50  0001 C CNN
+F 3 "" H 5800 7050 50  0001 C CNN
+	1    5800 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 6950 5800 7050
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB0ACD
+P 6950 6650
+AR Path="/60EB0ACD" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB0ACD" Ref="D37"  Part="1" 
+F 0 "D37" H 7294 6696 50  0000 L CNN
+F 1 "SK6812" H 7294 6605 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 7000 6350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 7050 6275 50  0001 L TNN
+	1    6950 6650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0AD3
+P 7250 6200
+AR Path="/60EB0AD3" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0AD3" Ref="C37"  Part="1" 
+F 0 "C37" V 6998 6200 50  0000 C CNN
+F 1 "C" V 7089 6200 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 7288 6050 50  0001 C CNN
+F 3 "~" H 7250 6200 50  0001 C CNN
+	1    7250 6200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7100 6200 6950 6200
+Wire Wire Line
+	6950 6200 6950 6350
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0AE1
+P 7550 6200
+AR Path="/60EB0AE1" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0AE1" Ref="#PWR0120"  Part="1" 
+F 0 "#PWR0120" H 7550 5950 50  0001 C CNN
+F 1 "GND" V 7555 6072 50  0000 R CNN
+F 2 "" H 7550 6200 50  0001 C CNN
+F 3 "" H 7550 6200 50  0001 C CNN
+	1    7550 6200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7550 6200 7400 6200
+Wire Wire Line
+	6950 6000 6950 6200
+Connection ~ 6950 6200
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0AEA
+P 6950 7050
+AR Path="/60EB0AEA" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0AEA" Ref="#PWR0131"  Part="1" 
+F 0 "#PWR0131" H 6950 6800 50  0001 C CNN
+F 1 "GND" H 6955 6877 50  0000 C CNN
+F 2 "" H 6950 7050 50  0001 C CNN
+F 3 "" H 6950 7050 50  0001 C CNN
+	1    6950 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 6950 6950 7050
+Wire Wire Line
+	6100 6650 6650 6650
+Wire Wire Line
+	5500 6650 4950 6650
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB0AF3
+P 8100 6650
+AR Path="/60EB0AF3" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB0AF3" Ref="D38"  Part="1" 
+F 0 "D38" H 8444 6696 50  0000 L CNN
+F 1 "SK6812" H 8444 6605 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 8150 6350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 8200 6275 50  0001 L TNN
+	1    8100 6650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0AF9
+P 8400 6200
+AR Path="/60EB0AF9" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0AF9" Ref="C38"  Part="1" 
+F 0 "C38" V 8148 6200 50  0000 C CNN
+F 1 "C" V 8239 6200 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 8438 6050 50  0001 C CNN
+F 3 "~" H 8400 6200 50  0001 C CNN
+	1    8400 6200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8250 6200 8100 6200
+Wire Wire Line
+	8100 6200 8100 6350
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0B07
+P 8700 6200
+AR Path="/60EB0B07" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0B07" Ref="#PWR0121"  Part="1" 
+F 0 "#PWR0121" H 8700 5950 50  0001 C CNN
+F 1 "GND" V 8705 6072 50  0000 R CNN
+F 2 "" H 8700 6200 50  0001 C CNN
+F 3 "" H 8700 6200 50  0001 C CNN
+	1    8700 6200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8700 6200 8550 6200
+Wire Wire Line
+	8100 6000 8100 6200
+Connection ~ 8100 6200
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0B10
+P 8100 7050
+AR Path="/60EB0B10" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0B10" Ref="#PWR0132"  Part="1" 
+F 0 "#PWR0132" H 8100 6800 50  0001 C CNN
+F 1 "GND" H 8105 6877 50  0000 C CNN
+F 2 "" H 8100 7050 50  0001 C CNN
+F 3 "" H 8100 7050 50  0001 C CNN
+	1    8100 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 6950 8100 7050
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB0B17
+P 9250 6650
+AR Path="/60EB0B17" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB0B17" Ref="D39"  Part="1" 
+F 0 "D39" H 9594 6696 50  0000 L CNN
+F 1 "SK6812" H 9594 6605 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 9300 6350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 9350 6275 50  0001 L TNN
+	1    9250 6650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0B1D
+P 9550 6200
+AR Path="/60EB0B1D" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0B1D" Ref="C39"  Part="1" 
+F 0 "C39" V 9298 6200 50  0000 C CNN
+F 1 "C" V 9389 6200 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 9588 6050 50  0001 C CNN
+F 3 "~" H 9550 6200 50  0001 C CNN
+	1    9550 6200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9400 6200 9250 6200
+Wire Wire Line
+	9250 6200 9250 6350
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0B2B
+P 9850 6200
+AR Path="/60EB0B2B" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0B2B" Ref="#PWR0122"  Part="1" 
+F 0 "#PWR0122" H 9850 5950 50  0001 C CNN
+F 1 "GND" V 9855 6072 50  0000 R CNN
+F 2 "" H 9850 6200 50  0001 C CNN
+F 3 "" H 9850 6200 50  0001 C CNN
+	1    9850 6200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9850 6200 9700 6200
+Wire Wire Line
+	9250 6000 9250 6200
+Connection ~ 9250 6200
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0B34
+P 9250 7050
+AR Path="/60EB0B34" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0B34" Ref="#PWR0133"  Part="1" 
+F 0 "#PWR0133" H 9250 6800 50  0001 C CNN
+F 1 "GND" H 9255 6877 50  0000 C CNN
+F 2 "" H 9250 7050 50  0001 C CNN
+F 3 "" H 9250 7050 50  0001 C CNN
+	1    9250 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 6950 9250 7050
+Wire Wire Line
+	8400 6650 8950 6650
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB0B3C
+P 10400 6650
+AR Path="/60EB0B3C" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB0B3C" Ref="D40"  Part="1" 
+F 0 "D40" H 10744 6696 50  0000 L CNN
+F 1 "SK6812" H 10744 6605 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 10450 6350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 10500 6275 50  0001 L TNN
+	1    10400 6650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0B42
+P 10700 6200
+AR Path="/60EB0B42" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0B42" Ref="C40"  Part="1" 
+F 0 "C40" V 10448 6200 50  0000 C CNN
+F 1 "C" V 10539 6200 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 10738 6050 50  0001 C CNN
+F 3 "~" H 10700 6200 50  0001 C CNN
+	1    10700 6200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10550 6200 10400 6200
+Wire Wire Line
+	10400 6200 10400 6350
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0B50
+P 11000 6200
+AR Path="/60EB0B50" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0B50" Ref="#PWR0123"  Part="1" 
+F 0 "#PWR0123" H 11000 5950 50  0001 C CNN
+F 1 "GND" V 11005 6072 50  0000 R CNN
+F 2 "" H 11000 6200 50  0001 C CNN
+F 3 "" H 11000 6200 50  0001 C CNN
+	1    11000 6200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11000 6200 10850 6200
+Wire Wire Line
+	10400 6000 10400 6200
+Connection ~ 10400 6200
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0B59
+P 10400 7050
+AR Path="/60EB0B59" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0B59" Ref="#PWR0134"  Part="1" 
+F 0 "#PWR0134" H 10400 6800 50  0001 C CNN
+F 1 "GND" H 10405 6877 50  0000 C CNN
+F 2 "" H 10400 7050 50  0001 C CNN
+F 3 "" H 10400 7050 50  0001 C CNN
+	1    10400 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10400 6950 10400 7050
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB0B60
+P 11550 6650
+AR Path="/60EB0B60" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB0B60" Ref="D41"  Part="1" 
+F 0 "D41" H 11894 6696 50  0000 L CNN
+F 1 "SK6812" H 11894 6605 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 11600 6350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 11650 6275 50  0001 L TNN
+	1    11550 6650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0B66
+P 11850 6200
+AR Path="/60EB0B66" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0B66" Ref="C41"  Part="1" 
+F 0 "C41" V 11598 6200 50  0000 C CNN
+F 1 "C" V 11689 6200 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 11888 6050 50  0001 C CNN
+F 3 "~" H 11850 6200 50  0001 C CNN
+	1    11850 6200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11700 6200 11550 6200
+Wire Wire Line
+	11550 6200 11550 6350
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0B74
+P 12150 6200
+AR Path="/60EB0B74" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0B74" Ref="#PWR0124"  Part="1" 
+F 0 "#PWR0124" H 12150 5950 50  0001 C CNN
+F 1 "GND" V 12155 6072 50  0000 R CNN
+F 2 "" H 12150 6200 50  0001 C CNN
+F 3 "" H 12150 6200 50  0001 C CNN
+	1    12150 6200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12150 6200 12000 6200
+Wire Wire Line
+	11550 6000 11550 6200
+Connection ~ 11550 6200
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0B7D
+P 11550 7050
+AR Path="/60EB0B7D" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0B7D" Ref="#PWR0135"  Part="1" 
+F 0 "#PWR0135" H 11550 6800 50  0001 C CNN
+F 1 "GND" H 11555 6877 50  0000 C CNN
+F 2 "" H 11550 7050 50  0001 C CNN
+F 3 "" H 11550 7050 50  0001 C CNN
+	1    11550 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11550 6950 11550 7050
+Wire Wire Line
+	10700 6650 11250 6650
+Wire Wire Line
+	10100 6650 9550 6650
+Wire Wire Line
+	7800 6650 7250 6650
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB0B87
+P 12750 6650
+AR Path="/60EB0B87" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB0B87" Ref="D42"  Part="1" 
+F 0 "D42" H 13094 6696 50  0000 L CNN
+F 1 "SK6812" H 13094 6605 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 12800 6350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 12850 6275 50  0001 L TNN
+	1    12750 6650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0B8D
+P 13050 6200
+AR Path="/60EB0B8D" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0B8D" Ref="C42"  Part="1" 
+F 0 "C42" V 12798 6200 50  0000 C CNN
+F 1 "C" V 12889 6200 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 13088 6050 50  0001 C CNN
+F 3 "~" H 13050 6200 50  0001 C CNN
+	1    13050 6200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12900 6200 12750 6200
+Wire Wire Line
+	12750 6200 12750 6350
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0B9B
+P 13350 6200
+AR Path="/60EB0B9B" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0B9B" Ref="#PWR0125"  Part="1" 
+F 0 "#PWR0125" H 13350 5950 50  0001 C CNN
+F 1 "GND" V 13355 6072 50  0000 R CNN
+F 2 "" H 13350 6200 50  0001 C CNN
+F 3 "" H 13350 6200 50  0001 C CNN
+	1    13350 6200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13350 6200 13200 6200
+Wire Wire Line
+	12750 6000 12750 6200
+Connection ~ 12750 6200
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0BA4
+P 12750 7050
+AR Path="/60EB0BA4" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0BA4" Ref="#PWR0136"  Part="1" 
+F 0 "#PWR0136" H 12750 6800 50  0001 C CNN
+F 1 "GND" H 12755 6877 50  0000 C CNN
+F 2 "" H 12750 7050 50  0001 C CNN
+F 3 "" H 12750 7050 50  0001 C CNN
+	1    12750 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12750 6950 12750 7050
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB0BAB
+P 13900 6650
+AR Path="/60EB0BAB" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB0BAB" Ref="D43"  Part="1" 
+F 0 "D43" H 14244 6696 50  0000 L CNN
+F 1 "SK6812" H 14244 6605 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 13950 6350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 14000 6275 50  0001 L TNN
+	1    13900 6650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0BB1
+P 14200 6200
+AR Path="/60EB0BB1" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0BB1" Ref="C43"  Part="1" 
+F 0 "C43" V 13948 6200 50  0000 C CNN
+F 1 "C" V 14039 6200 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 14238 6050 50  0001 C CNN
+F 3 "~" H 14200 6200 50  0001 C CNN
+	1    14200 6200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14050 6200 13900 6200
+Wire Wire Line
+	13900 6200 13900 6350
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0BBF
+P 14500 6200
+AR Path="/60EB0BBF" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0BBF" Ref="#PWR0126"  Part="1" 
+F 0 "#PWR0126" H 14500 5950 50  0001 C CNN
+F 1 "GND" V 14505 6072 50  0000 R CNN
+F 2 "" H 14500 6200 50  0001 C CNN
+F 3 "" H 14500 6200 50  0001 C CNN
+	1    14500 6200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14500 6200 14350 6200
+Wire Wire Line
+	13900 6000 13900 6200
+Connection ~ 13900 6200
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0BC8
+P 13900 7050
+AR Path="/60EB0BC8" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0BC8" Ref="#PWR0137"  Part="1" 
+F 0 "#PWR0137" H 13900 6800 50  0001 C CNN
+F 1 "GND" H 13905 6877 50  0000 C CNN
+F 2 "" H 13900 7050 50  0001 C CNN
+F 3 "" H 13900 7050 50  0001 C CNN
+	1    13900 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13900 6950 13900 7050
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB0BCF
+P 15050 6650
+AR Path="/60EB0BCF" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB0BCF" Ref="D44"  Part="1" 
+F 0 "D44" H 15394 6696 50  0000 L CNN
+F 1 "SK6812" H 15394 6605 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 15100 6350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 15150 6275 50  0001 L TNN
+	1    15050 6650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0BD5
+P 15350 6200
+AR Path="/60EB0BD5" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0BD5" Ref="C44"  Part="1" 
+F 0 "C44" V 15098 6200 50  0000 C CNN
+F 1 "C" V 15189 6200 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 15388 6050 50  0001 C CNN
+F 3 "~" H 15350 6200 50  0001 C CNN
+	1    15350 6200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	15200 6200 15050 6200
+Wire Wire Line
+	15050 6200 15050 6350
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0BE3
+P 15650 6200
+AR Path="/60EB0BE3" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0BE3" Ref="#PWR0127"  Part="1" 
+F 0 "#PWR0127" H 15650 5950 50  0001 C CNN
+F 1 "GND" V 15655 6072 50  0000 R CNN
+F 2 "" H 15650 6200 50  0001 C CNN
+F 3 "" H 15650 6200 50  0001 C CNN
+	1    15650 6200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15650 6200 15500 6200
+Wire Wire Line
+	15050 6000 15050 6200
+Connection ~ 15050 6200
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0BEC
+P 15050 7050
+AR Path="/60EB0BEC" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0BEC" Ref="#PWR0138"  Part="1" 
+F 0 "#PWR0138" H 15050 6800 50  0001 C CNN
+F 1 "GND" H 15055 6877 50  0000 C CNN
+F 2 "" H 15050 7050 50  0001 C CNN
+F 3 "" H 15050 7050 50  0001 C CNN
+	1    15050 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15050 6950 15050 7050
+Wire Wire Line
+	14200 6650 14750 6650
+Wire Wire Line
+	13600 6650 13050 6650
+Wire Wire Line
+	12450 6650 11850 6650
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB0BF6
+P 3500 8250
+AR Path="/60EB0BF6" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB0BF6" Ref="D45"  Part="1" 
+F 0 "D45" H 3844 8296 50  0000 L CNN
+F 1 "SK6812" H 3844 8205 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 3550 7950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 3600 7875 50  0001 L TNN
+	1    3500 8250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0BFC
+P 3800 7800
+AR Path="/60EB0BFC" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0BFC" Ref="C45"  Part="1" 
+F 0 "C45" V 3548 7800 50  0000 C CNN
+F 1 "C" V 3639 7800 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 3838 7650 50  0001 C CNN
+F 3 "~" H 3800 7800 50  0001 C CNN
+	1    3800 7800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3650 7800 3500 7800
+Wire Wire Line
+	3500 7800 3500 7950
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0C0A
+P 4100 7800
+AR Path="/60EB0C0A" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0C0A" Ref="#PWR0150"  Part="1" 
+F 0 "#PWR0150" H 4100 7550 50  0001 C CNN
+F 1 "GND" V 4105 7672 50  0000 R CNN
+F 2 "" H 4100 7800 50  0001 C CNN
+F 3 "" H 4100 7800 50  0001 C CNN
+	1    4100 7800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4100 7800 3950 7800
+Wire Wire Line
+	3500 7600 3500 7800
+Connection ~ 3500 7800
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0C13
+P 3500 8650
+AR Path="/60EB0C13" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0C13" Ref="#PWR0161"  Part="1" 
+F 0 "#PWR0161" H 3500 8400 50  0001 C CNN
+F 1 "GND" H 3505 8477 50  0000 C CNN
+F 2 "" H 3500 8650 50  0001 C CNN
+F 3 "" H 3500 8650 50  0001 C CNN
+	1    3500 8650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 8550 3500 8650
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB0C1A
+P 4650 8250
+AR Path="/60EB0C1A" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB0C1A" Ref="D46"  Part="1" 
+F 0 "D46" H 4994 8296 50  0000 L CNN
+F 1 "SK6812" H 4994 8205 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 4700 7950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 4750 7875 50  0001 L TNN
+	1    4650 8250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0C20
+P 4950 7800
+AR Path="/60EB0C20" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0C20" Ref="C46"  Part="1" 
+F 0 "C46" V 4698 7800 50  0000 C CNN
+F 1 "C" V 4789 7800 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 4988 7650 50  0001 C CNN
+F 3 "~" H 4950 7800 50  0001 C CNN
+	1    4950 7800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4800 7800 4650 7800
+Wire Wire Line
+	4650 7800 4650 7950
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0C2E
+P 5250 7800
+AR Path="/60EB0C2E" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0C2E" Ref="#PWR0151"  Part="1" 
+F 0 "#PWR0151" H 5250 7550 50  0001 C CNN
+F 1 "GND" V 5255 7672 50  0000 R CNN
+F 2 "" H 5250 7800 50  0001 C CNN
+F 3 "" H 5250 7800 50  0001 C CNN
+	1    5250 7800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5250 7800 5100 7800
+Wire Wire Line
+	4650 7600 4650 7800
+Connection ~ 4650 7800
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0C37
+P 4650 8650
+AR Path="/60EB0C37" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0C37" Ref="#PWR0162"  Part="1" 
+F 0 "#PWR0162" H 4650 8400 50  0001 C CNN
+F 1 "GND" H 4655 8477 50  0000 C CNN
+F 2 "" H 4650 8650 50  0001 C CNN
+F 3 "" H 4650 8650 50  0001 C CNN
+	1    4650 8650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 8550 4650 8650
+Wire Wire Line
+	3800 8250 4350 8250
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB0C3F
+P 5800 8250
+AR Path="/60EB0C3F" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB0C3F" Ref="D47"  Part="1" 
+F 0 "D47" H 6144 8296 50  0000 L CNN
+F 1 "SK6812" H 6144 8205 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 5850 7950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 5900 7875 50  0001 L TNN
+	1    5800 8250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0C45
+P 6100 7800
+AR Path="/60EB0C45" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0C45" Ref="C47"  Part="1" 
+F 0 "C47" V 5848 7800 50  0000 C CNN
+F 1 "C" V 5939 7800 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 6138 7650 50  0001 C CNN
+F 3 "~" H 6100 7800 50  0001 C CNN
+	1    6100 7800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5950 7800 5800 7800
+Wire Wire Line
+	5800 7800 5800 7950
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0C53
+P 6400 7800
+AR Path="/60EB0C53" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0C53" Ref="#PWR0152"  Part="1" 
+F 0 "#PWR0152" H 6400 7550 50  0001 C CNN
+F 1 "GND" V 6405 7672 50  0000 R CNN
+F 2 "" H 6400 7800 50  0001 C CNN
+F 3 "" H 6400 7800 50  0001 C CNN
+	1    6400 7800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6400 7800 6250 7800
+Wire Wire Line
+	5800 7600 5800 7800
+Connection ~ 5800 7800
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0C5C
+P 5800 8650
+AR Path="/60EB0C5C" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0C5C" Ref="#PWR0163"  Part="1" 
+F 0 "#PWR0163" H 5800 8400 50  0001 C CNN
+F 1 "GND" H 5805 8477 50  0000 C CNN
+F 2 "" H 5800 8650 50  0001 C CNN
+F 3 "" H 5800 8650 50  0001 C CNN
+	1    5800 8650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 8550 5800 8650
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB0C63
+P 6950 8250
+AR Path="/60EB0C63" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB0C63" Ref="D48"  Part="1" 
+F 0 "D48" H 7294 8296 50  0000 L CNN
+F 1 "SK6812" H 7294 8205 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 7000 7950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 7050 7875 50  0001 L TNN
+	1    6950 8250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0C69
+P 7250 7800
+AR Path="/60EB0C69" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0C69" Ref="C48"  Part="1" 
+F 0 "C48" V 6998 7800 50  0000 C CNN
+F 1 "C" V 7089 7800 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 7288 7650 50  0001 C CNN
+F 3 "~" H 7250 7800 50  0001 C CNN
+	1    7250 7800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7100 7800 6950 7800
+Wire Wire Line
+	6950 7800 6950 7950
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0C77
+P 7550 7800
+AR Path="/60EB0C77" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0C77" Ref="#PWR0153"  Part="1" 
+F 0 "#PWR0153" H 7550 7550 50  0001 C CNN
+F 1 "GND" V 7555 7672 50  0000 R CNN
+F 2 "" H 7550 7800 50  0001 C CNN
+F 3 "" H 7550 7800 50  0001 C CNN
+	1    7550 7800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7550 7800 7400 7800
+Wire Wire Line
+	6950 7600 6950 7800
+Connection ~ 6950 7800
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0C80
+P 6950 8650
+AR Path="/60EB0C80" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0C80" Ref="#PWR0164"  Part="1" 
+F 0 "#PWR0164" H 6950 8400 50  0001 C CNN
+F 1 "GND" H 6955 8477 50  0000 C CNN
+F 2 "" H 6950 8650 50  0001 C CNN
+F 3 "" H 6950 8650 50  0001 C CNN
+	1    6950 8650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 8550 6950 8650
+Wire Wire Line
+	6100 8250 6650 8250
+Wire Wire Line
+	5500 8250 4950 8250
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB0C89
+P 8100 8250
+AR Path="/60EB0C89" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB0C89" Ref="D49"  Part="1" 
+F 0 "D49" H 8444 8296 50  0000 L CNN
+F 1 "SK6812" H 8444 8205 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 8150 7950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 8200 7875 50  0001 L TNN
+	1    8100 8250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0C8F
+P 8400 7800
+AR Path="/60EB0C8F" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0C8F" Ref="C49"  Part="1" 
+F 0 "C49" V 8148 7800 50  0000 C CNN
+F 1 "C" V 8239 7800 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 8438 7650 50  0001 C CNN
+F 3 "~" H 8400 7800 50  0001 C CNN
+	1    8400 7800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8250 7800 8100 7800
+Wire Wire Line
+	8100 7800 8100 7950
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0C9D
+P 8700 7800
+AR Path="/60EB0C9D" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0C9D" Ref="#PWR0154"  Part="1" 
+F 0 "#PWR0154" H 8700 7550 50  0001 C CNN
+F 1 "GND" V 8705 7672 50  0000 R CNN
+F 2 "" H 8700 7800 50  0001 C CNN
+F 3 "" H 8700 7800 50  0001 C CNN
+	1    8700 7800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8700 7800 8550 7800
+Wire Wire Line
+	8100 7600 8100 7800
+Connection ~ 8100 7800
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0CA6
+P 8100 8650
+AR Path="/60EB0CA6" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0CA6" Ref="#PWR0165"  Part="1" 
+F 0 "#PWR0165" H 8100 8400 50  0001 C CNN
+F 1 "GND" H 8105 8477 50  0000 C CNN
+F 2 "" H 8100 8650 50  0001 C CNN
+F 3 "" H 8100 8650 50  0001 C CNN
+	1    8100 8650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 8550 8100 8650
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB0CAD
+P 9250 8250
+AR Path="/60EB0CAD" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB0CAD" Ref="D50"  Part="1" 
+F 0 "D50" H 9594 8296 50  0000 L CNN
+F 1 "SK6812" H 9594 8205 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 9300 7950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 9350 7875 50  0001 L TNN
+	1    9250 8250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0CB3
+P 9550 7800
+AR Path="/60EB0CB3" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0CB3" Ref="C50"  Part="1" 
+F 0 "C50" V 9298 7800 50  0000 C CNN
+F 1 "C" V 9389 7800 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 9588 7650 50  0001 C CNN
+F 3 "~" H 9550 7800 50  0001 C CNN
+	1    9550 7800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9400 7800 9250 7800
+Wire Wire Line
+	9250 7800 9250 7950
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0CC1
+P 9850 7800
+AR Path="/60EB0CC1" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0CC1" Ref="#PWR0155"  Part="1" 
+F 0 "#PWR0155" H 9850 7550 50  0001 C CNN
+F 1 "GND" V 9855 7672 50  0000 R CNN
+F 2 "" H 9850 7800 50  0001 C CNN
+F 3 "" H 9850 7800 50  0001 C CNN
+	1    9850 7800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9850 7800 9700 7800
+Wire Wire Line
+	9250 7600 9250 7800
+Connection ~ 9250 7800
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0CCA
+P 9250 8650
+AR Path="/60EB0CCA" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0CCA" Ref="#PWR0166"  Part="1" 
+F 0 "#PWR0166" H 9250 8400 50  0001 C CNN
+F 1 "GND" H 9255 8477 50  0000 C CNN
+F 2 "" H 9250 8650 50  0001 C CNN
+F 3 "" H 9250 8650 50  0001 C CNN
+	1    9250 8650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 8550 9250 8650
+Wire Wire Line
+	8400 8250 8950 8250
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB0CD2
+P 10400 8250
+AR Path="/60EB0CD2" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB0CD2" Ref="D51"  Part="1" 
+F 0 "D51" H 10744 8296 50  0000 L CNN
+F 1 "SK6812" H 10744 8205 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 10450 7950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 10500 7875 50  0001 L TNN
+	1    10400 8250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0CD8
+P 10700 7800
+AR Path="/60EB0CD8" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0CD8" Ref="C51"  Part="1" 
+F 0 "C51" V 10448 7800 50  0000 C CNN
+F 1 "C" V 10539 7800 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 10738 7650 50  0001 C CNN
+F 3 "~" H 10700 7800 50  0001 C CNN
+	1    10700 7800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10550 7800 10400 7800
+Wire Wire Line
+	10400 7800 10400 7950
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0CE6
+P 11000 7800
+AR Path="/60EB0CE6" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0CE6" Ref="#PWR0156"  Part="1" 
+F 0 "#PWR0156" H 11000 7550 50  0001 C CNN
+F 1 "GND" V 11005 7672 50  0000 R CNN
+F 2 "" H 11000 7800 50  0001 C CNN
+F 3 "" H 11000 7800 50  0001 C CNN
+	1    11000 7800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11000 7800 10850 7800
+Wire Wire Line
+	10400 7600 10400 7800
+Connection ~ 10400 7800
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0CEF
+P 10400 8650
+AR Path="/60EB0CEF" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0CEF" Ref="#PWR0167"  Part="1" 
+F 0 "#PWR0167" H 10400 8400 50  0001 C CNN
+F 1 "GND" H 10405 8477 50  0000 C CNN
+F 2 "" H 10400 8650 50  0001 C CNN
+F 3 "" H 10400 8650 50  0001 C CNN
+	1    10400 8650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10400 8550 10400 8650
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB0CF6
+P 11550 8250
+AR Path="/60EB0CF6" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB0CF6" Ref="D52"  Part="1" 
+F 0 "D52" H 11894 8296 50  0000 L CNN
+F 1 "SK6812" H 11894 8205 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 11600 7950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 11650 7875 50  0001 L TNN
+	1    11550 8250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0CFC
+P 11850 7800
+AR Path="/60EB0CFC" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0CFC" Ref="C52"  Part="1" 
+F 0 "C52" V 11598 7800 50  0000 C CNN
+F 1 "C" V 11689 7800 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 11888 7650 50  0001 C CNN
+F 3 "~" H 11850 7800 50  0001 C CNN
+	1    11850 7800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11700 7800 11550 7800
+Wire Wire Line
+	11550 7800 11550 7950
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0D0A
+P 12150 7800
+AR Path="/60EB0D0A" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0D0A" Ref="#PWR0157"  Part="1" 
+F 0 "#PWR0157" H 12150 7550 50  0001 C CNN
+F 1 "GND" V 12155 7672 50  0000 R CNN
+F 2 "" H 12150 7800 50  0001 C CNN
+F 3 "" H 12150 7800 50  0001 C CNN
+	1    12150 7800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12150 7800 12000 7800
+Wire Wire Line
+	11550 7600 11550 7800
+Connection ~ 11550 7800
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0D13
+P 11550 8650
+AR Path="/60EB0D13" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0D13" Ref="#PWR0168"  Part="1" 
+F 0 "#PWR0168" H 11550 8400 50  0001 C CNN
+F 1 "GND" H 11555 8477 50  0000 C CNN
+F 2 "" H 11550 8650 50  0001 C CNN
+F 3 "" H 11550 8650 50  0001 C CNN
+	1    11550 8650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11550 8550 11550 8650
+Wire Wire Line
+	10700 8250 11250 8250
+Wire Wire Line
+	10100 8250 9550 8250
+Wire Wire Line
+	7800 8250 7250 8250
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB0D1D
+P 12750 8250
+AR Path="/60EB0D1D" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB0D1D" Ref="D53"  Part="1" 
+F 0 "D53" H 13094 8296 50  0000 L CNN
+F 1 "SK6812" H 13094 8205 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 12800 7950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 12850 7875 50  0001 L TNN
+	1    12750 8250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0D23
+P 13050 7800
+AR Path="/60EB0D23" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0D23" Ref="C53"  Part="1" 
+F 0 "C53" V 12798 7800 50  0000 C CNN
+F 1 "C" V 12889 7800 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 13088 7650 50  0001 C CNN
+F 3 "~" H 13050 7800 50  0001 C CNN
+	1    13050 7800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12900 7800 12750 7800
+Wire Wire Line
+	12750 7800 12750 7950
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0D31
+P 13350 7800
+AR Path="/60EB0D31" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0D31" Ref="#PWR0158"  Part="1" 
+F 0 "#PWR0158" H 13350 7550 50  0001 C CNN
+F 1 "GND" V 13355 7672 50  0000 R CNN
+F 2 "" H 13350 7800 50  0001 C CNN
+F 3 "" H 13350 7800 50  0001 C CNN
+	1    13350 7800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13350 7800 13200 7800
+Wire Wire Line
+	12750 7600 12750 7800
+Connection ~ 12750 7800
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0D3A
+P 12750 8650
+AR Path="/60EB0D3A" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0D3A" Ref="#PWR0169"  Part="1" 
+F 0 "#PWR0169" H 12750 8400 50  0001 C CNN
+F 1 "GND" H 12755 8477 50  0000 C CNN
+F 2 "" H 12750 8650 50  0001 C CNN
+F 3 "" H 12750 8650 50  0001 C CNN
+	1    12750 8650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12750 8550 12750 8650
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB0D41
+P 13900 8250
+AR Path="/60EB0D41" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB0D41" Ref="D54"  Part="1" 
+F 0 "D54" H 14244 8296 50  0000 L CNN
+F 1 "SK6812" H 14244 8205 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 13950 7950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 14000 7875 50  0001 L TNN
+	1    13900 8250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0D47
+P 14200 7800
+AR Path="/60EB0D47" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0D47" Ref="C54"  Part="1" 
+F 0 "C54" V 13948 7800 50  0000 C CNN
+F 1 "C" V 14039 7800 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 14238 7650 50  0001 C CNN
+F 3 "~" H 14200 7800 50  0001 C CNN
+	1    14200 7800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14050 7800 13900 7800
+Wire Wire Line
+	13900 7800 13900 7950
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0D55
+P 14500 7800
+AR Path="/60EB0D55" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0D55" Ref="#PWR0159"  Part="1" 
+F 0 "#PWR0159" H 14500 7550 50  0001 C CNN
+F 1 "GND" V 14505 7672 50  0000 R CNN
+F 2 "" H 14500 7800 50  0001 C CNN
+F 3 "" H 14500 7800 50  0001 C CNN
+	1    14500 7800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14500 7800 14350 7800
+Wire Wire Line
+	13900 7600 13900 7800
+Connection ~ 13900 7800
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0D5E
+P 13900 8650
+AR Path="/60EB0D5E" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0D5E" Ref="#PWR0170"  Part="1" 
+F 0 "#PWR0170" H 13900 8400 50  0001 C CNN
+F 1 "GND" H 13905 8477 50  0000 C CNN
+F 2 "" H 13900 8650 50  0001 C CNN
+F 3 "" H 13900 8650 50  0001 C CNN
+	1    13900 8650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13900 8550 13900 8650
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB0D65
+P 15050 8250
+AR Path="/60EB0D65" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB0D65" Ref="D55"  Part="1" 
+F 0 "D55" H 15394 8296 50  0000 L CNN
+F 1 "SK6812" H 15394 8205 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 15100 7950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 15150 7875 50  0001 L TNN
+	1    15050 8250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0D6B
+P 15350 7800
+AR Path="/60EB0D6B" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0D6B" Ref="C55"  Part="1" 
+F 0 "C55" V 15098 7800 50  0000 C CNN
+F 1 "C" V 15189 7800 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 15388 7650 50  0001 C CNN
+F 3 "~" H 15350 7800 50  0001 C CNN
+	1    15350 7800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	15200 7800 15050 7800
+Wire Wire Line
+	15050 7800 15050 7950
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0D79
+P 15650 7800
+AR Path="/60EB0D79" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0D79" Ref="#PWR0160"  Part="1" 
+F 0 "#PWR0160" H 15650 7550 50  0001 C CNN
+F 1 "GND" V 15655 7672 50  0000 R CNN
+F 2 "" H 15650 7800 50  0001 C CNN
+F 3 "" H 15650 7800 50  0001 C CNN
+	1    15650 7800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15650 7800 15500 7800
+Wire Wire Line
+	15050 7600 15050 7800
+Connection ~ 15050 7800
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0D82
+P 15050 8650
+AR Path="/60EB0D82" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0D82" Ref="#PWR0171"  Part="1" 
+F 0 "#PWR0171" H 15050 8400 50  0001 C CNN
+F 1 "GND" H 15055 8477 50  0000 C CNN
+F 2 "" H 15050 8650 50  0001 C CNN
+F 3 "" H 15050 8650 50  0001 C CNN
+	1    15050 8650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15050 8550 15050 8650
+Wire Wire Line
+	14200 8250 14750 8250
+Wire Wire Line
+	13600 8250 13050 8250
+Wire Wire Line
+	12450 8250 11850 8250
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB0D8C
+P 3500 9950
+AR Path="/60EB0D8C" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB0D8C" Ref="D56"  Part="1" 
+F 0 "D56" H 3844 9996 50  0000 L CNN
+F 1 "SK6812" H 3844 9905 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 3550 9650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 3600 9575 50  0001 L TNN
+	1    3500 9950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0D92
+P 3800 9500
+AR Path="/60EB0D92" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0D92" Ref="C56"  Part="1" 
+F 0 "C56" V 3548 9500 50  0000 C CNN
+F 1 "C" V 3639 9500 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 3838 9350 50  0001 C CNN
+F 3 "~" H 3800 9500 50  0001 C CNN
+	1    3800 9500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3650 9500 3500 9500
+Wire Wire Line
+	3500 9500 3500 9650
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0DA0
+P 4100 9500
+AR Path="/60EB0DA0" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0DA0" Ref="#PWR0183"  Part="1" 
+F 0 "#PWR0183" H 4100 9250 50  0001 C CNN
+F 1 "GND" V 4105 9372 50  0000 R CNN
+F 2 "" H 4100 9500 50  0001 C CNN
+F 3 "" H 4100 9500 50  0001 C CNN
+	1    4100 9500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4100 9500 3950 9500
+Wire Wire Line
+	3500 9300 3500 9500
+Connection ~ 3500 9500
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0DA9
+P 3500 10350
+AR Path="/60EB0DA9" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0DA9" Ref="#PWR0194"  Part="1" 
+F 0 "#PWR0194" H 3500 10100 50  0001 C CNN
+F 1 "GND" H 3505 10177 50  0000 C CNN
+F 2 "" H 3500 10350 50  0001 C CNN
+F 3 "" H 3500 10350 50  0001 C CNN
+	1    3500 10350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 10250 3500 10350
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB0DB0
+P 4650 9950
+AR Path="/60EB0DB0" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB0DB0" Ref="D57"  Part="1" 
+F 0 "D57" H 4994 9996 50  0000 L CNN
+F 1 "SK6812" H 4994 9905 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 4700 9650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 4750 9575 50  0001 L TNN
+	1    4650 9950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0DB6
+P 4950 9500
+AR Path="/60EB0DB6" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0DB6" Ref="C57"  Part="1" 
+F 0 "C57" V 4698 9500 50  0000 C CNN
+F 1 "C" V 4789 9500 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 4988 9350 50  0001 C CNN
+F 3 "~" H 4950 9500 50  0001 C CNN
+	1    4950 9500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4800 9500 4650 9500
+Wire Wire Line
+	4650 9500 4650 9650
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0DC4
+P 5250 9500
+AR Path="/60EB0DC4" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0DC4" Ref="#PWR0184"  Part="1" 
+F 0 "#PWR0184" H 5250 9250 50  0001 C CNN
+F 1 "GND" V 5255 9372 50  0000 R CNN
+F 2 "" H 5250 9500 50  0001 C CNN
+F 3 "" H 5250 9500 50  0001 C CNN
+	1    5250 9500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5250 9500 5100 9500
+Wire Wire Line
+	4650 9300 4650 9500
+Connection ~ 4650 9500
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0DCD
+P 4650 10350
+AR Path="/60EB0DCD" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0DCD" Ref="#PWR0195"  Part="1" 
+F 0 "#PWR0195" H 4650 10100 50  0001 C CNN
+F 1 "GND" H 4655 10177 50  0000 C CNN
+F 2 "" H 4650 10350 50  0001 C CNN
+F 3 "" H 4650 10350 50  0001 C CNN
+	1    4650 10350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 10250 4650 10350
+Wire Wire Line
+	3800 9950 4350 9950
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB0DD5
+P 5800 9950
+AR Path="/60EB0DD5" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB0DD5" Ref="D58"  Part="1" 
+F 0 "D58" H 6144 9996 50  0000 L CNN
+F 1 "SK6812" H 6144 9905 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 5850 9650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 5900 9575 50  0001 L TNN
+	1    5800 9950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0DDB
+P 6100 9500
+AR Path="/60EB0DDB" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0DDB" Ref="C58"  Part="1" 
+F 0 "C58" V 5848 9500 50  0000 C CNN
+F 1 "C" V 5939 9500 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 6138 9350 50  0001 C CNN
+F 3 "~" H 6100 9500 50  0001 C CNN
+	1    6100 9500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5950 9500 5800 9500
+Wire Wire Line
+	5800 9500 5800 9650
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0DE9
+P 6400 9500
+AR Path="/60EB0DE9" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0DE9" Ref="#PWR0185"  Part="1" 
+F 0 "#PWR0185" H 6400 9250 50  0001 C CNN
+F 1 "GND" V 6405 9372 50  0000 R CNN
+F 2 "" H 6400 9500 50  0001 C CNN
+F 3 "" H 6400 9500 50  0001 C CNN
+	1    6400 9500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6400 9500 6250 9500
+Wire Wire Line
+	5800 9300 5800 9500
+Connection ~ 5800 9500
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0DF2
+P 5800 10350
+AR Path="/60EB0DF2" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0DF2" Ref="#PWR0196"  Part="1" 
+F 0 "#PWR0196" H 5800 10100 50  0001 C CNN
+F 1 "GND" H 5805 10177 50  0000 C CNN
+F 2 "" H 5800 10350 50  0001 C CNN
+F 3 "" H 5800 10350 50  0001 C CNN
+	1    5800 10350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 10250 5800 10350
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB0DF9
+P 6950 9950
+AR Path="/60EB0DF9" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB0DF9" Ref="D59"  Part="1" 
+F 0 "D59" H 7294 9996 50  0000 L CNN
+F 1 "SK6812" H 7294 9905 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 7000 9650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 7050 9575 50  0001 L TNN
+	1    6950 9950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0DFF
+P 7250 9500
+AR Path="/60EB0DFF" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0DFF" Ref="C59"  Part="1" 
+F 0 "C59" V 6998 9500 50  0000 C CNN
+F 1 "C" V 7089 9500 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 7288 9350 50  0001 C CNN
+F 3 "~" H 7250 9500 50  0001 C CNN
+	1    7250 9500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7100 9500 6950 9500
+Wire Wire Line
+	6950 9500 6950 9650
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0E0D
+P 7550 9500
+AR Path="/60EB0E0D" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0E0D" Ref="#PWR0186"  Part="1" 
+F 0 "#PWR0186" H 7550 9250 50  0001 C CNN
+F 1 "GND" V 7555 9372 50  0000 R CNN
+F 2 "" H 7550 9500 50  0001 C CNN
+F 3 "" H 7550 9500 50  0001 C CNN
+	1    7550 9500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7550 9500 7400 9500
+Wire Wire Line
+	6950 9300 6950 9500
+Connection ~ 6950 9500
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0E16
+P 6950 10350
+AR Path="/60EB0E16" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0E16" Ref="#PWR0197"  Part="1" 
+F 0 "#PWR0197" H 6950 10100 50  0001 C CNN
+F 1 "GND" H 6955 10177 50  0000 C CNN
+F 2 "" H 6950 10350 50  0001 C CNN
+F 3 "" H 6950 10350 50  0001 C CNN
+	1    6950 10350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 10250 6950 10350
+Wire Wire Line
+	6100 9950 6650 9950
+Wire Wire Line
+	5500 9950 4950 9950
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB0E1F
+P 8100 9950
+AR Path="/60EB0E1F" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB0E1F" Ref="D60"  Part="1" 
+F 0 "D60" H 8444 9996 50  0000 L CNN
+F 1 "SK6812" H 8444 9905 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 8150 9650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 8200 9575 50  0001 L TNN
+	1    8100 9950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0E25
+P 8400 9500
+AR Path="/60EB0E25" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0E25" Ref="C60"  Part="1" 
+F 0 "C60" V 8148 9500 50  0000 C CNN
+F 1 "C" V 8239 9500 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 8438 9350 50  0001 C CNN
+F 3 "~" H 8400 9500 50  0001 C CNN
+	1    8400 9500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8250 9500 8100 9500
+Wire Wire Line
+	8100 9500 8100 9650
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0E33
+P 8700 9500
+AR Path="/60EB0E33" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0E33" Ref="#PWR0187"  Part="1" 
+F 0 "#PWR0187" H 8700 9250 50  0001 C CNN
+F 1 "GND" V 8705 9372 50  0000 R CNN
+F 2 "" H 8700 9500 50  0001 C CNN
+F 3 "" H 8700 9500 50  0001 C CNN
+	1    8700 9500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8700 9500 8550 9500
+Wire Wire Line
+	8100 9300 8100 9500
+Connection ~ 8100 9500
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0E3C
+P 8100 10350
+AR Path="/60EB0E3C" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0E3C" Ref="#PWR0198"  Part="1" 
+F 0 "#PWR0198" H 8100 10100 50  0001 C CNN
+F 1 "GND" H 8105 10177 50  0000 C CNN
+F 2 "" H 8100 10350 50  0001 C CNN
+F 3 "" H 8100 10350 50  0001 C CNN
+	1    8100 10350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 10250 8100 10350
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB0E43
+P 9250 9950
+AR Path="/60EB0E43" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB0E43" Ref="D61"  Part="1" 
+F 0 "D61" H 9594 9996 50  0000 L CNN
+F 1 "SK6812" H 9594 9905 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 9300 9650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 9350 9575 50  0001 L TNN
+	1    9250 9950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0E49
+P 9550 9500
+AR Path="/60EB0E49" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0E49" Ref="C61"  Part="1" 
+F 0 "C61" V 9298 9500 50  0000 C CNN
+F 1 "C" V 9389 9500 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 9588 9350 50  0001 C CNN
+F 3 "~" H 9550 9500 50  0001 C CNN
+	1    9550 9500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9400 9500 9250 9500
+Wire Wire Line
+	9250 9500 9250 9650
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0E57
+P 9850 9500
+AR Path="/60EB0E57" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0E57" Ref="#PWR0188"  Part="1" 
+F 0 "#PWR0188" H 9850 9250 50  0001 C CNN
+F 1 "GND" V 9855 9372 50  0000 R CNN
+F 2 "" H 9850 9500 50  0001 C CNN
+F 3 "" H 9850 9500 50  0001 C CNN
+	1    9850 9500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9850 9500 9700 9500
+Wire Wire Line
+	9250 9300 9250 9500
+Connection ~ 9250 9500
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0E60
+P 9250 10350
+AR Path="/60EB0E60" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0E60" Ref="#PWR0199"  Part="1" 
+F 0 "#PWR0199" H 9250 10100 50  0001 C CNN
+F 1 "GND" H 9255 10177 50  0000 C CNN
+F 2 "" H 9250 10350 50  0001 C CNN
+F 3 "" H 9250 10350 50  0001 C CNN
+	1    9250 10350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 10250 9250 10350
+Wire Wire Line
+	8400 9950 8950 9950
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB0E68
+P 10400 9950
+AR Path="/60EB0E68" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB0E68" Ref="D62"  Part="1" 
+F 0 "D62" H 10744 9996 50  0000 L CNN
+F 1 "SK6812" H 10744 9905 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 10450 9650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 10500 9575 50  0001 L TNN
+	1    10400 9950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0E6E
+P 10700 9500
+AR Path="/60EB0E6E" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0E6E" Ref="C62"  Part="1" 
+F 0 "C62" V 10448 9500 50  0000 C CNN
+F 1 "C" V 10539 9500 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 10738 9350 50  0001 C CNN
+F 3 "~" H 10700 9500 50  0001 C CNN
+	1    10700 9500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10550 9500 10400 9500
+Wire Wire Line
+	10400 9500 10400 9650
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0E7C
+P 11000 9500
+AR Path="/60EB0E7C" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0E7C" Ref="#PWR0189"  Part="1" 
+F 0 "#PWR0189" H 11000 9250 50  0001 C CNN
+F 1 "GND" V 11005 9372 50  0000 R CNN
+F 2 "" H 11000 9500 50  0001 C CNN
+F 3 "" H 11000 9500 50  0001 C CNN
+	1    11000 9500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11000 9500 10850 9500
+Wire Wire Line
+	10400 9300 10400 9500
+Connection ~ 10400 9500
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0E85
+P 10400 10350
+AR Path="/60EB0E85" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0E85" Ref="#PWR0200"  Part="1" 
+F 0 "#PWR0200" H 10400 10100 50  0001 C CNN
+F 1 "GND" H 10405 10177 50  0000 C CNN
+F 2 "" H 10400 10350 50  0001 C CNN
+F 3 "" H 10400 10350 50  0001 C CNN
+	1    10400 10350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10400 10250 10400 10350
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB0E8C
+P 11550 9950
+AR Path="/60EB0E8C" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB0E8C" Ref="D63"  Part="1" 
+F 0 "D63" H 11894 9996 50  0000 L CNN
+F 1 "SK6812" H 11894 9905 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 11600 9650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 11650 9575 50  0001 L TNN
+	1    11550 9950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0E92
+P 11850 9500
+AR Path="/60EB0E92" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0E92" Ref="C63"  Part="1" 
+F 0 "C63" V 11598 9500 50  0000 C CNN
+F 1 "C" V 11689 9500 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 11888 9350 50  0001 C CNN
+F 3 "~" H 11850 9500 50  0001 C CNN
+	1    11850 9500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11700 9500 11550 9500
+Wire Wire Line
+	11550 9500 11550 9650
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0EA0
+P 12150 9500
+AR Path="/60EB0EA0" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0EA0" Ref="#PWR0190"  Part="1" 
+F 0 "#PWR0190" H 12150 9250 50  0001 C CNN
+F 1 "GND" V 12155 9372 50  0000 R CNN
+F 2 "" H 12150 9500 50  0001 C CNN
+F 3 "" H 12150 9500 50  0001 C CNN
+	1    12150 9500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12150 9500 12000 9500
+Wire Wire Line
+	11550 9300 11550 9500
+Connection ~ 11550 9500
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0EA9
+P 11550 10350
+AR Path="/60EB0EA9" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0EA9" Ref="#PWR0201"  Part="1" 
+F 0 "#PWR0201" H 11550 10100 50  0001 C CNN
+F 1 "GND" H 11555 10177 50  0000 C CNN
+F 2 "" H 11550 10350 50  0001 C CNN
+F 3 "" H 11550 10350 50  0001 C CNN
+	1    11550 10350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11550 10250 11550 10350
+Wire Wire Line
+	10700 9950 11250 9950
+Wire Wire Line
+	10100 9950 9550 9950
+Wire Wire Line
+	7800 9950 7250 9950
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB0EB3
+P 12750 9950
+AR Path="/60EB0EB3" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB0EB3" Ref="D64"  Part="1" 
+F 0 "D64" H 13094 9996 50  0000 L CNN
+F 1 "SK6812" H 13094 9905 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 12800 9650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 12850 9575 50  0001 L TNN
+	1    12750 9950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0EB9
+P 13050 9500
+AR Path="/60EB0EB9" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0EB9" Ref="C64"  Part="1" 
+F 0 "C64" V 12798 9500 50  0000 C CNN
+F 1 "C" V 12889 9500 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 13088 9350 50  0001 C CNN
+F 3 "~" H 13050 9500 50  0001 C CNN
+	1    13050 9500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12900 9500 12750 9500
+Wire Wire Line
+	12750 9500 12750 9650
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0EC7
+P 13350 9500
+AR Path="/60EB0EC7" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0EC7" Ref="#PWR0191"  Part="1" 
+F 0 "#PWR0191" H 13350 9250 50  0001 C CNN
+F 1 "GND" V 13355 9372 50  0000 R CNN
+F 2 "" H 13350 9500 50  0001 C CNN
+F 3 "" H 13350 9500 50  0001 C CNN
+	1    13350 9500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13350 9500 13200 9500
+Wire Wire Line
+	12750 9300 12750 9500
+Connection ~ 12750 9500
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0ED0
+P 12750 10350
+AR Path="/60EB0ED0" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0ED0" Ref="#PWR0202"  Part="1" 
+F 0 "#PWR0202" H 12750 10100 50  0001 C CNN
+F 1 "GND" H 12755 10177 50  0000 C CNN
+F 2 "" H 12750 10350 50  0001 C CNN
+F 3 "" H 12750 10350 50  0001 C CNN
+	1    12750 10350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12750 10250 12750 10350
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB0ED7
+P 13900 9950
+AR Path="/60EB0ED7" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB0ED7" Ref="D65"  Part="1" 
+F 0 "D65" H 14244 9996 50  0000 L CNN
+F 1 "SK6812" H 14244 9905 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 13950 9650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 14000 9575 50  0001 L TNN
+	1    13900 9950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0EDD
+P 14200 9500
+AR Path="/60EB0EDD" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0EDD" Ref="C65"  Part="1" 
+F 0 "C65" V 13948 9500 50  0000 C CNN
+F 1 "C" V 14039 9500 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 14238 9350 50  0001 C CNN
+F 3 "~" H 14200 9500 50  0001 C CNN
+	1    14200 9500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14050 9500 13900 9500
+Wire Wire Line
+	13900 9500 13900 9650
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0EEB
+P 14500 9500
+AR Path="/60EB0EEB" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0EEB" Ref="#PWR0192"  Part="1" 
+F 0 "#PWR0192" H 14500 9250 50  0001 C CNN
+F 1 "GND" V 14505 9372 50  0000 R CNN
+F 2 "" H 14500 9500 50  0001 C CNN
+F 3 "" H 14500 9500 50  0001 C CNN
+	1    14500 9500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14500 9500 14350 9500
+Wire Wire Line
+	13900 9300 13900 9500
+Connection ~ 13900 9500
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0EF4
+P 13900 10350
+AR Path="/60EB0EF4" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0EF4" Ref="#PWR0203"  Part="1" 
+F 0 "#PWR0203" H 13900 10100 50  0001 C CNN
+F 1 "GND" H 13905 10177 50  0000 C CNN
+F 2 "" H 13900 10350 50  0001 C CNN
+F 3 "" H 13900 10350 50  0001 C CNN
+	1    13900 10350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13900 10250 13900 10350
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB0EFB
+P 15050 9950
+AR Path="/60EB0EFB" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB0EFB" Ref="D66"  Part="1" 
+F 0 "D66" H 15394 9996 50  0000 L CNN
+F 1 "SK6812" H 15394 9905 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 15100 9650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 15150 9575 50  0001 L TNN
+	1    15050 9950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0F01
+P 15350 9500
+AR Path="/60EB0F01" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0F01" Ref="C66"  Part="1" 
+F 0 "C66" V 15098 9500 50  0000 C CNN
+F 1 "C" V 15189 9500 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 15388 9350 50  0001 C CNN
+F 3 "~" H 15350 9500 50  0001 C CNN
+	1    15350 9500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	15200 9500 15050 9500
+Wire Wire Line
+	15050 9500 15050 9650
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0F0F
+P 15650 9500
+AR Path="/60EB0F0F" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0F0F" Ref="#PWR0193"  Part="1" 
+F 0 "#PWR0193" H 15650 9250 50  0001 C CNN
+F 1 "GND" V 15655 9372 50  0000 R CNN
+F 2 "" H 15650 9500 50  0001 C CNN
+F 3 "" H 15650 9500 50  0001 C CNN
+	1    15650 9500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15650 9500 15500 9500
+Wire Wire Line
+	15050 9300 15050 9500
+Connection ~ 15050 9500
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0F18
+P 15050 10350
+AR Path="/60EB0F18" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0F18" Ref="#PWR0204"  Part="1" 
+F 0 "#PWR0204" H 15050 10100 50  0001 C CNN
+F 1 "GND" H 15055 10177 50  0000 C CNN
+F 2 "" H 15050 10350 50  0001 C CNN
+F 3 "" H 15050 10350 50  0001 C CNN
+	1    15050 10350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15050 10250 15050 10350
+Wire Wire Line
+	14200 9950 14750 9950
+Wire Wire Line
+	13600 9950 13050 9950
+Wire Wire Line
+	12450 9950 11850 9950
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB0F22
+P 3500 11600
+AR Path="/60EB0F22" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB0F22" Ref="D67"  Part="1" 
+F 0 "D67" H 3844 11646 50  0000 L CNN
+F 1 "SK6812" H 3844 11555 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 3550 11300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 3600 11225 50  0001 L TNN
+	1    3500 11600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0F28
+P 3800 11150
+AR Path="/60EB0F28" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0F28" Ref="C67"  Part="1" 
+F 0 "C67" V 3548 11150 50  0000 C CNN
+F 1 "C" V 3639 11150 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 3838 11000 50  0001 C CNN
+F 3 "~" H 3800 11150 50  0001 C CNN
+	1    3800 11150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3650 11150 3500 11150
+Wire Wire Line
+	3500 11150 3500 11300
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0F36
+P 4100 11150
+AR Path="/60EB0F36" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0F36" Ref="#PWR0216"  Part="1" 
+F 0 "#PWR0216" H 4100 10900 50  0001 C CNN
+F 1 "GND" V 4105 11022 50  0000 R CNN
+F 2 "" H 4100 11150 50  0001 C CNN
+F 3 "" H 4100 11150 50  0001 C CNN
+	1    4100 11150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4100 11150 3950 11150
+Wire Wire Line
+	3500 10950 3500 11150
+Connection ~ 3500 11150
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0F3F
+P 3500 12000
+AR Path="/60EB0F3F" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0F3F" Ref="#PWR0227"  Part="1" 
+F 0 "#PWR0227" H 3500 11750 50  0001 C CNN
+F 1 "GND" H 3505 11827 50  0000 C CNN
+F 2 "" H 3500 12000 50  0001 C CNN
+F 3 "" H 3500 12000 50  0001 C CNN
+	1    3500 12000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 11900 3500 12000
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB0F46
+P 4650 11600
+AR Path="/60EB0F46" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB0F46" Ref="D68"  Part="1" 
+F 0 "D68" H 4994 11646 50  0000 L CNN
+F 1 "SK6812" H 4994 11555 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 4700 11300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 4750 11225 50  0001 L TNN
+	1    4650 11600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0F4C
+P 4950 11150
+AR Path="/60EB0F4C" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0F4C" Ref="C68"  Part="1" 
+F 0 "C68" V 4698 11150 50  0000 C CNN
+F 1 "C" V 4789 11150 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 4988 11000 50  0001 C CNN
+F 3 "~" H 4950 11150 50  0001 C CNN
+	1    4950 11150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4800 11150 4650 11150
+Wire Wire Line
+	4650 11150 4650 11300
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0F5A
+P 5250 11150
+AR Path="/60EB0F5A" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0F5A" Ref="#PWR0217"  Part="1" 
+F 0 "#PWR0217" H 5250 10900 50  0001 C CNN
+F 1 "GND" V 5255 11022 50  0000 R CNN
+F 2 "" H 5250 11150 50  0001 C CNN
+F 3 "" H 5250 11150 50  0001 C CNN
+	1    5250 11150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5250 11150 5100 11150
+Wire Wire Line
+	4650 10950 4650 11150
+Connection ~ 4650 11150
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0F63
+P 4650 12000
+AR Path="/60EB0F63" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0F63" Ref="#PWR0228"  Part="1" 
+F 0 "#PWR0228" H 4650 11750 50  0001 C CNN
+F 1 "GND" H 4655 11827 50  0000 C CNN
+F 2 "" H 4650 12000 50  0001 C CNN
+F 3 "" H 4650 12000 50  0001 C CNN
+	1    4650 12000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 11900 4650 12000
+Wire Wire Line
+	3800 11600 4350 11600
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB0F6B
+P 5800 11600
+AR Path="/60EB0F6B" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB0F6B" Ref="D69"  Part="1" 
+F 0 "D69" H 6144 11646 50  0000 L CNN
+F 1 "SK6812" H 6144 11555 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 5850 11300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 5900 11225 50  0001 L TNN
+	1    5800 11600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0F71
+P 6100 11150
+AR Path="/60EB0F71" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0F71" Ref="C69"  Part="1" 
+F 0 "C69" V 5848 11150 50  0000 C CNN
+F 1 "C" V 5939 11150 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 6138 11000 50  0001 C CNN
+F 3 "~" H 6100 11150 50  0001 C CNN
+	1    6100 11150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5950 11150 5800 11150
+Wire Wire Line
+	5800 11150 5800 11300
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0F7F
+P 6400 11150
+AR Path="/60EB0F7F" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0F7F" Ref="#PWR0218"  Part="1" 
+F 0 "#PWR0218" H 6400 10900 50  0001 C CNN
+F 1 "GND" V 6405 11022 50  0000 R CNN
+F 2 "" H 6400 11150 50  0001 C CNN
+F 3 "" H 6400 11150 50  0001 C CNN
+	1    6400 11150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6400 11150 6250 11150
+Wire Wire Line
+	5800 10950 5800 11150
+Connection ~ 5800 11150
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0F88
+P 5800 12000
+AR Path="/60EB0F88" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0F88" Ref="#PWR0229"  Part="1" 
+F 0 "#PWR0229" H 5800 11750 50  0001 C CNN
+F 1 "GND" H 5805 11827 50  0000 C CNN
+F 2 "" H 5800 12000 50  0001 C CNN
+F 3 "" H 5800 12000 50  0001 C CNN
+	1    5800 12000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 11900 5800 12000
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB0F8F
+P 6950 11600
+AR Path="/60EB0F8F" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB0F8F" Ref="D70"  Part="1" 
+F 0 "D70" H 7294 11646 50  0000 L CNN
+F 1 "SK6812" H 7294 11555 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 7000 11300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 7050 11225 50  0001 L TNN
+	1    6950 11600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0F95
+P 7250 11150
+AR Path="/60EB0F95" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0F95" Ref="C70"  Part="1" 
+F 0 "C70" V 6998 11150 50  0000 C CNN
+F 1 "C" V 7089 11150 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 7288 11000 50  0001 C CNN
+F 3 "~" H 7250 11150 50  0001 C CNN
+	1    7250 11150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7100 11150 6950 11150
+Wire Wire Line
+	6950 11150 6950 11300
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0FA3
+P 7550 11150
+AR Path="/60EB0FA3" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0FA3" Ref="#PWR0219"  Part="1" 
+F 0 "#PWR0219" H 7550 10900 50  0001 C CNN
+F 1 "GND" V 7555 11022 50  0000 R CNN
+F 2 "" H 7550 11150 50  0001 C CNN
+F 3 "" H 7550 11150 50  0001 C CNN
+	1    7550 11150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7550 11150 7400 11150
+Wire Wire Line
+	6950 10950 6950 11150
+Connection ~ 6950 11150
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0FAC
+P 6950 12000
+AR Path="/60EB0FAC" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0FAC" Ref="#PWR0230"  Part="1" 
+F 0 "#PWR0230" H 6950 11750 50  0001 C CNN
+F 1 "GND" H 6955 11827 50  0000 C CNN
+F 2 "" H 6950 12000 50  0001 C CNN
+F 3 "" H 6950 12000 50  0001 C CNN
+	1    6950 12000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 11900 6950 12000
+Wire Wire Line
+	6100 11600 6650 11600
+Wire Wire Line
+	5500 11600 4950 11600
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB0FB5
+P 8100 11600
+AR Path="/60EB0FB5" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB0FB5" Ref="D71"  Part="1" 
+F 0 "D71" H 8444 11646 50  0000 L CNN
+F 1 "SK6812" H 8444 11555 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 8150 11300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 8200 11225 50  0001 L TNN
+	1    8100 11600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0FBB
+P 8400 11150
+AR Path="/60EB0FBB" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0FBB" Ref="C71"  Part="1" 
+F 0 "C71" V 8148 11150 50  0000 C CNN
+F 1 "C" V 8239 11150 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 8438 11000 50  0001 C CNN
+F 3 "~" H 8400 11150 50  0001 C CNN
+	1    8400 11150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8250 11150 8100 11150
+Wire Wire Line
+	8100 11150 8100 11300
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0FC9
+P 8700 11150
+AR Path="/60EB0FC9" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0FC9" Ref="#PWR0220"  Part="1" 
+F 0 "#PWR0220" H 8700 10900 50  0001 C CNN
+F 1 "GND" V 8705 11022 50  0000 R CNN
+F 2 "" H 8700 11150 50  0001 C CNN
+F 3 "" H 8700 11150 50  0001 C CNN
+	1    8700 11150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8700 11150 8550 11150
+Wire Wire Line
+	8100 10950 8100 11150
+Connection ~ 8100 11150
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0FD2
+P 8100 12000
+AR Path="/60EB0FD2" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0FD2" Ref="#PWR0231"  Part="1" 
+F 0 "#PWR0231" H 8100 11750 50  0001 C CNN
+F 1 "GND" H 8105 11827 50  0000 C CNN
+F 2 "" H 8100 12000 50  0001 C CNN
+F 3 "" H 8100 12000 50  0001 C CNN
+	1    8100 12000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 11900 8100 12000
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB0FD9
+P 9250 11600
+AR Path="/60EB0FD9" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB0FD9" Ref="D72"  Part="1" 
+F 0 "D72" H 9594 11646 50  0000 L CNN
+F 1 "SK6812" H 9594 11555 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 9300 11300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 9350 11225 50  0001 L TNN
+	1    9250 11600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB0FDF
+P 9550 11150
+AR Path="/60EB0FDF" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB0FDF" Ref="C72"  Part="1" 
+F 0 "C72" V 9298 11150 50  0000 C CNN
+F 1 "C" V 9389 11150 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 9588 11000 50  0001 C CNN
+F 3 "~" H 9550 11150 50  0001 C CNN
+	1    9550 11150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9400 11150 9250 11150
+Wire Wire Line
+	9250 11150 9250 11300
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0FED
+P 9850 11150
+AR Path="/60EB0FED" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0FED" Ref="#PWR0221"  Part="1" 
+F 0 "#PWR0221" H 9850 10900 50  0001 C CNN
+F 1 "GND" V 9855 11022 50  0000 R CNN
+F 2 "" H 9850 11150 50  0001 C CNN
+F 3 "" H 9850 11150 50  0001 C CNN
+	1    9850 11150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9850 11150 9700 11150
+Wire Wire Line
+	9250 10950 9250 11150
+Connection ~ 9250 11150
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB0FF6
+P 9250 12000
+AR Path="/60EB0FF6" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB0FF6" Ref="#PWR0232"  Part="1" 
+F 0 "#PWR0232" H 9250 11750 50  0001 C CNN
+F 1 "GND" H 9255 11827 50  0000 C CNN
+F 2 "" H 9250 12000 50  0001 C CNN
+F 3 "" H 9250 12000 50  0001 C CNN
+	1    9250 12000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 11900 9250 12000
+Wire Wire Line
+	8400 11600 8950 11600
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB0FFE
+P 10400 11600
+AR Path="/60EB0FFE" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB0FFE" Ref="D73"  Part="1" 
+F 0 "D73" H 10744 11646 50  0000 L CNN
+F 1 "SK6812" H 10744 11555 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 10450 11300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 10500 11225 50  0001 L TNN
+	1    10400 11600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB1004
+P 10700 11150
+AR Path="/60EB1004" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB1004" Ref="C73"  Part="1" 
+F 0 "C73" V 10448 11150 50  0000 C CNN
+F 1 "C" V 10539 11150 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 10738 11000 50  0001 C CNN
+F 3 "~" H 10700 11150 50  0001 C CNN
+	1    10700 11150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10550 11150 10400 11150
+Wire Wire Line
+	10400 11150 10400 11300
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB1012
+P 11000 11150
+AR Path="/60EB1012" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB1012" Ref="#PWR0222"  Part="1" 
+F 0 "#PWR0222" H 11000 10900 50  0001 C CNN
+F 1 "GND" V 11005 11022 50  0000 R CNN
+F 2 "" H 11000 11150 50  0001 C CNN
+F 3 "" H 11000 11150 50  0001 C CNN
+	1    11000 11150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11000 11150 10850 11150
+Wire Wire Line
+	10400 10950 10400 11150
+Connection ~ 10400 11150
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB101B
+P 10400 12000
+AR Path="/60EB101B" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB101B" Ref="#PWR0233"  Part="1" 
+F 0 "#PWR0233" H 10400 11750 50  0001 C CNN
+F 1 "GND" H 10405 11827 50  0000 C CNN
+F 2 "" H 10400 12000 50  0001 C CNN
+F 3 "" H 10400 12000 50  0001 C CNN
+	1    10400 12000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10400 11900 10400 12000
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB1022
+P 11550 11600
+AR Path="/60EB1022" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB1022" Ref="D74"  Part="1" 
+F 0 "D74" H 11894 11646 50  0000 L CNN
+F 1 "SK6812" H 11894 11555 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 11600 11300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 11650 11225 50  0001 L TNN
+	1    11550 11600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB1028
+P 11850 11150
+AR Path="/60EB1028" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB1028" Ref="C74"  Part="1" 
+F 0 "C74" V 11598 11150 50  0000 C CNN
+F 1 "C" V 11689 11150 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 11888 11000 50  0001 C CNN
+F 3 "~" H 11850 11150 50  0001 C CNN
+	1    11850 11150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11700 11150 11550 11150
+Wire Wire Line
+	11550 11150 11550 11300
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB1036
+P 12150 11150
+AR Path="/60EB1036" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB1036" Ref="#PWR0223"  Part="1" 
+F 0 "#PWR0223" H 12150 10900 50  0001 C CNN
+F 1 "GND" V 12155 11022 50  0000 R CNN
+F 2 "" H 12150 11150 50  0001 C CNN
+F 3 "" H 12150 11150 50  0001 C CNN
+	1    12150 11150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12150 11150 12000 11150
+Wire Wire Line
+	11550 10950 11550 11150
+Connection ~ 11550 11150
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB103F
+P 11550 12000
+AR Path="/60EB103F" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB103F" Ref="#PWR0234"  Part="1" 
+F 0 "#PWR0234" H 11550 11750 50  0001 C CNN
+F 1 "GND" H 11555 11827 50  0000 C CNN
+F 2 "" H 11550 12000 50  0001 C CNN
+F 3 "" H 11550 12000 50  0001 C CNN
+	1    11550 12000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11550 11900 11550 12000
+Wire Wire Line
+	10700 11600 11250 11600
+Wire Wire Line
+	10100 11600 9550 11600
+Wire Wire Line
+	7800 11600 7250 11600
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB1049
+P 12750 11600
+AR Path="/60EB1049" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB1049" Ref="D75"  Part="1" 
+F 0 "D75" H 13094 11646 50  0000 L CNN
+F 1 "SK6812" H 13094 11555 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 12800 11300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 12850 11225 50  0001 L TNN
+	1    12750 11600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB104F
+P 13050 11150
+AR Path="/60EB104F" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB104F" Ref="C75"  Part="1" 
+F 0 "C75" V 12798 11150 50  0000 C CNN
+F 1 "C" V 12889 11150 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 13088 11000 50  0001 C CNN
+F 3 "~" H 13050 11150 50  0001 C CNN
+	1    13050 11150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12900 11150 12750 11150
+Wire Wire Line
+	12750 11150 12750 11300
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB105D
+P 13350 11150
+AR Path="/60EB105D" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB105D" Ref="#PWR0224"  Part="1" 
+F 0 "#PWR0224" H 13350 10900 50  0001 C CNN
+F 1 "GND" V 13355 11022 50  0000 R CNN
+F 2 "" H 13350 11150 50  0001 C CNN
+F 3 "" H 13350 11150 50  0001 C CNN
+	1    13350 11150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13350 11150 13200 11150
+Wire Wire Line
+	12750 10950 12750 11150
+Connection ~ 12750 11150
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB1066
+P 12750 12000
+AR Path="/60EB1066" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB1066" Ref="#PWR0235"  Part="1" 
+F 0 "#PWR0235" H 12750 11750 50  0001 C CNN
+F 1 "GND" H 12755 11827 50  0000 C CNN
+F 2 "" H 12750 12000 50  0001 C CNN
+F 3 "" H 12750 12000 50  0001 C CNN
+	1    12750 12000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12750 11900 12750 12000
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB106D
+P 13900 11600
+AR Path="/60EB106D" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB106D" Ref="D76"  Part="1" 
+F 0 "D76" H 14244 11646 50  0000 L CNN
+F 1 "SK6812" H 14244 11555 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 13950 11300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 14000 11225 50  0001 L TNN
+	1    13900 11600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB1073
+P 14200 11150
+AR Path="/60EB1073" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB1073" Ref="C76"  Part="1" 
+F 0 "C76" V 13948 11150 50  0000 C CNN
+F 1 "C" V 14039 11150 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 14238 11000 50  0001 C CNN
+F 3 "~" H 14200 11150 50  0001 C CNN
+	1    14200 11150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14050 11150 13900 11150
+Wire Wire Line
+	13900 11150 13900 11300
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB1081
+P 14500 11150
+AR Path="/60EB1081" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB1081" Ref="#PWR0225"  Part="1" 
+F 0 "#PWR0225" H 14500 10900 50  0001 C CNN
+F 1 "GND" V 14505 11022 50  0000 R CNN
+F 2 "" H 14500 11150 50  0001 C CNN
+F 3 "" H 14500 11150 50  0001 C CNN
+	1    14500 11150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14500 11150 14350 11150
+Wire Wire Line
+	13900 10950 13900 11150
+Connection ~ 13900 11150
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB108A
+P 13900 12000
+AR Path="/60EB108A" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB108A" Ref="#PWR0236"  Part="1" 
+F 0 "#PWR0236" H 13900 11750 50  0001 C CNN
+F 1 "GND" H 13905 11827 50  0000 C CNN
+F 2 "" H 13900 12000 50  0001 C CNN
+F 3 "" H 13900 12000 50  0001 C CNN
+	1    13900 12000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13900 11900 13900 12000
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB1091
+P 15050 11600
+AR Path="/60EB1091" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB1091" Ref="D77"  Part="1" 
+F 0 "D77" H 15394 11646 50  0000 L CNN
+F 1 "SK6812" H 15394 11555 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 15100 11300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 15150 11225 50  0001 L TNN
+	1    15050 11600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB1097
+P 15350 11150
+AR Path="/60EB1097" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB1097" Ref="C77"  Part="1" 
+F 0 "C77" V 15098 11150 50  0000 C CNN
+F 1 "C" V 15189 11150 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 15388 11000 50  0001 C CNN
+F 3 "~" H 15350 11150 50  0001 C CNN
+	1    15350 11150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	15200 11150 15050 11150
+Wire Wire Line
+	15050 11150 15050 11300
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB10A5
+P 15650 11150
+AR Path="/60EB10A5" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB10A5" Ref="#PWR0226"  Part="1" 
+F 0 "#PWR0226" H 15650 10900 50  0001 C CNN
+F 1 "GND" V 15655 11022 50  0000 R CNN
+F 2 "" H 15650 11150 50  0001 C CNN
+F 3 "" H 15650 11150 50  0001 C CNN
+	1    15650 11150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15650 11150 15500 11150
+Wire Wire Line
+	15050 10950 15050 11150
+Connection ~ 15050 11150
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB10AE
+P 15050 12000
+AR Path="/60EB10AE" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB10AE" Ref="#PWR0237"  Part="1" 
+F 0 "#PWR0237" H 15050 11750 50  0001 C CNN
+F 1 "GND" H 15055 11827 50  0000 C CNN
+F 2 "" H 15050 12000 50  0001 C CNN
+F 3 "" H 15050 12000 50  0001 C CNN
+	1    15050 12000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15050 11900 15050 12000
+Wire Wire Line
+	14200 11600 14750 11600
+Wire Wire Line
+	13600 11600 13050 11600
+Wire Wire Line
+	12450 11600 11850 11600
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB10B8
+P 3500 13300
+AR Path="/60EB10B8" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB10B8" Ref="D78"  Part="1" 
+F 0 "D78" H 3844 13346 50  0000 L CNN
+F 1 "SK6812" H 3844 13255 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 3550 13000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 3600 12925 50  0001 L TNN
+	1    3500 13300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB10BE
+P 3800 12850
+AR Path="/60EB10BE" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB10BE" Ref="C78"  Part="1" 
+F 0 "C78" V 3548 12850 50  0000 C CNN
+F 1 "C" V 3639 12850 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 3838 12700 50  0001 C CNN
+F 3 "~" H 3800 12850 50  0001 C CNN
+	1    3800 12850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3650 12850 3500 12850
+Wire Wire Line
+	3500 12850 3500 13000
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB10CC
+P 4100 12850
+AR Path="/60EB10CC" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB10CC" Ref="#PWR0249"  Part="1" 
+F 0 "#PWR0249" H 4100 12600 50  0001 C CNN
+F 1 "GND" V 4105 12722 50  0000 R CNN
+F 2 "" H 4100 12850 50  0001 C CNN
+F 3 "" H 4100 12850 50  0001 C CNN
+	1    4100 12850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4100 12850 3950 12850
+Wire Wire Line
+	3500 12650 3500 12850
+Connection ~ 3500 12850
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB10D5
+P 3500 13700
+AR Path="/60EB10D5" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB10D5" Ref="#PWR0260"  Part="1" 
+F 0 "#PWR0260" H 3500 13450 50  0001 C CNN
+F 1 "GND" H 3505 13527 50  0000 C CNN
+F 2 "" H 3500 13700 50  0001 C CNN
+F 3 "" H 3500 13700 50  0001 C CNN
+	1    3500 13700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 13600 3500 13700
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB10DC
+P 4650 13300
+AR Path="/60EB10DC" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB10DC" Ref="D79"  Part="1" 
+F 0 "D79" H 4994 13346 50  0000 L CNN
+F 1 "SK6812" H 4994 13255 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 4700 13000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 4750 12925 50  0001 L TNN
+	1    4650 13300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB10E2
+P 4950 12850
+AR Path="/60EB10E2" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB10E2" Ref="C79"  Part="1" 
+F 0 "C79" V 4698 12850 50  0000 C CNN
+F 1 "C" V 4789 12850 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 4988 12700 50  0001 C CNN
+F 3 "~" H 4950 12850 50  0001 C CNN
+	1    4950 12850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4800 12850 4650 12850
+Wire Wire Line
+	4650 12850 4650 13000
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB10F0
+P 5250 12850
+AR Path="/60EB10F0" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB10F0" Ref="#PWR0250"  Part="1" 
+F 0 "#PWR0250" H 5250 12600 50  0001 C CNN
+F 1 "GND" V 5255 12722 50  0000 R CNN
+F 2 "" H 5250 12850 50  0001 C CNN
+F 3 "" H 5250 12850 50  0001 C CNN
+	1    5250 12850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5250 12850 5100 12850
+Wire Wire Line
+	4650 12650 4650 12850
+Connection ~ 4650 12850
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB10F9
+P 4650 13700
+AR Path="/60EB10F9" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB10F9" Ref="#PWR0261"  Part="1" 
+F 0 "#PWR0261" H 4650 13450 50  0001 C CNN
+F 1 "GND" H 4655 13527 50  0000 C CNN
+F 2 "" H 4650 13700 50  0001 C CNN
+F 3 "" H 4650 13700 50  0001 C CNN
+	1    4650 13700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 13600 4650 13700
+Wire Wire Line
+	3800 13300 4350 13300
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB1101
+P 5800 13300
+AR Path="/60EB1101" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB1101" Ref="D80"  Part="1" 
+F 0 "D80" H 6144 13346 50  0000 L CNN
+F 1 "SK6812" H 6144 13255 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 5850 13000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 5900 12925 50  0001 L TNN
+	1    5800 13300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB1107
+P 6100 12850
+AR Path="/60EB1107" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB1107" Ref="C80"  Part="1" 
+F 0 "C80" V 5848 12850 50  0000 C CNN
+F 1 "C" V 5939 12850 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 6138 12700 50  0001 C CNN
+F 3 "~" H 6100 12850 50  0001 C CNN
+	1    6100 12850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5950 12850 5800 12850
+Wire Wire Line
+	5800 12850 5800 13000
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB1115
+P 6400 12850
+AR Path="/60EB1115" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB1115" Ref="#PWR0251"  Part="1" 
+F 0 "#PWR0251" H 6400 12600 50  0001 C CNN
+F 1 "GND" V 6405 12722 50  0000 R CNN
+F 2 "" H 6400 12850 50  0001 C CNN
+F 3 "" H 6400 12850 50  0001 C CNN
+	1    6400 12850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6400 12850 6250 12850
+Wire Wire Line
+	5800 12650 5800 12850
+Connection ~ 5800 12850
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB111E
+P 5800 13700
+AR Path="/60EB111E" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB111E" Ref="#PWR0262"  Part="1" 
+F 0 "#PWR0262" H 5800 13450 50  0001 C CNN
+F 1 "GND" H 5805 13527 50  0000 C CNN
+F 2 "" H 5800 13700 50  0001 C CNN
+F 3 "" H 5800 13700 50  0001 C CNN
+	1    5800 13700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 13600 5800 13700
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB1125
+P 6950 13300
+AR Path="/60EB1125" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB1125" Ref="D81"  Part="1" 
+F 0 "D81" H 7294 13346 50  0000 L CNN
+F 1 "SK6812" H 7294 13255 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 7000 13000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 7050 12925 50  0001 L TNN
+	1    6950 13300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB112B
+P 7250 12850
+AR Path="/60EB112B" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB112B" Ref="C81"  Part="1" 
+F 0 "C81" V 6998 12850 50  0000 C CNN
+F 1 "C" V 7089 12850 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 7288 12700 50  0001 C CNN
+F 3 "~" H 7250 12850 50  0001 C CNN
+	1    7250 12850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7100 12850 6950 12850
+Wire Wire Line
+	6950 12850 6950 13000
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB1139
+P 7550 12850
+AR Path="/60EB1139" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB1139" Ref="#PWR0252"  Part="1" 
+F 0 "#PWR0252" H 7550 12600 50  0001 C CNN
+F 1 "GND" V 7555 12722 50  0000 R CNN
+F 2 "" H 7550 12850 50  0001 C CNN
+F 3 "" H 7550 12850 50  0001 C CNN
+	1    7550 12850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7550 12850 7400 12850
+Wire Wire Line
+	6950 12650 6950 12850
+Connection ~ 6950 12850
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB1142
+P 6950 13700
+AR Path="/60EB1142" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB1142" Ref="#PWR0263"  Part="1" 
+F 0 "#PWR0263" H 6950 13450 50  0001 C CNN
+F 1 "GND" H 6955 13527 50  0000 C CNN
+F 2 "" H 6950 13700 50  0001 C CNN
+F 3 "" H 6950 13700 50  0001 C CNN
+	1    6950 13700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 13600 6950 13700
+Wire Wire Line
+	6100 13300 6650 13300
+Wire Wire Line
+	5500 13300 4950 13300
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB114B
+P 8100 13300
+AR Path="/60EB114B" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB114B" Ref="D82"  Part="1" 
+F 0 "D82" H 8444 13346 50  0000 L CNN
+F 1 "SK6812" H 8444 13255 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 8150 13000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 8200 12925 50  0001 L TNN
+	1    8100 13300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB1151
+P 8400 12850
+AR Path="/60EB1151" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB1151" Ref="C82"  Part="1" 
+F 0 "C82" V 8148 12850 50  0000 C CNN
+F 1 "C" V 8239 12850 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 8438 12700 50  0001 C CNN
+F 3 "~" H 8400 12850 50  0001 C CNN
+	1    8400 12850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8250 12850 8100 12850
+Wire Wire Line
+	8100 12850 8100 13000
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB115F
+P 8700 12850
+AR Path="/60EB115F" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB115F" Ref="#PWR0253"  Part="1" 
+F 0 "#PWR0253" H 8700 12600 50  0001 C CNN
+F 1 "GND" V 8705 12722 50  0000 R CNN
+F 2 "" H 8700 12850 50  0001 C CNN
+F 3 "" H 8700 12850 50  0001 C CNN
+	1    8700 12850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8700 12850 8550 12850
+Wire Wire Line
+	8100 12650 8100 12850
+Connection ~ 8100 12850
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB1168
+P 8100 13700
+AR Path="/60EB1168" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB1168" Ref="#PWR0264"  Part="1" 
+F 0 "#PWR0264" H 8100 13450 50  0001 C CNN
+F 1 "GND" H 8105 13527 50  0000 C CNN
+F 2 "" H 8100 13700 50  0001 C CNN
+F 3 "" H 8100 13700 50  0001 C CNN
+	1    8100 13700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 13600 8100 13700
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB116F
+P 9250 13300
+AR Path="/60EB116F" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB116F" Ref="D83"  Part="1" 
+F 0 "D83" H 9594 13346 50  0000 L CNN
+F 1 "SK6812" H 9594 13255 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 9300 13000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 9350 12925 50  0001 L TNN
+	1    9250 13300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB1175
+P 9550 12850
+AR Path="/60EB1175" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB1175" Ref="C83"  Part="1" 
+F 0 "C83" V 9298 12850 50  0000 C CNN
+F 1 "C" V 9389 12850 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 9588 12700 50  0001 C CNN
+F 3 "~" H 9550 12850 50  0001 C CNN
+	1    9550 12850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9400 12850 9250 12850
+Wire Wire Line
+	9250 12850 9250 13000
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB1183
+P 9850 12850
+AR Path="/60EB1183" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB1183" Ref="#PWR0254"  Part="1" 
+F 0 "#PWR0254" H 9850 12600 50  0001 C CNN
+F 1 "GND" V 9855 12722 50  0000 R CNN
+F 2 "" H 9850 12850 50  0001 C CNN
+F 3 "" H 9850 12850 50  0001 C CNN
+	1    9850 12850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9850 12850 9700 12850
+Wire Wire Line
+	9250 12650 9250 12850
+Connection ~ 9250 12850
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB118C
+P 9250 13700
+AR Path="/60EB118C" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB118C" Ref="#PWR0265"  Part="1" 
+F 0 "#PWR0265" H 9250 13450 50  0001 C CNN
+F 1 "GND" H 9255 13527 50  0000 C CNN
+F 2 "" H 9250 13700 50  0001 C CNN
+F 3 "" H 9250 13700 50  0001 C CNN
+	1    9250 13700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 13600 9250 13700
+Wire Wire Line
+	8400 13300 8950 13300
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB1194
+P 10400 13300
+AR Path="/60EB1194" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB1194" Ref="D84"  Part="1" 
+F 0 "D84" H 10744 13346 50  0000 L CNN
+F 1 "SK6812" H 10744 13255 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 10450 13000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 10500 12925 50  0001 L TNN
+	1    10400 13300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB119A
+P 10700 12850
+AR Path="/60EB119A" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB119A" Ref="C84"  Part="1" 
+F 0 "C84" V 10448 12850 50  0000 C CNN
+F 1 "C" V 10539 12850 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 10738 12700 50  0001 C CNN
+F 3 "~" H 10700 12850 50  0001 C CNN
+	1    10700 12850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10550 12850 10400 12850
+Wire Wire Line
+	10400 12850 10400 13000
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB11A8
+P 11000 12850
+AR Path="/60EB11A8" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB11A8" Ref="#PWR0255"  Part="1" 
+F 0 "#PWR0255" H 11000 12600 50  0001 C CNN
+F 1 "GND" V 11005 12722 50  0000 R CNN
+F 2 "" H 11000 12850 50  0001 C CNN
+F 3 "" H 11000 12850 50  0001 C CNN
+	1    11000 12850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11000 12850 10850 12850
+Wire Wire Line
+	10400 12650 10400 12850
+Connection ~ 10400 12850
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB11B1
+P 10400 13700
+AR Path="/60EB11B1" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB11B1" Ref="#PWR0266"  Part="1" 
+F 0 "#PWR0266" H 10400 13450 50  0001 C CNN
+F 1 "GND" H 10405 13527 50  0000 C CNN
+F 2 "" H 10400 13700 50  0001 C CNN
+F 3 "" H 10400 13700 50  0001 C CNN
+	1    10400 13700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10400 13600 10400 13700
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB11B8
+P 11550 13300
+AR Path="/60EB11B8" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB11B8" Ref="D85"  Part="1" 
+F 0 "D85" H 11894 13346 50  0000 L CNN
+F 1 "SK6812" H 11894 13255 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 11600 13000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 11650 12925 50  0001 L TNN
+	1    11550 13300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB11BE
+P 11850 12850
+AR Path="/60EB11BE" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB11BE" Ref="C85"  Part="1" 
+F 0 "C85" V 11598 12850 50  0000 C CNN
+F 1 "C" V 11689 12850 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 11888 12700 50  0001 C CNN
+F 3 "~" H 11850 12850 50  0001 C CNN
+	1    11850 12850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11700 12850 11550 12850
+Wire Wire Line
+	11550 12850 11550 13000
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB11CC
+P 12150 12850
+AR Path="/60EB11CC" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB11CC" Ref="#PWR0256"  Part="1" 
+F 0 "#PWR0256" H 12150 12600 50  0001 C CNN
+F 1 "GND" V 12155 12722 50  0000 R CNN
+F 2 "" H 12150 12850 50  0001 C CNN
+F 3 "" H 12150 12850 50  0001 C CNN
+	1    12150 12850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12150 12850 12000 12850
+Wire Wire Line
+	11550 12650 11550 12850
+Connection ~ 11550 12850
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB11D5
+P 11550 13700
+AR Path="/60EB11D5" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB11D5" Ref="#PWR0267"  Part="1" 
+F 0 "#PWR0267" H 11550 13450 50  0001 C CNN
+F 1 "GND" H 11555 13527 50  0000 C CNN
+F 2 "" H 11550 13700 50  0001 C CNN
+F 3 "" H 11550 13700 50  0001 C CNN
+	1    11550 13700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11550 13600 11550 13700
+Wire Wire Line
+	10700 13300 11250 13300
+Wire Wire Line
+	10100 13300 9550 13300
+Wire Wire Line
+	7800 13300 7250 13300
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB11DF
+P 12750 13300
+AR Path="/60EB11DF" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB11DF" Ref="D86"  Part="1" 
+F 0 "D86" H 13094 13346 50  0000 L CNN
+F 1 "SK6812" H 13094 13255 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 12800 13000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 12850 12925 50  0001 L TNN
+	1    12750 13300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB11E5
+P 13050 12850
+AR Path="/60EB11E5" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB11E5" Ref="C86"  Part="1" 
+F 0 "C86" V 12798 12850 50  0000 C CNN
+F 1 "C" V 12889 12850 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 13088 12700 50  0001 C CNN
+F 3 "~" H 13050 12850 50  0001 C CNN
+	1    13050 12850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12900 12850 12750 12850
+Wire Wire Line
+	12750 12850 12750 13000
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB11F3
+P 13350 12850
+AR Path="/60EB11F3" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB11F3" Ref="#PWR0257"  Part="1" 
+F 0 "#PWR0257" H 13350 12600 50  0001 C CNN
+F 1 "GND" V 13355 12722 50  0000 R CNN
+F 2 "" H 13350 12850 50  0001 C CNN
+F 3 "" H 13350 12850 50  0001 C CNN
+	1    13350 12850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13350 12850 13200 12850
+Wire Wire Line
+	12750 12650 12750 12850
+Connection ~ 12750 12850
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB11FC
+P 12750 13700
+AR Path="/60EB11FC" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB11FC" Ref="#PWR0268"  Part="1" 
+F 0 "#PWR0268" H 12750 13450 50  0001 C CNN
+F 1 "GND" H 12755 13527 50  0000 C CNN
+F 2 "" H 12750 13700 50  0001 C CNN
+F 3 "" H 12750 13700 50  0001 C CNN
+	1    12750 13700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12750 13600 12750 13700
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB1203
+P 13900 13300
+AR Path="/60EB1203" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB1203" Ref="D87"  Part="1" 
+F 0 "D87" H 14244 13346 50  0000 L CNN
+F 1 "SK6812" H 14244 13255 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 13950 13000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 14000 12925 50  0001 L TNN
+	1    13900 13300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB1209
+P 14200 12850
+AR Path="/60EB1209" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB1209" Ref="C87"  Part="1" 
+F 0 "C87" V 13948 12850 50  0000 C CNN
+F 1 "C" V 14039 12850 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 14238 12700 50  0001 C CNN
+F 3 "~" H 14200 12850 50  0001 C CNN
+	1    14200 12850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14050 12850 13900 12850
+Wire Wire Line
+	13900 12850 13900 13000
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB1217
+P 14500 12850
+AR Path="/60EB1217" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB1217" Ref="#PWR0258"  Part="1" 
+F 0 "#PWR0258" H 14500 12600 50  0001 C CNN
+F 1 "GND" V 14505 12722 50  0000 R CNN
+F 2 "" H 14500 12850 50  0001 C CNN
+F 3 "" H 14500 12850 50  0001 C CNN
+	1    14500 12850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14500 12850 14350 12850
+Wire Wire Line
+	13900 12650 13900 12850
+Connection ~ 13900 12850
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB1220
+P 13900 13700
+AR Path="/60EB1220" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB1220" Ref="#PWR0269"  Part="1" 
+F 0 "#PWR0269" H 13900 13450 50  0001 C CNN
+F 1 "GND" H 13905 13527 50  0000 C CNN
+F 2 "" H 13900 13700 50  0001 C CNN
+F 3 "" H 13900 13700 50  0001 C CNN
+	1    13900 13700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13900 13600 13900 13700
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB1227
+P 15050 13300
+AR Path="/60EB1227" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB1227" Ref="D88"  Part="1" 
+F 0 "D88" H 15394 13346 50  0000 L CNN
+F 1 "SK6812" H 15394 13255 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 15100 13000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 15150 12925 50  0001 L TNN
+	1    15050 13300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB122D
+P 15350 12850
+AR Path="/60EB122D" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB122D" Ref="C88"  Part="1" 
+F 0 "C88" V 15098 12850 50  0000 C CNN
+F 1 "C" V 15189 12850 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 15388 12700 50  0001 C CNN
+F 3 "~" H 15350 12850 50  0001 C CNN
+	1    15350 12850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	15200 12850 15050 12850
+Wire Wire Line
+	15050 12850 15050 13000
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB123B
+P 15650 12850
+AR Path="/60EB123B" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB123B" Ref="#PWR0259"  Part="1" 
+F 0 "#PWR0259" H 15650 12600 50  0001 C CNN
+F 1 "GND" V 15655 12722 50  0000 R CNN
+F 2 "" H 15650 12850 50  0001 C CNN
+F 3 "" H 15650 12850 50  0001 C CNN
+	1    15650 12850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15650 12850 15500 12850
+Wire Wire Line
+	15050 12650 15050 12850
+Connection ~ 15050 12850
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB1244
+P 15050 13700
+AR Path="/60EB1244" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB1244" Ref="#PWR0270"  Part="1" 
+F 0 "#PWR0270" H 15050 13450 50  0001 C CNN
+F 1 "GND" H 15055 13527 50  0000 C CNN
+F 2 "" H 15050 13700 50  0001 C CNN
+F 3 "" H 15050 13700 50  0001 C CNN
+	1    15050 13700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15050 13600 15050 13700
+Wire Wire Line
+	14200 13300 14750 13300
+Wire Wire Line
+	13600 13300 13050 13300
+Wire Wire Line
+	12450 13300 11850 13300
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB124E
+P 3500 14900
+AR Path="/60EB124E" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB124E" Ref="D89"  Part="1" 
+F 0 "D89" H 3844 14946 50  0000 L CNN
+F 1 "SK6812" H 3844 14855 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 3550 14600 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 3600 14525 50  0001 L TNN
+	1    3500 14900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB1254
+P 3800 14450
+AR Path="/60EB1254" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB1254" Ref="C89"  Part="1" 
+F 0 "C89" V 3548 14450 50  0000 C CNN
+F 1 "C" V 3639 14450 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 3838 14300 50  0001 C CNN
+F 3 "~" H 3800 14450 50  0001 C CNN
+	1    3800 14450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3650 14450 3500 14450
+Wire Wire Line
+	3500 14450 3500 14600
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB1262
+P 4100 14450
+AR Path="/60EB1262" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB1262" Ref="#PWR0282"  Part="1" 
+F 0 "#PWR0282" H 4100 14200 50  0001 C CNN
+F 1 "GND" V 4105 14322 50  0000 R CNN
+F 2 "" H 4100 14450 50  0001 C CNN
+F 3 "" H 4100 14450 50  0001 C CNN
+	1    4100 14450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4100 14450 3950 14450
+Wire Wire Line
+	3500 14250 3500 14450
+Connection ~ 3500 14450
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB126B
+P 3500 15300
+AR Path="/60EB126B" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB126B" Ref="#PWR0293"  Part="1" 
+F 0 "#PWR0293" H 3500 15050 50  0001 C CNN
+F 1 "GND" H 3505 15127 50  0000 C CNN
+F 2 "" H 3500 15300 50  0001 C CNN
+F 3 "" H 3500 15300 50  0001 C CNN
+	1    3500 15300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 15200 3500 15300
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB1272
+P 4650 14900
+AR Path="/60EB1272" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB1272" Ref="D90"  Part="1" 
+F 0 "D90" H 4994 14946 50  0000 L CNN
+F 1 "SK6812" H 4994 14855 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 4700 14600 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 4750 14525 50  0001 L TNN
+	1    4650 14900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB1278
+P 4950 14450
+AR Path="/60EB1278" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB1278" Ref="C90"  Part="1" 
+F 0 "C90" V 4698 14450 50  0000 C CNN
+F 1 "C" V 4789 14450 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 4988 14300 50  0001 C CNN
+F 3 "~" H 4950 14450 50  0001 C CNN
+	1    4950 14450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4800 14450 4650 14450
+Wire Wire Line
+	4650 14450 4650 14600
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB1286
+P 5250 14450
+AR Path="/60EB1286" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB1286" Ref="#PWR0283"  Part="1" 
+F 0 "#PWR0283" H 5250 14200 50  0001 C CNN
+F 1 "GND" V 5255 14322 50  0000 R CNN
+F 2 "" H 5250 14450 50  0001 C CNN
+F 3 "" H 5250 14450 50  0001 C CNN
+	1    5250 14450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5250 14450 5100 14450
+Wire Wire Line
+	4650 14250 4650 14450
+Connection ~ 4650 14450
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB128F
+P 4650 15300
+AR Path="/60EB128F" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB128F" Ref="#PWR0294"  Part="1" 
+F 0 "#PWR0294" H 4650 15050 50  0001 C CNN
+F 1 "GND" H 4655 15127 50  0000 C CNN
+F 2 "" H 4650 15300 50  0001 C CNN
+F 3 "" H 4650 15300 50  0001 C CNN
+	1    4650 15300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 15200 4650 15300
+Wire Wire Line
+	3800 14900 4350 14900
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB1297
+P 5800 14900
+AR Path="/60EB1297" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB1297" Ref="D91"  Part="1" 
+F 0 "D91" H 6144 14946 50  0000 L CNN
+F 1 "SK6812" H 6144 14855 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 5850 14600 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 5900 14525 50  0001 L TNN
+	1    5800 14900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB129D
+P 6100 14450
+AR Path="/60EB129D" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB129D" Ref="C91"  Part="1" 
+F 0 "C91" V 5848 14450 50  0000 C CNN
+F 1 "C" V 5939 14450 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 6138 14300 50  0001 C CNN
+F 3 "~" H 6100 14450 50  0001 C CNN
+	1    6100 14450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5950 14450 5800 14450
+Wire Wire Line
+	5800 14450 5800 14600
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB12AB
+P 6400 14450
+AR Path="/60EB12AB" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB12AB" Ref="#PWR0284"  Part="1" 
+F 0 "#PWR0284" H 6400 14200 50  0001 C CNN
+F 1 "GND" V 6405 14322 50  0000 R CNN
+F 2 "" H 6400 14450 50  0001 C CNN
+F 3 "" H 6400 14450 50  0001 C CNN
+	1    6400 14450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6400 14450 6250 14450
+Wire Wire Line
+	5800 14250 5800 14450
+Connection ~ 5800 14450
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB12B4
+P 5800 15300
+AR Path="/60EB12B4" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB12B4" Ref="#PWR0295"  Part="1" 
+F 0 "#PWR0295" H 5800 15050 50  0001 C CNN
+F 1 "GND" H 5805 15127 50  0000 C CNN
+F 2 "" H 5800 15300 50  0001 C CNN
+F 3 "" H 5800 15300 50  0001 C CNN
+	1    5800 15300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 15200 5800 15300
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB12BB
+P 6950 14900
+AR Path="/60EB12BB" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB12BB" Ref="D92"  Part="1" 
+F 0 "D92" H 7294 14946 50  0000 L CNN
+F 1 "SK6812" H 7294 14855 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 7000 14600 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 7050 14525 50  0001 L TNN
+	1    6950 14900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB12C1
+P 7250 14450
+AR Path="/60EB12C1" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB12C1" Ref="C92"  Part="1" 
+F 0 "C92" V 6998 14450 50  0000 C CNN
+F 1 "C" V 7089 14450 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 7288 14300 50  0001 C CNN
+F 3 "~" H 7250 14450 50  0001 C CNN
+	1    7250 14450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7100 14450 6950 14450
+Wire Wire Line
+	6950 14450 6950 14600
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB12CF
+P 7550 14450
+AR Path="/60EB12CF" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB12CF" Ref="#PWR0285"  Part="1" 
+F 0 "#PWR0285" H 7550 14200 50  0001 C CNN
+F 1 "GND" V 7555 14322 50  0000 R CNN
+F 2 "" H 7550 14450 50  0001 C CNN
+F 3 "" H 7550 14450 50  0001 C CNN
+	1    7550 14450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7550 14450 7400 14450
+Wire Wire Line
+	6950 14250 6950 14450
+Connection ~ 6950 14450
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB12D8
+P 6950 15300
+AR Path="/60EB12D8" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB12D8" Ref="#PWR0296"  Part="1" 
+F 0 "#PWR0296" H 6950 15050 50  0001 C CNN
+F 1 "GND" H 6955 15127 50  0000 C CNN
+F 2 "" H 6950 15300 50  0001 C CNN
+F 3 "" H 6950 15300 50  0001 C CNN
+	1    6950 15300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 15200 6950 15300
+Wire Wire Line
+	6100 14900 6650 14900
+Wire Wire Line
+	5500 14900 4950 14900
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB12E1
+P 8100 14900
+AR Path="/60EB12E1" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB12E1" Ref="D93"  Part="1" 
+F 0 "D93" H 8444 14946 50  0000 L CNN
+F 1 "SK6812" H 8444 14855 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 8150 14600 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 8200 14525 50  0001 L TNN
+	1    8100 14900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB12E7
+P 8400 14450
+AR Path="/60EB12E7" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB12E7" Ref="C93"  Part="1" 
+F 0 "C93" V 8148 14450 50  0000 C CNN
+F 1 "C" V 8239 14450 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 8438 14300 50  0001 C CNN
+F 3 "~" H 8400 14450 50  0001 C CNN
+	1    8400 14450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8250 14450 8100 14450
+Wire Wire Line
+	8100 14450 8100 14600
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB12F5
+P 8700 14450
+AR Path="/60EB12F5" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB12F5" Ref="#PWR0286"  Part="1" 
+F 0 "#PWR0286" H 8700 14200 50  0001 C CNN
+F 1 "GND" V 8705 14322 50  0000 R CNN
+F 2 "" H 8700 14450 50  0001 C CNN
+F 3 "" H 8700 14450 50  0001 C CNN
+	1    8700 14450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8700 14450 8550 14450
+Wire Wire Line
+	8100 14250 8100 14450
+Connection ~ 8100 14450
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB12FE
+P 8100 15300
+AR Path="/60EB12FE" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB12FE" Ref="#PWR0297"  Part="1" 
+F 0 "#PWR0297" H 8100 15050 50  0001 C CNN
+F 1 "GND" H 8105 15127 50  0000 C CNN
+F 2 "" H 8100 15300 50  0001 C CNN
+F 3 "" H 8100 15300 50  0001 C CNN
+	1    8100 15300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 15200 8100 15300
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB1305
+P 9250 14900
+AR Path="/60EB1305" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB1305" Ref="D94"  Part="1" 
+F 0 "D94" H 9594 14946 50  0000 L CNN
+F 1 "SK6812" H 9594 14855 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 9300 14600 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 9350 14525 50  0001 L TNN
+	1    9250 14900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB130B
+P 9550 14450
+AR Path="/60EB130B" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB130B" Ref="C94"  Part="1" 
+F 0 "C94" V 9298 14450 50  0000 C CNN
+F 1 "C" V 9389 14450 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 9588 14300 50  0001 C CNN
+F 3 "~" H 9550 14450 50  0001 C CNN
+	1    9550 14450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9400 14450 9250 14450
+Wire Wire Line
+	9250 14450 9250 14600
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB1319
+P 9850 14450
+AR Path="/60EB1319" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB1319" Ref="#PWR0287"  Part="1" 
+F 0 "#PWR0287" H 9850 14200 50  0001 C CNN
+F 1 "GND" V 9855 14322 50  0000 R CNN
+F 2 "" H 9850 14450 50  0001 C CNN
+F 3 "" H 9850 14450 50  0001 C CNN
+	1    9850 14450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9850 14450 9700 14450
+Wire Wire Line
+	9250 14250 9250 14450
+Connection ~ 9250 14450
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB1322
+P 9250 15300
+AR Path="/60EB1322" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB1322" Ref="#PWR0298"  Part="1" 
+F 0 "#PWR0298" H 9250 15050 50  0001 C CNN
+F 1 "GND" H 9255 15127 50  0000 C CNN
+F 2 "" H 9250 15300 50  0001 C CNN
+F 3 "" H 9250 15300 50  0001 C CNN
+	1    9250 15300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 15200 9250 15300
+Wire Wire Line
+	8400 14900 8950 14900
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB132A
+P 10400 14900
+AR Path="/60EB132A" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB132A" Ref="D95"  Part="1" 
+F 0 "D95" H 10744 14946 50  0000 L CNN
+F 1 "SK6812" H 10744 14855 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 10450 14600 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 10500 14525 50  0001 L TNN
+	1    10400 14900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB1330
+P 10700 14450
+AR Path="/60EB1330" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB1330" Ref="C95"  Part="1" 
+F 0 "C95" V 10448 14450 50  0000 C CNN
+F 1 "C" V 10539 14450 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 10738 14300 50  0001 C CNN
+F 3 "~" H 10700 14450 50  0001 C CNN
+	1    10700 14450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10550 14450 10400 14450
+Wire Wire Line
+	10400 14450 10400 14600
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB133E
+P 11000 14450
+AR Path="/60EB133E" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB133E" Ref="#PWR0288"  Part="1" 
+F 0 "#PWR0288" H 11000 14200 50  0001 C CNN
+F 1 "GND" V 11005 14322 50  0000 R CNN
+F 2 "" H 11000 14450 50  0001 C CNN
+F 3 "" H 11000 14450 50  0001 C CNN
+	1    11000 14450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11000 14450 10850 14450
+Wire Wire Line
+	10400 14250 10400 14450
+Connection ~ 10400 14450
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB1347
+P 10400 15300
+AR Path="/60EB1347" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB1347" Ref="#PWR0299"  Part="1" 
+F 0 "#PWR0299" H 10400 15050 50  0001 C CNN
+F 1 "GND" H 10405 15127 50  0000 C CNN
+F 2 "" H 10400 15300 50  0001 C CNN
+F 3 "" H 10400 15300 50  0001 C CNN
+	1    10400 15300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10400 15200 10400 15300
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB134E
+P 11550 14900
+AR Path="/60EB134E" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB134E" Ref="D96"  Part="1" 
+F 0 "D96" H 11894 14946 50  0000 L CNN
+F 1 "SK6812" H 11894 14855 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 11600 14600 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 11650 14525 50  0001 L TNN
+	1    11550 14900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB1354
+P 11850 14450
+AR Path="/60EB1354" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB1354" Ref="C96"  Part="1" 
+F 0 "C96" V 11598 14450 50  0000 C CNN
+F 1 "C" V 11689 14450 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 11888 14300 50  0001 C CNN
+F 3 "~" H 11850 14450 50  0001 C CNN
+	1    11850 14450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11700 14450 11550 14450
+Wire Wire Line
+	11550 14450 11550 14600
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB1362
+P 12150 14450
+AR Path="/60EB1362" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB1362" Ref="#PWR0289"  Part="1" 
+F 0 "#PWR0289" H 12150 14200 50  0001 C CNN
+F 1 "GND" V 12155 14322 50  0000 R CNN
+F 2 "" H 12150 14450 50  0001 C CNN
+F 3 "" H 12150 14450 50  0001 C CNN
+	1    12150 14450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12150 14450 12000 14450
+Wire Wire Line
+	11550 14250 11550 14450
+Connection ~ 11550 14450
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB136B
+P 11550 15300
+AR Path="/60EB136B" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB136B" Ref="#PWR0300"  Part="1" 
+F 0 "#PWR0300" H 11550 15050 50  0001 C CNN
+F 1 "GND" H 11555 15127 50  0000 C CNN
+F 2 "" H 11550 15300 50  0001 C CNN
+F 3 "" H 11550 15300 50  0001 C CNN
+	1    11550 15300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11550 15200 11550 15300
+Wire Wire Line
+	10700 14900 11250 14900
+Wire Wire Line
+	10100 14900 9550 14900
+Wire Wire Line
+	7800 14900 7250 14900
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB1375
+P 12750 14900
+AR Path="/60EB1375" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB1375" Ref="D97"  Part="1" 
+F 0 "D97" H 13094 14946 50  0000 L CNN
+F 1 "SK6812" H 13094 14855 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 12800 14600 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 12850 14525 50  0001 L TNN
+	1    12750 14900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB137B
+P 13050 14450
+AR Path="/60EB137B" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB137B" Ref="C97"  Part="1" 
+F 0 "C97" V 12798 14450 50  0000 C CNN
+F 1 "C" V 12889 14450 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 13088 14300 50  0001 C CNN
+F 3 "~" H 13050 14450 50  0001 C CNN
+	1    13050 14450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12900 14450 12750 14450
+Wire Wire Line
+	12750 14450 12750 14600
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB1389
+P 13350 14450
+AR Path="/60EB1389" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB1389" Ref="#PWR0290"  Part="1" 
+F 0 "#PWR0290" H 13350 14200 50  0001 C CNN
+F 1 "GND" V 13355 14322 50  0000 R CNN
+F 2 "" H 13350 14450 50  0001 C CNN
+F 3 "" H 13350 14450 50  0001 C CNN
+	1    13350 14450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13350 14450 13200 14450
+Wire Wire Line
+	12750 14250 12750 14450
+Connection ~ 12750 14450
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB1392
+P 12750 15300
+AR Path="/60EB1392" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB1392" Ref="#PWR0301"  Part="1" 
+F 0 "#PWR0301" H 12750 15050 50  0001 C CNN
+F 1 "GND" H 12755 15127 50  0000 C CNN
+F 2 "" H 12750 15300 50  0001 C CNN
+F 3 "" H 12750 15300 50  0001 C CNN
+	1    12750 15300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12750 15200 12750 15300
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB1399
+P 13900 14900
+AR Path="/60EB1399" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB1399" Ref="D98"  Part="1" 
+F 0 "D98" H 14244 14946 50  0000 L CNN
+F 1 "SK6812" H 14244 14855 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 13950 14600 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 14000 14525 50  0001 L TNN
+	1    13900 14900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB139F
+P 14200 14450
+AR Path="/60EB139F" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB139F" Ref="C98"  Part="1" 
+F 0 "C98" V 13948 14450 50  0000 C CNN
+F 1 "C" V 14039 14450 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 14238 14300 50  0001 C CNN
+F 3 "~" H 14200 14450 50  0001 C CNN
+	1    14200 14450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14050 14450 13900 14450
+Wire Wire Line
+	13900 14450 13900 14600
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB13AD
+P 14500 14450
+AR Path="/60EB13AD" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB13AD" Ref="#PWR0291"  Part="1" 
+F 0 "#PWR0291" H 14500 14200 50  0001 C CNN
+F 1 "GND" V 14505 14322 50  0000 R CNN
+F 2 "" H 14500 14450 50  0001 C CNN
+F 3 "" H 14500 14450 50  0001 C CNN
+	1    14500 14450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14500 14450 14350 14450
+Wire Wire Line
+	13900 14250 13900 14450
+Connection ~ 13900 14450
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB13B6
+P 13900 15300
+AR Path="/60EB13B6" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB13B6" Ref="#PWR0302"  Part="1" 
+F 0 "#PWR0302" H 13900 15050 50  0001 C CNN
+F 1 "GND" H 13905 15127 50  0000 C CNN
+F 2 "" H 13900 15300 50  0001 C CNN
+F 3 "" H 13900 15300 50  0001 C CNN
+	1    13900 15300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13900 15200 13900 15300
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB13BD
+P 15050 14900
+AR Path="/60EB13BD" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB13BD" Ref="D99"  Part="1" 
+F 0 "D99" H 15394 14946 50  0000 L CNN
+F 1 "SK6812" H 15394 14855 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 15100 14600 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 15150 14525 50  0001 L TNN
+	1    15050 14900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB13C3
+P 15350 14450
+AR Path="/60EB13C3" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB13C3" Ref="C99"  Part="1" 
+F 0 "C99" V 15098 14450 50  0000 C CNN
+F 1 "C" V 15189 14450 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 15388 14300 50  0001 C CNN
+F 3 "~" H 15350 14450 50  0001 C CNN
+	1    15350 14450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	15200 14450 15050 14450
+Wire Wire Line
+	15050 14450 15050 14600
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB13D1
+P 15650 14450
+AR Path="/60EB13D1" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB13D1" Ref="#PWR0292"  Part="1" 
+F 0 "#PWR0292" H 15650 14200 50  0001 C CNN
+F 1 "GND" V 15655 14322 50  0000 R CNN
+F 2 "" H 15650 14450 50  0001 C CNN
+F 3 "" H 15650 14450 50  0001 C CNN
+	1    15650 14450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15650 14450 15500 14450
+Wire Wire Line
+	15050 14250 15050 14450
+Connection ~ 15050 14450
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB13DA
+P 15050 15300
+AR Path="/60EB13DA" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB13DA" Ref="#PWR0303"  Part="1" 
+F 0 "#PWR0303" H 15050 15050 50  0001 C CNN
+F 1 "GND" H 15055 15127 50  0000 C CNN
+F 2 "" H 15050 15300 50  0001 C CNN
+F 3 "" H 15050 15300 50  0001 C CNN
+	1    15050 15300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15050 15200 15050 15300
+Wire Wire Line
+	14200 14900 14750 14900
+Wire Wire Line
+	13600 14900 13050 14900
+Wire Wire Line
+	12450 14900 11850 14900
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB13E4
+P 3500 16600
+AR Path="/60EB13E4" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB13E4" Ref="D100"  Part="1" 
+F 0 "D100" H 3844 16646 50  0000 L CNN
+F 1 "SK6812" H 3844 16555 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 3550 16300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 3600 16225 50  0001 L TNN
+	1    3500 16600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB13EA
+P 3800 16150
+AR Path="/60EB13EA" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB13EA" Ref="C100"  Part="1" 
+F 0 "C100" V 3548 16150 50  0000 C CNN
+F 1 "C" V 3639 16150 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 3838 16000 50  0001 C CNN
+F 3 "~" H 3800 16150 50  0001 C CNN
+	1    3800 16150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3650 16150 3500 16150
+Wire Wire Line
+	3500 16150 3500 16300
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB13F8
+P 4100 16150
+AR Path="/60EB13F8" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB13F8" Ref="#PWR0315"  Part="1" 
+F 0 "#PWR0315" H 4100 15900 50  0001 C CNN
+F 1 "GND" V 4105 16022 50  0000 R CNN
+F 2 "" H 4100 16150 50  0001 C CNN
+F 3 "" H 4100 16150 50  0001 C CNN
+	1    4100 16150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4100 16150 3950 16150
+Wire Wire Line
+	3500 15950 3500 16150
+Connection ~ 3500 16150
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB1401
+P 3500 17000
+AR Path="/60EB1401" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB1401" Ref="#PWR0326"  Part="1" 
+F 0 "#PWR0326" H 3500 16750 50  0001 C CNN
+F 1 "GND" H 3505 16827 50  0000 C CNN
+F 2 "" H 3500 17000 50  0001 C CNN
+F 3 "" H 3500 17000 50  0001 C CNN
+	1    3500 17000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 16900 3500 17000
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB1408
+P 4650 16600
+AR Path="/60EB1408" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB1408" Ref="D101"  Part="1" 
+F 0 "D101" H 4994 16646 50  0000 L CNN
+F 1 "SK6812" H 4994 16555 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 4700 16300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 4750 16225 50  0001 L TNN
+	1    4650 16600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB140E
+P 4950 16150
+AR Path="/60EB140E" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB140E" Ref="C101"  Part="1" 
+F 0 "C101" V 4698 16150 50  0000 C CNN
+F 1 "C" V 4789 16150 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 4988 16000 50  0001 C CNN
+F 3 "~" H 4950 16150 50  0001 C CNN
+	1    4950 16150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4800 16150 4650 16150
+Wire Wire Line
+	4650 16150 4650 16300
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB141C
+P 5250 16150
+AR Path="/60EB141C" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB141C" Ref="#PWR0316"  Part="1" 
+F 0 "#PWR0316" H 5250 15900 50  0001 C CNN
+F 1 "GND" V 5255 16022 50  0000 R CNN
+F 2 "" H 5250 16150 50  0001 C CNN
+F 3 "" H 5250 16150 50  0001 C CNN
+	1    5250 16150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5250 16150 5100 16150
+Wire Wire Line
+	4650 15950 4650 16150
+Connection ~ 4650 16150
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB1425
+P 4650 17000
+AR Path="/60EB1425" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB1425" Ref="#PWR0327"  Part="1" 
+F 0 "#PWR0327" H 4650 16750 50  0001 C CNN
+F 1 "GND" H 4655 16827 50  0000 C CNN
+F 2 "" H 4650 17000 50  0001 C CNN
+F 3 "" H 4650 17000 50  0001 C CNN
+	1    4650 17000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 16900 4650 17000
+Wire Wire Line
+	3800 16600 4350 16600
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB142D
+P 5800 16600
+AR Path="/60EB142D" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB142D" Ref="D102"  Part="1" 
+F 0 "D102" H 6144 16646 50  0000 L CNN
+F 1 "SK6812" H 6144 16555 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 5850 16300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 5900 16225 50  0001 L TNN
+	1    5800 16600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB1433
+P 6100 16150
+AR Path="/60EB1433" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB1433" Ref="C102"  Part="1" 
+F 0 "C102" V 5848 16150 50  0000 C CNN
+F 1 "C" V 5939 16150 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 6138 16000 50  0001 C CNN
+F 3 "~" H 6100 16150 50  0001 C CNN
+	1    6100 16150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5950 16150 5800 16150
+Wire Wire Line
+	5800 16150 5800 16300
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB1441
+P 6400 16150
+AR Path="/60EB1441" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB1441" Ref="#PWR0317"  Part="1" 
+F 0 "#PWR0317" H 6400 15900 50  0001 C CNN
+F 1 "GND" V 6405 16022 50  0000 R CNN
+F 2 "" H 6400 16150 50  0001 C CNN
+F 3 "" H 6400 16150 50  0001 C CNN
+	1    6400 16150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6400 16150 6250 16150
+Wire Wire Line
+	5800 15950 5800 16150
+Connection ~ 5800 16150
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB144A
+P 5800 17000
+AR Path="/60EB144A" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB144A" Ref="#PWR0328"  Part="1" 
+F 0 "#PWR0328" H 5800 16750 50  0001 C CNN
+F 1 "GND" H 5805 16827 50  0000 C CNN
+F 2 "" H 5800 17000 50  0001 C CNN
+F 3 "" H 5800 17000 50  0001 C CNN
+	1    5800 17000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 16900 5800 17000
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB1451
+P 6950 16600
+AR Path="/60EB1451" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB1451" Ref="D103"  Part="1" 
+F 0 "D103" H 7294 16646 50  0000 L CNN
+F 1 "SK6812" H 7294 16555 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 7000 16300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 7050 16225 50  0001 L TNN
+	1    6950 16600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB1457
+P 7250 16150
+AR Path="/60EB1457" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB1457" Ref="C103"  Part="1" 
+F 0 "C103" V 6998 16150 50  0000 C CNN
+F 1 "C" V 7089 16150 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 7288 16000 50  0001 C CNN
+F 3 "~" H 7250 16150 50  0001 C CNN
+	1    7250 16150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7100 16150 6950 16150
+Wire Wire Line
+	6950 16150 6950 16300
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB1465
+P 7550 16150
+AR Path="/60EB1465" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB1465" Ref="#PWR0318"  Part="1" 
+F 0 "#PWR0318" H 7550 15900 50  0001 C CNN
+F 1 "GND" V 7555 16022 50  0000 R CNN
+F 2 "" H 7550 16150 50  0001 C CNN
+F 3 "" H 7550 16150 50  0001 C CNN
+	1    7550 16150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7550 16150 7400 16150
+Wire Wire Line
+	6950 15950 6950 16150
+Connection ~ 6950 16150
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB146E
+P 6950 17000
+AR Path="/60EB146E" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB146E" Ref="#PWR0329"  Part="1" 
+F 0 "#PWR0329" H 6950 16750 50  0001 C CNN
+F 1 "GND" H 6955 16827 50  0000 C CNN
+F 2 "" H 6950 17000 50  0001 C CNN
+F 3 "" H 6950 17000 50  0001 C CNN
+	1    6950 17000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 16900 6950 17000
+Wire Wire Line
+	6100 16600 6650 16600
+Wire Wire Line
+	5500 16600 4950 16600
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB1477
+P 8100 16600
+AR Path="/60EB1477" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB1477" Ref="D104"  Part="1" 
+F 0 "D104" H 8444 16646 50  0000 L CNN
+F 1 "SK6812" H 8444 16555 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 8150 16300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 8200 16225 50  0001 L TNN
+	1    8100 16600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB147D
+P 8400 16150
+AR Path="/60EB147D" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB147D" Ref="C104"  Part="1" 
+F 0 "C104" V 8148 16150 50  0000 C CNN
+F 1 "C" V 8239 16150 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 8438 16000 50  0001 C CNN
+F 3 "~" H 8400 16150 50  0001 C CNN
+	1    8400 16150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8250 16150 8100 16150
+Wire Wire Line
+	8100 16150 8100 16300
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB148B
+P 8700 16150
+AR Path="/60EB148B" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB148B" Ref="#PWR0319"  Part="1" 
+F 0 "#PWR0319" H 8700 15900 50  0001 C CNN
+F 1 "GND" V 8705 16022 50  0000 R CNN
+F 2 "" H 8700 16150 50  0001 C CNN
+F 3 "" H 8700 16150 50  0001 C CNN
+	1    8700 16150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8700 16150 8550 16150
+Wire Wire Line
+	8100 15950 8100 16150
+Connection ~ 8100 16150
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB1494
+P 8100 17000
+AR Path="/60EB1494" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB1494" Ref="#PWR0330"  Part="1" 
+F 0 "#PWR0330" H 8100 16750 50  0001 C CNN
+F 1 "GND" H 8105 16827 50  0000 C CNN
+F 2 "" H 8100 17000 50  0001 C CNN
+F 3 "" H 8100 17000 50  0001 C CNN
+	1    8100 17000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 16900 8100 17000
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB149B
+P 9250 16600
+AR Path="/60EB149B" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB149B" Ref="D105"  Part="1" 
+F 0 "D105" H 9594 16646 50  0000 L CNN
+F 1 "SK6812" H 9594 16555 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 9300 16300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 9350 16225 50  0001 L TNN
+	1    9250 16600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB14A1
+P 9550 16150
+AR Path="/60EB14A1" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB14A1" Ref="C105"  Part="1" 
+F 0 "C105" V 9298 16150 50  0000 C CNN
+F 1 "C" V 9389 16150 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 9588 16000 50  0001 C CNN
+F 3 "~" H 9550 16150 50  0001 C CNN
+	1    9550 16150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9400 16150 9250 16150
+Wire Wire Line
+	9250 16150 9250 16300
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB14AF
+P 9850 16150
+AR Path="/60EB14AF" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB14AF" Ref="#PWR0320"  Part="1" 
+F 0 "#PWR0320" H 9850 15900 50  0001 C CNN
+F 1 "GND" V 9855 16022 50  0000 R CNN
+F 2 "" H 9850 16150 50  0001 C CNN
+F 3 "" H 9850 16150 50  0001 C CNN
+	1    9850 16150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9850 16150 9700 16150
+Wire Wire Line
+	9250 15950 9250 16150
+Connection ~ 9250 16150
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB14B8
+P 9250 17000
+AR Path="/60EB14B8" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB14B8" Ref="#PWR0331"  Part="1" 
+F 0 "#PWR0331" H 9250 16750 50  0001 C CNN
+F 1 "GND" H 9255 16827 50  0000 C CNN
+F 2 "" H 9250 17000 50  0001 C CNN
+F 3 "" H 9250 17000 50  0001 C CNN
+	1    9250 17000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 16900 9250 17000
+Wire Wire Line
+	8400 16600 8950 16600
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB14C0
+P 10400 16600
+AR Path="/60EB14C0" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB14C0" Ref="D106"  Part="1" 
+F 0 "D106" H 10744 16646 50  0000 L CNN
+F 1 "SK6812" H 10744 16555 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 10450 16300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 10500 16225 50  0001 L TNN
+	1    10400 16600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB14C6
+P 10700 16150
+AR Path="/60EB14C6" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB14C6" Ref="C106"  Part="1" 
+F 0 "C106" V 10448 16150 50  0000 C CNN
+F 1 "C" V 10539 16150 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 10738 16000 50  0001 C CNN
+F 3 "~" H 10700 16150 50  0001 C CNN
+	1    10700 16150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10550 16150 10400 16150
+Wire Wire Line
+	10400 16150 10400 16300
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB14D4
+P 11000 16150
+AR Path="/60EB14D4" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB14D4" Ref="#PWR0321"  Part="1" 
+F 0 "#PWR0321" H 11000 15900 50  0001 C CNN
+F 1 "GND" V 11005 16022 50  0000 R CNN
+F 2 "" H 11000 16150 50  0001 C CNN
+F 3 "" H 11000 16150 50  0001 C CNN
+	1    11000 16150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11000 16150 10850 16150
+Wire Wire Line
+	10400 15950 10400 16150
+Connection ~ 10400 16150
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB14DD
+P 10400 17000
+AR Path="/60EB14DD" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB14DD" Ref="#PWR0332"  Part="1" 
+F 0 "#PWR0332" H 10400 16750 50  0001 C CNN
+F 1 "GND" H 10405 16827 50  0000 C CNN
+F 2 "" H 10400 17000 50  0001 C CNN
+F 3 "" H 10400 17000 50  0001 C CNN
+	1    10400 17000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10400 16900 10400 17000
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB14E4
+P 11550 16600
+AR Path="/60EB14E4" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB14E4" Ref="D107"  Part="1" 
+F 0 "D107" H 11894 16646 50  0000 L CNN
+F 1 "SK6812" H 11894 16555 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 11600 16300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 11650 16225 50  0001 L TNN
+	1    11550 16600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB14EA
+P 11850 16150
+AR Path="/60EB14EA" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB14EA" Ref="C107"  Part="1" 
+F 0 "C107" V 11598 16150 50  0000 C CNN
+F 1 "C" V 11689 16150 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 11888 16000 50  0001 C CNN
+F 3 "~" H 11850 16150 50  0001 C CNN
+	1    11850 16150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11700 16150 11550 16150
+Wire Wire Line
+	11550 16150 11550 16300
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB14F8
+P 12150 16150
+AR Path="/60EB14F8" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB14F8" Ref="#PWR0322"  Part="1" 
+F 0 "#PWR0322" H 12150 15900 50  0001 C CNN
+F 1 "GND" V 12155 16022 50  0000 R CNN
+F 2 "" H 12150 16150 50  0001 C CNN
+F 3 "" H 12150 16150 50  0001 C CNN
+	1    12150 16150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12150 16150 12000 16150
+Wire Wire Line
+	11550 15950 11550 16150
+Connection ~ 11550 16150
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB1501
+P 11550 17000
+AR Path="/60EB1501" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB1501" Ref="#PWR0333"  Part="1" 
+F 0 "#PWR0333" H 11550 16750 50  0001 C CNN
+F 1 "GND" H 11555 16827 50  0000 C CNN
+F 2 "" H 11550 17000 50  0001 C CNN
+F 3 "" H 11550 17000 50  0001 C CNN
+	1    11550 17000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11550 16900 11550 17000
+Wire Wire Line
+	10700 16600 11250 16600
+Wire Wire Line
+	10100 16600 9550 16600
+Wire Wire Line
+	7800 16600 7250 16600
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB150B
+P 12750 16600
+AR Path="/60EB150B" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB150B" Ref="D108"  Part="1" 
+F 0 "D108" H 13094 16646 50  0000 L CNN
+F 1 "SK6812" H 13094 16555 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 12800 16300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 12850 16225 50  0001 L TNN
+	1    12750 16600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB1511
+P 13050 16150
+AR Path="/60EB1511" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB1511" Ref="C108"  Part="1" 
+F 0 "C108" V 12798 16150 50  0000 C CNN
+F 1 "C" V 12889 16150 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 13088 16000 50  0001 C CNN
+F 3 "~" H 13050 16150 50  0001 C CNN
+	1    13050 16150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12900 16150 12750 16150
+Wire Wire Line
+	12750 16150 12750 16300
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB151F
+P 13350 16150
+AR Path="/60EB151F" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB151F" Ref="#PWR0323"  Part="1" 
+F 0 "#PWR0323" H 13350 15900 50  0001 C CNN
+F 1 "GND" V 13355 16022 50  0000 R CNN
+F 2 "" H 13350 16150 50  0001 C CNN
+F 3 "" H 13350 16150 50  0001 C CNN
+	1    13350 16150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13350 16150 13200 16150
+Wire Wire Line
+	12750 15950 12750 16150
+Connection ~ 12750 16150
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB1528
+P 12750 17000
+AR Path="/60EB1528" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB1528" Ref="#PWR0334"  Part="1" 
+F 0 "#PWR0334" H 12750 16750 50  0001 C CNN
+F 1 "GND" H 12755 16827 50  0000 C CNN
+F 2 "" H 12750 17000 50  0001 C CNN
+F 3 "" H 12750 17000 50  0001 C CNN
+	1    12750 17000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12750 16900 12750 17000
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB152F
+P 13900 16600
+AR Path="/60EB152F" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB152F" Ref="D109"  Part="1" 
+F 0 "D109" H 14244 16646 50  0000 L CNN
+F 1 "SK6812" H 14244 16555 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 13950 16300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 14000 16225 50  0001 L TNN
+	1    13900 16600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB1535
+P 14200 16150
+AR Path="/60EB1535" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB1535" Ref="C109"  Part="1" 
+F 0 "C109" V 13948 16150 50  0000 C CNN
+F 1 "C" V 14039 16150 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 14238 16000 50  0001 C CNN
+F 3 "~" H 14200 16150 50  0001 C CNN
+	1    14200 16150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14050 16150 13900 16150
+Wire Wire Line
+	13900 16150 13900 16300
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB1543
+P 14500 16150
+AR Path="/60EB1543" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB1543" Ref="#PWR0324"  Part="1" 
+F 0 "#PWR0324" H 14500 15900 50  0001 C CNN
+F 1 "GND" V 14505 16022 50  0000 R CNN
+F 2 "" H 14500 16150 50  0001 C CNN
+F 3 "" H 14500 16150 50  0001 C CNN
+	1    14500 16150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14500 16150 14350 16150
+Wire Wire Line
+	13900 15950 13900 16150
+Connection ~ 13900 16150
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB154C
+P 13900 17000
+AR Path="/60EB154C" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB154C" Ref="#PWR0335"  Part="1" 
+F 0 "#PWR0335" H 13900 16750 50  0001 C CNN
+F 1 "GND" H 13905 16827 50  0000 C CNN
+F 2 "" H 13900 17000 50  0001 C CNN
+F 3 "" H 13900 17000 50  0001 C CNN
+	1    13900 17000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13900 16900 13900 17000
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB1553
+P 15050 16600
+AR Path="/60EB1553" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB1553" Ref="D110"  Part="1" 
+F 0 "D110" H 15394 16646 50  0000 L CNN
+F 1 "SK6812" H 15394 16555 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 15100 16300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 15150 16225 50  0001 L TNN
+	1    15050 16600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB1559
+P 15350 16150
+AR Path="/60EB1559" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB1559" Ref="C110"  Part="1" 
+F 0 "C110" V 15098 16150 50  0000 C CNN
+F 1 "C" V 15189 16150 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 15388 16000 50  0001 C CNN
+F 3 "~" H 15350 16150 50  0001 C CNN
+	1    15350 16150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	15200 16150 15050 16150
+Wire Wire Line
+	15050 16150 15050 16300
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB1567
+P 15650 16150
+AR Path="/60EB1567" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB1567" Ref="#PWR0325"  Part="1" 
+F 0 "#PWR0325" H 15650 15900 50  0001 C CNN
+F 1 "GND" V 15655 16022 50  0000 R CNN
+F 2 "" H 15650 16150 50  0001 C CNN
+F 3 "" H 15650 16150 50  0001 C CNN
+	1    15650 16150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15650 16150 15500 16150
+Wire Wire Line
+	15050 15950 15050 16150
+Connection ~ 15050 16150
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB1570
+P 15050 17000
+AR Path="/60EB1570" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB1570" Ref="#PWR0336"  Part="1" 
+F 0 "#PWR0336" H 15050 16750 50  0001 C CNN
+F 1 "GND" H 15055 16827 50  0000 C CNN
+F 2 "" H 15050 17000 50  0001 C CNN
+F 3 "" H 15050 17000 50  0001 C CNN
+	1    15050 17000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15050 16900 15050 17000
+Wire Wire Line
+	14200 16600 14750 16600
+Wire Wire Line
+	13600 16600 13050 16600
+Wire Wire Line
+	12450 16600 11850 16600
+Wire Wire Line
+	15350 14900 15700 14900
+Wire Wire Line
+	15700 14900 15700 15600
+Wire Wire Line
+	15350 13300 15700 13300
+Wire Wire Line
+	15700 13300 15700 14000
+Wire Wire Line
+	15700 14000 2950 14000
+Wire Wire Line
+	2950 14000 2950 14900
+Wire Wire Line
+	2950 14900 3200 14900
+Wire Wire Line
+	15350 11600 15700 11600
+Wire Wire Line
+	15700 11600 15700 12300
+Wire Wire Line
+	15700 12300 2950 12300
+Wire Wire Line
+	2950 12300 2950 13300
+Wire Wire Line
+	2950 13300 3200 13300
+Wire Wire Line
+	15350 9950 15700 9950
+Wire Wire Line
+	15700 9950 15700 10650
+Wire Wire Line
+	15700 10650 2950 10650
+Wire Wire Line
+	2950 10650 2950 11600
+Wire Wire Line
+	2950 11600 3200 11600
+Wire Wire Line
+	15350 8250 15700 8250
+Wire Wire Line
+	15700 8250 15700 9000
+Wire Wire Line
+	15700 9000 2950 9000
+Wire Wire Line
+	2950 9000 2950 9950
+Wire Wire Line
+	2950 9950 3200 9950
+Wire Wire Line
+	15350 6650 15700 6650
+Wire Wire Line
+	15700 6650 15700 7350
+Wire Wire Line
+	2950 7350 2950 8250
+Wire Wire Line
+	2950 8250 3200 8250
+Wire Wire Line
+	2950 7350 15700 7350
+Wire Wire Line
+	15350 4950 15700 4950
+Wire Wire Line
+	15700 4950 15700 5700
+Wire Wire Line
+	15700 5700 2950 5700
+Wire Wire Line
+	2950 5700 2950 6650
+Wire Wire Line
+	2950 6650 3200 6650
+Wire Wire Line
+	15700 3300 15700 4000
+Wire Wire Line
+	15700 4000 2950 4000
+Wire Wire Line
+	2950 4000 2950 4950
+Wire Wire Line
+	2950 4950 3200 4950
+Wire Wire Line
+	15350 3300 15700 3300
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB159F
+P 2100 1600
+AR Path="/60EB159F" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB159F" Ref="D111"  Part="1" 
+F 0 "D111" H 2444 1646 50  0000 L CNN
+F 1 "SK6812" H 2444 1555 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 2150 1300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 2200 1225 50  0001 L TNN
+	1    2100 1600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB15A5
+P 2400 1150
+AR Path="/60EB15A5" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB15A5" Ref="C111"  Part="1" 
+F 0 "C111" V 2148 1150 50  0000 C CNN
+F 1 "C" V 2239 1150 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 2438 1000 50  0001 C CNN
+F 3 "~" H 2400 1150 50  0001 C CNN
+	1    2400 1150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2250 1150 2100 1150
+Wire Wire Line
+	2100 1150 2100 1300
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB15B3
+P 2700 1150
+AR Path="/60EB15B3" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB15B3" Ref="#PWR014"  Part="1" 
+F 0 "#PWR014" H 2700 900 50  0001 C CNN
+F 1 "GND" V 2705 1022 50  0000 R CNN
+F 2 "" H 2700 1150 50  0001 C CNN
+F 3 "" H 2700 1150 50  0001 C CNN
+	1    2700 1150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2700 1150 2550 1150
+Wire Wire Line
+	2100 950  2100 1150
+Connection ~ 2100 1150
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB15BC
+P 2100 2000
+AR Path="/60EB15BC" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB15BC" Ref="#PWR027"  Part="1" 
+F 0 "#PWR027" H 2100 1750 50  0001 C CNN
+F 1 "GND" H 2105 1827 50  0000 C CNN
+F 2 "" H 2100 2000 50  0001 C CNN
+F 3 "" H 2100 2000 50  0001 C CNN
+	1    2100 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 1900 2100 2000
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB15C3
+P 16750 1600
+AR Path="/60EB15C3" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB15C3" Ref="D112"  Part="1" 
+F 0 "D112" H 17094 1646 50  0000 L CNN
+F 1 "SK6812" H 17094 1555 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 16800 1300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 16850 1225 50  0001 L TNN
+	1    16750 1600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB15C9
+P 17050 1150
+AR Path="/60EB15C9" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB15C9" Ref="C112"  Part="1" 
+F 0 "C112" V 16798 1150 50  0000 C CNN
+F 1 "C" V 16889 1150 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 17088 1000 50  0001 C CNN
+F 3 "~" H 17050 1150 50  0001 C CNN
+	1    17050 1150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	16900 1150 16750 1150
+Wire Wire Line
+	16750 1150 16750 1300
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB15D7
+P 17350 1150
+AR Path="/60EB15D7" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB15D7" Ref="#PWR026"  Part="1" 
+F 0 "#PWR026" H 17350 900 50  0001 C CNN
+F 1 "GND" V 17355 1022 50  0000 R CNN
+F 2 "" H 17350 1150 50  0001 C CNN
+F 3 "" H 17350 1150 50  0001 C CNN
+	1    17350 1150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	17350 1150 17200 1150
+Wire Wire Line
+	16750 950  16750 1150
+Connection ~ 16750 1150
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB15E0
+P 16750 2000
+AR Path="/60EB15E0" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB15E0" Ref="#PWR039"  Part="1" 
+F 0 "#PWR039" H 16750 1750 50  0001 C CNN
+F 1 "GND" H 16755 1827 50  0000 C CNN
+F 2 "" H 16750 2000 50  0001 C CNN
+F 3 "" H 16750 2000 50  0001 C CNN
+	1    16750 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16750 1900 16750 2000
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB15E7
+P 3500 18400
+AR Path="/60EB15E7" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB15E7" Ref="D113"  Part="1" 
+F 0 "D113" H 3844 18446 50  0000 L CNN
+F 1 "SK6812" H 3844 18355 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 3550 18100 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 3600 18025 50  0001 L TNN
+	1    3500 18400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB15ED
+P 3800 17950
+AR Path="/60EB15ED" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB15ED" Ref="C113"  Part="1" 
+F 0 "C113" V 3548 17950 50  0000 C CNN
+F 1 "C" V 3639 17950 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 3838 17800 50  0001 C CNN
+F 3 "~" H 3800 17950 50  0001 C CNN
+	1    3800 17950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3650 17950 3500 17950
+Wire Wire Line
+	3500 17950 3500 18100
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB15FB
+P 4100 17950
+AR Path="/60EB15FB" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB15FB" Ref="#PWR0339"  Part="1" 
+F 0 "#PWR0339" H 4100 17700 50  0001 C CNN
+F 1 "GND" V 4105 17822 50  0000 R CNN
+F 2 "" H 4100 17950 50  0001 C CNN
+F 3 "" H 4100 17950 50  0001 C CNN
+	1    4100 17950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4100 17950 3950 17950
+Wire Wire Line
+	3500 17750 3500 17950
+Connection ~ 3500 17950
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB1604
+P 3500 18800
+AR Path="/60EB1604" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB1604" Ref="#PWR0341"  Part="1" 
+F 0 "#PWR0341" H 3500 18550 50  0001 C CNN
+F 1 "GND" H 3505 18627 50  0000 C CNN
+F 2 "" H 3500 18800 50  0001 C CNN
+F 3 "" H 3500 18800 50  0001 C CNN
+	1    3500 18800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 18700 3500 18800
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB160B
+P 15050 18450
+AR Path="/60EB160B" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB160B" Ref="D114"  Part="1" 
+F 0 "D114" H 15394 18496 50  0000 L CNN
+F 1 "SK6812" H 15394 18405 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 15100 18150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 15150 18075 50  0001 L TNN
+	1    15050 18450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:C C?
+U 1 1 60EB1611
+P 15350 18000
+AR Path="/60EB1611" Ref="C?"  Part="1" 
+AR Path="/60220980/60EB1611" Ref="C114"  Part="1" 
+F 0 "C114" V 15098 18000 50  0000 C CNN
+F 1 "C" V 15189 18000 50  0000 C CNN
+F 2 "Wordclock_V1:C_0805_2012Metric" H 15388 17850 50  0001 C CNN
+F 3 "~" H 15350 18000 50  0001 C CNN
+	1    15350 18000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	15200 18000 15050 18000
+Wire Wire Line
+	15050 18000 15050 18150
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB161F
+P 15650 18000
+AR Path="/60EB161F" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB161F" Ref="#PWR0340"  Part="1" 
+F 0 "#PWR0340" H 15650 17750 50  0001 C CNN
+F 1 "GND" V 15655 17872 50  0000 R CNN
+F 2 "" H 15650 18000 50  0001 C CNN
+F 3 "" H 15650 18000 50  0001 C CNN
+	1    15650 18000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15650 18000 15500 18000
+Wire Wire Line
+	15050 17800 15050 18000
+Connection ~ 15050 18000
+$Comp
+L Wordclock:GND #PWR?
+U 1 1 60EB1628
+P 15050 18850
+AR Path="/60EB1628" Ref="#PWR?"  Part="1" 
+AR Path="/60220980/60EB1628" Ref="#PWR0342"  Part="1" 
+F 0 "#PWR0342" H 15050 18600 50  0001 C CNN
+F 1 "GND" H 15055 18677 50  0000 C CNN
+F 2 "" H 15050 18850 50  0001 C CNN
+F 3 "" H 15050 18850 50  0001 C CNN
+	1    15050 18850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15050 18750 15050 18850
+Wire Wire Line
+	2950 3300 3200 3300
+Wire Wire Line
+	2950 2300 2950 3300
+Wire Wire Line
+	12450 3300 11850 3300
+Wire Wire Line
+	13600 3300 13050 3300
+Wire Wire Line
+	13900 3600 13900 3700
+Wire Wire Line
+	12750 3600 12750 3700
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB1635
+P 12750 3300
+AR Path="/60EB1635" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB1635" Ref="D20"  Part="1" 
+F 0 "D20" H 13094 3346 50  0000 L CNN
+F 1 "SK6812" H 13094 3255 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 12800 3000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 12850 2925 50  0001 L TNN
+	1    12750 3300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 3300 7250 3300
+Wire Wire Line
+	10100 3300 9550 3300
+Wire Wire Line
+	10700 3300 11250 3300
+Wire Wire Line
+	11550 3600 11550 3700
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB163F
+P 11550 3300
+AR Path="/60EB163F" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB163F" Ref="D19"  Part="1" 
+F 0 "D19" H 11894 3346 50  0000 L CNN
+F 1 "SK6812" H 11894 3255 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 11600 3000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 11650 2925 50  0001 L TNN
+	1    11550 3300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	10400 3600 10400 3700
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB1646
+P 10400 3300
+AR Path="/60EB1646" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB1646" Ref="D18"  Part="1" 
+F 0 "D18" H 10744 3346 50  0000 L CNN
+F 1 "SK6812" H 10744 3255 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 10450 3000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 10500 2925 50  0001 L TNN
+	1    10400 3300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 3300 8950 3300
+Wire Wire Line
+	9250 3600 9250 3700
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB164E
+P 9250 3300
+AR Path="/60EB164E" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB164E" Ref="D17"  Part="1" 
+F 0 "D17" H 9594 3346 50  0000 L CNN
+F 1 "SK6812" H 9594 3255 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 9300 3000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 9350 2925 50  0001 L TNN
+	1    9250 3300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 3600 8100 3700
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB1655
+P 8100 3300
+AR Path="/60EB1655" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB1655" Ref="D16"  Part="1" 
+F 0 "D16" H 8444 3346 50  0000 L CNN
+F 1 "SK6812" H 8444 3255 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 8150 3000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 8200 2925 50  0001 L TNN
+	1    8100 3300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 3300 4950 3300
+Wire Wire Line
+	6100 3300 6650 3300
+Wire Wire Line
+	6950 3600 6950 3700
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB165E
+P 6950 3300
+AR Path="/60EB165E" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB165E" Ref="D15"  Part="1" 
+F 0 "D15" H 7294 3346 50  0000 L CNN
+F 1 "SK6812" H 7294 3255 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 7000 3000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 7050 2925 50  0001 L TNN
+	1    6950 3300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 3600 5800 3700
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB1665
+P 5800 3300
+AR Path="/60EB1665" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB1665" Ref="D14"  Part="1" 
+F 0 "D14" H 6144 3346 50  0000 L CNN
+F 1 "SK6812" H 6144 3255 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 5850 3000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 5900 2925 50  0001 L TNN
+	1    5800 3300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 3300 4350 3300
+Wire Wire Line
+	4650 3600 4650 3700
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB166D
+P 4650 3300
+AR Path="/60EB166D" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB166D" Ref="D13"  Part="1" 
+F 0 "D13" H 4994 3346 50  0000 L CNN
+F 1 "SK6812" H 4994 3255 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 4700 3000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 4750 2925 50  0001 L TNN
+	1    4650 3300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 3600 3500 3700
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB1674
+P 3500 3300
+AR Path="/60EB1674" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB1674" Ref="D12"  Part="1" 
+F 0 "D12" H 3844 3346 50  0000 L CNN
+F 1 "SK6812" H 3844 3255 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 3550 3000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 3600 2925 50  0001 L TNN
+	1    3500 3300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB167A
+P 13900 3300
+AR Path="/60EB167A" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB167A" Ref="D21"  Part="1" 
+F 0 "D21" H 14244 3346 50  0000 L CNN
+F 1 "SK6812" H 14244 3255 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 13950 3000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 14000 2925 50  0001 L TNN
+	1    13900 3300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wordclock:SK6812 D?
+U 1 1 60EB1680
+P 15050 3300
+AR Path="/60EB1680" Ref="D?"  Part="1" 
+AR Path="/60220980/60EB1680" Ref="D22"  Part="1" 
+F 0 "D22" H 15394 3346 50  0000 L CNN
+F 1 "SK6812" H 15394 3255 50  0000 L CNN
+F 2 "Wordclock_V1:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 15100 3000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 15150 2925 50  0001 L TNN
+	1    15050 3300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	14750 18450 14300 18450
+Wire Wire Line
+	14300 18450 14300 17300
+Wire Wire Line
+	14300 17300 15800 17300
+Wire Wire Line
+	15800 17300 15800 16600
+Wire Wire Line
+	15800 16600 15350 16600
+Wire Wire Line
+	3200 16600 2700 16600
+Wire Wire Line
+	2700 16600 2700 17450
+Wire Wire Line
+	2700 17450 4600 17450
+Wire Wire Line
+	4600 17450 4600 18400
+Wire Wire Line
+	4600 18400 3800 18400
+Wire Wire Line
+	3200 18400 2350 18400
+Wire Wire Line
+	2350 18400 2350 15600
+Wire Wire Line
+	2350 15600 15700 15600
+Wire Wire Line
+	17250 2300 17250 1600
+Wire Wire Line
+	17250 1600 17050 1600
+Wire Wire Line
+	2950 2300 17250 2300
+Wire Wire Line
+	15350 1600 16450 1600
+Wire Wire Line
+	3200 1600 2400 1600
+NoConn ~ 1800 1600
+Text HLabel 15700 18450 2    50   Input ~ 0
+leds
+Wire Wire Line
+	15700 18450 15350 18450
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0110
+U 1 1 6038559A
+P 2100 950
+F 0 "#PWR0110" H 2100 800 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 2115 1123 50  0000 C CNN
+F 2 "" H 2100 950 50  0001 C CNN
+F 3 "" H 2100 950 50  0001 C CNN
+	1    2100 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0111
+U 1 1 60389E06
+P 3500 950
+F 0 "#PWR0111" H 3500 800 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 3515 1123 50  0000 C CNN
+F 2 "" H 3500 950 50  0001 C CNN
+F 3 "" H 3500 950 50  0001 C CNN
+	1    3500 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0112
+U 1 1 6038AA98
+P 4650 950
+F 0 "#PWR0112" H 4650 800 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 4665 1123 50  0000 C CNN
+F 2 "" H 4650 950 50  0001 C CNN
+F 3 "" H 4650 950 50  0001 C CNN
+	1    4650 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0113
+U 1 1 6038FA26
+P 5800 950
+F 0 "#PWR0113" H 5800 800 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 5815 1123 50  0000 C CNN
+F 2 "" H 5800 950 50  0001 C CNN
+F 3 "" H 5800 950 50  0001 C CNN
+	1    5800 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0114
+U 1 1 6038FA2C
+P 6950 950
+F 0 "#PWR0114" H 6950 800 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 6965 1123 50  0000 C CNN
+F 2 "" H 6950 950 50  0001 C CNN
+F 3 "" H 6950 950 50  0001 C CNN
+	1    6950 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0115
+U 1 1 6041F820
+P 8100 950
+F 0 "#PWR0115" H 8100 800 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 8115 1123 50  0000 C CNN
+F 2 "" H 8100 950 50  0001 C CNN
+F 3 "" H 8100 950 50  0001 C CNN
+	1    8100 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0116
+U 1 1 6041F826
+P 9250 950
+F 0 "#PWR0116" H 9250 800 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 9265 1123 50  0000 C CNN
+F 2 "" H 9250 950 50  0001 C CNN
+F 3 "" H 9250 950 50  0001 C CNN
+	1    9250 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0139
+U 1 1 604B00DE
+P 10400 950
+F 0 "#PWR0139" H 10400 800 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 10415 1123 50  0000 C CNN
+F 2 "" H 10400 950 50  0001 C CNN
+F 3 "" H 10400 950 50  0001 C CNN
+	1    10400 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0140
+U 1 1 604B00E4
+P 11550 950
+F 0 "#PWR0140" H 11550 800 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 11565 1123 50  0000 C CNN
+F 2 "" H 11550 950 50  0001 C CNN
+F 3 "" H 11550 950 50  0001 C CNN
+	1    11550 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0141
+U 1 1 6053F224
+P 12750 950
+F 0 "#PWR0141" H 12750 800 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 12765 1123 50  0000 C CNN
+F 2 "" H 12750 950 50  0001 C CNN
+F 3 "" H 12750 950 50  0001 C CNN
+	1    12750 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0142
+U 1 1 6053F22A
+P 13900 950
+F 0 "#PWR0142" H 13900 800 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 13915 1123 50  0000 C CNN
+F 2 "" H 13900 950 50  0001 C CNN
+F 3 "" H 13900 950 50  0001 C CNN
+	1    13900 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0143
+U 1 1 605CFA24
+P 15050 950
+F 0 "#PWR0143" H 15050 800 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 15065 1123 50  0000 C CNN
+F 2 "" H 15050 950 50  0001 C CNN
+F 3 "" H 15050 950 50  0001 C CNN
+	1    15050 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0144
+U 1 1 605CFA2A
+P 16750 950
+F 0 "#PWR0144" H 16750 800 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 16765 1123 50  0000 C CNN
+F 2 "" H 16750 950 50  0001 C CNN
+F 3 "" H 16750 950 50  0001 C CNN
+	1    16750 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0145
+U 1 1 6067AB46
+P 3500 2650
+F 0 "#PWR0145" H 3500 2500 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 3515 2823 50  0000 C CNN
+F 2 "" H 3500 2650 50  0001 C CNN
+F 3 "" H 3500 2650 50  0001 C CNN
+	1    3500 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0146
+U 1 1 6067AB4C
+P 4650 2650
+F 0 "#PWR0146" H 4650 2500 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 4665 2823 50  0000 C CNN
+F 2 "" H 4650 2650 50  0001 C CNN
+F 3 "" H 4650 2650 50  0001 C CNN
+	1    4650 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0147
+U 1 1 6067AB52
+P 5800 2650
+F 0 "#PWR0147" H 5800 2500 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 5815 2823 50  0000 C CNN
+F 2 "" H 5800 2650 50  0001 C CNN
+F 3 "" H 5800 2650 50  0001 C CNN
+	1    5800 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0148
+U 1 1 6067AB58
+P 6950 2650
+F 0 "#PWR0148" H 6950 2500 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 6965 2823 50  0000 C CNN
+F 2 "" H 6950 2650 50  0001 C CNN
+F 3 "" H 6950 2650 50  0001 C CNN
+	1    6950 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0149
+U 1 1 6067AB5E
+P 8100 2650
+F 0 "#PWR0149" H 8100 2500 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 8115 2823 50  0000 C CNN
+F 2 "" H 8100 2650 50  0001 C CNN
+F 3 "" H 8100 2650 50  0001 C CNN
+	1    8100 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0172
+U 1 1 6067AB64
+P 9250 2650
+F 0 "#PWR0172" H 9250 2500 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 9265 2823 50  0000 C CNN
+F 2 "" H 9250 2650 50  0001 C CNN
+F 3 "" H 9250 2650 50  0001 C CNN
+	1    9250 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0173
+U 1 1 6067AB6A
+P 10400 2650
+F 0 "#PWR0173" H 10400 2500 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 10415 2823 50  0000 C CNN
+F 2 "" H 10400 2650 50  0001 C CNN
+F 3 "" H 10400 2650 50  0001 C CNN
+	1    10400 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0174
+U 1 1 6067AB70
+P 11550 2650
+F 0 "#PWR0174" H 11550 2500 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 11565 2823 50  0000 C CNN
+F 2 "" H 11550 2650 50  0001 C CNN
+F 3 "" H 11550 2650 50  0001 C CNN
+	1    11550 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0175
+U 1 1 6067AB76
+P 12750 2650
+F 0 "#PWR0175" H 12750 2500 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 12765 2823 50  0000 C CNN
+F 2 "" H 12750 2650 50  0001 C CNN
+F 3 "" H 12750 2650 50  0001 C CNN
+	1    12750 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0176
+U 1 1 6067AB7C
+P 13900 2650
+F 0 "#PWR0176" H 13900 2500 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 13915 2823 50  0000 C CNN
+F 2 "" H 13900 2650 50  0001 C CNN
+F 3 "" H 13900 2650 50  0001 C CNN
+	1    13900 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0177
+U 1 1 6067AB82
+P 15050 2650
+F 0 "#PWR0177" H 15050 2500 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 15065 2823 50  0000 C CNN
+F 2 "" H 15050 2650 50  0001 C CNN
+F 3 "" H 15050 2650 50  0001 C CNN
+	1    15050 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0178
+U 1 1 6071184A
+P 3500 4300
+F 0 "#PWR0178" H 3500 4150 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 3515 4473 50  0000 C CNN
+F 2 "" H 3500 4300 50  0001 C CNN
+F 3 "" H 3500 4300 50  0001 C CNN
+	1    3500 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0179
+U 1 1 60711850
+P 4650 4300
+F 0 "#PWR0179" H 4650 4150 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 4665 4473 50  0000 C CNN
+F 2 "" H 4650 4300 50  0001 C CNN
+F 3 "" H 4650 4300 50  0001 C CNN
+	1    4650 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0180
+U 1 1 60711856
+P 5800 4300
+F 0 "#PWR0180" H 5800 4150 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 5815 4473 50  0000 C CNN
+F 2 "" H 5800 4300 50  0001 C CNN
+F 3 "" H 5800 4300 50  0001 C CNN
+	1    5800 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0181
+U 1 1 6071185C
+P 6950 4300
+F 0 "#PWR0181" H 6950 4150 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 6965 4473 50  0000 C CNN
+F 2 "" H 6950 4300 50  0001 C CNN
+F 3 "" H 6950 4300 50  0001 C CNN
+	1    6950 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0182
+U 1 1 60711862
+P 8100 4300
+F 0 "#PWR0182" H 8100 4150 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 8115 4473 50  0000 C CNN
+F 2 "" H 8100 4300 50  0001 C CNN
+F 3 "" H 8100 4300 50  0001 C CNN
+	1    8100 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0205
+U 1 1 60711868
+P 9250 4300
+F 0 "#PWR0205" H 9250 4150 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 9265 4473 50  0000 C CNN
+F 2 "" H 9250 4300 50  0001 C CNN
+F 3 "" H 9250 4300 50  0001 C CNN
+	1    9250 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0206
+U 1 1 6071186E
+P 10400 4300
+F 0 "#PWR0206" H 10400 4150 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 10415 4473 50  0000 C CNN
+F 2 "" H 10400 4300 50  0001 C CNN
+F 3 "" H 10400 4300 50  0001 C CNN
+	1    10400 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0207
+U 1 1 60711874
+P 11550 4300
+F 0 "#PWR0207" H 11550 4150 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 11565 4473 50  0000 C CNN
+F 2 "" H 11550 4300 50  0001 C CNN
+F 3 "" H 11550 4300 50  0001 C CNN
+	1    11550 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0208
+U 1 1 6071187A
+P 12750 4300
+F 0 "#PWR0208" H 12750 4150 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 12765 4473 50  0000 C CNN
+F 2 "" H 12750 4300 50  0001 C CNN
+F 3 "" H 12750 4300 50  0001 C CNN
+	1    12750 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0209
+U 1 1 60711880
+P 13900 4300
+F 0 "#PWR0209" H 13900 4150 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 13915 4473 50  0000 C CNN
+F 2 "" H 13900 4300 50  0001 C CNN
+F 3 "" H 13900 4300 50  0001 C CNN
+	1    13900 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0210
+U 1 1 60711886
+P 15050 4300
+F 0 "#PWR0210" H 15050 4150 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 15065 4473 50  0000 C CNN
+F 2 "" H 15050 4300 50  0001 C CNN
+F 3 "" H 15050 4300 50  0001 C CNN
+	1    15050 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0211
+U 1 1 607A299C
+P 3500 6000
+F 0 "#PWR0211" H 3500 5850 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 3515 6173 50  0000 C CNN
+F 2 "" H 3500 6000 50  0001 C CNN
+F 3 "" H 3500 6000 50  0001 C CNN
+	1    3500 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0212
+U 1 1 607A29A2
+P 4650 6000
+F 0 "#PWR0212" H 4650 5850 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 4665 6173 50  0000 C CNN
+F 2 "" H 4650 6000 50  0001 C CNN
+F 3 "" H 4650 6000 50  0001 C CNN
+	1    4650 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0213
+U 1 1 607A29A8
+P 5800 6000
+F 0 "#PWR0213" H 5800 5850 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 5815 6173 50  0000 C CNN
+F 2 "" H 5800 6000 50  0001 C CNN
+F 3 "" H 5800 6000 50  0001 C CNN
+	1    5800 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0214
+U 1 1 607A29AE
+P 6950 6000
+F 0 "#PWR0214" H 6950 5850 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 6965 6173 50  0000 C CNN
+F 2 "" H 6950 6000 50  0001 C CNN
+F 3 "" H 6950 6000 50  0001 C CNN
+	1    6950 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0215
+U 1 1 607A29B4
+P 8100 6000
+F 0 "#PWR0215" H 8100 5850 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 8115 6173 50  0000 C CNN
+F 2 "" H 8100 6000 50  0001 C CNN
+F 3 "" H 8100 6000 50  0001 C CNN
+	1    8100 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0238
+U 1 1 607A29BA
+P 9250 6000
+F 0 "#PWR0238" H 9250 5850 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 9265 6173 50  0000 C CNN
+F 2 "" H 9250 6000 50  0001 C CNN
+F 3 "" H 9250 6000 50  0001 C CNN
+	1    9250 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0239
+U 1 1 607A29C0
+P 10400 6000
+F 0 "#PWR0239" H 10400 5850 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 10415 6173 50  0000 C CNN
+F 2 "" H 10400 6000 50  0001 C CNN
+F 3 "" H 10400 6000 50  0001 C CNN
+	1    10400 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0240
+U 1 1 607A29C6
+P 11550 6000
+F 0 "#PWR0240" H 11550 5850 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 11565 6173 50  0000 C CNN
+F 2 "" H 11550 6000 50  0001 C CNN
+F 3 "" H 11550 6000 50  0001 C CNN
+	1    11550 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0241
+U 1 1 607A29CC
+P 12750 6000
+F 0 "#PWR0241" H 12750 5850 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 12765 6173 50  0000 C CNN
+F 2 "" H 12750 6000 50  0001 C CNN
+F 3 "" H 12750 6000 50  0001 C CNN
+	1    12750 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0242
+U 1 1 607A29D2
+P 13900 6000
+F 0 "#PWR0242" H 13900 5850 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 13915 6173 50  0000 C CNN
+F 2 "" H 13900 6000 50  0001 C CNN
+F 3 "" H 13900 6000 50  0001 C CNN
+	1    13900 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0243
+U 1 1 607A29D8
+P 15050 6000
+F 0 "#PWR0243" H 15050 5850 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 15065 6173 50  0000 C CNN
+F 2 "" H 15050 6000 50  0001 C CNN
+F 3 "" H 15050 6000 50  0001 C CNN
+	1    15050 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0244
+U 1 1 608CB1E5
+P 3500 7600
+F 0 "#PWR0244" H 3500 7450 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 3515 7773 50  0000 C CNN
+F 2 "" H 3500 7600 50  0001 C CNN
+F 3 "" H 3500 7600 50  0001 C CNN
+	1    3500 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0245
+U 1 1 608CB1EB
+P 4650 7600
+F 0 "#PWR0245" H 4650 7450 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 4665 7773 50  0000 C CNN
+F 2 "" H 4650 7600 50  0001 C CNN
+F 3 "" H 4650 7600 50  0001 C CNN
+	1    4650 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0246
+U 1 1 608CB1F1
+P 5800 7600
+F 0 "#PWR0246" H 5800 7450 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 5815 7773 50  0000 C CNN
+F 2 "" H 5800 7600 50  0001 C CNN
+F 3 "" H 5800 7600 50  0001 C CNN
+	1    5800 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0247
+U 1 1 608CB1F7
+P 6950 7600
+F 0 "#PWR0247" H 6950 7450 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 6965 7773 50  0000 C CNN
+F 2 "" H 6950 7600 50  0001 C CNN
+F 3 "" H 6950 7600 50  0001 C CNN
+	1    6950 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0248
+U 1 1 608CB1FD
+P 8100 7600
+F 0 "#PWR0248" H 8100 7450 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 8115 7773 50  0000 C CNN
+F 2 "" H 8100 7600 50  0001 C CNN
+F 3 "" H 8100 7600 50  0001 C CNN
+	1    8100 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0271
+U 1 1 608CB203
+P 9250 7600
+F 0 "#PWR0271" H 9250 7450 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 9265 7773 50  0000 C CNN
+F 2 "" H 9250 7600 50  0001 C CNN
+F 3 "" H 9250 7600 50  0001 C CNN
+	1    9250 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0272
+U 1 1 608CB209
+P 10400 7600
+F 0 "#PWR0272" H 10400 7450 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 10415 7773 50  0000 C CNN
+F 2 "" H 10400 7600 50  0001 C CNN
+F 3 "" H 10400 7600 50  0001 C CNN
+	1    10400 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0273
+U 1 1 608CB20F
+P 11550 7600
+F 0 "#PWR0273" H 11550 7450 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 11565 7773 50  0000 C CNN
+F 2 "" H 11550 7600 50  0001 C CNN
+F 3 "" H 11550 7600 50  0001 C CNN
+	1    11550 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0274
+U 1 1 608CB215
+P 12750 7600
+F 0 "#PWR0274" H 12750 7450 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 12765 7773 50  0000 C CNN
+F 2 "" H 12750 7600 50  0001 C CNN
+F 3 "" H 12750 7600 50  0001 C CNN
+	1    12750 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0275
+U 1 1 608CB21B
+P 13900 7600
+F 0 "#PWR0275" H 13900 7450 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 13915 7773 50  0000 C CNN
+F 2 "" H 13900 7600 50  0001 C CNN
+F 3 "" H 13900 7600 50  0001 C CNN
+	1    13900 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0276
+U 1 1 608CB221
+P 15050 7600
+F 0 "#PWR0276" H 15050 7450 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 15065 7773 50  0000 C CNN
+F 2 "" H 15050 7600 50  0001 C CNN
+F 3 "" H 15050 7600 50  0001 C CNN
+	1    15050 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0277
+U 1 1 6095C4EF
+P 3500 9300
+F 0 "#PWR0277" H 3500 9150 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 3515 9473 50  0000 C CNN
+F 2 "" H 3500 9300 50  0001 C CNN
+F 3 "" H 3500 9300 50  0001 C CNN
+	1    3500 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0278
+U 1 1 6095C4F5
+P 4650 9300
+F 0 "#PWR0278" H 4650 9150 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 4665 9473 50  0000 C CNN
+F 2 "" H 4650 9300 50  0001 C CNN
+F 3 "" H 4650 9300 50  0001 C CNN
+	1    4650 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0279
+U 1 1 6095C4FB
+P 5800 9300
+F 0 "#PWR0279" H 5800 9150 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 5815 9473 50  0000 C CNN
+F 2 "" H 5800 9300 50  0001 C CNN
+F 3 "" H 5800 9300 50  0001 C CNN
+	1    5800 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0280
+U 1 1 6095C501
+P 6950 9300
+F 0 "#PWR0280" H 6950 9150 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 6965 9473 50  0000 C CNN
+F 2 "" H 6950 9300 50  0001 C CNN
+F 3 "" H 6950 9300 50  0001 C CNN
+	1    6950 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0281
+U 1 1 6095C507
+P 8100 9300
+F 0 "#PWR0281" H 8100 9150 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 8115 9473 50  0000 C CNN
+F 2 "" H 8100 9300 50  0001 C CNN
+F 3 "" H 8100 9300 50  0001 C CNN
+	1    8100 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0304
+U 1 1 6095C50D
+P 9250 9300
+F 0 "#PWR0304" H 9250 9150 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 9265 9473 50  0000 C CNN
+F 2 "" H 9250 9300 50  0001 C CNN
+F 3 "" H 9250 9300 50  0001 C CNN
+	1    9250 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0305
+U 1 1 6095C513
+P 10400 9300
+F 0 "#PWR0305" H 10400 9150 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 10415 9473 50  0000 C CNN
+F 2 "" H 10400 9300 50  0001 C CNN
+F 3 "" H 10400 9300 50  0001 C CNN
+	1    10400 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0306
+U 1 1 6095C519
+P 11550 9300
+F 0 "#PWR0306" H 11550 9150 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 11565 9473 50  0000 C CNN
+F 2 "" H 11550 9300 50  0001 C CNN
+F 3 "" H 11550 9300 50  0001 C CNN
+	1    11550 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0307
+U 1 1 6095C51F
+P 12750 9300
+F 0 "#PWR0307" H 12750 9150 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 12765 9473 50  0000 C CNN
+F 2 "" H 12750 9300 50  0001 C CNN
+F 3 "" H 12750 9300 50  0001 C CNN
+	1    12750 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0308
+U 1 1 6095C525
+P 13900 9300
+F 0 "#PWR0308" H 13900 9150 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 13915 9473 50  0000 C CNN
+F 2 "" H 13900 9300 50  0001 C CNN
+F 3 "" H 13900 9300 50  0001 C CNN
+	1    13900 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0309
+U 1 1 6095C52B
+P 15050 9300
+F 0 "#PWR0309" H 15050 9150 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 15065 9473 50  0000 C CNN
+F 2 "" H 15050 9300 50  0001 C CNN
+F 3 "" H 15050 9300 50  0001 C CNN
+	1    15050 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0310
+U 1 1 609F240E
+P 3500 10950
+F 0 "#PWR0310" H 3500 10800 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 3515 11123 50  0000 C CNN
+F 2 "" H 3500 10950 50  0001 C CNN
+F 3 "" H 3500 10950 50  0001 C CNN
+	1    3500 10950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0311
+U 1 1 609F2414
+P 4650 10950
+F 0 "#PWR0311" H 4650 10800 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 4665 11123 50  0000 C CNN
+F 2 "" H 4650 10950 50  0001 C CNN
+F 3 "" H 4650 10950 50  0001 C CNN
+	1    4650 10950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0312
+U 1 1 609F241A
+P 5800 10950
+F 0 "#PWR0312" H 5800 10800 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 5815 11123 50  0000 C CNN
+F 2 "" H 5800 10950 50  0001 C CNN
+F 3 "" H 5800 10950 50  0001 C CNN
+	1    5800 10950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0313
+U 1 1 609F2420
+P 6950 10950
+F 0 "#PWR0313" H 6950 10800 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 6965 11123 50  0000 C CNN
+F 2 "" H 6950 10950 50  0001 C CNN
+F 3 "" H 6950 10950 50  0001 C CNN
+	1    6950 10950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0314
+U 1 1 609F2426
+P 8100 10950
+F 0 "#PWR0314" H 8100 10800 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 8115 11123 50  0000 C CNN
+F 2 "" H 8100 10950 50  0001 C CNN
+F 3 "" H 8100 10950 50  0001 C CNN
+	1    8100 10950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0337
+U 1 1 609F242C
+P 9250 10950
+F 0 "#PWR0337" H 9250 10800 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 9265 11123 50  0000 C CNN
+F 2 "" H 9250 10950 50  0001 C CNN
+F 3 "" H 9250 10950 50  0001 C CNN
+	1    9250 10950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0338
+U 1 1 609F2432
+P 10400 10950
+F 0 "#PWR0338" H 10400 10800 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 10415 11123 50  0000 C CNN
+F 2 "" H 10400 10950 50  0001 C CNN
+F 3 "" H 10400 10950 50  0001 C CNN
+	1    10400 10950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0358
+U 1 1 609F2438
+P 11550 10950
+F 0 "#PWR0358" H 11550 10800 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 11565 11123 50  0000 C CNN
+F 2 "" H 11550 10950 50  0001 C CNN
+F 3 "" H 11550 10950 50  0001 C CNN
+	1    11550 10950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0365
+U 1 1 609F243E
+P 12750 10950
+F 0 "#PWR0365" H 12750 10800 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 12765 11123 50  0000 C CNN
+F 2 "" H 12750 10950 50  0001 C CNN
+F 3 "" H 12750 10950 50  0001 C CNN
+	1    12750 10950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0368
+U 1 1 609F2444
+P 13900 10950
+F 0 "#PWR0368" H 13900 10800 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 13915 11123 50  0000 C CNN
+F 2 "" H 13900 10950 50  0001 C CNN
+F 3 "" H 13900 10950 50  0001 C CNN
+	1    13900 10950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0379
+U 1 1 609F244A
+P 15050 10950
+F 0 "#PWR0379" H 15050 10800 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 15065 11123 50  0000 C CNN
+F 2 "" H 15050 10950 50  0001 C CNN
+F 3 "" H 15050 10950 50  0001 C CNN
+	1    15050 10950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0403
+U 1 1 60A84930
+P 3500 12650
+F 0 "#PWR0403" H 3500 12500 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 3515 12823 50  0000 C CNN
+F 2 "" H 3500 12650 50  0001 C CNN
+F 3 "" H 3500 12650 50  0001 C CNN
+	1    3500 12650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0404
+U 1 1 60A84936
+P 4650 12650
+F 0 "#PWR0404" H 4650 12500 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 4665 12823 50  0000 C CNN
+F 2 "" H 4650 12650 50  0001 C CNN
+F 3 "" H 4650 12650 50  0001 C CNN
+	1    4650 12650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0405
+U 1 1 60A8493C
+P 5800 12650
+F 0 "#PWR0405" H 5800 12500 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 5815 12823 50  0000 C CNN
+F 2 "" H 5800 12650 50  0001 C CNN
+F 3 "" H 5800 12650 50  0001 C CNN
+	1    5800 12650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0406
+U 1 1 60A84942
+P 6950 12650
+F 0 "#PWR0406" H 6950 12500 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 6965 12823 50  0000 C CNN
+F 2 "" H 6950 12650 50  0001 C CNN
+F 3 "" H 6950 12650 50  0001 C CNN
+	1    6950 12650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0407
+U 1 1 60A84948
+P 8100 12650
+F 0 "#PWR0407" H 8100 12500 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 8115 12823 50  0000 C CNN
+F 2 "" H 8100 12650 50  0001 C CNN
+F 3 "" H 8100 12650 50  0001 C CNN
+	1    8100 12650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0408
+U 1 1 60A8494E
+P 9250 12650
+F 0 "#PWR0408" H 9250 12500 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 9265 12823 50  0000 C CNN
+F 2 "" H 9250 12650 50  0001 C CNN
+F 3 "" H 9250 12650 50  0001 C CNN
+	1    9250 12650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0409
+U 1 1 60A84954
+P 10400 12650
+F 0 "#PWR0409" H 10400 12500 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 10415 12823 50  0000 C CNN
+F 2 "" H 10400 12650 50  0001 C CNN
+F 3 "" H 10400 12650 50  0001 C CNN
+	1    10400 12650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0410
+U 1 1 60A8495A
+P 11550 12650
+F 0 "#PWR0410" H 11550 12500 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 11565 12823 50  0000 C CNN
+F 2 "" H 11550 12650 50  0001 C CNN
+F 3 "" H 11550 12650 50  0001 C CNN
+	1    11550 12650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0411
+U 1 1 60A84960
+P 12750 12650
+F 0 "#PWR0411" H 12750 12500 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 12765 12823 50  0000 C CNN
+F 2 "" H 12750 12650 50  0001 C CNN
+F 3 "" H 12750 12650 50  0001 C CNN
+	1    12750 12650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0412
+U 1 1 60A84966
+P 13900 12650
+F 0 "#PWR0412" H 13900 12500 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 13915 12823 50  0000 C CNN
+F 2 "" H 13900 12650 50  0001 C CNN
+F 3 "" H 13900 12650 50  0001 C CNN
+	1    13900 12650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0413
+U 1 1 60A8496C
+P 15050 12650
+F 0 "#PWR0413" H 15050 12500 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 15065 12823 50  0000 C CNN
+F 2 "" H 15050 12650 50  0001 C CNN
+F 3 "" H 15050 12650 50  0001 C CNN
+	1    15050 12650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0414
+U 1 1 60B24ECA
+P 3500 14250
+F 0 "#PWR0414" H 3500 14100 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 3515 14423 50  0000 C CNN
+F 2 "" H 3500 14250 50  0001 C CNN
+F 3 "" H 3500 14250 50  0001 C CNN
+	1    3500 14250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0415
+U 1 1 60B24ED0
+P 4650 14250
+F 0 "#PWR0415" H 4650 14100 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 4665 14423 50  0000 C CNN
+F 2 "" H 4650 14250 50  0001 C CNN
+F 3 "" H 4650 14250 50  0001 C CNN
+	1    4650 14250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0416
+U 1 1 60B24ED6
+P 5800 14250
+F 0 "#PWR0416" H 5800 14100 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 5815 14423 50  0000 C CNN
+F 2 "" H 5800 14250 50  0001 C CNN
+F 3 "" H 5800 14250 50  0001 C CNN
+	1    5800 14250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0417
+U 1 1 60B24EDC
+P 6950 14250
+F 0 "#PWR0417" H 6950 14100 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 6965 14423 50  0000 C CNN
+F 2 "" H 6950 14250 50  0001 C CNN
+F 3 "" H 6950 14250 50  0001 C CNN
+	1    6950 14250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0418
+U 1 1 60B24EE2
+P 8100 14250
+F 0 "#PWR0418" H 8100 14100 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 8115 14423 50  0000 C CNN
+F 2 "" H 8100 14250 50  0001 C CNN
+F 3 "" H 8100 14250 50  0001 C CNN
+	1    8100 14250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0419
+U 1 1 60B24EE8
+P 9250 14250
+F 0 "#PWR0419" H 9250 14100 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 9265 14423 50  0000 C CNN
+F 2 "" H 9250 14250 50  0001 C CNN
+F 3 "" H 9250 14250 50  0001 C CNN
+	1    9250 14250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0420
+U 1 1 60B24EEE
+P 10400 14250
+F 0 "#PWR0420" H 10400 14100 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 10415 14423 50  0000 C CNN
+F 2 "" H 10400 14250 50  0001 C CNN
+F 3 "" H 10400 14250 50  0001 C CNN
+	1    10400 14250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0421
+U 1 1 60B24EF4
+P 11550 14250
+F 0 "#PWR0421" H 11550 14100 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 11565 14423 50  0000 C CNN
+F 2 "" H 11550 14250 50  0001 C CNN
+F 3 "" H 11550 14250 50  0001 C CNN
+	1    11550 14250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0422
+U 1 1 60B24EFA
+P 12750 14250
+F 0 "#PWR0422" H 12750 14100 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 12765 14423 50  0000 C CNN
+F 2 "" H 12750 14250 50  0001 C CNN
+F 3 "" H 12750 14250 50  0001 C CNN
+	1    12750 14250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0423
+U 1 1 60B24F00
+P 13900 14250
+F 0 "#PWR0423" H 13900 14100 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 13915 14423 50  0000 C CNN
+F 2 "" H 13900 14250 50  0001 C CNN
+F 3 "" H 13900 14250 50  0001 C CNN
+	1    13900 14250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0424
+U 1 1 60B24F06
+P 15050 14250
+F 0 "#PWR0424" H 15050 14100 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 15065 14423 50  0000 C CNN
+F 2 "" H 15050 14250 50  0001 C CNN
+F 3 "" H 15050 14250 50  0001 C CNN
+	1    15050 14250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0425
+U 1 1 60BB604C
+P 3500 15950
+F 0 "#PWR0425" H 3500 15800 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 3515 16123 50  0000 C CNN
+F 2 "" H 3500 15950 50  0001 C CNN
+F 3 "" H 3500 15950 50  0001 C CNN
+	1    3500 15950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0426
+U 1 1 60BB6052
+P 4650 15950
+F 0 "#PWR0426" H 4650 15800 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 4665 16123 50  0000 C CNN
+F 2 "" H 4650 15950 50  0001 C CNN
+F 3 "" H 4650 15950 50  0001 C CNN
+	1    4650 15950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0427
+U 1 1 60BB6058
+P 5800 15950
+F 0 "#PWR0427" H 5800 15800 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 5815 16123 50  0000 C CNN
+F 2 "" H 5800 15950 50  0001 C CNN
+F 3 "" H 5800 15950 50  0001 C CNN
+	1    5800 15950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0428
+U 1 1 60BB605E
+P 6950 15950
+F 0 "#PWR0428" H 6950 15800 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 6965 16123 50  0000 C CNN
+F 2 "" H 6950 15950 50  0001 C CNN
+F 3 "" H 6950 15950 50  0001 C CNN
+	1    6950 15950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0429
+U 1 1 60BB6064
+P 8100 15950
+F 0 "#PWR0429" H 8100 15800 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 8115 16123 50  0000 C CNN
+F 2 "" H 8100 15950 50  0001 C CNN
+F 3 "" H 8100 15950 50  0001 C CNN
+	1    8100 15950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0430
+U 1 1 60BB606A
+P 9250 15950
+F 0 "#PWR0430" H 9250 15800 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 9265 16123 50  0000 C CNN
+F 2 "" H 9250 15950 50  0001 C CNN
+F 3 "" H 9250 15950 50  0001 C CNN
+	1    9250 15950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0431
+U 1 1 60BB6070
+P 10400 15950
+F 0 "#PWR0431" H 10400 15800 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 10415 16123 50  0000 C CNN
+F 2 "" H 10400 15950 50  0001 C CNN
+F 3 "" H 10400 15950 50  0001 C CNN
+	1    10400 15950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0432
+U 1 1 60BB6076
+P 11550 15950
+F 0 "#PWR0432" H 11550 15800 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 11565 16123 50  0000 C CNN
+F 2 "" H 11550 15950 50  0001 C CNN
+F 3 "" H 11550 15950 50  0001 C CNN
+	1    11550 15950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0433
+U 1 1 60BB607C
+P 12750 15950
+F 0 "#PWR0433" H 12750 15800 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 12765 16123 50  0000 C CNN
+F 2 "" H 12750 15950 50  0001 C CNN
+F 3 "" H 12750 15950 50  0001 C CNN
+	1    12750 15950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0434
+U 1 1 60BB6082
+P 13900 15950
+F 0 "#PWR0434" H 13900 15800 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 13915 16123 50  0000 C CNN
+F 2 "" H 13900 15950 50  0001 C CNN
+F 3 "" H 13900 15950 50  0001 C CNN
+	1    13900 15950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0435
+U 1 1 60BB6088
+P 15050 15950
+F 0 "#PWR0435" H 15050 15800 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 15065 16123 50  0000 C CNN
+F 2 "" H 15050 15950 50  0001 C CNN
+F 3 "" H 15050 15950 50  0001 C CNN
+	1    15050 15950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0436
+U 1 1 60C4B28C
+P 15050 17800
+F 0 "#PWR0436" H 15050 17650 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 15065 17973 50  0000 C CNN
+F 2 "" H 15050 17800 50  0001 C CNN
+F 3 "" H 15050 17800 50  0001 C CNN
+	1    15050 17800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Wordclock_+V_SK6812 #PWR0437
+U 1 1 60C4CB91
+P 3500 17750
+F 0 "#PWR0437" H 3500 17600 50  0001 C CNN
+F 1 "Wordclock_+V_SK6812" H 3515 17923 50  0000 C CNN
+F 2 "" H 3500 17750 50  0001 C CNN
+F 3 "" H 3500 17750 50  0001 C CNN
+	1    3500 17750
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
