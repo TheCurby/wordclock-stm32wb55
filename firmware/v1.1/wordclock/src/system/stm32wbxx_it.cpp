@@ -1,5 +1,5 @@
 ////////////////////////////////////////////////////////////////////////////////
-// Wordclock V1.0
+// Wordclock V1.1
 // 
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -31,11 +31,6 @@
 #include "system/stm32wbxx_it.hpp"
 
 extern "C" void NMI_Handler(void){
-}
-
-extern "C" void HardFault_Handler(void){
-  while (1){
-  }
 }
 
 extern "C" void MemManage_Handler(void){

@@ -24,7 +24,7 @@ void RTClock::disableWP() {
 
 }
 
-void RTClock::set(const s_RTC oRTC) {
+void RTClock::set(const s_RTC& oRTC) {
     oRTC_l = oRTC;
 }
 
@@ -38,4 +38,8 @@ uint8_t RTClock::bcd2val(const uint8_t ucVal) {
 
 uint8_t RTClock::val2bcd(const uint8_t ucVal) {
     return 0;
+}
+
+int32_t RTClock::toTimeStamp(const s_RTC& oRTC) {
+    return oRTC.u8Hours * 60 + oRTC.u8Minutes;
 }

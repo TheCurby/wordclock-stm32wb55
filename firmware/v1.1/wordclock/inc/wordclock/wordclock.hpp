@@ -1,5 +1,5 @@
 ////////////////////////////////////////////////////////////////////////////////
-// Wordclock V1.0
+// Wordclock V1.1
 // 
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -48,7 +48,7 @@ struct Data{
 
 class Wordclock {
 	public:
-		/* Variablen */
+		/* vars */
 		bool bOn;
 		bool bNewData;
 		bool bDir;
@@ -60,7 +60,7 @@ class Wordclock {
 		Data oData;
 		Data oDataSend;
 
-		/* Objekte */
+		/* objects */
 		Hardware oHardware;
 		SPI oSPI;
 		M95M01 oEEPROM;
@@ -81,7 +81,7 @@ class Wordclock {
 		Key oKeyRightDouble;
 		Container oContainerTmp;
 		Container oContainerOld;
-		Container oContainerZiffer[2];
+		Container oContainerDigit[2];
 		Animation AnimationClock;
 		Animation AnimationMenu;
 

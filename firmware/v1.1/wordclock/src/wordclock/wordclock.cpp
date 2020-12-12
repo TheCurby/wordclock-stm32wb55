@@ -1,5 +1,5 @@
 ////////////////////////////////////////////////////////////////////////////////
-// Wordclock V1.0
+// Wordclock V1.1
 // 
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -40,7 +40,6 @@ USART1, 9600), oOneWire(oUSART), oDS18X20(oOneWire) {
 }
 
 Wordclock::~Wordclock() {
-
 }
 
 bool Wordclock::loop() {
@@ -52,8 +51,7 @@ bool Wordclock::loop() {
 	u16ADC = STM32::getADC();
 
 #ifdef ENABLE_DCF77
-	bool bPin = STM32::getPin(GPIOA, 8);
-	if (oDCF77.receive(bPin) && oSettings.isDcf77()) {
+	if (oDCF77.receive(STM32::getPin(GPIOA, 8)) && oSettings.isDcf77()) {
 		RTClock::set(oDCF77.getRTC());
 		if (CurrentMenu == Menu::Clock) {
 			tDisplay.Stop();

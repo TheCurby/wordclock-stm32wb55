@@ -1,5 +1,5 @@
 ////////////////////////////////////////////////////////////////////////////////
-// Wordclock V1.0
+// Wordclock V1.1
 // 
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -195,21 +195,21 @@ void Wordclock::drawScreen(Menu MenuScreen) {
 			s_RTC oRTCTemp = RTClock::get();
 			uint8_t u8DimmValue = getDimmValue();
 
-			if (oRTCOld.u8Seconds / 10 != oRTCTemp.u8Seconds / 10 || oContainerZiffer[0].empty()) {
-				oContainerZiffer[0].clear();
-				oContainerZiffer[0].drawImage(*aoZiffern[oRTCTemp.u8Seconds / 10], 0, 1, oColors, oSettings.getMode());
+			if (oRTCOld.u8Seconds / 10 != oRTCTemp.u8Seconds / 10 || oContainerDigit[0].empty()) {
+				oContainerDigit[0].clear();
+				oContainerDigit[0].drawImage(*aoZiffern[oRTCTemp.u8Seconds / 10], 0, 1, oColors, oSettings.getMode());
 			}
-			if (oRTCOld.u8Seconds % 10 != oRTCTemp.u8Seconds % 10 || oContainerZiffer[1].empty()) {
-				oContainerZiffer[1].clear();
-				oContainerZiffer[1].drawImage(*aoZiffern[oRTCTemp.u8Seconds % 10], 6, 1, oColors, oSettings.getMode());
+			if (oRTCOld.u8Seconds % 10 != oRTCTemp.u8Seconds % 10 || oContainerDigit[1].empty()) {
+				oContainerDigit[1].clear();
+				oContainerDigit[1].drawImage(*aoZiffern[oRTCTemp.u8Seconds % 10], 6, 1, oColors, oSettings.getMode());
 			}
 			if (oRTCOld.u8Minutes % 5 != oRTCTemp.u8Minutes % 5 || oContainerOld.empty()) {
 				oContainerOld.clear();
 				drawDots(oContainerOld, oRTCTemp.u8Minutes % 5, oColors, oSettings.getMode());
 			}
 
-			drawContainer(oContainerZiffer[0], u8DimmValue);
-			drawContainer(oContainerZiffer[1], u8DimmValue);
+			drawContainer(oContainerDigit[0], u8DimmValue);
+			drawContainer(oContainerDigit[1], u8DimmValue);
 			drawContainer(oContainerOld, u8DimmValue);
 
 			oRTCOld = oRTCTemp;
@@ -228,9 +228,9 @@ void Wordclock::drawScreen(Menu MenuScreen) {
 			s16Temp += (32 << 4);
 #endif
 
-			if ((s16Temp >> 4) / 10 != (s16TempOld >> 4) / 10 || oContainerZiffer[0].empty()) {
-				oContainerZiffer[0].clear();
-				oContainerZiffer[0].drawImage(*aoZiffern[(s16Temp >> 4) / 10], 0, 1, oColors, oSettings.getMode());
+			if ((s16Temp >> 4) / 10 != (s16TempOld >> 4) / 10 || oContainerDigit[0].empty()) {
+				oContainerDigit[0].clear();
+				oContainerDigit[0].drawImage(*aoZiffern[(s16Temp >> 4) / 10], 0, 1, oColors, oSettings.getMode());
 
 #ifdef ENABLE_TEMP_SYMBOL
 				uint8_t u8Pos = 0;
@@ -247,12 +247,12 @@ void Wordclock::drawScreen(Menu MenuScreen) {
 						u8Pos = 5;
 					break;
 				}
-				oContainerZiffer[0].setWord(u8Pos, HEIGHT - 1, 1, oColors, oSettings.getMode());
+				oContainerDigit[0].setWord(u8Pos, HEIGHT - 1, 1, oColors, oSettings.getMode());
 #endif
 			}
-			if ((s16Temp >> 4) % 10 != (s16TempOld >> 4) % 10 || oContainerZiffer[1].empty()) {
-				oContainerZiffer[1].clear();
-				oContainerZiffer[1].drawImage(*aoZiffern[(s16Temp >> 4) % 10], 6, 1, oColors, oSettings.getMode());
+			if ((s16Temp >> 4) % 10 != (s16TempOld >> 4) % 10 || oContainerDigit[1].empty()) {
+				oContainerDigit[1].clear();
+				oContainerDigit[1].drawImage(*aoZiffern[(s16Temp >> 4) % 10], 6, 1, oColors, oSettings.getMode());
 			}
 
 			int16_t s16Temp1 = (s16Temp & 0x0f) * 5 / 16;
@@ -262,8 +262,8 @@ void Wordclock::drawScreen(Menu MenuScreen) {
 				drawDots(oContainerOld, s16Temp1, oColors, oSettings.getMode());
 			}
 
-			drawContainer(oContainerZiffer[0], u8DimmValue);
-			drawContainer(oContainerZiffer[1], u8DimmValue);
+			drawContainer(oContainerDigit[0], u8DimmValue);
+			drawContainer(oContainerDigit[1], u8DimmValue);
 			drawContainer(oContainerOld, u8DimmValue);
 
 			s16TempOld = s16Temp;

@@ -1,5 +1,5 @@
 ////////////////////////////////////////////////////////////////////////////////
-// Wordclock V1.0
+// Wordclock V1.1
 // 
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -22,7 +22,7 @@ void RTClock::disableWP() {
 	RTC->WPR = 0x53;
 }
 
-void RTClock::set(const s_RTC oRTC) {
+void RTClock::set(const s_RTC& oRTC) {
 	uint32_t u32Tmp;
 
 	disableWP();
@@ -69,7 +69,7 @@ s_RTC RTClock::get() {
 	return oRTC;
 }
 
-int32_t RTClock::toTimeStamp(const s_RTC& oRTC){
+int32_t RTClock::toTimeStamp(const s_RTC& oRTC) {
 	return oRTC.u8Hours * 60 + oRTC.u8Minutes;
 }
 

@@ -1,5 +1,5 @@
 ////////////////////////////////////////////////////////////////////////////////
-// Wordclock V1.0
+// Wordclock V1.1
 // 
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -18,6 +18,24 @@
 
 static Wordclock oWordclock;
 
+extern "C" void HardFault_Handler(void){
+	oWordclock.oSettings.incErrorCount();
+	oWordclock.oSettings.writeChanges();
+
+	/*struct ErrorCode{
+		uint32_t u32Key;
+		uint32_t u32UFSR;
+	} oErrorCode;
+
+	oErrorCode.u32Key = 0x1234ABCD;
+	oErrorCode.u32UFSR = ;
+
+	oWordclock.oEEPROM.Write(M95M01::ut32MemSize - sizeof(uint32_t) - sizeof(ErrorCode), (uint8_t *)&oErrorCode, sizeof(ErrorCode));*/
+
+	while (1){
+	}
+}
+
 extern "C" void TIM2_IRQHandler() {
 	TIM2->SR &= ~TIM_SR_UIF;
 
@@ -25,7 +43,6 @@ extern "C" void TIM2_IRQHandler() {
 }
 
 extern "C" int main() {
-
 	while (true) {
 		oWordclock.loop();
 	}

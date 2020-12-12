@@ -1,5 +1,5 @@
 ////////////////////////////////////////////////////////////////////////////////
-// Wordclock V1.0
+// Wordclock V1.1
 // 
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -28,6 +28,7 @@ class Settings {
 				bool bDCF77;
 				bool bNight;
 				DisplayMode eMode;
+				uint8_t u8ErrorCount;
 				uint8_t u8BrightnessMin;
 				uint8_t u8BrightnessMax;
 				uint16_t u16BrightnessOffsetMin;
@@ -46,6 +47,7 @@ class Settings {
 		Settings(M95M01& oM95M01_l);
 		void writeChanges();
 		void writeConfig();
+		void incErrorCount();
 
 		bool isDcf77() const;
 		void setDcf77(bool bVal);

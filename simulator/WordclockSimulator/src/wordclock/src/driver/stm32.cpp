@@ -24,7 +24,7 @@ extern bool bMiddleButton;
 extern bool bLED;
 extern uint8_t u8Light;
 
-void STM32::configPin(GPIO_TypeDef* oGPIO, uint8_t u8Pin, Flags u8Mode, Flags u8Drive, Flags u8Pullup, Flags AF) {
+void STM32::configPin(GPIO_TypeDef* oGPIO, uint8_t u8Pin, Flags u8Mode, Flags u8Drive, Flags u8Pullup, uint8_t AF) {
 
 }
 

@@ -1,5 +1,5 @@
 ////////////////////////////////////////////////////////////////////////////////
-// Wordclock V1.0
+// Wordclock V1.1
 // 
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -17,7 +17,7 @@
 #include "wordclock/settings.hpp"
 
 Settings::Settings(M95M01& oM95M01_l) : oM95M01(oM95M01_l) {
-	uint32_t u32Key = 0xa71cab6f;
+	uint32_t u32Key = 0x98bc4de2;
 	uint32_t u32Key_l = 0;
 	oM95M01.Read(M95M01::ut32MemSize - sizeof(uint32_t), (uint8_t*) &u32Key_l, sizeof(uint32_t));
 
@@ -25,6 +25,7 @@ Settings::Settings(M95M01& oM95M01_l) : oM95M01(oM95M01_l) {
 		oData.oLanguage = Language::English;
 		oData.bDCF77 = false;
 		oData.bNight = false;
+		oData.u8ErrorCount = 0;
 		oData.eMode = DisplayMode::Normal;
 		oData.eAnimation = Animation::None;
 		oData.oColors.setWhiteOnly(0x80);
@@ -124,6 +125,10 @@ void Settings::writeChanges() {
 
 void Settings::writeConfig() {
 	oM95M01.Write(0, (uint8_t*) &oData, sizeof(s_Data));
+}
+
+void Settings::incErrorCount(){
+	oData.u8ErrorCount++;
 }
 
 bool Settings::isDcf77() const {

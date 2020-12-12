@@ -1,5 +1,5 @@
 ////////////////////////////////////////////////////////////////////////////////
-// Wordclock V1.0
+// Wordclock V1.1
 // 
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -35,8 +35,8 @@ void Wordclock::setMenu(Menu Goto) {
 
 		case Menu::Seconds:
 		case Menu::Temp:
-			oContainerZiffer[0].clear();
-			oContainerZiffer[1].clear();
+			oContainerDigit[0].clear();
+			oContainerDigit[1].clear();
 			oContainerOld.clear();
 			s16TempOld = 0;
 			oRTCOld = RTClock::get();

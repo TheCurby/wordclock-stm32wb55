@@ -1,5 +1,5 @@
 ////////////////////////////////////////////////////////////////////////////////
-// Wordclock V1.0
+// Wordclock V1.1
 // 
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -23,7 +23,7 @@
 
 class RTClock {
 	public:
-		static void set(const s_RTC oRTC);    //Sets the RTC of the STM32
+		static void set(const s_RTC& oRTC);    //Sets the RTC of the STM32
 		static s_RTC get();    //Reads the RTC of the STM32
 		static int32_t toTimeStamp(const s_RTC& oRTC);
 
