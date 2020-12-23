@@ -59,7 +59,7 @@ void Wordclock::setMenu(Menu Goto) {
 		break;
 
 		case Menu::Night:
-			oKeyRight.setScrolling(true, 500, 200);
+			oKeyRight.setScrolling(true, 500, 120);
 		break;
 
 		case Menu::Animation:
@@ -402,6 +402,13 @@ void Wordclock::plusminus(bool bVal) {
 			else {
 				bDir = false;
 				u8SubMenu = (u8SubMenu + 1) % 3;
+
+				if(u8SubMenu == 2){
+					oKeyRight.setScrolling(false, 500, 120);
+				}
+				else{
+					oKeyRight.setScrolling(true, 500, 120);
+				}
 			}
 		}
 		break;
@@ -453,13 +460,13 @@ void Wordclock::getKeys() {
 	bool bVal;
 
 	bVal = STM32::getPin(GPIOB, 5) ? false : true;
-	oKeyTest.getLongPress(bVal, 5000);
 	oKeyLeft.getSingle(bVal);
+	oKeyTest.getLongPress(oKeyLeft.getValue(), 5000);
 
 	bVal = STM32::getPin(GPIOB, 4) ? false : true;
 	oKeyMiddle.getSingle(bVal);
 
 	bVal = STM32::getPin(GPIOB, 3) ? false : true;
-	oKeyRightDouble.getDouble(bVal);
 	oKeyRight.getSingle(bVal);
+	oKeyRightDouble.getDouble(oKeyRight.getValue());
 }

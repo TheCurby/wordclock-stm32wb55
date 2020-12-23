@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Wordclock)(type Legacy)(uri E:/Projekte/wordclock/pcb/Wordclock_V1.1/Wordclock.lib)(options "")(descr ""))
+)

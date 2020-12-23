@@ -34,11 +34,12 @@ class Key {
 		bool bScrolling;
 		bool bPressed;
 		bool bToggle;
+		bool bDebounced;
 		uint16_t u16StartDelay;
 		uint16_t u16Delay;
 		Timer tEntprell;
 		Timer tUtil;
 
-		static constexpr uint16_t u16Prelltime = 200;
+		static constexpr uint16_t u16Prelltime = 100;
 		static constexpr uint16_t u16Double = 800;
 };

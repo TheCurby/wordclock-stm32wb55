@@ -78,16 +78,14 @@ bool DCF77::receive(bool bVal) {
 		if (u8Pos < 59) {
 			uint16_t u16Elp = t.ElapsedMs();
 
-			if (!(u16Elp < 20 || u16Elp > 300 || !tDelay.Ready())) {
+			if (!(u16Elp < 20 || u16Elp > 300)) {
 				if (u16Elp > 165) {
 					au8Data[u8Pos / 8] |= (1 << (u8Pos % 8));
 				}
 				u8Pos++;
-				tDelay.StartMs(600);
 			}
 		}
 	}
-	//}
 
 	return bResult;
 }

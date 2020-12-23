@@ -17,6 +17,7 @@
 #include "util/key.hpp"
 
 Key::Key() {
+	bDebounced = false;
 	bPressed = false;
 	bScrolling = false;
 	bLastStatus = false;
@@ -28,20 +29,25 @@ Key::Key() {
 bool Key::getSingle(bool bKey) {
 	bool bKlick = false;
 
-	if (bPressed != bKey) {
-		if (tEntprell.Ready()) {
-			if (bKey && !bPressed) {
-				bKlick = true;
-				bPressed = true;
-				tUtil.StartMs(u16StartDelay);
-			}
-			else if (!bKey && bPressed) {
-				bPressed = false;
-			}
-			tEntprell.StartMs(u16Prelltime);
-		}
+	if (bKey && !bPressed) {
+		bPressed = true;
+		tEntprell.StartMs(u16Prelltime);
+		tUtil.StartMs(u16StartDelay);
 	}
-	else if (bPressed && tUtil.Ready() && bScrolling) {
+	else if (!bKey && bPressed) {
+		bDebounced = false;
+		bPressed = false;
+		tEntprell.Stop();
+		tUtil.Stop();
+	}
+
+	if (tEntprell.ReadyEdge()) {
+		bDebounced = true;
+		bKlick = true;
+		tUtil.StartMs(u16StartDelay);
+	}
+
+	if (tEntprell.Ready() && bPressed && tUtil.Ready() && bScrolling) {
 		tUtil.StartMs(u16Delay);
 		bKlick = true;
 	}
@@ -53,19 +59,17 @@ bool Key::getSingle(bool bKey) {
 bool Key::getToggle(bool bKey) {
 	bToggle = false;
 
-	if (bPressed != bKey) {
-		if (tEntprell.Ready()) {
-			if (bKey && !bPressed) {
-				bToggle = true;
-				bPressed = true;
-				tUtil.StartMs(u16StartDelay);
-			}
-			else if (!bKey && bPressed) {
-				bPressed = false;
-				bToggle = true;
-			}
-			tEntprell.StartMs(u16Prelltime);
+	if (bPressed != bKey && tEntprell.Ready()) {
+		if (bKey && !bPressed) {
+			bToggle = true;
+			bPressed = true;
+			tUtil.StartMs(u16StartDelay);
 		}
+		else if (!bKey && bPressed) {
+			bPressed = false;
+			bToggle = true;
+		}
+		tEntprell.StartMs(u16Prelltime);
 	}
 	else if (bPressed && tUtil.Ready() && bScrolling) {
 		tUtil.StartMs(u16Delay);
@@ -79,21 +83,19 @@ bool Key::getToggle(bool bKey) {
 bool Key::getDouble(bool bKey) {
 	bool bDoubleKlick = false;
 
-	if (bPressed != bKey) {
-		if (tEntprell.Ready()) {
-			if (bKey && !bPressed) {
-				if (!tUtil.Ready()) {
-					bDoubleKlick = true;
-				}
+	if (bPressed != bKey && tEntprell.Ready()) {
+		if (bKey && !bPressed) {
+			if (!tUtil.Ready()) {
+				bDoubleKlick = true;
+			}
 
-				tUtil.StartMs(u16Double);
-				bPressed = true;
-			}
-			else if (!bKey && bPressed) {
-				bPressed = false;
-			}
-			tEntprell.StartMs(u16Prelltime);
+			tUtil.StartMs(u16Double);
+			bPressed = true;
 		}
+		else if (!bKey && bPressed) {
+			bPressed = false;
+		}
+		tEntprell.StartMs(u16Prelltime);
 	}
 
 	bLastStatus = bDoubleKlick;
@@ -123,7 +125,7 @@ void Key::setScrolling(bool bVal, uint16_t u16StartDelay_l, uint16_t u16Delay_l)
 }
 
 bool Key::getValue() const {
-	return bPressed;
+	return bDebounced;
 }
 
 bool Key::getLastStatus() const {

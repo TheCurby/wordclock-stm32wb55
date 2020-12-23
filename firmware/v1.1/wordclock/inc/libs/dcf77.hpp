@@ -31,7 +31,6 @@ class DCF77 {
 		uint8_t u8Pos;
 		uint8_t au8Data[8];
 		Timer t;
-		Timer tDelay;
 		s_RTC oRTC;
 		s_RTC oRTC_prev;
 

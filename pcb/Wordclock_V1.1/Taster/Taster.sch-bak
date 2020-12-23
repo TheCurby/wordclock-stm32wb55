@@ -1,0 +1,155 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A 11000 8500
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Wordclock:SW_DIP_x01 SW1
+U 1 1 5FDB5C3E
+P 5300 3350
+F 0 "SW1" H 5300 3617 50  0000 C CNN
+F 1 "SW_DIP_x01" H 5300 3526 50  0000 C CNN
+F 2 "Wordclock_V1:Tl1105_RA" H 5300 3350 50  0001 C CNN
+F 3 "~" H 5300 3350 50  0001 C CNN
+	1    5300 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:SW_DIP_x01 SW2
+U 1 1 5FDB5F10
+P 5300 3800
+F 0 "SW2" H 5300 4067 50  0000 C CNN
+F 1 "SW_DIP_x01" H 5300 3976 50  0000 C CNN
+F 2 "Wordclock_V1:Tl1105_RA" H 5300 3800 50  0001 C CNN
+F 3 "~" H 5300 3800 50  0001 C CNN
+	1    5300 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:SW_DIP_x01 SW3
+U 1 1 5FDB62BE
+P 5300 4250
+F 0 "SW3" H 5300 4517 50  0000 C CNN
+F 1 "SW_DIP_x01" H 5300 4426 50  0000 C CNN
+F 2 "Wordclock_V1:Tl1105_RA" H 5300 4250 50  0001 C CNN
+F 3 "~" H 5300 4250 50  0001 C CNN
+	1    5300 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:GND #PWR01
+U 1 1 5FDB6892
+P 4750 4800
+F 0 "#PWR01" H 4750 4550 50  0001 C CNN
+F 1 "GND" H 4755 4627 50  0000 C CNN
+F 2 "" H 4750 4800 50  0001 C CNN
+F 3 "" H 4750 4800 50  0001 C CNN
+	1    4750 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 3350 4750 3350
+Wire Wire Line
+	4750 3350 4750 3800
+Wire Wire Line
+	5000 3800 4750 3800
+Connection ~ 4750 3800
+Wire Wire Line
+	4750 3800 4750 4250
+Wire Wire Line
+	5000 4250 4750 4250
+Connection ~ 4750 4250
+Wire Wire Line
+	4750 4250 4750 4800
+$Comp
+L Wordclock:Conn_01x01 J1
+U 1 1 5FDB7251
+P 5800 3350
+F 0 "J1" H 5880 3392 50  0000 L CNN
+F 1 "Conn_01x01" H 5880 3301 50  0000 L CNN
+F 2 "Wordclock_V1:pad" H 5800 3350 50  0001 C CNN
+F 3 "~" H 5800 3350 50  0001 C CNN
+	1    5800 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Conn_01x01 J2
+U 1 1 5FDB7763
+P 5800 3800
+F 0 "J2" H 5880 3842 50  0000 L CNN
+F 1 "Conn_01x01" H 5880 3751 50  0000 L CNN
+F 2 "Wordclock_V1:pad" H 5800 3800 50  0001 C CNN
+F 3 "~" H 5800 3800 50  0001 C CNN
+	1    5800 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Conn_01x01 J3
+U 1 1 5FDB7A7A
+P 5800 4250
+F 0 "J3" H 5880 4292 50  0000 L CNN
+F 1 "Conn_01x01" H 5880 4201 50  0000 L CNN
+F 2 "Wordclock_V1:pad" H 5800 4250 50  0001 C CNN
+F 3 "~" H 5800 4250 50  0001 C CNN
+	1    5800 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:Conn_01x01 J4
+U 1 1 5FDB7CBE
+P 5800 4550
+F 0 "J4" H 5880 4592 50  0000 L CNN
+F 1 "Conn_01x01" H 5880 4501 50  0000 L CNN
+F 2 "Wordclock_V1:pad" H 5800 4550 50  0001 C CNN
+F 3 "~" H 5800 4550 50  0001 C CNN
+	1    5800 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:GND #PWR02
+U 1 1 5FDB8724
+P 5500 4800
+F 0 "#PWR02" H 5500 4550 50  0001 C CNN
+F 1 "GND" H 5505 4627 50  0000 C CNN
+F 2 "" H 5500 4800 50  0001 C CNN
+F 3 "" H 5500 4800 50  0001 C CNN
+	1    5500 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 4550 5500 4550
+Wire Wire Line
+	5500 4550 5500 4800
+$Comp
+L Wordclock:MountingHole H1
+U 1 1 5FDBCC96
+P 6900 3300
+F 0 "H1" H 7000 3346 50  0000 L CNN
+F 1 "MountingHole" H 7000 3255 50  0000 L CNN
+F 2 "Wordclock_V1:MountingHole_5mm" H 6900 3300 50  0001 C CNN
+F 3 "" H 6900 3300 50  0001 C CNN
+	1    6900 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Wordclock:MountingHole H2
+U 1 1 5FDBD2F2
+P 6900 3750
+F 0 "H2" H 7000 3796 50  0000 L CNN
+F 1 "MountingHole" H 7000 3705 50  0000 L CNN
+F 2 "Wordclock_V1:MountingHole_5mm" H 6900 3750 50  0001 C CNN
+F 3 "" H 6900 3750 50  0001 C CNN
+	1    6900 3750
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

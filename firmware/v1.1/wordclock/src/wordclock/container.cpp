@@ -108,6 +108,10 @@ bool Container::add(s_Point& oPoint) {
 }
 
 Container::s_Point Container::remove(uint16_t u16Pos) {
+	if(u16Pos >= u16Length){
+		return aoPoints[0];
+	}
+
 	s_Point oPoint = aoPoints[u16Pos];
 
 	for (uint16_t i = u16Pos; i < u16Length - 1; i++) {
