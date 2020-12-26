@@ -14,10 +14,10 @@ You can use DS18B20 or DS18S20.
 
 <img src="/images/simulator.jpg" align="right" >On the PCB are three capacitive touch sensors. The microcontroller provides the possibility to use internal touch sensors but I decided to use MTCH105 instead. The sensors are placed directly in copper. As an alternative there is a socket to plug in mechanical switches.
 
-The STM32WB55CEU6 provides the possibility of BLE connectivity on chip. The antenna is implemented on the PCB. There is no app programmed yet and no support implemented in the firmware yet. Feel free to contribute this. 
+<div style="float:left;"><img src="/images/img4.jpg" align="left" width="200"></div>The STM32WB55CEU6 provides the possibility of BLE connectivity on chip. The antenna is implemented on the PCB. There is no app programmed yet and no support implemented in the firmware yet. Feel free to contribute this. 
 The wordclock is designed to work without external tools like apps or remote control. The goal is that every functionality can be configured using the cap keys of the clock and an app should only be optional and should not deliver additional possibilities.
 
-<div style="float:left;"><img src="/images/img4.jpg" align="left" width="200"></div>Of course you can use any DCF77 module you want. But the PCB and firmware is designed to use the following module: https://de.elv.com/dcf-empfangsmodul-dcf-2-091610
+Of course you can use any DCF77 module you want. But the PCB and firmware is designed to use the following module: https://de.elv.com/dcf-empfangsmodul-dcf-2-091610
 
 The clock can be powered using a 5V to 18V supply. 
 
