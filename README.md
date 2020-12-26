@@ -12,9 +12,9 @@ This project only provides a pcb and the firmware/software. An eclosure has to b
 You have to solder the LEDs directly on the pcb and no stripes are needed. You can use SK6812 or WS2812B.
 You can use DS18B20 or DS18S20.
 
-<img src="/images/simulator.jpg" align="right" >On the PCB are three capacitive touch sensors. The microcontroller provides the possibility to use internal touch sensors but I decided to use MTCH105 instead. The sensors are placed directly in copper.
+<img src="/images/simulator.jpg" align="right" >On the PCB are three capacitive touch sensors. The microcontroller provides the possibility to use internal touch sensors but I decided to use MTCH105 instead. The sensors are placed directly in copper. As an alternative there is a socket to plug in mechanical switches.
 
-The STM32WB55CEU6 provides the possibility of BLE connectivity on chip. The antenna is implemented on the PCB but **not tested** yet. There is also no app programmed yet and no support implemented in the firmware yet. Feel free to contribute this. 
+The STM32WB55CEU6 provides the possibility of BLE connectivity on chip. The antenna is implemented on the PCB. There is no app programmed yet and no support implemented in the firmware yet. Feel free to contribute this. 
 The wordclock is designed to work without external tools like apps or remote control. The goal is that every functionality can be configured using the cap keys of the clock and an app should only be optional and should not deliver additional possibilities.
 
 Of course you can use any DCF77 module you want. But the PCB and firmware is designed to use the following module: https://de.elv.com/dcf-empfangsmodul-dcf-2-091610
