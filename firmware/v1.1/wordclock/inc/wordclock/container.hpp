@@ -32,6 +32,7 @@ class Container {
 		};
 
 		Container();
+		int16_t contains(s_Point& oPoint, bool bColor = false);
 		void combine(Container& oContainer);
 		void merge(Container& oContainer);
 		void subtract(Container& oContainer);

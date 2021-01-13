@@ -173,7 +173,7 @@ void Wordclock::drawScreen(Menu MenuScreen) {
 						eSelectedAnimation = (Animation::AnimationType) (std::rand() % Animation::AnimationType::Random);
 					}
 
-					AnimationClock = Animation(oContainerOld, oContainerTmp, eSelectedAnimation);
+					AnimationClock = Animation(oContainerOld, oContainerTmp, eSelectedAnimation, oColors, oSettings.getMode());
 				}
 				oContainerOld = oContainerTmp;
 			}
@@ -267,41 +267,6 @@ void Wordclock::drawScreen(Menu MenuScreen) {
 			drawContainer(oContainerOld, u8DimmValue);
 
 			s16TempOld = s16Temp;
-		}
-		break;
-
-		case Menu::Animation: {
-			s_RTC oRTCDraw = RTClock::get();
-
-			drawText(oContainerTmp, oRTCDraw, oColors);
-			drawAMPM(oContainerTmp, oRTCDraw, oColors);
-			drawHours(oContainerTmp, oRTCDraw, oColors);
-			drawMinutes(oContainerTmp, oRTCDraw, oColors);
-
-			if (oSettings.getAnimation() != Animation::AnimationType::None && !AnimationMenu.running() && tAnimation.Ready()) {
-				AnimationMenu = Animation(oContainerTmp, oContainerTmp, oSettings.getAnimation());
-				tAnimation.StartMs(u32AnimationTime);
-			}
-
-			if (oSettings.getAnimation() == Animation::AnimationType::Random) {
-				oColors.setWhiteOnly(0x80);
-				oContainerTmp.clear();
-				oContainerTmp.drawImage(question, 2, 0, oColors);
-				drawContainer(oContainerTmp);
-			}
-			else if (oSettings.getAnimation() == Animation::AnimationType::None) {
-				oColors.setWhiteOnly(0x80);
-				oContainerTmp.clear();
-				oContainerTmp.drawImage(error, 0, 1, oColors);
-				drawContainer(oContainerTmp);
-			}
-			else if (AnimationMenu.running()) {
-				tDisplay.StartMs(AnimationMenu.run());
-				drawContainer(AnimationMenu.get(), AnimationMenu.getDimmValue());
-			}
-			else {
-				drawContainer(oContainerTmp);
-			}
 		}
 		break;
 
@@ -474,6 +439,41 @@ void Wordclock::drawScreen(Menu MenuScreen) {
 
 			oColors.setWhiteOnly(0x80);
 			setLED(WIDTH * HEIGHT + u8SubMenu, oColors);
+		}
+		break;
+
+		case Menu::Animation: {
+			s_RTC oRTCDraw = RTClock::get();
+
+			drawText(oContainerTmp, oRTCDraw, oColors);
+			drawAMPM(oContainerTmp, oRTCDraw, oColors);
+			drawHours(oContainerTmp, oRTCDraw, oColors);
+			drawMinutes(oContainerTmp, oRTCDraw, oColors);
+
+			if (oSettings.getAnimation() != Animation::AnimationType::None && !AnimationMenu.running() && tAnimation.Ready()) {
+				AnimationMenu = Animation(oContainerTmp, oContainerTmp, oSettings.getAnimation(), oColors, oSettings.getMode());
+				tAnimation.StartMs(u32AnimationTime);
+			}
+
+			if (oSettings.getAnimation() == Animation::AnimationType::Random) {
+				oColors.setWhiteOnly(0x80);
+				oContainerTmp.clear();
+				oContainerTmp.drawImage(question, 2, 0, oColors);
+				drawContainer(oContainerTmp);
+			}
+			else if (oSettings.getAnimation() == Animation::AnimationType::None) {
+				oColors.setWhiteOnly(0x80);
+				oContainerTmp.clear();
+				oContainerTmp.drawImage(error, 0, 1, oColors);
+				drawContainer(oContainerTmp);
+			}
+			else if (AnimationMenu.running()) {
+				tDisplay.StartMs(AnimationMenu.run());
+				drawContainer(AnimationMenu.get(), AnimationMenu.getDimmValue());
+			}
+			else {
+				drawContainer(oContainerTmp);
+			}
 		}
 		break;
 

@@ -46,7 +46,7 @@ void Container::merge(Container& oContainer) {
 	}
 }
 
-void Container::subtract(Container& oContainer){
+void Container::subtract(Container& oContainer) {
 	bool bInclude;
 
 	for (uint16_t j = u16Length; j-- > 0;) {
@@ -64,6 +64,33 @@ void Container::subtract(Container& oContainer){
 			remove(j);
 		}
 	}
+}
+
+int16_t Container::contains(s_Point& oPoint, bool bColor) {
+	int16_t s16Result = -1;
+
+	if (!bColor) {
+		for (uint16_t i = 0; i < u16Length; i++) {
+			s_Point& oPointTmp = aoPoints[i];
+			if (oPoint.u8X == oPointTmp.u8X && oPoint.u8Y == oPointTmp.u8Y) {
+				s16Result = i;
+				break;
+			}
+		}
+	}
+	else {
+		for (uint16_t i = 0; i < u16Length; i++) {
+			s_Point& oPointTmp = aoPoints[i];
+			if (oPoint.u8X == oPointTmp.u8X && oPoint.u8Y == oPointTmp.u8Y && oPoint.oColors.getRed() == oPointTmp.oColors.getRed()
+				&& oPoint.oColors.getGreen() == oPointTmp.oColors.getGreen() && oPoint.oColors.getBlue() == oPointTmp.oColors.getBlue()
+				&& oPoint.oColors.getWhite() == oPointTmp.oColors.getWhite()) {
+				s16Result = i;
+				break;
+			}
+		}
+	}
+
+	return s16Result;
 }
 
 void Container::clear() {
@@ -108,7 +135,7 @@ bool Container::add(s_Point& oPoint) {
 }
 
 Container::s_Point Container::remove(uint16_t u16Pos) {
-	if(u16Pos >= u16Length){
+	if (u16Pos >= u16Length) {
 		return aoPoints[0];
 	}
 

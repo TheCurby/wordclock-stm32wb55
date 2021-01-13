@@ -47,7 +47,7 @@ Animation::Animation() {
 	CurrentAnimation = AnimationType::None;
 }
 
-Animation::Animation(Container& oContainerOld_l, Container& oContainerNew_l, AnimationType CurrentAnimation_l) {
+Animation::Animation(Container& oContainerOld_l, Container& oContainerNew_l, AnimationType CurrentAnimation_l, Colors & oColors_l, DisplayMode eMode_l) {
 	if (oContainerNew_l.size() > 0) {
 		bRunning = true;
 	}
@@ -63,6 +63,9 @@ Animation::Animation(Container& oContainerOld_l, Container& oContainerNew_l, Ani
 	oContainerMatrix.clear();
 	oContainerDraw.clear();
 	oContainerOutput = &oContainerDraw;
+
+	oColors = oColors_l;
+	eMode = eMode_l;
 
 	switch (CurrentAnimation) {
 		default:
@@ -103,6 +106,10 @@ Animation::Animation(Container& oContainerOld_l, Container& oContainerNew_l, Ani
 
 		case AnimationType::Slider:
 			u8Dir = rand() % 4;
+		break;
+
+		case AnimationType::Hazard:
+			oContainerDraw = oContainerNew;
 		break;
 	}
 }
@@ -362,6 +369,67 @@ uint16_t Animation::run() {
 			if (s16AnimationStep >= HEIGHT && (u8Dir == 2 || u8Dir == 3)) {
 				bRunning = false;
 			}
+		break;
+
+		case AnimationType::Hazard:{
+			uint8_t u8Mode = rand() % 5;
+			Container::s_Point oPointTmp;
+
+			if(oContainerNew.empty() || oContainerOld.size() >= WIDTH * HEIGHT){
+				u8Mode = 0;
+			}
+			else if(oContainerOld.size() < LEDS){
+				u8Mode = 1 + rand() % 4;
+			}
+
+			switch(u8Mode){
+				default:
+				case 0:{
+					uint16_t u16Remove;
+					int16_t u16Counter = 0;
+					do{
+						u16Remove = rand() % oContainerOld.size();
+						oPointTmp = oContainerOld.get(u16Remove);
+
+						if(++u16Counter > 400){
+							u16Remove = 0xffff;
+							break;
+						}
+					} while(oContainerDraw.contains(oPointTmp, true) != -1);
+					oContainerOld.remove(u16Remove);
+				}
+				break;
+
+				case 1:
+				case 2:
+				case 3:
+					oPointTmp.oColors = oColors;
+					oPointTmp.oColors.setRandom(eMode);
+					do{
+						oPointTmp.u8X = rand() % WIDTH;
+						oPointTmp.u8Y = rand() % HEIGHT;
+					} while(oContainerOld.contains(oPointTmp) != -1);
+					oContainerOld.add(oPointTmp);
+				break;
+
+				case 4:{
+					int8_t s8Pos;
+					oPointTmp = oContainerNew.remove(rand() % oContainerNew.size());
+					s8Pos = oContainerOld.contains(oPointTmp);
+					if(s8Pos > -1){
+						oContainerOld.remove(s8Pos);
+					}
+					oContainerOld.add(oPointTmp);
+				}
+				break;
+			}
+
+			oContainerOutput = &oContainerOld;
+			u16Time = 40;
+			if(oContainerNew.empty() && oContainerOld.size() == oContainerDraw.size()){
+				bRunning = false;
+			}
+		}
 		break;
 
 		case AnimationType::None:

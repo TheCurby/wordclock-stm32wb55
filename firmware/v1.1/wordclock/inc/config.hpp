@@ -57,6 +57,7 @@
 #define ENABLE_ANIMATION_MATRIX
 #define ENABLE_ANIMATION_TELETYPE
 #define ENABLE_ANIMATION_SLIDER
+#define ENABLE_ANIMATION_HAZARD
 
 /*Define  will enable the language menu. Otherwise select a default language*/
 //#define ENABLE_LANGUAGE

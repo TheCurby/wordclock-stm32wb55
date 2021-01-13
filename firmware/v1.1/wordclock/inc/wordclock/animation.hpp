@@ -45,6 +45,9 @@ class Animation {
 #ifdef ENABLE_ANIMATION_SLIDER
 			Slider,
 #endif
+#ifdef ENABLE_ANIMATION_HAZARD
+			Hazard,
+#endif
 			Random,
 #ifndef ENABLE_ANIMATION_FADE
 			Fade,
@@ -67,10 +70,13 @@ class Animation {
 #ifndef ENABLE_ANIMATION_SLIDER
 			Slider,
 #endif
+#ifndef ENABLE_ANIMATION_HAZARD
+			Hazard,
+#endif
 		};
 
 		Animation();
-		Animation(Container& oContainerOld_l, Container& oContainerNew_l, AnimationType CurrentAnimation_l);
+		Animation(Container& oContainerOld_l, Container& oContainerNew_l, AnimationType CurrentAnimation_l, Colors & oColors_l, DisplayMode eMode_l);
 		void stop();
 		bool running();
 		uint16_t run();
@@ -84,6 +90,9 @@ class Animation {
 		int16_t s16AnimationStep;
 
 		AnimationType CurrentAnimation;
+		Colors oColors;
+		DisplayMode eMode;
+
 		Container oContainerOld;
 		Container oContainerNew;
 		Container oContainerDraw;
