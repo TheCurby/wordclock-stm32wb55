@@ -52,7 +52,7 @@ bool Wordclock::loop() {
 
 #ifdef ENABLE_DCF77
 	if (oDCF77.receive(STM32::getPin(GPIOA, 8)) && oSettings.isDcf77()) {
-		RTClock::set(oDCF77.getRTC());
+		RTClock::set(oDCF77.getRTC(oSettings.getTimeZone()));
 		if (CurrentMenu == Menu::Clock) {
 			tDisplay.Stop();
 		}

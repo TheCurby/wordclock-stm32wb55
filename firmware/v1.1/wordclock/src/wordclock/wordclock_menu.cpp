@@ -72,14 +72,11 @@ void Wordclock::setMenu(Menu Goto) {
 	}
 }
 
-const Menu Wordclock::MenuMapping[] = {
-	Menu::Clock,
+const Menu Wordclock::MenuMapping[] = {Menu::Clock,
 #ifdef ENABLE_DCF77
 	Menu::DCF77,
 #endif
-	Menu::Hours,
-	Menu::Minutes,
-	Menu::Colors,
+	Menu::Hours, Menu::Minutes, Menu::Colors,
 #ifdef ENABLE_LDR
 	Menu::Light,
 #endif
@@ -92,19 +89,19 @@ const Menu Wordclock::MenuMapping[] = {
 #ifdef ENABLE_LANGUAGE
 	Menu::Lang,
 #endif
-};
+	};
 
 void Wordclock::nextMenu() {
 	Menu Goto = MenuMapping[1];
 	constexpr uint8_t u8Length = sizeof(MenuMapping) / sizeof(Menu);
 
-	if(CurrentMenu == Menu::Test1){
+	if (CurrentMenu == Menu::Test1) {
 		Goto = Menu::Test2;
 	}
-	else if(CurrentMenu == Menu::Test2){
+	else if (CurrentMenu == Menu::Test2) {
 		Goto = Menu::Clock;
 	}
-	else{
+	else {
 		for (uint8_t i = 0; i < u8Length; i++) {
 			if (MenuMapping[i] == CurrentMenu) {
 				if (++i >= u8Length) {
@@ -163,8 +160,29 @@ void Wordclock::plusminus(bool bVal) {
 			}
 		break;
 
-		case Menu::DCF77:
-			oSettings.setDcf77(!oSettings.isDcf77());
+		case Menu::DCF77:{
+			int8_t s8TimeZone = oSettings.getTimeZone();
+
+			if (!bVal) {
+				switch (u8SubMenu) {
+					default:
+					case 1:
+						s8TimeZone++;
+						if(s8TimeZone > 12){
+							s8TimeZone = -12;
+						}
+						oSettings.setTimeZone(s8TimeZone);
+					break;
+
+					case 0:
+						oSettings.setDcf77(!oSettings.isDcf77());
+					break;
+				}
+			}
+			else {
+				u8SubMenu = (u8SubMenu + 1) % 2;
+			}
+		}
 		break;
 
 		case Menu::Hours: {
@@ -224,7 +242,7 @@ void Wordclock::plusminus(bool bVal) {
 			if (!bVal) {
 				switch (u8SubMenu) {
 					default:
-					case 0:{
+					case 0: {
 						uint8_t eMode = (uint8_t) oSettings.getMode();
 						eMode += 1;
 
@@ -369,7 +387,7 @@ void Wordclock::plusminus(bool bVal) {
 						}
 
 						rtcNight.u8Minutes -= rtcNight.u8Minutes % 5;
-						if(!bDir){
+						if (!bDir) {
 							rtcNight.u8Minutes += 5;
 							if (rtcNight.u8Minutes > 59) {
 								rtcNight.u8Minutes = 0;
@@ -379,7 +397,7 @@ void Wordclock::plusminus(bool bVal) {
 								}
 							}
 						}
-						else{
+						else {
 							rtcNight.u8Minutes -= 5;
 							if (rtcNight.u8Minutes > 59) {
 								rtcNight.u8Minutes = 55;
@@ -403,10 +421,10 @@ void Wordclock::plusminus(bool bVal) {
 				bDir = false;
 				u8SubMenu = (u8SubMenu + 1) % 3;
 
-				if(u8SubMenu == 2){
+				if (u8SubMenu == 2) {
 					oKeyRight.setScrolling(false, 500, 120);
 				}
-				else{
+				else {
 					oKeyRight.setScrolling(true, 500, 120);
 				}
 			}

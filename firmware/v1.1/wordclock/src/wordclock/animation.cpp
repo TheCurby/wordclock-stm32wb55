@@ -16,23 +16,23 @@
 ////////////////////////////////////////////////////////////////////////////////
 #include "wordclock/animation.hpp"
 
-static void drawHLine(Container& oContainer, uint8_t x){
+static void drawHLine(Container& oContainer, uint8_t x) {
 	Container::s_Point oPoint;
 	oPoint.u8X = x;
 	oPoint.oColors.setWhiteOnly(0x80);
 
-	for(uint8_t i = 0; i < HEIGHT; i++){
+	for (uint8_t i = 0; i < HEIGHT; i++) {
 		oPoint.u8Y = i;
 		oContainer.add(oPoint);
 	}
 }
 
-static void drawVLine(Container& oContainer, uint8_t y){
+static void drawVLine(Container& oContainer, uint8_t y) {
 	Container::s_Point oPoint;
 	oPoint.u8Y = y;
 	oPoint.oColors.setWhiteOnly(0x80);
 
-	for(uint8_t i = 0; i < WIDTH; i++){
+	for (uint8_t i = 0; i < WIDTH; i++) {
 		oPoint.u8X = i;
 		oContainer.add(oPoint);
 	}
@@ -47,7 +47,7 @@ Animation::Animation() {
 	CurrentAnimation = AnimationType::None;
 }
 
-Animation::Animation(Container& oContainerOld_l, Container& oContainerNew_l, AnimationType CurrentAnimation_l, Colors & oColors_l, DisplayMode eMode_l) {
+Animation::Animation(Container& oContainerOld_l, Container& oContainerNew_l, AnimationType CurrentAnimation_l, Colors& oColors_l, DisplayMode eMode_l) {
 	if (oContainerNew_l.size() > 0) {
 		bRunning = true;
 	}
@@ -354,10 +354,18 @@ uint16_t Animation::run() {
 
 			switch (u8Dir) {
 				default:
-				case 0: drawHLine(oContainerDraw, s16AnimationStep); break;
-				case 1: drawHLine(oContainerDraw, WIDTH - s16AnimationStep - 1); break;
-				case 2: drawVLine(oContainerDraw, s16AnimationStep); break;
-				case 3: drawVLine(oContainerDraw, HEIGHT - s16AnimationStep - 1); break;
+				case 0:
+					drawHLine(oContainerDraw, s16AnimationStep);
+				break;
+				case 1:
+					drawHLine(oContainerDraw, WIDTH - s16AnimationStep - 1);
+				break;
+				case 2:
+					drawVLine(oContainerDraw, s16AnimationStep);
+				break;
+				case 3:
+					drawVLine(oContainerDraw, HEIGHT - s16AnimationStep - 1);
+				break;
 			}
 
 			oContainerOutput = &oContainerDraw;
@@ -371,31 +379,31 @@ uint16_t Animation::run() {
 			}
 		break;
 
-		case AnimationType::Hazard:{
+		case AnimationType::Hazard: {
 			uint8_t u8Mode = rand() % 5;
 			Container::s_Point oPointTmp;
 
-			if(oContainerNew.empty() || oContainerOld.size() >= WIDTH * HEIGHT){
+			if (oContainerNew.empty() || oContainerOld.size() >= WIDTH * HEIGHT) {
 				u8Mode = 0;
 			}
-			else if(oContainerOld.size() < LEDS){
+			else if (oContainerOld.size() < LEDS) {
 				u8Mode = 1 + rand() % 4;
 			}
 
-			switch(u8Mode){
+			switch (u8Mode) {
 				default:
-				case 0:{
+				case 0: {
 					uint16_t u16Remove;
 					int16_t u16Counter = 0;
-					do{
+					do {
 						u16Remove = rand() % oContainerOld.size();
 						oPointTmp = oContainerOld.get(u16Remove);
 
-						if(++u16Counter > 400){
+						if (++u16Counter > 400) {
 							u16Remove = 0xffff;
 							break;
 						}
-					} while(oContainerDraw.contains(oPointTmp, true) != -1);
+					} while (oContainerDraw.contains(oPointTmp, true) != -1);
 					oContainerOld.remove(u16Remove);
 				}
 				break;
@@ -405,18 +413,18 @@ uint16_t Animation::run() {
 				case 3:
 					oPointTmp.oColors = oColors;
 					oPointTmp.oColors.setRandom(eMode);
-					do{
+					do {
 						oPointTmp.u8X = rand() % WIDTH;
 						oPointTmp.u8Y = rand() % HEIGHT;
-					} while(oContainerOld.contains(oPointTmp) != -1);
+					} while (oContainerOld.contains(oPointTmp) != -1);
 					oContainerOld.add(oPointTmp);
 				break;
 
-				case 4:{
+				case 4: {
 					int8_t s8Pos;
 					oPointTmp = oContainerNew.remove(rand() % oContainerNew.size());
 					s8Pos = oContainerOld.contains(oPointTmp);
-					if(s8Pos > -1){
+					if (s8Pos > -1) {
 						oContainerOld.remove(s8Pos);
 					}
 					oContainerOld.add(oPointTmp);
@@ -426,10 +434,16 @@ uint16_t Animation::run() {
 
 			oContainerOutput = &oContainerOld;
 			u16Time = 40;
-			if(oContainerNew.empty() && oContainerOld.size() == oContainerDraw.size()){
+			if (oContainerNew.empty() && oContainerOld.size() == oContainerDraw.size()) {
 				bRunning = false;
 			}
 		}
+		break;
+
+		case AnimationType::Clock:
+			oContainerOutput = &oContainerDraw;
+			u16Time = 100;
+			++s16AnimationStep;
 		break;
 
 		case AnimationType::None:

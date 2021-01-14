@@ -23,7 +23,7 @@ class DCF77 {
 	public:
 		DCF77();
 		bool receive(bool bVal);
-		s_RTC getRTC();
+		s_RTC getRTC(int8_t s8TimeZone = -1);
 
 	protected:
 		bool bSecond;

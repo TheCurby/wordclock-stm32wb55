@@ -48,6 +48,9 @@ class Animation {
 #ifdef ENABLE_ANIMATION_HAZARD
 			Hazard,
 #endif
+#ifdef ENABLE_ANIMATION_CLOCK
+			Clock,
+#endif
 			Random,
 #ifndef ENABLE_ANIMATION_FADE
 			Fade,
@@ -72,6 +75,9 @@ class Animation {
 #endif
 #ifndef ENABLE_ANIMATION_HAZARD
 			Hazard,
+#endif
+#ifndef ENABLE_ANIMATION_CLOCK
+			Clock,
 #endif
 		};
 

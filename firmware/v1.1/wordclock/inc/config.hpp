@@ -58,6 +58,7 @@
 #define ENABLE_ANIMATION_TELETYPE
 #define ENABLE_ANIMATION_SLIDER
 #define ENABLE_ANIMATION_HAZARD
+#define ENABLE_ANIMATION_CLOCK
 
 /*Define  will enable the language menu. Otherwise select a default language*/
 //#define ENABLE_LANGUAGE

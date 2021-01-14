@@ -28,6 +28,7 @@ class Settings {
 				bool bDCF77;
 				bool bNight;
 				DisplayMode eMode;
+				int8_t s8TimeZone;
 				uint8_t u8ErrorCount;
 				uint8_t u8BrightnessMin;
 				uint8_t u8BrightnessMax;
@@ -51,6 +52,9 @@ class Settings {
 
 		bool isDcf77() const;
 		void setDcf77(bool bVal);
+
+		int8_t getTimeZone() const;
+		void setTimeZone(int8_t s8Val);
 
 		bool isNight() const;
 		void setNight(bool bVal);

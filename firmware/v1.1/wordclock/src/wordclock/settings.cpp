@@ -17,7 +17,7 @@
 #include "wordclock/settings.hpp"
 
 Settings::Settings(M95M01& oM95M01_l) : oM95M01(oM95M01_l) {
-	uint32_t u32Key = 0x98bc4de2;
+	uint32_t u32Key = 0x7e3ab23a;
 	uint32_t u32Key_l = 0;
 	oM95M01.Read(M95M01::ut32MemSize - sizeof(uint32_t), (uint8_t*) &u32Key_l, sizeof(uint32_t));
 
@@ -26,6 +26,7 @@ Settings::Settings(M95M01& oM95M01_l) : oM95M01(oM95M01_l) {
 		oData.bDCF77 = false;
 		oData.bNight = false;
 		oData.u8ErrorCount = 0;
+		oData.s8TimeZone = 0;
 		oData.eMode = DisplayMode::Normal;
 		oData.eAnimation = Animation::None;
 		oData.oColors.setWhiteOnly(0x80);
@@ -54,6 +55,10 @@ Settings::Settings(M95M01& oM95M01_l) : oM95M01(oM95M01_l) {
 
 void Settings::loadData(s_Data& oData_l) {
 	oM95M01.Read(0, (uint8_t*) &oData_l, sizeof(s_Data));
+
+	if (oData.s8TimeZone > 12 || oData.s8TimeZone < -12) {
+		oData.s8TimeZone = 0;
+	}
 
 	if (oData.bDCF77 != false && oData.bDCF77 != true) {
 		oData.bDCF77 = false;
@@ -127,8 +132,16 @@ void Settings::writeConfig() {
 	oM95M01.Write(0, (uint8_t*) &oData, sizeof(s_Data));
 }
 
-void Settings::incErrorCount(){
+void Settings::incErrorCount() {
 	oData.u8ErrorCount++;
+}
+
+int8_t Settings::getTimeZone() const {
+	return oData.s8TimeZone;
+}
+
+void Settings::setTimeZone(int8_t s8Val) {
+	oData.s8TimeZone = s8Val;
 }
 
 bool Settings::isDcf77() const {

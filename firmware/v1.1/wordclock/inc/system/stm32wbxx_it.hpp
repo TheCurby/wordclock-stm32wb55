@@ -17,5 +17,3 @@
 #pragma once
 
 #include "driver/stm32.hpp"
-#include "wordclock/Wordclock.hpp"
-extern Wordclock oWordclock;

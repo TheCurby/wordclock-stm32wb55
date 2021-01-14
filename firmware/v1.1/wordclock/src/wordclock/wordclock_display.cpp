@@ -271,17 +271,36 @@ void Wordclock::drawScreen(Menu MenuScreen) {
 		break;
 
 		case Menu::DCF77:
-			oColors.setWhiteOnly(0x80);
-			oContainerTmp.drawImage(antenna, 0, 0, oColors);
-			drawContainer(oContainerTmp);
+			switch (u8SubMenu) {
+				default:
+				case 1:
+					oColors.setWhiteOnly(0x80);
+					oContainerTmp.drawImage(*aoZiffern[abs(oSettings.getTimeZone()) / 10], 0, 0, oColors);
+					oContainerTmp.drawImage(*aoZiffern[abs(oSettings.getTimeZone()) % 10], 6, 0, oColors);
 
-			if (oSettings.isDcf77()) {
-				oColors.setGreenOnly(0x80);
+					oContainerTmp.setWord(4, 8, 3, oColors);
+					if(oSettings.getTimeZone() >= 0){
+						oContainerTmp.setWord(5, 7, 1, oColors);
+						oContainerTmp.setWord(5, 9, 1, oColors);
+					}
+
+					drawContainer(oContainerTmp);
+				break;
+
+				case 0:
+					oColors.setWhiteOnly(0x80);
+					oContainerTmp.drawImage(antenna, 0, 0, oColors);
+					drawContainer(oContainerTmp);
+
+					if (oSettings.isDcf77()) {
+						oColors.setGreenOnly(0x80);
+					}
+					else {
+						oColors.setRedOnly(0x80);
+					}
+					drawFrame(oColors);
+				break;
 			}
-			else {
-				oColors.setRedOnly(0x80);
-			}
-			drawFrame(oColors);
 		break;
 
 		case Menu::Hours: {

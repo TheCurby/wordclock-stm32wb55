@@ -154,8 +154,20 @@ uint8_t DCF77::getBCD(uint8_t u8Pos_l, uint8_t u8Length) {
 	return u8Result;
 }
 
-s_RTC DCF77::getRTC() {
-	return oRTC;
+s_RTC DCF77::getRTC(int8_t s8TimeZone) {
+	s_RTC oRTC_l = oRTC;
+	s8TimeZone -= 1;
+	s8TimeZone += oRTC_l.u8Hours;
+
+	if(s8TimeZone < 0){
+		s8TimeZone += 24;
+	}
+	else if(s8TimeZone > 24){
+		s8TimeZone -= 24;
+	}
+	oRTC_l.u8Hours = s8TimeZone;
+
+	return oRTC_l;
 }
 
 uint8_t DCF77::bcd2val(uint8_t ucVal) {
