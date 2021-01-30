@@ -1,5 +1,7 @@
 #include "mainwindow.h"
 
+#define DOTSIZE 40
+
 bool bLED = false;
 uint32_t u32Timer = 0;
 uint16_t u16Seconds = 0;
@@ -14,33 +16,33 @@ MainWindow::MainWindow(){
     for(uint8_t i = 0; i < 114; i++){
         label[i].setAutoFillBackground(true);
         label[i].setAlignment(Qt::AlignCenter);
-        label[i].setFixedSize(65,65);
+        label[i].setFixedSize(DOTSIZE,DOTSIZE);
         //label[i].setFixedWidth(65);
         //label[i].resize(65, 65);
-        label[i].setStyleSheet("font-family:Source Code Pro;font-size:40px;margin:0;padding:0;");
+        label[i].setStyleSheet("font-family:Source Code Pro;font-size:25px;margin:0;padding:0;");
     }
     setLanguage(label, sGerman);
 
     layoutTop.addWidget(&label[110]);
-    layoutTop.addSpacing(65 * 11);
+    layoutTop.addSpacing(DOTSIZE * 11);
     layoutTop.addWidget(&label[111]);
     mainLayout.addLayout(&layoutTop);
 
     for(uint8_t i = 0; i < 10; i++){
         layout[i].setAlignment(Qt::AlignJustify);
 
-        layout[i].addSpacing(65);
+        layout[i].addSpacing(DOTSIZE);
         for(uint8_t j = 0; j < 11; j++){
             layout[i].addWidget(&label[i * 11 + j]);
         }
-        layout[i].addSpacing(65);
+        layout[i].addSpacing(DOTSIZE);
 
         mainLayout.addLayout(&layout[i]);
     }
 
     /*place dots*/
     layoutBottom.addWidget(&label[113]);
-    layoutBottom.addSpacing(65 * 11);
+    layoutBottom.addSpacing(DOTSIZE * 11);
     layoutBottom.addWidget(&label[112]);
     mainLayout.addLayout(&layoutBottom);
 
@@ -49,7 +51,7 @@ MainWindow::MainWindow(){
     button[1].setText("Middle");
     button[2].setText("Right");
     for(uint8_t i = 0; i < 3; i++){
-        button[i].setStyleSheet("border:0px;color:#000000;background-color:#cccccc;margin:0;padding:10px;font-size:30px;height:40px;");
+        button[i].setStyleSheet("border:0px;color:#000000;background-color:#cccccc;margin:0;padding:10px;font-size:20px;height:25px;");
         layoutButtons.addWidget(&button[i]);
     }
     mainLayout.addLayout(&layoutButtons);

@@ -82,7 +82,7 @@ class Animation {
 		};
 
 		Animation();
-		Animation(Container& oContainerOld_l, Container& oContainerNew_l, AnimationType CurrentAnimation_l, Colors & oColors_l, DisplayMode eMode_l);
+		Animation(Container& oContainerOld_l, Container& oContainerNew_l, AnimationType CurrentAnimation_l, Colors & oColors_l, DisplayMode eMode_l = DisplayMode::Normal);
 		void stop();
 		bool running();
 		uint16_t run();

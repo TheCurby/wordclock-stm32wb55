@@ -181,6 +181,12 @@ void Wordclock::plusminus(bool bVal) {
 			}
 			else {
 				u8SubMenu = (u8SubMenu + 1) % 2;
+				if(u8SubMenu == 1){
+					oKeyRight.setScrolling(true);
+				}
+				else{
+					oKeyRight.setScrolling(false);
+				}
 			}
 		}
 		break;

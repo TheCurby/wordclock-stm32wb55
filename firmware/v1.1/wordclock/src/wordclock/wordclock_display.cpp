@@ -279,7 +279,7 @@ void Wordclock::drawScreen(Menu MenuScreen) {
 					oContainerTmp.drawImage(*aoZiffern[abs(oSettings.getTimeZone()) % 10], 6, 0, oColors);
 
 					oContainerTmp.setWord(4, 8, 3, oColors);
-					if(oSettings.getTimeZone() >= 0){
+					if (oSettings.getTimeZone() >= 0) {
 						oContainerTmp.setWord(5, 7, 1, oColors);
 						oContainerTmp.setWord(5, 9, 1, oColors);
 					}
@@ -301,6 +301,9 @@ void Wordclock::drawScreen(Menu MenuScreen) {
 					drawFrame(oColors);
 				break;
 			}
+
+			oColors.setWhiteOnly(0x80);
+			setLED(WIDTH * HEIGHT + u8SubMenu, oColors);
 		break;
 
 		case Menu::Hours: {
@@ -470,7 +473,7 @@ void Wordclock::drawScreen(Menu MenuScreen) {
 			drawMinutes(oContainerTmp, oRTCDraw, oColors);
 
 			if (oSettings.getAnimation() != Animation::AnimationType::None && !AnimationMenu.running() && tAnimation.Ready()) {
-				AnimationMenu = Animation(oContainerTmp, oContainerTmp, oSettings.getAnimation(), oColors, oSettings.getMode());
+				AnimationMenu = Animation(oContainerTmp, oContainerTmp, oSettings.getAnimation(), oColors);
 				tAnimation.StartMs(u32AnimationTime);
 			}
 
